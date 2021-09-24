@@ -27,9 +27,9 @@ module.exports = {
     ],
 
     themeConfig: {
-        repo: 'https://git.int.actility.com/abeeway-software/tpxle-doc',
+        repo: 'https://github.com/actility/tpxle-doc',
         repoLabel: 'Contribute!',
-        docsRepo: 'https://git.int.actility.com/abeeway-software/tpxle-doc',
+        docsRepo: 'https://github.com/actility/tpxle-doc',
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
