@@ -9,24 +9,10 @@ module.exports = {
 
     head: [
         ['link', {rel: 'icon', href: `/public/favicon.png`}],
-
-        ['script', {id: "scriptImporter"}, `
-        (function() { 
-            window.emojicom_widget = { campaign: "cHaekYfLieUXBUYuNVTr" };
-            var script = document.createElement("script"); 
-            script.src = "https://cdn.emojicom.io/embed/widget.js";
-            document.head.append(script);
-            // var div = document.createElement("div");
-            // div.id = "emojicom-widget-inline";
-            // setTimeout(() => { 
-            //     var page = document.getElementsByClassName("page");
-            //     page[0].appendChild(div);
-            // }, 500);
-        })(); 
-        `]
     ],
 
     themeConfig: {
+        emojicomKey: '24lr9TXIVpwrZ8KvVCll',
         repo: 'https://github.com/actility/tpxle-doc',
         repoLabel: 'Contribute!',
         docsRepo: 'https://github.com/actility/tpxle-doc',

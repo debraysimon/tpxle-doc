@@ -23,4 +23,3 @@ These components are presented below with a color code showing their origin and 
 ## References
 [https://github.com/Actility/thingpark-integrations](https://github.com/Actility/thingpark-integrations)
 
-<div id="emojicom-widget-inline"></div>
