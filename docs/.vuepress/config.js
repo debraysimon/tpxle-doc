@@ -31,7 +31,7 @@ module.exports = {
         repoLabel: 'Contribute!',
         docsRepo: 'https://github.com/actility/tpxle-doc',
         docsDir: 'docs',
-        docsBranch: 'master',
+        docsBranch: 'main',
         editLinks: true,
         editLinkText: 'Edit on GitHub',
 
