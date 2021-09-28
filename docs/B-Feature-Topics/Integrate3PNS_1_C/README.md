@@ -157,9 +157,6 @@ Click on the **_Execute_** button under the text area.
   ![304-adm-deviceConfiguration](./images/304-adm-deviceConfiguration_.png)
 
 
-<div id="emojicom-widget-inline"> </div>
-
-
 [1]: https://community.thingpark.org/
 [2]: https://community.thingpark.io/
 [3]: https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community
