@@ -121,7 +121,7 @@ Access the ThingPark Location documentation resources.
 | **CLI Usage** | This feature allows to interact with tracker over USB to get the internal logs and also set the tracker parameters. | [CLI Usage](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X) |
 | **Quuppa Beaconing** | This feature enables Quuppa beaconing for Abeeway trackers. | [Quuppa Beaconing](https://actilitysa.sharepoint.com/:f:/t/aby/EucRGJmCxnJEv_QCWbvL58YBkwyfz8RWgTmxU6YMwKJfkg?e=CE7yUH) |
 | **BLE Geozoning** | This feature enables BLE geozoning for Abeeway trackers. | [BLE geozoning](https://actilitysa.sharepoint.com/:f:/t/aby/EoMeflwX2UdBnUhmVmwYfOYBYjFIIYupWFfgyNsW2uQvOQ?e=ffx9va) |
-| **Abeeway Mobile App** | This feature explins how to use Abeeway Mobile for Abeeway trackers. | [Abeeway Mobile App](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=KgYKLP) |
+| **Abeeway Mobile App** | This feature explains how to use Abeeway Mobile for Abeeway trackers. | [Abeeway Mobile App](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=KgYKLP) |
 
 ## ThingPark X Location Engine
 
