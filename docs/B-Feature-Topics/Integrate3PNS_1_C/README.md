@@ -87,7 +87,7 @@ Create a new HTTP (webhook) integration with the following parameters:
   - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
 
 In case you use your tracker with the Mobile App configure the following additional header [Please add this header only if you are using Abeeway Mobile App]:
-  - Header: `x-realm: le-lab`  [Use this option if you are selecting Abeeway-Preview Platform from the Mobile APP "distributor" list (THIS IS RESTRICTED TO INTERNAL TESTING ONLY)
+  - Header: `x-realm: le-lab`  [Use this option if you are selecting Abeeway-Preview Platform from the Mobile APP "distributor" list (THIS IS RESTRICTED TO INTERNAL TESTING ONLY. PLEASE DO NOT USE IT FOR PRODUCTION ENVIRONMENT)
   
   
 ![502-ttn-webhook](./images/502-ttn-webhook_.png)
