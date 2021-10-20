@@ -66,7 +66,10 @@ Login to Helium Console [here][4]
 Create a new HTTP (webhook) integration with the following parameters:
   - Url (for Helium): `https://community.thingpark.io/tpxle-nit/uplink_from_helium`
   - Header: `x-client-id: community-api/<YOUR_THINGPARK_COMMUNITY_USER_ID>`
-  - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`
+  - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
+
+In case you use your tracker with the Mobile App configure the following additional header:
+  - Header: `x-realm: le-lab`
 
 ![401-helium-integration](./images/401-helium-integration_.png)
 
@@ -81,7 +84,10 @@ Create a new API key:
 Create a new HTTP (webhook) integration with the following parameters:
   - Url (for TTN): `https://community.thingpark.io/tpxle-nit/uplink_from_ttn`
   - Header: `x-client-id: community-api/<YOUR_THINGPARK_COMMUNITY_USER_ID>`
-  - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`
+  - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
+
+In case you use your tracker with the Mobile App configure the following additional header:
+  - Header: `x-realm: le-lab`
 
 ![502-ttn-webhook](./images/502-ttn-webhook_.png)
 
