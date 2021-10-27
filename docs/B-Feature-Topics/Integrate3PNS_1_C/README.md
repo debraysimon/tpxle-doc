@@ -1,11 +1,4 @@
-<style>
-  img {
-    width: 800px;
-  }
-</style>
-
-
-## ThingPark X Loction Engine Network Interface Translator setup guide
+## ThingPark X Location Engine Network Interface Translator setup guide
 
 The ThingPark X Loction Engine Network Interface Trnslator (TPXLE-NIT) can be used with Abeeway devices connected through Helium and TTN networks.
 An instance of this interface translator is already hosted at Actility cloud and can be tested to connect Abeeway Devices to the [Abeeway Device Manager][3] application.
