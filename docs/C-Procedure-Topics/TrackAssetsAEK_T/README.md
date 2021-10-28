@@ -10,7 +10,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
 ::: warning Before you begin
  We recommend you do a drive or walk test with your tracker to display and analyze a number of reported locations. You can also place the tracker in a moving asset you want to locate.
 :::
-1. Log in to Abeeway Device Manager on the [ThingPark Community platform](https://community.thingpark.org/) using this URL: [https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community](https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community)<br/>. If you are using some other platform, please refer to [Abeeway Device Manager URLs](/D-Reference/ThingParkLocationURLs). 
+1. Log in to Abeeway Device Manager on the [ThingPark Community platform](https://community.thingpark.org/) using this URL: [ https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community]( https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community)<br/>. If you are using some other platform, please refer to [Abeeway Device Manager URLs](/D-Reference/ThingParkLocationURLs). 
 
 2. In the **Select Devices** column, select the tracker you want to see the location, and click **Select**.
 ::: tip Note
