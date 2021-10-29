@@ -148,7 +148,7 @@ Click on the **_Execute_** button under the text area.
 
 ### 6. Test the downlinlink integration:
 
-- Login to [Abeeway Device Manager (ADM)][3] with your ThingPark Community Credentials and select your devices.
+- Login to [Abeeway Device Manager (ADM)][3] with your ThingPark Community Credentials and select your devices. Your devices will appear here because you have registered them to the ThingPark platform in step 1.
 - Click on the **_Device Configuration_** tab at the top of the ADM GUI.
 - Click on the drop-dowm menu item at the bottom left of the page and select the **_Start SOS mode_** option.
 - Click on the **_Send Request_** button just at the right of the drop-down menu item.  
