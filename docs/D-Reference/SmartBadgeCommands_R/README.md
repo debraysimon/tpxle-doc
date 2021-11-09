@@ -113,7 +113,7 @@ This table gives you quick access to the smart badge commands. For more informat
     <tr>
         <td><strong>Re-do a join request</strong>
         </td>
-        <td>Apply <a href="/C-Procedure-Topics/ReDoJoinRequestSB_T/" class="MCXref xref">Re-doing a smart badge
+        <td>Apply <a href="../../C-Procedure-Topics/ReDoJoinRequestSB_T/" class="MCXref xref">Re-doing a smart badge
             join request</a>.
         </td>
     </tr>

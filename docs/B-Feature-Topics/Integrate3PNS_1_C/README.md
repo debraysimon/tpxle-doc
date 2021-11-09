@@ -1,19 +1,12 @@
-<style>
-  img {
-    width: 800px;
-  }
-</style>
+## ThingPark X Location Engine Network Interface Translator setup guide
 
-
-## ThingPark X Loction Engine Network Interface Translator setup guide
-
-The ThingPark X Loction Engine Network Interface Trnslator (TPXLE-NIT) can be used with Abeeway devices connected through Helium and TTN networks.
+The ThingPark X Location Engine Network Interface Translator (TPXLE-NIT) can be used with Abeeway devices connected through Helium and TTN networks.
 An instance of this interface translator is already hosted at Actility cloud and can be tested to connect Abeeway Devices to the [Abeeway Device Manager][3] application.
 The following steps explain how to set up this connectivity.
 
 ### 1. Sign up for a new ThingPark Community account.
 
-Sign up for a new account [here][1]
+Sign up for a new ThingPark Community account [here][1]. This is free of charge.
 
 ![101-tpcp-signUp](./images/101-tpcp-signUp.png)
 
@@ -21,15 +14,15 @@ Log in with your new account to the ThingPark Community Console [here][2]
 
 ![102-tpcp-signIn](./images/102-tpcp-signIn.png)
 
-If you were able to log in, you can look around and get acquianted with the UI of ThingPark Enterprise network server. However, you don't need to use the console for anything now, since your goal is to use a 3rd party network server. This login was just requred to verify if your account is active. You can logout and leave this site without changing anything.
+If you were able to log in, you can look around and get acquainted with the UI of ThingPark Enterprise. However, you don't need to use the console for anything now, since your goal is to use the ThingPark X Location Engine Network Interface Translator to connect to a 3rd party network server. This login was just requred to verify if your Community account is active. You can logout and leave this site without changing anything.
 
 ![105-tpcp-createDevice01](./images/105-tpcp-createDevice01.png)
 
 <!--
 
-### Create a fake application
+### Create a dummy application (as prerequisite to add devices)
 
-Before adding your devices to the platform you need to create an Application. This application won't be used for anything. You need to create it because you cannot add devices to the ThingPark Community platform without an application.
+Before adding your devices to the platform you need to create an Application. This application won't be used for anything in the context of this interconnection with a 3rd party application server, but it is a pre-requisite to create a device on the Community portal.
 
 1. Click on **_Applications>Create_** on the side bar menu and select **_https:// Generic Application_**
 
@@ -43,7 +36,7 @@ Before adding your devices to the platform you need to create an Application. Th
 
 ### Provision your Abeeway Trackers on the ThingPark Community Console.
 
-Since you are planning to use a 3rd party network server, you dont have to provision your devices with the correct AppSKey and AppEUI. We recommend you using "00000000000000000000000000000000" as ApppSKey and 0000000000000000 as JounEUI. The only important data you need to be accurate with is the DevEUI so that our platform can assign your device to your account.
+Since you are planning to use a 3rd party network server, you dont have to provision your devices with the correct AppSKey and AppEUI. We recommend you using "00000000000000000000000000000000" as ApppSKey and 0000000000000000 as JounEUI. The only important data you need to be accurate with is the DevEUI so that our platform can assign your device to your account. This step ensures that your devices are declared on the ThingPark platform, so later on you can refer to them in context of the ThingPark X Location Engine.
 
 1. Click on **_Devices>Create_** on the side bar menu and select **_Abeeway_**
 
@@ -57,7 +50,7 @@ Since you are planning to use a 3rd party network server, you dont have to provi
 
 -->
 
-### 2. Set up the uplink message flow
+### 2. Set up the uplink message flow on the 3rd party LoRaWAN Network Server
 
 Create a new HTTP (webhook) integration on the Helium/TTN Console with the parameters described below.
 
@@ -96,9 +89,9 @@ In case you use your tracker with the Mobile App configure the following additio
 
 Don't forget to add your new API key as Download API key that you created earlier.
 
-### 3. Set up the downlink message flow
+### 3. Set up the downlink message flow from ThingPark X Location Engine to the 3rd party LoRaWAN Network Server
 
-Configure the ThingPark X Location Engine (TPX LE) Binder Module through the DX Location API so that tracker commands are forwarded to the Actility Network Interface Translator:
+LoRaWAN Downlink notifications are managed by the ThingPark X Location Engine (TPX LE) Binder Module, which you can coofirue through the DX Location API. You need to configure the Binder module so that tracker commands are forwarded to the Actility Network Interface Translator:
 
 Log in to ThingPark DX API with your ThingPark Community Credentials [here][6].
 
@@ -155,7 +148,7 @@ Click on the **_Execute_** button under the text area.
 
 ### 6. Test the downlinlink integration:
 
-- Login to [Abeeway Device Manager (ADM)][3] with your ThingPark Community Credentials and select your devices.
+- Login to [Abeeway Device Manager (ADM)][3] with your ThingPark Community Credentials and select your devices. Your devices will appear here because you have registered them to the ThingPark platform in step 1.
 - Click on the **_Device Configuration_** tab at the top of the ADM GUI.
 - Click on the drop-dowm menu item at the bottom left of the page and select the **_Start SOS mode_** option.
 - Click on the **_Send Request_** button just at the right of the drop-down menu item.  
