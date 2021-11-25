@@ -18,10 +18,9 @@ The Abeeway driver gives you access to the driver service and the relative API d
 <code>[docker pull actility/iot-flow-drivers]</code>
 3. Run Docker image from the public Docker repository. You can do it by executing the following command:
 <code>docker run -d -p 8095:8095 actility/iot-flow-drivers</code>
-4. After the command has been executed successfully, the driver service will be available locally on port 8095, and the API documentation file is available here:
-[http://localhost:8095/iot-flow-driver/v1/swagger.yaml#/](http://localhost:8095/iot-flow-driver/v1/swagger.yaml#/)
+4. After the command has been executed successfully, the container will download autonatically the latest driver version before been accessible and the driver service will be available locally on port 8095
 5. Access the API documentation using the following url:
-[http://petstore.swagger.io/?url=http://localhost:8095/iot-flow-driver/v1/swagger.yaml#/](http://petstore.swagger.io/?url=http://localhost:8095/iot-flow-driver/v1/swagger.yaml#/)
+[http://localhost:8095/v1/swagger-ui/](http://localhost:8095/v1/swagger-ui/)
 
 ## Using the Abeeway driver - Some examples
 You will use the following examples that you can apply to your application:
