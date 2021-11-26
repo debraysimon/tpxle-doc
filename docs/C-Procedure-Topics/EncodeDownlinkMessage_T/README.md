@@ -49,8 +49,8 @@ curl -X POST \
       }
     },
     "message": {
-      "DownMessageType": "POS_ON_DEMAND",
-      "AckToken": 10
+      "downMessageType": "POS_ON_DEMAND",
+      "ackToken": 10
   }
 }'
 ------------------------------ Snippet End ------------------------------
