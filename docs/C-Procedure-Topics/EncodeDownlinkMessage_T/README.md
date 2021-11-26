@@ -7,9 +7,9 @@ Each downlink message must contain the following fields:
 
 * `SET_MODE` : Change the operation mode of a tracker
 
-* `START_SOS_MODE` : Start the SOS mode
+* `START_SOS` : Start the SOS mode
 
-* `CLEAR_SOS_MODE` : Stop the SOS mode
+* `STOP_SOS` : Stop the SOS mode
 
 * `DEBUG_COMMAND` : Send debug commands
 
