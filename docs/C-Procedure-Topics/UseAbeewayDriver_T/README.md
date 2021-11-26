@@ -24,10 +24,10 @@ The Abeeway driver gives you access to the driver service and the relative API d
 
 ## Using the Abeeway driver - Some examples
 You will use the following examples that you can apply to your application:
-* **Example 1** Decoding an uplink message<br/>
+* **Example 1** [Decoding an uplink message](/C-Procedure-Topics/DecodeUplinkMessage_T/)<br/>
 
-* **Example 2** Encoding a downlink message
-* **Example 3** Decoding a downlink message.
+* **Example 2** [Encoding a downlink message](/C-Procedure-Topics/EncodeDownlinkMessage_T/).
+* **Example 3** [Decoding a downlink message](/C-Procedure-Topics/DecodeDownlinkMessage_T/).
 
 ### Reference guide
 You can access the comprehensive documentation of Abeeway drivers.
