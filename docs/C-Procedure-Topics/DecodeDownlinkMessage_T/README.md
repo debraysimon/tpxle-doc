@@ -10,37 +10,21 @@ This example shows the decoding of a downlink message.
 ```
 ------------------------------ Snippet begin ------------------------------
 curl -X POST \
-
   http://dx-api.thingpark.com/location-driver/latest/api/decode \
-
   -H 'Content-Type: application/json' \
-
   -d '{
-
     "direction": "downlink",
-
     "meta": {},
-
     "thing": {
-
         "application": {
-
             "producerId": "abeeway",
-
             "moduleId": "asset-tracker",
-
             "version": "2"
-
         }
-
     },
-
     "raw": {
-
         "binary": "0b0a1512345678"
-
     }
-
 }'
 ------------------------------ Snippet End ------------------------------
 ```
@@ -52,51 +36,28 @@ curl -X POST \
 ------------------------------ Snippet begin ------------------------------
 {
     "direction": "downlink",
-
     "sourceTime": 1568973729059,
-
     "meta": {
-
         "driverId": "abeeway:asset-tracker:2"
-
     },
-
     "raw": {
-
         "binary": "0b0a1512345678"
-
     },
-
     "message": {
-
         "downMessageType": "SET_PARAM",
-
         "ackToken": 10,
-
         "setParameters": {
-
             "shockDetection": 305419896
-
         },
-
         "payload": "0b0a1512345678"
-
     },
-
     "thing": {
-
         "application": {
-
             "producerId": "abeeway",
-
             "moduleId": "asset-tracker",
-
             "version": "2"
-
         }
-
     }
-
 }
 ------------------------------ Snippet end ------------------------------
 ```
