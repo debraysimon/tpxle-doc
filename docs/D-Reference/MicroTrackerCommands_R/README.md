@@ -75,10 +75,13 @@ and [LED patterns](/D-Reference/DocLibrary_R/#abeeway-trackers).
                         The tracker sends positions continuously at a fixed period of 120 seconds.
                     </li>
                     <li>
-                        The tracker’s blue led is blinking slowly.
+                        The tracker’s red led is blinking slowly.
                     </li>
                     <li>
                         To stop SOS mode, double-click the button again.
+                    </li>
+                    <li>
+                        For MCU FW: 2.0 and below, SoS is triggered by double click. For MCU FW: 2.1/2.2, SoS is triggered by triple click. For MCU FW: 2.3 and above, SoS button sequence is configurable but it is triggered by triple click (by default)
                     </li>
                     <p>
                         <iframe class="youtube-player_0" src="https://www.youtube.com/embed/HgsMfytTue4?" frameborder="0"
@@ -95,16 +98,16 @@ and [LED patterns](/D-Reference/DocLibrary_R/#abeeway-trackers).
             <div class="custom-block tip">
                 <p class="custom-block-title">Note</p>
                 <p> When this feature is activated (<span class="CodeInline">config_flags</span>
-                    must be set to <span class="CodeInline">bit 2=1</span>), the behavior is the following:</p>
+                    must be set to <span class="CodeInline">bit 2=0</span>), the behavior is the following:</p>
                 <ul>
                     <li>
-                        The tracker sends positions continuously at a fixed period of 120 seconds.
+                        To trigger position alert, double-click the button.
                     </li>
                     <li>
-                        The tracker’s blue led is blinking slowly.
+                        The tracker sends one time position.
                     </li>
                     <li>
-                        To stop SOS mode, double-click the button again.
+                        For MCU FW: 2.0 and below, position alert is triggered by double click. For MCU FW: 2.1/2.2, position alert is triggered by triple click. For MCU FW: 2.3 and above, position alert sequence is configurable but it is triggered by triple click (by default)
                     </li>
                     <p>The sequence to follow is the same for the micro tracker and the smart badge:</p>
                     <p>
