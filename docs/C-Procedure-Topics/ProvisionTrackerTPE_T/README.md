@@ -14,7 +14,7 @@ You need to create a ThingPark Location application and associate it with your A
 | **Name** |  ThingPark Location | 
 | **URL** | [https://abeeway-eu-eco.thingpark.com:50540](https://abeeway-eu-eco.thingpark.com:50540) | 
 | **Content Type** |  XML | 
-| **Tunnel Interface Authentication Key** |  e8-95-9e-26-fd-9b-ce-70-06-05-a9-cf-e7-4d-53 | 
+| **Tunnel Interface Authentication Key** |  e8-95-9e-26-fd-9b-ce-52-70-06-05-a9-cf-e7-4d-53 | 
 4. Click **Save**.
 
 ## Creating your tracker
