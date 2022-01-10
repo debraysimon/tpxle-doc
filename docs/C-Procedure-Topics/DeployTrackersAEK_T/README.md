@@ -21,7 +21,7 @@ If your tracker's button does not blink when pressed, either the tracker is swit
 Unlike the industrial tracker which is shipped from the warehouse in **JOIN** state, the compact tracker is sent in **shipping** state to avoid draining the battery.
 
 You must change the state of your compact tracker before and after using it.
-1. Bring a magnet close to the compact tracker for at least five seconds for the tracker to move to **JOIN** state.<br/><html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/KoNssJapk2s?" height="150px" width="300px"/></html><br/>
+1. Bring a magnet close to the compact tracker for at least five seconds for the tracker to move to **JOIN** state.<br/><html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://youtu.be/2t8zI3cbfys" height="150px" width="300px"/></html><br/>
 
 2. If the compact tracker does not **JOIN** the network, repeat the previous step again.
 
