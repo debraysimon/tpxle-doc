@@ -56,20 +56,22 @@ Create a new HTTP (webhook) integration on the Helium/TTN Console with the param
 
 #### Helium console:   
 Login to Helium Console [here][4]   
+![401-helium-integration](./images/401-helium-integration_.png)
+
 Create a new HTTP (webhook) integration with the following parameters:
   - Url (for Helium): `https://community.thingpark.io/tpxle-nit/uplink_from_helium`
   - Header: `x-client-id: community-api/<YOUR_THINGPARK_COMMUNITY_USER_ID>`
   - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
 
-In case you use your tracker with the Mobile App configure the following additional header:
+ In case you use your tracker with the Mobile App configure the following additional header:
   - Header: `x-realm: le-lab`  [Use this option if you are selecting Abeeway-Preview Platform from the Mobile APP "distributor" list (THIS IS RESTRICTED TO INTERNAL TESTING ONLY. PLEASE DO NOT USE IT FOR PRODUCTION ENVIRONMENT)
-
-![401-helium-integration](./images/401-helium-integration_.png)
-
 ![402-helium-integration-http](./images/402-helium-integration-http_.png)
 
+After your integration is created, don't forget to create a new flow to associate your Abeeway device to push data to your newly created integration 
+![helium_flow](https://user-images.githubusercontent.com/97470917/148819975-1c38c25e-b9d4-4046-8e74-11aeca14582c.PNG)
+
 #### TTN Console:   
-Login to Helium Console [here][5]
+Login to TTN Console [here][5]
 
 Create a new API key: 
 ![501-ttn-xapi-key](./images/501-ttn-xapi-key_.png)
@@ -138,7 +140,7 @@ Click on the **_Execute_** button under the text area.
   ![301-adm-login](./images/301-adm-login.png)
 
 - Select your devices.
-  If you cannot see any devices in the list after you logged, in then you trackers have not sent any messages to ADM yet.
+  If you cannot see any devices in the list after you logged in, then your trackers have not sent any messages to ADM yet.
 
   ![302-adm-selectDevice](./images/302-adm-selectDevice_.png)
 
@@ -146,7 +148,7 @@ Click on the **_Execute_** button under the text area.
 
   ![303-adm-map](./images/303-adm-map_.png)
 
-### 6. Test the downlinlink integration:
+### 6. Test the downlink integration:
 
 - Login to [Abeeway Device Manager (ADM)][3] with your ThingPark Community Credentials and select your devices. Your devices will appear here because you have registered them to the ThingPark platform in step 1.
 - Click on the **_Device Configuration_** tab at the top of the ADM GUI.
@@ -156,10 +158,11 @@ Click on the **_Execute_** button under the text area.
   
   ![304-adm-deviceConfiguration](./images/304-adm-deviceConfiguration_.png)
 
+Your tracker will start SOS mode and eventually beep at downlink. Do a triple click to deactivate it.
 
 [1]: https://community.thingpark.org/
 [2]: https://community.thingpark.io/
-[3]: https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community
+[3]: https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api
 [4]: https://console.helium.com/welcome
 [5]: https://console.cloud.thethings.network/
 [6]: https://dx-api.thingpark.io/getstarted/#/
