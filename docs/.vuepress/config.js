@@ -207,6 +207,18 @@ module.exports = {
                             ],
                         },
                         {
+                            title: 'Geolocation Module',
+                            path: '/B-Feature-Topics/GeolocModule_C/',
+                            collapsable: true,
+                            sidebarDepth: 1,
+                            children: [
+                                {
+                                    title: 'Geolocation Module Introduction',
+                                    path: '/B-Feature-Topics/GeolocModuleIntro_C/',
+                                },
+                            ],
+                        },
+                        {
                             title: 'Abeeway Device Manager',
                             path: '/B-Feature-Topics/AbeewayDeviceManager_C/',
                             collapsable: true,
