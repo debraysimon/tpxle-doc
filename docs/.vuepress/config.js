@@ -210,11 +210,19 @@ module.exports = {
                             title: 'Geolocation Module',
                             path: '/B-Feature-Topics/GeolocModule_C/',
                             collapsable: true,
-                            sidebarDepth: 1,
+                            sidebarDepth: 3,
                             children: [
                                 {
-                                    title: 'Geolocation Module Introduction',
-                                    path: '/B-Feature-Topics/GeolocModuleIntro_C/',
+                                    title: 'Geolocation Module Hardware Introduction',
+                                    path: '/B-Feature-Topics/GeolocModuleHWIntro_C/',
+                                },
+                                {
+                                    title: 'Geolocation Module Firmware Introduction',
+                                    path: '/B-Feature-Topics/GeolocModuleFWIntro_C/',
+                                },
+                                {
+                                    title: 'Geolocation Module Evaluation Kit Introduction',
+                                    path: '/B-Feature-Topics/GeolocModuleEVKIntro_C/',
                                 },
                             ],
                         },
