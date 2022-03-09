@@ -1,6 +1,8 @@
 
 # Deploying your trackers
+
 ## Turning on your trackers
+
 ### Switching on/off your micro tracker or smart badge
 
 <html>
@@ -8,7 +10,8 @@
 </html>
 
 If your tracker's button does not blink when pressed, either the tracker is switched off or its battery is out-of-charge. When not in testing, switch off the tracker to save battery.
-::: warning WARNING
+
+:::warning WARNING
  The micro tracker and smart badge must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. The warranty is void if the battery of the tracker has not been charged for a prolonged period.
 :::
 

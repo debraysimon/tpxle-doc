@@ -46,11 +46,13 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
 * Dust-proof and waterproof ( **IP65** )
 
 ### Standards and certifications
+
 * LoRa Alliance: EU868, US915, AS923
 * Radio: EC, FCC, IC, TELEC
 * ATEX zone 2 (ordering option).
 * The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers-certifications).
 Abeeway power consumption estimation tool can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers) to estimate the battery lifetime in different environments.
+
 ::: warning WARNING
  The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down. The warranty of the tracker is avoid if used incorrectly.
 :::
