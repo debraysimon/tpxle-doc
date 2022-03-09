@@ -18,6 +18,7 @@
     "vuepress": "^1.8.1"
   },
   "dependencies": {
+    "sockjs-client": "^1.5.2",
     "vuepress-theme-abeeway": "3.9.2",
     "vuepress-theme-actility": "^6.8.0"
   }
