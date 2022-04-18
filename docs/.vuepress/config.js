@@ -139,7 +139,7 @@ module.exports = {
                     collapsable: true,
                     children: [
                         {
-                            title: 'Tracker Overview',
+                            title: 'Trackers Overview',
                             path: '/B-Feature-Topics/TrackerOverview/',
                         },
                         {
@@ -157,7 +157,7 @@ module.exports = {
                                     path: '/B-Feature-Topics/MicroTrackerPlacement_C/',
                                 },
                                 {
-                                    title: 'Re-doing a micro tracker join request',
+                                    title: 'Reset the micro tracker and re-join LoRaWAN network',
                                     path: '/C-Procedure-Topics/ReDoJoinRequestMT_T/',
                                 },
                             ],
@@ -177,7 +177,7 @@ module.exports = {
                                     path: '/B-Feature-Topics/SmartBadgePlacement_C/',
                                 },
                                 {
-                                    title: 'Re-doing a smart badge join request',
+                                    title: 'Reset the smart badge and re-join LoRaWAN network',
                                     path: '/C-Procedure-Topics/ReDoJoinRequestSB_T/',
                                 },
                             ],
@@ -192,6 +192,10 @@ module.exports = {
                                     title: 'Industrial tracker best placement',
                                     path: '/B-Feature-Topics/IndusTrackerPlacement_C/',
                                 },
+                                {
+                                    title: 'Reset the Industrial tracker and re-join LoRaWAN network',
+                                    path: '/C-Procedure-Topics/ReDoJoinRequestIND_T/',
+                                },
                             ],
                         },
                         {
@@ -203,6 +207,10 @@ module.exports = {
                                 {
                                     title: 'Compact tracker best placement',
                                     path: '/B-Feature-Topics/CompactTrackerPlacement_C/',
+                                },
+                                {
+                                    title: 'Reset the compact tracker and re-join LoRaWAN network',
+                                    path: '/C-Procedure-Topics/ReDoJoinRequestCT_T/',
                                 },
                             ],
                         },
@@ -223,6 +231,10 @@ module.exports = {
                                 {
                                     title: 'Location templates',
                                     path: '/D-Reference/LocationTemplates_R/',
+                                },
+                                {
+                                    title: 'Battery lifetime calculator',
+                                    path: '/D-Reference/PowerConsumption_R/',
                                 },
                             ],
                         },
@@ -341,9 +353,25 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Troubleshooting',
+                    title: 'Troubleshooting & Support',
                     collapsable: true,
                     children: [
+                        {
+                            title: 'Identify the tracker model & Firmware',
+                            path: '/D-Reference/IdentifyTrackerModel/',
+                        },
+                        {
+                            title: 'Identify installed Firmware',
+                            path: '/D-Reference/IdentifyInstalledFirmware/',
+                        },
+                        {
+                            title: 'Firmware Update (Using Abeeway Updater)',
+                            path: '/D-Reference/AbeewayFirmwareUpdate_R/',
+                        },
+                        {
+                            title: 'Using Command Line Interface (CLI)',
+                            path: '/D-Reference/UsingCLI_R/',
+                        },
                         {
                             title: 'ThingPark platforms URLs',
                             path: '/D-Reference/ThingParkLocationURLs/',

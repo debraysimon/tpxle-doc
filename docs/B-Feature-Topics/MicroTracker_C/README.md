@@ -16,27 +16,33 @@ Abeeway micro tracker provides you with the flexibility you need to adapt your t
 * **Activity tracking** : Monitor activity rate with embedded sensors.
 * **OFF** : Tracker is switched off.
 
+::: warning WARNING
+* For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
+* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/#TrackersRefGuide).
+:::
+
 ### Geolocation technologies
 
 * **GPS** : For **precise outdoor** positioning
 * **Low Power-GPS (LP-GPS)** : For **power-efficient outdoor** and **daylight indoor** positioning
-LP-GPS is an Actility proprietary technology based on GPS. Enabling Fast Time to First Fix, it results in **improved battery lifetime**.
+LP-GPS is an Abeeway proprietary technology based on GPS. Enabling Fast Time to First Fix, it results in **improved battery lifetime**.
 * **Wi-Fi** : For **indoor** and **outdoor** location services in **urban areas**
 It leverages the Wi-Fi access point scanning capabilities of the micro tracker.
-* **BLE** : For **indoor** positioning
-It leverages Bluetooth scanning capabilities of the micro tracker to send BLE beacons and their detected RSSIs to your application.
+* **BLE** : For **indoor** positioning, it leverages Bluetooth scanning capabilities of the micro tracker to send BLE beacons and their detected RSSIs to your application.
 
 ### Other features
-* User interface: **Buzzer**, **LEDs**, **Multi-modes button**
+* User interface: **Buzzer**, **LEDs**, **Multi-mode button**
 * **Temperature** monitoring
 * **LoRaWAN® Class A radio**
 * Water-spray resistant enclosure ( **IP65** )
 
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923
-* Radio: EC, FCC, IC, TELEC ATEX
-* The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers-certifications).
-Abeeway power consumption estimation tool can be found [here ](/D-Reference/DocLibrary_R/#PowerConsumption) to estimate the battery lifetime in different environments.
+* Radio: EC, FCC, IC, TELEC, ATEX
+
 ::: warning WARNING
- The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. The warranty of the tracker is avoid if used incorrectly.
+ * The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#certifications).
+ * The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. 
+ * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. 
+ * **The warranty of the tracker is avoid if used incorrectly.**
 :::
