@@ -12,7 +12,7 @@ module.exports = {
     ],
 
     themeConfig: {
-        emojicomKey: '24lr9TXIVpwrZ8KvVCll',
+        emojicomKey: 'y0GsFwFtqjyNInLokh03',
         repo: 'https://github.com/actility/tpxle-doc',
         repoLabel: 'Contribute!',
         docsRepo: 'https://github.com/actility/tpxle-doc',

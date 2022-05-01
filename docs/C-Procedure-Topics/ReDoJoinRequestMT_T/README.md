@@ -13,32 +13,7 @@ The button sequence to reset the tracker is quite different between Asset Tracke
 </p>
 </html>
 
-## The sequence for MCU Firmware 2.2 and below
-::: warning Important
- * **Click:** Pressing the button **less than one second**.
- * **Long Press:** Pressing the button for **more than five seconds**.
-:::
-
-<html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/etZ0FA_ssso?" height="150px" width="300px"/></html>
-
-The sequence to follow is the same for the micro tracker and the smart badge:
-
-1. **Make sure the tracker is switched off:** You can see it is switched off if it does not blink when you click the button.<br/>
-    * If the tracker is on, then do long press and the tracker will switch off with a beep.
-    * Once you are sure the tracker is switched off, follow the steps below.<br/>
-
-
-2. Follow this sequence:
-    1. **Click four times**.
-    2. **Long press** **until** the tracker is turned on with **a small beep**
-    3. **Click two times**.
-    4. **Long Press** until the tracker plays [tracker reset melody](https://actilitysa.sharepoint.com/:u:/t/aby/EcctTThi8DFEgFY2Cy5i3o4BfZj-rO_dAuT-w9IwqJ7X2Q?e=ef9qay)
-
-3. Wait for the tracker to **join the network**. The tracker will send a join request message and **blink shortly multiple times** to indicate that the join request is in progress.
-
-4. The number of attempts is limited to 15 in EU region and 27 for other regions. The join process can be re-initiated again with long press on the button.
-
-## The sequence for MCU Firmware 2.3 and above
+## Resetting the tracker with the button sequence for MCU  Firmware 2.3 and above
 ::: warning Important
  * **Click:** Pressing the button **less than one second**.
  * **Press:** Pressing the button **between 1 and 4 seconds**
@@ -64,6 +39,32 @@ Follow the sequence:
    5. If the sequence is successful, the tracker will play [firmware reset melody](https://actilitysa.sharepoint.com/:u:/t/aby/EcctTThi8DFEgFY2Cy5i3o4BfZj-rO_dAuT-w9IwqJ7X2Q?e=ef9qay)
    6. If the sequence was unsuccessful, wait for about 15 sec before retrying for the ESC sequence to abort (The tracker will play abort sequence melody).
 
+##  Resetting the tracker with the button sequence for MCU Firmware 2.2 and below
+::: warning Important
+ * **Click:** Pressing the button **less than one second**.
+ * **Long Press:** Pressing the button for **more than five seconds**.
+:::
+
+<html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/etZ0FA_ssso?" height="150px" width="300px"/></html>
+
+The sequence to follow is the same for the micro tracker and the smart badge:
+
+1. **Make sure the tracker is switched off:** You can see it is switched off if it does not blink when you click the button.<br/>
+    * If the tracker is on, then do long press and the tracker will switch off with a beep.
+    * Once you are sure the tracker is switched off, follow the steps below.<br/>
+
+
+2. Follow this sequence:
+    1. **Click four times**.
+    2. **Long press** **until** the tracker is turned on with **a small beep**
+    3. **Click two times**.
+    4. **Long Press** until the tracker plays [tracker reset melody](https://actilitysa.sharepoint.com/:u:/t/aby/EcctTThi8DFEgFY2Cy5i3o4BfZj-rO_dAuT-w9IwqJ7X2Q?e=ef9qay)
+
+3. Wait for the tracker to **join the network**. The tracker will send a join request message and **blink shortly multiple times** to indicate that the join request is in progress.
+
+4. The number of attempts is limited to 15 in EU region and 27 for other regions. The join process can be re-initiated again with long press on the button.
+
+
 ## Resetting the tracker with LoRaWAN downlink
 
 The above button sequences only reset the tracker to the configuration that was saved in the tracker. For more information on resetting the device with downlink, visit [Abeeway trackers Reference Guide](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#reference-guides-and-tools), Section: Reset the device.
@@ -74,9 +75,9 @@ If you wish to reset the tracker with LoRaWAN downlink, there are three options:
 2. **Reset the device (revert to the original config file that was flashed in the tracker):** Send the downlink **ff010101** on LoRaWAN port=2
 3. **Reset the device (revert to the original config file that was flashed in the tracker and also remove Bluetooth bond):** Send the downlink **ff010102** on LoRaWAN port=2
 
-## Resetting the tracker to factory default configuration
+## Resetting the tracker with Abeeway updater
 
-The above button sequences only reset the tracker to the configuration that was saved in the tracker. The factory default configuration can be found in the [Abeeway trackers Reference Guide](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#reference-guides-and-tools), Chapter: Factory default Configuration.
+The tracker can be reset to its factory default configuration using Abeeway updater. The factory default configuration can be found in the [Abeeway trackers Reference Guide](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#reference-guides-and-tools), Chapter: Factory default Configuration.
 
 <html>
 <p>
@@ -85,3 +86,17 @@ The above button sequences only reset the tracker to the configuration that was 
 </html>
 
 <img src="../../C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png" width="700" border="0" />
+
+## Resetting the tracker over CLI with tracker connected to USB port
+The tracker can be reset over Command Line Interface (CLI) with the tracker connected to USB port.
+
+::: warning Important
+* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../D-Reference/UsingCLI_R)
+:::
+
+Here are the steps:
+
+1. Connect the tracker to the USB port and open [Tera Term](https://ttssh2.osdn.jp/index.html.en) to connect to the serial port on which the tracker is connected.
+2. The tracker will prompt for the password. The default password is **123**.
+3. If the password is successful, the CLI will show the traces and can be used to interact with the tracker.
+4. Enter the command **system reset** on the CLI console to reset the tracker without changing its existing configuration saved in the flash. The tracker will re-join LoRaWAN network.

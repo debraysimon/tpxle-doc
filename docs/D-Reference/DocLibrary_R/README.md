@@ -1,23 +1,3 @@
----
-sidebar: 3
----
-
-
-<html>
-
-<a id="PrivateLPLocGuide"/>
-
-<a id="AssetTrackerDriver"></a>
-
-<a id="ADMUserGuide"></a>
-
-<a id="TrackersRefGuide"></a>
-
-<a id="PowerConsumption"></a>
-
-</html>
-
-
 # Documentation library
 
 Access the ThingPark Location documentation resources.
@@ -101,7 +81,9 @@ Access the ThingPark Location documentation resources.
 | **Debug Trackers** | This application note describes how to debug Abeeway trackers when there is reset or any other unexpected cause| [AN-015_Debug data](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=2DqzTy) | MCU: 2.2.x, BLE: 3.3.0 |
 | **GPS/LPGPS Usage** | This application note describes how to configure and use the GPS/LP-GPS feature to optimize accuracy/power consumption of the tracker | [AN-016_GPS_LPGPS](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
 | **Getting started with Mobile APP** | This application note describes how to configure and use the Abeeway mobile APP with the trackers | [AN-017_Mobile APP Getting Started Guide](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **Motion and Shock detection** | This application note describes how to configure the firmware for motion and shock detection) | [AN-018_Motion_and_shock_detection_V1.0](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.3.x, BLE: 3.3.2 |
 | **BLE beaconing** | This application note describes how to configure the firmware to send BLE beacons (iBeacon, Eddystone and Altbeacon) | [AN-019_BLE Beacon transmission](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.3.x, BLE: 3.3.2 |
+
 
 ### Firmware Update
 
@@ -112,6 +94,7 @@ Access the ThingPark Location documentation resources.
 | **BLE Firmware binaries** | This folder has all the binaries for BLE Firmware. | [BLE Firmware binaries](https://actilitysa.sharepoint.com/:f:/t/aby/ElfViYe0P9BDiDQYQ9Tv0tYBr3yJpFNa1At2EzVxPujGPw?e=i6sw9e) |
 | **Config files** | This folder has all the Firmware config files for different trackers. | [Abeeway Firmware Update](https://actilitysa.sharepoint.com/:f:/t/aby/ErEQcpIhgN9Khxt8q66GBy4Bj9FIV-0rGf5XhaVyCJo2CQ?e=QqegCQ) |
 | **BLE firmware update** | This application note describes the BLE firmware update procedure using Nordic NrfConnect smartphone application. | [AN-001_ble-update](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
+
 ### Abeeway Firmware trainings
 
 | | Description | Resource | 
