@@ -58,13 +58,20 @@ Create a new HTTP (webhook) integration on the Helium/TTN Console with the param
 Login to Helium Console [here][4]   
 ![401-helium-integration](./images/401-helium-integration_.png)
 
-Create a new HTTP (webhook) integration with the following parameters:
+In case you use your tracker with Abeeway Device Managger or with your own application server  
+create a new HTTP (webhook) integration with the following parameters:
   - Url (for Helium): `https://community.thingpark.io/tpxle-nit/uplink_from_helium`
   - Header: `x-client-id: community-api/<YOUR_THINGPARK_COMMUNITY_USER_ID>`
   - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
 
- In case you use your tracker with the Mobile App configure the following additional header:
-  - Header: `x-realm: le-lab`  [Use this option if you are selecting Abeeway-Preview Platform from the Mobile APP "distributor" list (THIS IS RESTRICTED TO INTERNAL TESTING ONLY. PLEASE DO NOT USE IT FOR PRODUCTION ENVIRONMENT)
+In case you use your tracker with the Abeeway Mobile Application with *"Abeeway - Preview"* distributor  
+create a new HTTP (webhook) integration with the following parameters:
+  - Url (for Helium): `https://community.thingpark.io/tpxle-nit/uplink_from_helium`
+  - Header: `x-client-id: <YOUR_MOBILE_APP_USER_ID>`
+  - Header: `x-client-secret: <YOUR_MOBILE_APP_PASSWORD>`  
+  - Header: `x-realm: le-lab`  
+  *Please note that the screensots below are not presenting the exact headers that need to be used for the Mobile App. Please add and set the headers that are described here.*
+
 ![402-helium-integration-http](./images/402-helium-integration-http_.png)
 
 After your integration is created, don't forget to create a new flow to associate your Abeeway device to push data to your newly created integration 
@@ -76,15 +83,20 @@ Login to TTN Console [here][5]
 Create a new API key: 
 ![501-ttn-xapi-key](./images/501-ttn-xapi-key_.png)
 
-Create a new HTTP (webhook) integration with the following parameters:
+In case you use your tracker with Abeeway Device Managger or with your own application server  
+create a new HTTP (webhook) integration with the following parameters:
   - Url (for TTN): `https://community.thingpark.io/tpxle-nit/uplink_from_ttn`
   - Header: `x-client-id: community-api/<YOUR_THINGPARK_COMMUNITY_USER_ID>`
   - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
 
-In case you use your tracker with the Mobile App configure the following additional header [Please add this header only if you are using Abeeway Mobile App]:
-  - Header: `x-realm: le-lab`  [Use this option if you are selecting Abeeway-Preview Platform from the Mobile APP "distributor" list (THIS IS RESTRICTED TO INTERNAL TESTING ONLY. PLEASE DO NOT USE IT FOR PRODUCTION ENVIRONMENT)
-  
-  
+In case you use your tracker with the Abeeway Mobile Application with *"Abeeway - Preview"* distributor  
+create a new HTTP (webhook) integration with the following parameters:
+  - Url (for TTN): `https://community.thingpark.io/tpxle-nit/uplink_from_ttn`
+  - Header: `x-client-id: <YOUR_MOBILE_APP_USER_ID>`
+  - Header: `x-client-secret: <YOUR_MOBILE_APP_PASSWORD>`  
+  - Header: `x-realm: le-lab`  
+  *Please note that the screensots below are not presenting the exact headers that need to be used for the Mobile App. Please add and set the headers that are described here.*
+    
 ![502-ttn-webhook](./images/502-ttn-webhook_.png)
 
 ![504-ttn-custom-webhook-config](./images/504-ttn-custom-webhook-config_.png)
