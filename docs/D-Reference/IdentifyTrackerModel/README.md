@@ -7,6 +7,7 @@ If your DevEUI is not present, in the list, please contact your local distributo
 ::: warning Important
 * All the application notes and reference guides are always w.r.t. MCU/Application Firmware. It is crucial to refer to the Abeeway tracker reference guide that corresponds to the MCU Firmware that is installed on the tracker.
 * Flashing the incorrect MCU/BLE Firmware will render the tracker unusable and in some cases will cause permanent damage. In case of doubt, please contact [Abeeway support](https://thingpark.page.link/AbeewaySupport)
+* The MCU/BLE FW compatibility and the tracker model can also be found from [Abeeway Updater](https://github.com/Abeeway/Abeeway-updater) documentation
 ::: 
 
 The table below lists Tracker model and Firmware compatibility.
