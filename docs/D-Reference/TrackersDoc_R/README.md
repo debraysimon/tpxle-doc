@@ -4,15 +4,18 @@ Access the Abeeway trackers comprehensive documentation.
 
 ## Abeeway trackers
 
+### Reference Guides and Tools
+
 | | Resource |
 | - | -------- |
 | **Asset tracker firmware**| [Abeeway Trackers Reference Guide](https://actilitysa.sharepoint.com/:f:/t/aby/Ep4-XPaCPlpDkUrSP2_Iao0BLcCjcPyL_wiSe1aak0MzOg?e=5yPIEM) |  
-| **Trackers power consumption estimation**| [Power Comsumption Estimation](https://actilitysa.sharepoint.com/:f:/t/aby/Er1CBFg9-YxChO-cdxGs5DUBj2CDpFGEhoEQtFeuH9l_4w?e=xmiDVM) |
+| **Asset tracker firmware Release Notes**| [Abeeway tracker Firmware Release notes](https://actilitysa.sharepoint.com/:f:/t/aby/ElJzs_L4X5lDviZbdDBi10wBd9F2VUP19HY52fMxh4Z35g?e=xTkQzY) |  
+| **Trackers power consumption estimation**| [Power Consumption Estimation](https://actilitysa.sharepoint.com/:f:/t/aby/Er1CBFg9-YxChO-cdxGs5DUBj2CDpFGEhoEQtFeuH9l_4w?e=xmiDVM) |
 | **LED patterns for micro tracker and smart badge** | [LED patterns](https://actilitysa.sharepoint.com/:b:/t/aby/Ee9KhtkknRFMiBipu_fWDdgBh5pr8AIyZNYXkTCe5fg18A?e=DtRe8I) | 
 | **Asset tracker driver**| [Asset Tracker Driver User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhpXO62fGtlEstRRCMq6UAgBRgT_0xLToEZd1k_NyGzCcA?e=HlmwTS) |
 | **Melodies for Abeeway Trackers** | [Abeeway trackers melody](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=dCGByt) |
 
-## Abeeway Trackers Out of Box User Guides
+### Out of Box User Guides
 
 | | Resource | 
 | - | -------- |
@@ -21,7 +24,7 @@ Access the Abeeway trackers comprehensive documentation.
 | **Industrial tracker**| [Industrial Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 | **Compact tracker** | [Compact Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 
-## Abeeway trackers certifications
+### Certifications
 
 | | Resource | 
 | - | -------- | 
@@ -60,44 +63,56 @@ Access the Abeeway trackers comprehensive documentation.
 <a id="AN-001"></a>
 </html>
 
-| | Description | Resource |
-| - | ----------- | -------- |
-| **BLE firmware update** | This application note describes the BLE firmware update procedure. | [AN-001_ble-update](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **LoRa transmit strategy** | This application note describes the configuration and usage of LoRaWAN® custom transmit strategy. | [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **Scan collection** | This feature describes the scan collection feature which allows scanning, filtering and reporting up to twenty BLE beacons in several uplink payloads. | [AN-003_ScanCollection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **Device orientation** | This application note explains how to use the accelerometer data from the tracker to detect its orientation. | [AN-005_device_orientation](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **BLE position filtering** | This application note explains the functionality and configuration of BLE position filtering feature that allows reporting of up to four BLE beacon identifiers with different filtering options on BLE UID. | [AN-006_Position_BLE_filtering](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **Proximity detection** | This application note describes the Proximity detection feature that can be used for contact tracing and proximity detection between people wearing the Abeeway trackers. | [AN-007_proximity-detection](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) |
-| **Proximity detection calibration guide** | This application note describes the positioning and calibration of badges for proximity detection and contact tracing. | [AN-008_proximity-detection-calibration-guide](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) |
-| **MCU firmware update** | This application note describes the MCU firmware update procedure.**This tool is deprecated since MCU FW 2.2**.| [AN-009_mcu_firmware_update](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **Angle Detection** | This application note describes how to trigger events from the tracker based on its orientation | [AN-010_Angle_Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **BLE Geozoning** | This application note describes the BLE Geozoning feature which can be used to generate alerts from the tracker based on safe/hazard zone detection using BLE | [AN-011_BLE_geozoning](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **Quuppa Beaconing** | This application note describes the Quuppa beaconing feature. | [AN-012_Quuppa_beaconing](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **CLI Usage** | This application note describes the debugging of the tracker over USB interface. | [AN-013_CLI_Description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **BLE Communication** | This application note describes the interface between the tracker and the mobile APP | [AN-014_BLE communication](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **Debug Trackers** | This application note describes how to debug Abeeway trackers when there is reset or any other unexpected cause| [AN-015_Debug data](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=2DqzTy) |
-| **GPS/LPGPS Usage** | This application note describes how to configure and use the GPS/LP-GPS feature to optimize accuracy/power consumption of the tracker | [AN-016_GPS_LPGPS](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
-| **Getting started with Mobile APP** | This application note describes how to configure and use the Abeeway mobile APP with the trackers | [AN-017_Mobile APP Getting Started Guide](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
+| | Description | Resource | Minimum Required MCU/BLE Firmware Version |
+| - | ----------- | -------- |-------- |
+| **LoRa transmit strategy** | This application note describes the configuration and usage of LoRaWAN® custom transmit strategy. | [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 1.9.x, BLE: 2.2.0 |
+| **Scan collection** | This feature describes the scan collection feature which allows scanning, filtering and reporting up to twenty BLE beacons in several uplink payloads. | [AN-003_ScanCollection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.0, BLE: 3.1.0 |
+| **Device orientation** | This application note explains how to use the accelerometer data from the tracker to detect its orientation. | [AN-005_device_orientation](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 1.9.x, BLE: 2.2.0 |
+| **BLE position filtering** | This application note explains the functionality and configuration of BLE position filtering feature that allows reporting of up to four BLE beacon identifiers with different filtering options on BLE UID. | [AN-006_Position_BLE_filtering](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.1.x, BLE: 3.2.2 |
+| **Proximity detection** | This application note describes the Proximity detection feature that can be used for contact tracing and proximity detection between people wearing the Abeeway trackers. | [AN-007_proximity-detection](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) | MCU: 2.1.x, BLE: 3.2.2 |
+| **Proximity detection calibration guide** | This application note describes the positioning and calibration of badges for proximity detection and contact tracing. | [AN-008_proximity-detection-calibration-guide](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) | MCU: 2.1.x, BLE: 3.2.2 |
+| **MCU firmware update** | This application note describes the MCU firmware update procedure.**This tool is deprecated since MCU FW 2.2. Please use Abeeway Updater tool (see Firmware Update section below)**.| [AN-009_mcu_firmware_update](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 1.9.x, BLE: 2.2.0 |
+| **Angle Detection** | This application note describes how to trigger events from the tracker based on its orientation | [AN-010_Angle_Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **BLE Geozoning** | This application note describes the BLE Geozoning feature which can be used to generate alerts from the tracker based on safe/hazard zone detection using BLE | [AN-011_BLE_geozoning](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **Quuppa Beaconing** | This application note describes the Quuppa beaconing feature. | [AN-012_Quuppa_beaconing](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **CLI Usage** | This application note describes the debugging of the tracker over USB interface. | [AN-013_CLI_Description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **BLE Communication** | This application note describes the interface between the tracker and the mobile APP | [AN-014_BLE communication](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **Debug Trackers** | This application note describes how to debug Abeeway trackers when there is reset or any other unexpected cause| [AN-015_Debug data](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=2DqzTy) | MCU: 2.2.x, BLE: 3.3.0 |
+| **GPS/LPGPS Usage** | This application note describes how to configure and use the GPS/LP-GPS feature to optimize accuracy/power consumption of the tracker | [AN-016_GPS_LPGPS](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **Getting started with Mobile APP** | This application note describes how to configure and use the Abeeway mobile APP with the trackers | [AN-017_Mobile APP Getting Started Guide](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.2.x, BLE: 3.3.0 |
+| **Motion and Shock detection** | This application note describes how to configure the firmware for motion and shock detection) | [AN-018_Motion_and_shock_detection_V1.0](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.3.x, BLE: 3.3.2 |
+| **BLE beaconing** | This application note describes how to configure the firmware to send BLE beacons (iBeacon, Eddystone and Altbeacon) | [AN-019_BLE Beacon transmission](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.3.x, BLE: 3.3.2 |
 
-## Abeeway trainings
+
+## Firmware Update
 
 | | Description | Resource | 
 | - | ----------- | -------- |
-| **ThingPark Location Introduction** | These training slides introduce basic features of ThingPark Location. | [ThingPark Location Introduction](https://actilitysa.sharepoint.com/:f:/t/aby/EqVIEMaqJfVHoNAi90G068UB8K4HMfB1t2eyttWIGlIwbQ?e=JZYdsp) |
+| **Abeeway Updater (Firmware Update tool)** | This tool allows MCU and BLE Firmware update of Abeeway trackers. | [Abeeway Firmware Update](https://github.com/Abeeway/Abeeway-updater) |
+| **MCU Firmware binaries** | This folder has all the binaries for MCU/Application Firmware. | [ MCU Firmware binaries](https://actilitysa.sharepoint.com/:f:/t/aby/EstKVz_aVwRKkhcNATWI3loBEIgAAIxE0j_Sx8oZ5oiAew?e=g5Op9r) |
+| **BLE Firmware binaries** | This folder has all the binaries for BLE Firmware. | [BLE Firmware binaries](https://actilitysa.sharepoint.com/:f:/t/aby/ElfViYe0P9BDiDQYQ9Tv0tYBr3yJpFNa1At2EzVxPujGPw?e=i6sw9e) |
+| **Config files** | This folder has all the Firmware config files for different trackers. | [Abeeway Firmware Update](https://actilitysa.sharepoint.com/:f:/t/aby/ErEQcpIhgN9Khxt8q66GBy4Bj9FIV-0rGf5XhaVyCJo2CQ?e=QqegCQ) |
+| **BLE firmware update** | This application note describes the BLE firmware update procedure using Nordic NrfConnect smartphone application. | [AN-001_ble-update](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
+
+### Abeeway Firmware trainings
+
+| | Description | Resource | 
+| - | ----------- | -------- |
+| **User Interface** | These training slides introduce the user interface (LED, buzzer, button) for Abeeway trackers. | [User Interface](https://actilitysa.sharepoint.com/:f:/t/aby/EiWIqYpAehBKg3Py8I6X07oBFFxUWT3i2FVHYRX2MzXtow?e=ZFkhrM) |
 | **Proximity Policy Enforcement** | These training slides introduce basic concepts of proximity solution and how to set it up. | [Proximity Solution](https://actilitysa.sharepoint.com/:f:/t/aby/Eux5K7WVG8JClipPzZsJn7YB4snhG68oscKKw89g20UwRw?e=xqY4gZ) | 
 | **Scan Collection** | This feature introduces BLE/WiFi scanning and reporting of up to 20 BLE Beacons/WiFi BSSIDs. | [Scan Collection](https://actilitysa.sharepoint.com/:f:/t/aby/ErgX0cSv_8dNgJZsYVbYVdAB3G-5rve_CK8dHQ1a2dSGkQ?e=6Q2Q47) |
 | **BLE Position Filtering** | This feature introduces BLE position reporting of up to 4 BLE beacons. | [BLE Position Filtering](https://actilitysa.sharepoint.com/:f:/t/aby/EpG2Vos3eFxMkSFyWBrkNI8BEBiGorNXW-34K37-NFo-_w?e=4EnC2q) |
 | **CLI Usage** | This feature allows to interact with tracker over USB to get the internal logs and also set the tracker parameters. | [CLI Usage](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X) |
 | **Quuppa Beaconing** | This feature enables Quuppa beaconing for Abeeway trackers. | [Quuppa Beaconing](https://actilitysa.sharepoint.com/:f:/t/aby/EucRGJmCxnJEv_QCWbvL58YBkwyfz8RWgTmxU6YMwKJfkg?e=CE7yUH) |
+| **BLE Geozoning** | This feature enables BLE geozoning for Abeeway trackers. | [BLE geozoning](https://actilitysa.sharepoint.com/:f:/t/aby/EoMeflwX2UdBnUhmVmwYfOYBYjFIIYupWFfgyNsW2uQvOQ?e=ffx9va) |
+| **Abeeway Mobile App** | This feature explains how to use Abeeway Mobile for Abeeway trackers. | [Abeeway Mobile App](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=KgYKLP) |
 
-## Abeeway Firmware Update
+## ThingPark X Location Engine
+
+### ThingPark X Location Engine Trainings
 
 | | Description | Resource | 
 | - | ----------- | -------- |
-| **Firmware Update tool** | This tool allows MCU and BLE Firmware update of Abeeway trackers. | [Abeeway Firmware Update](https://github.com/Abeeway/Abeeway-updater) |
-| **MCU Firmware binaries** | This folder has all the binaries for MCU/Application Firmware. | [ MCU Firmware binaries](https://actilitysa.sharepoint.com/:f:/t/aby/EstKVz_aVwRKkhcNATWI3loBEIgAAIxE0j_Sx8oZ5oiAew?e=g5Op9r) |
-| **BLE Firmware binaries** | This folder has all the binaries for BLE Firmware. | [BLE Firmware binaries](https://actilitysa.sharepoint.com/:f:/t/aby/ElfViYe0P9BDiDQYQ9Tv0tYBr3yJpFNa1At2EzVxPujGPw?e=i6sw9e) |
-| **Config files** | This folder has all the Firmware config files for different trackers. | [Abeeway Firmware Update](https://actilitysa.sharepoint.com/:f:/t/aby/ErEQcpIhgN9Khxt8q66GBy4Bj9FIV-0rGf5XhaVyCJo2CQ?e=QqegCQ) |
-
+| **ThingPark Location Introduction** | These training slides introduce basic features of ThingPark Location. | [ThingPark Location Introduction](https://actilitysa.sharepoint.com/:f:/t/aby/EqVIEMaqJfVHoNAi90G068UB8K4HMfB1t2eyttWIGlIwbQ?e=JZYdsp) |
 
 To get more resources on ThingPark Location, see [Documentation library](/D-Reference/DocLibrary_R/).

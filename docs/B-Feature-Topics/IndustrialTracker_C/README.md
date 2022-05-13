@@ -12,7 +12,12 @@ Abeeway industrial tracker provides you with the flexibility you need to adapt y
 * **Start/End motion tracking** : Tracker reports positions only at the start and end events of the motion.
 * **Position on-demand** : Tracker sends its position only when requested from the end-user (very low power operating mode). The position request can be made from the geolocation backend platform.
 * **Activity tracking** : Monitor activity rate with embedded sensors.
-* **Standby** : The tracker sends periodically short LoRaWAN® messages, called heartbeat, at the configured interval. The tracker positions can be obtained in this mode by using the side operations features. For more information, see [Trackers documentation](../D-Reference/TrackersDoc_R.htm). Once the tracker has joined the LoRaWAN® network, the tracker is set to standby mode to save battery. We recommend to put the tracker in standby mode when not in testing.
+* **Standby** : The tracker sends periodically short LoRaWAN® messages, called heartbeat, at the configured interval. The tracker positions can be obtained in this mode by using the side operations features. Once the tracker has joined the LoRaWAN® network, the tracker is set to standby mode to save battery. **We recommend to put the tracker in standby mode when not in testing to save the battery lifetime**.
+
+::: warning WARNING
+* For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
+* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/#TrackersRefGuide).
+:::
 
 ### Geolocation technologies
 * **GPS** : For **precise outdoor** positioning
@@ -29,8 +34,10 @@ It leverages the Wi-Fi access point scanning capabilities of the industrial trac
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923
 * Radio: EC, FCC, IC, TELEC ATEX
-* The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers-certifications).
+
 Abeeway power consumption estimation tool can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers) to estimate the battery lifetime in different environments.
 ::: warning WARNING
- The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down. The warranty of the tracker is avoid if used incorrectly.
+* The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#certifications).
+* The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down. 
+* **The warranty of the tracker is avoid if used incorrectly**.
 :::

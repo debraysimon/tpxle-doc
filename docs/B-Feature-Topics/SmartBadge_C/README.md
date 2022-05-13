@@ -15,6 +15,11 @@ Abeeway smart badge provides you with the flexibility you need to adapt your tra
 * **Activity tracking** : Monitor activity rate with embedded sensors.
 * **OFF** : Tracker is switched off.
 
+::: warning WARNING
+* For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
+* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/#TrackersRefGuide).
+:::
+
 ### Geolocation technologies
 * **GPS** : For **precise outdoor** positioning
 * **Low Power-GPS (LP-GPS)** : For **power-efficient outdoor** and **daylight indoor** positioning
@@ -32,9 +37,11 @@ It leverages Bluetooth scanning capabilities of the micro tracker to send BLE be
 
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923
-* Radio: EC, FCC, IC, TELEC ATEX
-* The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers-certifications).
-Abeeway power consumption estimation tool can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers) to estimate the battery lifetime in different environments.
+* Radio: EC, FCC, IC, TELEC, ATEX
+
 ::: warning WARNING
- The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. The warranty of the tracker is avoid if used incorrectly.
+ *  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#certifications).
+ * The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. 
+ * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. 
+ **The warranty of the tracker is avoid if used incorrectly**.
 :::
