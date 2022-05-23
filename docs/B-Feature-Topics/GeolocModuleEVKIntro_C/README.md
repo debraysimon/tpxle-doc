@@ -1,6 +1,6 @@
 # Module Evaluation Kit Board (EVK) Introduction
 
-The EVK is the evaluation kit for the ultra-low power geolocation module co-developed by Murata and Abeeway. This kit allows to evaluate the geoloc module and developp the application firmware. The board gives a full access to all the functionalities of the module including: 
+The EVK is the evaluation kit for the ultra-low power geolocation module co-developed by Murata and Abeeway. This kit allows to evaluate the geoloc module and develop the application firmware. The board gives a full access to all the functionalities of the module including: 
 
 * 3 radio systems accessible with SMA connectors: Sub GHz, 25GHz, GNSS
 * Digital interfaces such as I2C, LPUART, UART, SPI attached to a flash memory  
@@ -11,13 +11,15 @@ The EVK is the evaluation kit for the ultra-low power geolocation module co-deve
 
 ## Documentation
 
-* [EVB Datasheet](https://actilitysa.sharepoint.com/:b:/r/teams/aby/Private%20Documents/Product/Geoloc%20module/Hardware/ES2%20Developpment/01_Hardware/02_EVB-Demo_board/Documentation/Development_Kit_Datasheet.pdf?csf=1&web=1&e=21IWxx)
-* [ISM antenna datasheet](https://actilitysa.sharepoint.com/:b:/r/teams/aby/Private%20Documents/Product/Geoloc%20module/Hardware/Datasheets/Antenna/ANT_AVX_LORA.pdf?csf=1&web=1&e=ZwB81g)
-* [2G4 antenna datasheet](https://actilitysa.sharepoint.com/:b:/r/teams/aby/Private%20Documents/Product/Geoloc%20module/Hardware/Datasheets/Antenna/ANT_2G4.pdf?csf=1&web=1&e=YJ6c3J)
-* [GNSS antenna datasheet](https://actilitysa.sharepoint.com/:b:/r/teams/aby/Private%20Documents/Product/Geoloc%20module/Hardware/Datasheets/Antenna/Taoglass_GPS_TS.07.pdf?csf=1&web=1&e=AlUhfP)
+* [EVK User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EiX2Y8y8xhFCnn4DE78bWtkBpk2KVE9mOXlT7qOH0DFyyA?e=YS9t6h)
+* [EVK Datasheet](https://actilitysa.sharepoint.com/:b:/t/aby/Eat2H1zqEbtEl8VBFMaOicIBk0q_FNdnkcAgFkY_unyISA?e=wda8xv)
+* [Flashing the firmware](https://actilitysa.sharepoint.com/:b:/t/aby/ET5cthwckEFBtsDKI7FViYYBvYnug1R_VcTYmS9Hnbn2-A?e=GBDMXU)
 
+## EVK Board Accessories datasheet
+* [ISM antenna datasheet](https://actilitysa.sharepoint.com/:b:/t/aby/EboESMeA--hFrTeQ-DC5OOwBPwmW9nkFpLUL6Hl9_tj0zw?e=CqUdE5)
+* [2.4GHz antenna datasheet](https://actilitysa.sharepoint.com/:b:/t/aby/EbOxQ_vr4wlGmPy9BSc_xtgB5GvzugESPLdeR9Wk9TJfVQ?e=pmuJc2)
+* [GNSS antenna datasheet](https://actilitysa.sharepoint.com/:b:/t/aby/Een_GJ2bq7hAmshljs2QSaABRKdt5qDZXNH-F_3Cfm0B8w?e=S82SZH)
 
-***TBD: Which docs above are public/restricted access or need to be completely in markdown format***
 
 
 <figure>

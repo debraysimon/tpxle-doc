@@ -1,14 +1,14 @@
 # Geolocation Module Overview
-The **Abeeway Geolocation Module** is a **multi-technology fused location LPWAN module** designed as the ideal platform to **develop a wide range of IoT tracking solutions, minimizing the Total Cost of Ownership (TCO) of IoT geolocation use cases**. It allows your engineering to focus on the use case, to **optimize time-to-market and cost** by using less complex PCBs (all high-density devices being encapsulated), to reduce certification risk and budget, as well as testing time and cost for mass production. This LoRaWAN® fused location module is a **cost effective, ultra-low power and small foot print SiP (System in Package)** integrating the high performance STM32WB microcontroller (MCU) with integrated Bluetooth 5.x Low Energy transceiver, the latest LoRaWAN® radio transceiver from Semtech, and an optimized arrangement of multitechnology RF engines for indoor and outdoor positioning.
+The **Abeeway Geolocation Module** is a **multi-technology fused location LPWAN module** designed as the ideal platform to **develop a wide range of IoT tracking solutions, minimizing the Total Cost of Ownership (TCO) of IoT geolocation use cases**. It allows your engineering to focus on the use case, to **optimize time-to-market and cost** by using less complex PCBs (all high-density devices being encapsulated), to reduce certification risk and budget, as well as testing time and cost for mass production. This LoRaWAN® fused location module is a **cost effective, ultra-low power and small foot print SiP (System in Package)** integrating the high performance STM32WB micro-controller (MCU) with integrated Bluetooth 5.x Low Energy transceiver, the latest LoRaWAN® radio transceiver from Semtech, and an optimized arrangement of multi-technology RF engines for indoor and outdoor positioning.
 
 The module contains 3 main chips: a **high end MCU STM32WB** associated with **BLE radio**, a  high-performance multi-constellation **GNSS receiver** (GPS, GLONASS, Beidou, and Galileo) and the **LR1110 Semtech transceiver** to provide LoRa & FSK sub-GHz radio, low power WIFI and GNSS RX. 
-<img src="./images/geoloc_module_block_diagram.png" border="0" />
+<img src="./images/geoloc_module_block_diagram.png" border="0" width="900" />
 
 ## Key product features
 The module contains a high-performance multi-constellation GNSS receiver (GPS, GLONASS, Beidou, and Galileo) and supports a patented ultra Low-Power GPS (LP GPS) mode which can provide a network
 assisted first fix in 3 to 5 seconds from cold start at -157dBm, while requiring extremely low power (only
 GNSS correlators are active to collect Pseudo-range information). Indoor positioning can be achieved by
-combining the Bluetooth Low Energy receiver and the ultra-low power Wi-Fi receiver. The LoRa® radio supports the worldwide unlicensed sub-GHz spectrumalso supports device-to-device time-of-flight ranging.
+combining the Bluetooth Low Energy receiver and the ultra-low power Wi-Fi receiver. The LoRa® radio supports the worldwide unlicensed sub-GHz spectrum also supports device-to-device time-of-flight ranging.
 
 The highly configurable peripherals include multiple digital interfaces: I2C/SPI/UART/ USB/GPIOs, an ADC
 channel input, and I/Os to support various power management schemes. These I/Os and the power of the
