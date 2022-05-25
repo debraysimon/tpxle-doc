@@ -1,7 +1,12 @@
 
 # Micro tracker
 The Abeeway micro tracker is a multi-mode tracker combining **GPS**, **Low Power-GPS (LP-GPS)**, **Wi-Fi**, **LoRaWAN®** and **BLE** radios with embedded sensors to support accurate **outdoor** and **indoor** geolocation. This low-power location device tracks and **locates anything, anyone, anytime** at a **low cost** of ownership.<br/>
-Its **small size** and **long battery lifetime** make the micro tracker the **ideal product for numerous tracking applications**. It is simple to use, and a single button gives access to numerous functionalities that can be personalized for specific application needs. It can be used to keep track of assets and valuables, and to improve safety and security. It comes with an **USB charging cable** and a lanyard.
+Its **small size** and **long battery lifetime** make the micro tracker the **ideal product for numerous tracking applications**. It is simple to use, and a single button gives access to numerous functionalities that can be personalized for specific application needs. It can be used to keep track of assets and valuables, and to improve safety and security. 
+
+::: warning WARNING
+The **Micro USB charging/data cable** and lanyard are not included with the tracker and need to be purchased separately.
+:::
+
 <img src="./images/MicrotrackerHWarrows_450x234.png" border="0" />
 
 ## Key product features

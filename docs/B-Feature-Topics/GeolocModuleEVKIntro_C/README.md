@@ -23,11 +23,11 @@ The EVK is the evaluation kit for the ultra-low power geolocation module co-deve
 
 
 <figure>
-  <img src='./images/evk_block_diagram.png'/>
-  <figcaption>EVK Block Diagram</figcaption>
+  <img src='./images/evk_block_diagram.png' style="align: center"/>
 </figure>
+<center> EVK Block Diagram </center>
 
 <figure>
   <img src='./images/pcb_evk_V2.3.png'/>
-  <figcaption>PCB: EVB V2.3</figcaption>
 </figure>
+<center> PCB: EVB V2.3 </center>
