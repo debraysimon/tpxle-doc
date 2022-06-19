@@ -10,7 +10,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
 ::: warning Before you begin
  We recommend you do a drive or walk test with your tracker to display and analyze a number of reported locations. You can also place the tracker in a moving asset you want to locate.
 :::
-1. Log in to Abeeway Device Manager on the [ThingPark Community platform](https://community.thingpark.org/) using this URL: [ https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community]( https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community)<br/>. If you are using some other platform, please refer to [Abeeway Device Manager URLs](/D-Reference/ThingParkLocationURLs). 
+1. <html> Log in to Abeeway Device Manager on the <a href="https://community.thingpark.org/" style="color:teal">ThingPark Community platform</a>  using this URL: <a href="https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community" style="color:teal">here</a>. If you are using some other platform, please refer to <a href="../../../D-Reference/ThingParkLocationURLs" style="color:teal">ThingPark Location URLs</a> </html>
 
 2. In the **Select Devices** column, select the tracker you want to see the location, and click **Select**.
 ::: tip Note
@@ -19,7 +19,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
 <img src="./images/ADASelectTracker.png" border="1" />
 
 3. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
-    * **MCU Firmware** : If need be, gives the tracker's MCU firmware version to refer to the relative [Asset Tracker Driver User Guide](/D-Reference/DocLibrary_R/#AssetTrackerDriver) to know the supported features.<br/>
+    * <html> <b>MCU Firmware</b> :  If need be, gives the tracker firmware version to refer to the relative <a href="../../../D-Reference/DocLibrary_R/#reference-guides-and-tools" style="color:teal">Asset Tracker Firmware Reference Guide </a> to know the supported features. </html>
 
     * **First Position** and **Last Position** of the tracker
       
@@ -57,4 +57,4 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
    
     <img src="./images/ADAPerfTab_1078x475.png" border="0" />
    
-6. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/D-Reference/DocLibrary_R/#abeeway-device-manager-application).
+6. <html> For more information about how to use Abeeway Device Manager, see <a href="../../../D-Reference/DocLibrary_R/#abeeway-device-manager-application" style="color:teal">Abeeway Device Manager User Guide</a>. </html>

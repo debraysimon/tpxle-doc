@@ -1,5 +1,5 @@
 # Provisioning your trackers on ThingPark Enterprise
-This task consists of configuring your trackers on ThingPark Enterprise to forward all packets to and from the application server provided by Actility on its platform.
+This task consists of configuring your trackers on ThingPark Enterprise to forward all packets to and from the ThingPark Location application server provided by Actility on its platform.
 ## Creating an application
 You need to create a ThingPark Location application and associate it with your Abeeway devices.
 
@@ -15,6 +15,11 @@ You need to create a ThingPark Location application and associate it with your A
 | **URL** | [https://abeeway-eu-eco.thingpark.com:50540](https://abeeway-eu-eco.thingpark.com:50540) | 
 | **Content Type** |  XML | 
 | **Tunnel Interface Authentication Key** |  e8-95-9e-26-fd-9b-ce-52-70-06-05-a9-cf-e7-4d-53 | 
+
+::: warning Warning
+If you are using some other ThingPark Location platform, please refer to [ThingPark Location URLs](../../../D-Reference/ThingParkLocationURLs)
+:::
+
 4. Click **Save**.
 
 ## Creating your tracker

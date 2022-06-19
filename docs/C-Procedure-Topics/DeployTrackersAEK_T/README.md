@@ -8,24 +8,27 @@
 If your tracker's button does not blink when pressed, either the tracker is switched off or its battery is out-of-charge. When not in testing, switch off the tracker to save battery.
 
 :::warning WARNING
- The micro tracker and smart badge must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. The warranty is void if the battery of the tracker has not been charged for a prolonged period.
+ * The micro tracker and smart badge must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. The warranty is void if the battery of the tracker has not been charged for a prolonged period.
+* The button sequences below are for **MCU/Application firmware 2.3+**. For more details on Micro Tracker button sequences for other firmware versions, click [here](../../D-Reference/MicroTrackerCommands_R/)
+* The button sequences below are for **MCU/Application firmware 2.3+**. For more details on Smart Badge button sequences for other firmware versions [here](../../D-Reference/SmartBadgeCommands_R/)
 :::
 
 1. If necessary, plug in the USB charging cable.<br/>
 
-2. On the tracker's button:
-    * Press **once lengthily** (more than five seconds) **until you heard a melody**.<br/>The tracker starts in **motion tracking** mode that is the default configuration.<br/><html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/T9dfVbptpsM?" height="150px" width="300px"/></html><br/>
+2. Switch on the tracker:
+    * **Press** the button once (between 1 and 4 seconds). The button must be released to generate the event. The tracker will play the [melody](https://actilitysa.sharepoint.com/:u:/t/aby/EaBIKuw6iQxLmT2vwYpUxykBBrhZPhQdoNO3OQ1324BnYw?e=kCC2XZ) to indicate the starting of the tracker. The tracker starts in **motion tracking** mode that is the default configuration.
+    <br/><html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/_S1_B4NqsUo?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" height="150px" width="300px"/></html><br/>
 
 
 3. **When you have finished testing**, switch off the tracker like this:
-    * Press **once lengthily** (more than five seconds) **until you heard a melody**.<br/><html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/gNtn3KRglrU?" height="150px" width="300px"/></html><br/>
+    * **Long Press** the button **once** (between 5 and 7 seconds). The button must be released to generate the event.<br/><html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/GUp96FG1vsI?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" height="150px" width="300px"/></html><br/>
 
 
 ### Changing your compact tracker's state
 Unlike the industrial tracker which is shipped from the warehouse in **JOIN** state, the compact tracker is sent in **shipping** state to avoid draining the battery.
 
 You must change the state of your compact tracker before and after using it.
-1. Bring a magnet close to the compact tracker for at least five seconds for the tracker to move to **JOIN** state.<br/><html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://youtu.be/2t8zI3cbfys" height="150px" width="300px"/></html><br/>
+1. <html>You will need to use to the magnet to activate the compact tracker. For more details on compact tracker activation, click <a href="../../../B-Feature-Topics/CompactTracker_C/" style="color:teal">here</a></html> 
 
 2. If the compact tracker does not **JOIN** the network, repeat the previous step again.
 
@@ -36,14 +39,9 @@ You must change the mode of your industrial or compact tracker before and after 
 * Before starting the tracking, the testing or the integration with the industrial or compact tracker, you must change the mode to **motion tracking**, and change it back to **standby mode** when finished.
  
 
-1. Log in to Abeeway Device Manager on the IoT platform using this URL: [https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community](https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community)<br/>
+1. <html> Log in to <a href="../../../B-Feature-Topics/AbeewayDeviceManager_C/" style="color:teal">Abeeway Device Manager</a> on the community platform using this URL: <a href="https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community" style="color:teal">here</a>. The URLs for other ThingPark X Location Engine platforms are <a href="../../../D-Reference/ThingParkLocationURLs/" style="color:teal">here</a> </html>
 
-2. Click the white arrow to open Abeeway Device Manager.
-
-![img](https://docs.thingpark.com/thingpark-location/Content/Resources/Images/ADAWidget.png)
-
-
-3. In the **Select Devices** column, select the tracker you want to change the mode, and click **Select**.
+2. In the **Select Devices** column, select the tracker you want to change the mode, and click **Select**.
 
 ::: tip Note
  You can select up to ten trackers to be shown at the same time.
@@ -53,7 +51,7 @@ You must change the mode of your industrial or compact tracker before and after 
 
 4. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
 
-    * **MCU Firmware** : If need be, gives the tracker firmware version to refer to the relative [Asset Tracker Driver User Guide](/D-Reference/DocLibrary_R/#AssetTrackerDriver) to know the supported features.<br/>
+    * <html> <b>MCU Firmware</b> :  If need be, gives the tracker firmware version to refer to the relative <a href="../../../D-Reference/DocLibrary_R/#reference-guides-and-tools" style="color:teal">Asset Tracker Firmware Reference Guide </a> to know the supported features. </html>
 
     * **First Position** and **Last Position** : When in standby mode, the tracker sends LoRaWAN® heartbeat messages periodically which can be used to get battery information, mode, firmware version, and so on.
     * **Last Mode** : Current mode of the tracker.
