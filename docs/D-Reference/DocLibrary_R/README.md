@@ -135,7 +135,7 @@ Access the ThingPark Location documentation resources.
         <td>
             <ul>
                 <li>
-                    <a href="../../B-Feature-Topics/UseTPLocationAPI_C/#dx-admin-api">
+                    <a href="../../B-Feature-Topics/IntegrateAppwithTPLocation_C/">
                         API Overview
                     </a>
                 </li>

@@ -337,6 +337,10 @@ module.exports = {
                     collapsable: true,
                     children: [
                         {
+                            title: 'Overview',
+                            path: 'B-Feature-Topics/IntegrateAppwithTPLocation_C/',
+                        },
+                        {
                             title: 'Using ThingPark Location API',
                             path: '/B-Feature-Topics/UseTPLocationAPI_C/',
                         },
