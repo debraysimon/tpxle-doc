@@ -34,7 +34,7 @@ The sequence to follow is the same for the micro tracker and the smart badge.
 Follow the sequence:
    1. Hold the button for more than 14 seconds (the tracker will beep every second during this time). If the ESC sequence is successful, the tracker will play a melody to indicate that the ESC sequence is successful.
    2. Click one time. **Wait for at least one second**
-   3. Click another time. **Wait for at least one second**
+   3. Double-Click another time. **Wait for at least one second**
    4. Press the button (hold the button between 1 and 4 seconds),
    5. If the sequence is successful, the tracker will play [firmware reset melody](https://actilitysa.sharepoint.com/:u:/t/aby/EcctTThi8DFEgFY2Cy5i3o4BfZj-rO_dAuT-w9IwqJ7X2Q?e=ef9qay)
    6. If the sequence was unsuccessful, wait for about 15 sec before retrying for the ESC sequence to abort (The tracker will play abort sequence melody).
