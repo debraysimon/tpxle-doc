@@ -28,7 +28,7 @@ This section describes how to carry out the firmware update using Abeeway update
         Identify your tracker model from <a href="../../D-Reference/IdentifyTrackerModel/" style="color:teal">here</a>
     </li>
     <li>
-        Download the MCU/BLE Firmware binaries and config file from <a href="https://github.com/Abeeway/Abeeway-updater" style="color:teal">here</a>
+        Download the MCU/BLE Firmware binaries and config file from <a href="https://actilitysa.sharepoint.com/:f:/t/aby/EgDe93KPylRIhhdRE4tdGXkBWYtF9kchJAAZqq_FS14aRQ?e=xjaE7a" style="color:teal">here</a>
     </li>
     <li>
         Update the firmware using <a href="https://github.com/Abeeway/Abeeway-updater" style="color:teal">Abeeway Updater</a>
