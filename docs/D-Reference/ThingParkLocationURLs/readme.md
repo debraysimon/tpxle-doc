@@ -24,7 +24,7 @@ When routing the LoRaWAN® payloads to ThingPark Location, you must set the cont
 
 :::
 
-| ThingPark operator      | Abeeway Device Manager (ADM) | AS routing URL | AS Key | DX API Platform | DX API Prefix |
+| ThingPark operator      | Abeeway Device Manager (ADM) | AS routing URL | AS Key (Tunnel Interface Authentication Key) | DX API Platform | DX API Prefix |
 | ----------------------- | ---------------------------- | -------------- | ------ | --------------- | ------------- |
 | **POC**                 | [https://poc.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=poc-api](https://poc.thingpark.com/thingpark/abeewayDeviceaAnalyzer/index.php?dxprofile=poc-api) | [https://abeeway-dev1.thingpark.com:50537](https://abeeway-dev1.thingpark.com:50537) |  No | [https://dx-api-dev1.thingpark.com/getstarted/#/](https://dx-api-dev1.thingpark.com/getstarted/#/) | poc-api |
 | **DEV1**                | [https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=dev1-api](https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=dev1-api) | [https://abeeway-eu-eco.thingpark.com:50536](https://abeeway-eu-eco.thingpark.com:50536) |  No | [https://dx-api.thingpark.io/getstarted/#/](https://dx-api.thingpark.io/getstarted/#/) |dev1-api |
