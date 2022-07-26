@@ -3,6 +3,7 @@ The Abeeway compact tracker is a multi-mode tracker that uses 3 replaceable AA f
 This tracker is equipped with a rugged waterproof casing which is designed to withstand harsh surroundings enabling seamless asset tracking and management in any industrial environment – whether it is for heavy duty assets, inventory or livestock.
 
 <img src="./images/CompactTrackerPlacement.jpg" border="0" />
+<img src="../../B-Feature-Topics/MicroTracker_C/images/image_azure_certification.png" border="0" />
 
 ## Key product features
 The Abeeway compact tracker provides you with the flexibility you need to adapt your tracker's behavior to your use case, selecting the right operating mode and geolocation technology.

@@ -3,6 +3,8 @@
 The Abeeway industrial tracker is a multi-mode tracker with large battery for long battery lifetime. It combines **GPS**, **Low Power-GPS (LP-GPS)**, **Wi-Fi**, **LoRaWAN®** and **BLE** radios with embedded sensors to support accurate **outdoor** and **indoor** geolocation.<br/>
 This tracker is equipped with the rugged casing which is designed to withstand harsh surroundings enabling seamless asset tracking and management in any industrial environment – whether it is for heavy duty assets, inventory or livestock.
 <img src="./images/Industrial-Tracker-980x1024_466x486.png" border="0" width="400"/>
+<img src="../../B-Feature-Topics/MicroTracker_C/images/image_azure_certification.png" border="0" />
+
 ## Key product features
 Abeeway industrial tracker provides you with the flexibility you need to adapt your tracker's behavior to your use case, selecting the right operating mode and geolocation technology.
 ### Multiple operating modes

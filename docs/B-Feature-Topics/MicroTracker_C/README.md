@@ -8,6 +8,7 @@ The **Micro USB charging/data cable** and lanyard are not included with the trac
 :::
 
 <img src="./images/MicrotrackerHWarrows_450x234.png" border="0" />
+<img src="./images/image_azure_certification.png" border="0" />
 
 ## Key product features
 Abeeway micro tracker provides you with the flexibility you need to adapt your tracker's behavior to your use case, selecting the right operating mode and geolocation technology.
