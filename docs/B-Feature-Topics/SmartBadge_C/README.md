@@ -37,7 +37,7 @@ It leverages Bluetooth scanning capabilities of the micro tracker to send BLE be
 * Water-spray resistant enclosure ( **IP65** )
 
 ### Standards and Certifications
-* LoRa Alliance: EU868, US915, AS923
+* LoRa Alliance: EU868, US915, AS923, AU915
 * Radio: EC, FCC, IC, TELEC, ATEX
 
 ::: warning WARNING

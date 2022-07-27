@@ -19,6 +19,7 @@ Abeeway industrial tracker provides you with the flexibility you need to adapt y
 ::: warning WARNING
 * For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
 * For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/#TrackersRefGuide).
+* The Industrial tracker is activated by default to make LoRaWAN joins indefinately. There is delay between different join attempts which range from 15 minutes to 1 hour.
 :::
 
 ### Geolocation technologies
@@ -34,7 +35,7 @@ It leverages the Wi-Fi access point scanning capabilities of the industrial trac
 * Dust-proof and powerful water jets ( **IP65** )
 
 ### Standards and Certifications
-* LoRa Alliance: EU868, US915, AS923
+* LoRa Alliance: EU868, US915, AS923, AU915
 * Radio: EC, FCC, IC, TELEC ATEX
 
 Abeeway power consumption estimation tool can be found [here](/D-Reference/DocLibrary_R/#abeeway-trackers) to estimate the battery lifetime in different environments.

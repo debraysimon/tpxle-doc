@@ -57,5 +57,5 @@ for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem fo
 * BLE based safe/hazard zone detection
 
 ### Standards and Certifications
-* LoRa Alliance: EU868, US915, AS923
+* LoRa Alliance: EU868, US915, AS923, AU915
 * Radio: EC, FCC, IC, TELEC ATEX

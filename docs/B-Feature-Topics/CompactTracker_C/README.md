@@ -20,6 +20,8 @@ The compact tracker is equipped with a magnet-activated reed switch (see figure 
 For MCU FW 2.2 and above, you need to carry out the following sequence with the magnet next to the reed switch:
 ::: warning WARNING
 * The sequence below can be carried out multiple times without any interruption
+* The latest compact trackers from the factory are activated by default in the join state. They need not be activated. However, if you do the above magnet sequence, it will restart the join procedure. You can also request [Abeeway support](../../../D-Reference/FAQ_R/) if the tracker is activated or not before being shipped to the customer.
+* Once the compact tracker is activated with magnet, it will make LoRaWAN joins indefinately. There is delay between different join attempts which range from 15 minutes to 1 hour.
 :::
 
 * A long activation of the reed switch (between 3 to 6 seconds)
@@ -59,7 +61,7 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
 
 ### Standards and certifications
 
-* LoRa Alliance: EU868, US915, AS923
+* LoRa Alliance: EU868, US915, AS923, AU915
 * Radio: EC, FCC, IC, TELEC
 * ATEX zone 2 (ordering option).
 
