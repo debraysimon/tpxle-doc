@@ -1,7 +1,7 @@
 # Abeeway trackers and location services documentation
 This page lists all the documentation available for Abeeway trackers, Abeeway Device Manager and the ThingPark X Location Engine.
 
-##Suggested journey through the documentation
+## Suggested journey through the documentation
 The complete documentation listed below can be a bit overwhelming. We recommend to read the documentation in the following order:
 1. Read the out-of-the box notice related to your specific tracker model (which will also provide convenient QR codes pointing to essential documentation).
 2. Read the training on the tracker button and led [User Interface](https://actilitysa.sharepoint.com/:f:/t/aby/EiWIqYpAehBKg3Py8I6X07oBFFxUWT3i2FVHYRX2MzXtow?e=ZFkhrM) and on [Command Line Interface (CLI)](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X). Many features require activation by button press sequences or CLI commands, and it is important to be familiar with both.
