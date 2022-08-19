@@ -1,8 +1,9 @@
 ## ThingPark X Location Engine Network Interface Translator setup guide
 
-The ThingPark X Location Engine Network Interface Translator (TPXLE-NIT) can be used with Abeeway devices connected through Helium and TTN networks.
-An instance of this interface translator is already hosted at Actility cloud and can be tested to connect Abeeway Devices to the [Abeeway Device Manager][3] application.
-The following steps explain how to set up this connectivity.
+The ThingPark X Location Engine Network Interface Translator (TPXLE-NIT) can be used to interface Abeeway trackers connected through 3rd party network servers (e.g. Helium or TTN) to ThingPark X Location Engine and the [Abeeway Device Manager][3].
+An instance of this interface translator is already hosted in the ThingPark cloud, but you can setup your own (contact us).
+
+The following steps explain how to use the hosted TPXLE-NIT.
 
 ### 1. Sign up for a new ThingPark Community account.
 
@@ -14,7 +15,7 @@ Log in with your new account to the ThingPark Community Console [here][2]
 
 ![102-tpcp-signIn](./images/102-tpcp-signIn.png)
 
-If you were able to log in, you can look around and get acquainted with the UI of ThingPark Enterprise. However, you don't need to use the console for anything now, since your goal is to use the ThingPark X Location Engine Network Interface Translator to connect to a 3rd party network server. This login was just requred to verify if your Community account is active. You can logout and leave this site without changing anything.
+If you were able to log in, you can look around and get acquainted with the UI of ThingPark Enterprise. However, you don't need to use the console for anything now, since your goal is to use the ThingPark X Location Engine Network Interface Translator to connect to a 3rd party network server. This login was just required to verify if your ThingPark Community account is active. You can now logout and leave this site without changing anything.
 
 ![105-tpcp-createDevice01](./images/105-tpcp-createDevice01.png)
 
@@ -52,25 +53,25 @@ Since you are planning to use a 3rd party network server, you dont have to provi
 
 ### 2. Set up the uplink message flow on the 3rd party LoRaWAN Network Server
 
-Create a new HTTP (webhook) integration on the Helium/TTN Console with the parameters described below.
+Create a new HTTP (webhook) integration on the 3rd party network server console with the parameters described below.
 
 #### Helium console:   
 Login to Helium Console [here][4]   
 ![401-helium-integration](./images/401-helium-integration_.png)
 
-In case you use your tracker with Abeeway Device Managger or with your own application server  
+In case you use your tracker with Abeeway Device Managger or with your own application server interfaced to ThingPark X Location Engine  
 create a new HTTP (webhook) integration with the following parameters:
   - Url (for Helium): `https://community.thingpark.io/tpxle-nit/uplink_from_helium`
   - Header: `x-client-id: community-api/<YOUR_THINGPARK_COMMUNITY_USER_ID>`
   - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
 
-In case you use your tracker with the Abeeway Mobile Application with *"Abeeway - Preview"* distributor  
-create a new HTTP (webhook) integration with the following parameters:
+In case you use your tracker with the Abeeway Mobile Application and you selected the *"Abeeway - Preview"* distributor after login 
+create a new HTTP (webhook) integration with the following parameters (the mobile app uses a specific realm):
   - Url (for Helium): `https://community.thingpark.io/tpxle-nit/uplink_from_helium`
   - Header: `x-client-id: <YOUR_MOBILE_APP_USER_ID>`
   - Header: `x-client-secret: <YOUR_MOBILE_APP_PASSWORD>`  
   - Header: `x-realm: le-lab`  
-  *Please note that the screensots below are not presenting the exact headers that need to be used for the Mobile App. Please add and set the headers that are described here.*
+  *Please note that the screenshots below are not presenting the exact headers that need to be used for the Mobile App. Please add and set the headers that are described here.*
 
 ![402-helium-integration-http](./images/402-helium-integration-http_.png)
 
@@ -78,19 +79,19 @@ After your integration is created, don't forget to create a new flow to associat
 ![helium_flow](https://user-images.githubusercontent.com/97470917/148819975-1c38c25e-b9d4-4046-8e74-11aeca14582c.PNG)
 
 #### TTN Console:   
-Login to TTN Console [here][5]
+Login to the TTN Console [here][5]
 
 Create a new API key: 
 ![501-ttn-xapi-key](./images/501-ttn-xapi-key_.png)
 
-In case you use your tracker with Abeeway Device Managger or with your own application server  
+In case you use your tracker with Abeeway Device Managger or with your own application server interfaced to ThingPark X Location Engine 
 create a new HTTP (webhook) integration with the following parameters:
   - Url (for TTN): `https://community.thingpark.io/tpxle-nit/uplink_from_ttn`
   - Header: `x-client-id: community-api/<YOUR_THINGPARK_COMMUNITY_USER_ID>`
   - Header: `x-client-secret: <YOUR_THINGPARK_COMMUNITY_PASSWORD>`  
 
-In case you use your tracker with the Abeeway Mobile Application with *"Abeeway - Preview"* distributor  
-create a new HTTP (webhook) integration with the following parameters:
+In case you use your tracker with the Abeeway Mobile Application and you selected the *"Abeeway - Preview"* distributor after login 
+create a new HTTP (webhook) integration with the following parameters (the mobile app uses a specific realm):
   - Url (for TTN): `https://community.thingpark.io/tpxle-nit/uplink_from_ttn`
   - Header: `x-client-id: <YOUR_MOBILE_APP_USER_ID>`
   - Header: `x-client-secret: <YOUR_MOBILE_APP_PASSWORD>`  
@@ -105,7 +106,7 @@ Don't forget to add your new API key as Download API key that you created earlie
 
 ### 3. Set up the downlink message flow from ThingPark X Location Engine to the 3rd party LoRaWAN Network Server
 
-LoRaWAN Downlink notifications are managed by the ThingPark X Location Engine (TPX LE) Binder Module, which you can coofirue through the DX Location API. You need to configure the Binder module so that tracker commands are forwarded to the Actility Network Interface Translator:
+LoRaWAN downlink commands (e.G. tracker configuration messages and on-demand location requests) are managed by the ThingPark X Location Engine (TPX LE) Binder Module, which you can coofirue through the DX Location API. You need to configure the Binder module so that tracker commands are forwarded to the Actility Network Interface Translator:
 
 Log in to ThingPark DX API with your ThingPark Community Credentials [here][6].
 
