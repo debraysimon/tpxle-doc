@@ -17,7 +17,7 @@ You need to create a ThingPark Location application and associate it with your A
 | **Tunnel Interface Authentication Key** |  e8-95-9e-26-fd-9b-ce-52-70-06-05-a9-cf-e7-4d-53 | 
 
 ::: warning Warning
-If you are using some other ThingPark Location platform, please refer to [ThingPark Location URLs](../../../D-Reference/ThingParkLocationURLs)
+If you are using some other ThingPark Location platform, please refer to [ThingPark Location URLs](../../D-Reference/ThingParkLocationURLs)
 :::
 
 4. Click **Save**.
