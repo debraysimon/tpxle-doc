@@ -1,6 +1,5 @@
-# Documentation library
-
-Access the ThingPark Location documentation resources.
+# Abeeway trackers and location services documentation
+This page lists all the documentation available for Abeeway trackers, Abeeway Device Manager and the ThingPark X Location Engine.
 
 ## Suggested journey through the documentation
 The complete documentation listed below can be a bit overwhelming. We recommend to read the documentation in the following order:
@@ -10,6 +9,7 @@ The complete documentation listed below can be a bit overwhelming. We recommend 
 4. You will need to tune the tracker's LoRaWAN transmit strategy to your specific use case and network. ADM provides default settings but if you want to optimize power consumption for a given private network you will need to make sure the the datarates used are as high as possible. [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) provides all the details.
 5. You will usually need to understand how to tune the embedded GNSS geolocation logic to optimize power consumption and tune it to your local GNSS reception conditions, or configure aggressive timeouts if you want the tracker to switch to WiFi or BLE geolocation as much as possible. [AN-016_GPS_LPGPS](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) provides the required reference.
 6. If you need to understand specific parameters when using the Abeeway Device Manager beyond the tooltip information, you can refer to the [Abeeway Trackers Reference Guide](https://actilitysa.sharepoint.com/:f:/t/aby/Ep4-XPaCPlpDkUrSP2_Iao0BLcCjcPyL_wiSe1aak0MzOg?e=5yPIEM). This document is not meant to be read end-to-end, but rather as a comprehensive reference for all commands and parameters.
+7. You can more information in [Abeeway Firmware trainings](../../D-Reference/DocLibrary_R/#abeeway-firmware-trainings) and [ThingPark X Location Engine trainings](../../D-Reference/DocLibrary_R/#thingpark-x-location-engine-trainings) below for more specific use cases.
 
 The rest of the documentation relates to specific use cases (e.g. BLE scanning, Covid proximity) or specific actions (Firmware update, debugging), and the titles are self-explanatory. You need to read them only if relevant to you.
 
