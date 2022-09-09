@@ -216,7 +216,7 @@ This table gives you quick access to the tracker commands. For more information 
                         Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started.
                     </li>
                     <li>
-                        Once inside the special sequence, do the following: 1 click, 3x click or more, 1x press (between 1 - 4 sec)
+                        Once inside the special sequence, do the following: 1 click, triple click or more, 1x press (between 1 - 4 sec)
                     </li>
                     <li>
                         If the sequence is successful, the tracker will play Bluetooth advertisement melody indicating the Bluetooth bond is removed for about 10 minutes (which is the default configuration)
