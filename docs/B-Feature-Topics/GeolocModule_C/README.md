@@ -6,11 +6,10 @@ The module contains 3 main chips: a **high end MCU STM32WB** associated with **B
 
 ## Key product features
 The module contains a high-performance multi-constellation GNSS receiver (GPS, GLONASS, Beidou, and Galileo) and supports a patented ultra Low-Power GPS (LP GPS) mode which can provide a network
-assisted first fix in 3 to 5 seconds from cold start at -157dBm, while requiring extremely low power (only
-GNSS correlators are active to collect Pseudo-range information). Indoor positioning can be achieved by
-combining the Bluetooth Low Energy receiver and the ultra-low power Wi-Fi receiver. The LoRa® radio supports the worldwide unlicensed sub-GHz spectrum also supports device-to-device time-of-flight ranging.
+assisted first fix in 3 to 5 seconds from cold start at -157dBm, while requiring extremely low power during geolocation. Indoor positioning can be achieved by
+combining the Bluetooth Low Energy receiver and the ultra-low power Wi-Fi receiver. The LoRaWAN® radio supports the worldwide unlicensed sub-GHz spectrum also supports device-to-device time-of-flight ranging.
 
-The highly configurable peripherals include multiple digital interfaces: I2C/SPI/UART/ USB/GPIOs, an ADC
+The highly configurable peripherals include multiple digital interfaces: I2C/SPI/UART/USB/GPIOs, an ADC
 channel input, and I/Os to support various power management schemes. These I/Os and the power of the
 STM32WB make it possible to use the module not only as fused location provider, but also as the main MCU
 for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem for cellular LPWAN support.
@@ -27,14 +26,14 @@ for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem fo
 ### Short range geolocation :
 * **Wifi passive sniffing** with 802.11 b/g. -90dBm sensitivity at 802.11 b. DQBSK (2Mb/s)
 * **BLE scan**: -90dBm in BLE mode
-* **Ranging feature:** LoRa® time-of-flight distance measurement between supporting devices
+* **Ranging feature:** LoRaWAN® time-of-flight distance measurement between supporting devices
 
 ### LPWAN and unlicensed RF:
-* 850-960MHz LoRa®/FSK transceiver and 2.4GHz sniffer/correlator: Semtech LR1110
+* 850-960MHz Semtech LR1110 LoRa®/FSK transceiver and 2.4GHz sniffer/correlator
 * High Efficiency 14dBm Tx path, +20dBm PA enabled output power
-* High performance LoRa® Rx: Down to -140dBm sensitivity, 4.6mA Rx current
+* High performance LoRa® Rx:-140dBm sensitivity, 4.6mA Rx current
 * LoRaWAN® Class A/B/C, all LoRaWAN regions in 850-960MHz spectrum.
-* Firmware update over the air, support for compressed delta firmware upgrade
+* Firmware update over the air support for compressed delta firmware upgrade
 * Optional Secure Element
 
 ### MCU platform:
@@ -50,7 +49,7 @@ for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem fo
 * Low-Power 32KHz clock, independent TCXOs for MCU and LR1110
 * Power supply & battery monitoring with energy usage monitor
 * Device management: RTC, BOR, timeouts, on chip temperature sensor
-* Communication with the Android/iOS over BLE interface
+* Communication with the Android/iOS over Bluetooth interface
 * BLE scan function for inventory of tools and accessories
 * Indoor BLE/WiFi fingerprinting with HERE Tracking (requires subscription)
 * Indoor BLE based geolocation with Quuppa Intelligent Location (requires Quuppa infrastructure)
@@ -58,4 +57,4 @@ for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem fo
 
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923, AU915
-* Radio: EC, FCC, IC, TELEC ATEX
+* Radio: EC, FCC, IC, TELEC, ATEX

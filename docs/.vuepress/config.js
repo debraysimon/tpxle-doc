@@ -368,7 +368,13 @@ module.exports = {
                 },
                 {
                     title: 'Documentation library',
-                    path: '/D-Reference/DocLibrary_R/',
+                    collapsable: true,
+                    children: [
+                        {
+                            title: 'Documentation library',
+                            path: '/D-Reference/DocLibrary_R/',
+                        },
+                    ],
                 },
                 {
                     title: 'Troubleshooting & Support',

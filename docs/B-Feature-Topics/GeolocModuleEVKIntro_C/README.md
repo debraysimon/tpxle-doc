@@ -1,6 +1,6 @@
 # Module Evaluation Kit Board (EVK) Introduction
 
-The EVK is the evaluation kit for the ultra-low power geolocation module co-developed by Murata and Abeeway. This kit allows to evaluate the geoloc module and develop the application firmware. The board gives a full access to all the functionalities of the module including: 
+The EVK is the evaluation kit for the ultra-low power geolocation module co-developed by [Murata](http://www.murata.com) and [Abeeway](http://www.abeeway.com). This kit allows to evaluate the geoloc module and develop the application firmware. The board gives a full access to all the functionalities of the module including: 
 
 * 3 radio systems accessible with SMA connectors: Sub GHz, 25GHz, GNSS
 * Digital interfaces such as I2C, LPUART, UART, SPI attached to a flash memory  
@@ -113,6 +113,7 @@ lora send aabbcc
 
 ## Documentation
 
+* [EVK First Flash instructions](https://actilitysa.sharepoint.com/:f:/t/aby/Evu48ACuFjhMmrAus6F6Kr8Bdn5Roz5ug5M67MHuVqpFqg?e=CYoNzT)
 * [EVK User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EiX2Y8y8xhFCnn4DE78bWtkBpk2KVE9mOXlT7qOH0DFyyA?e=YS9t6h)
 * [EVK Datasheet](https://actilitysa.sharepoint.com/:b:/t/aby/Eat2H1zqEbtEl8VBFMaOicIBk0q_FNdnkcAgFkY_unyISA?e=wda8xv)
 * [Flashing the firmware](https://actilitysa.sharepoint.com/:b:/t/aby/ET5cthwckEFBtsDKI7FViYYBvYnug1R_VcTYmS9Hnbn2-A?e=GBDMXU)
