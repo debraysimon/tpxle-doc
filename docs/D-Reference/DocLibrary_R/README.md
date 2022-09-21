@@ -34,6 +34,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Smart badge** | [Smart Badge Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 | **Industrial tracker**| [Industrial Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 | **Compact tracker** | [Compact Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
+| **Geolocation Module Discovery kit (EVK)** | [Geolocation Module Discovery kit Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 
 ### Certifications
 
