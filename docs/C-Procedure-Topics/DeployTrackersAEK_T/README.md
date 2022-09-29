@@ -63,7 +63,7 @@ You must change the mode of your industrial or compact tracker before and after 
    
     * Select the tracker for which you want to change the profile.<br/>
 
-    * Select the **DEFAULT** profile, and click **Apply** at the bottom of the page.
+    * Select the **DEFAULT** profile, and click **Update** at the bottom of the page.
     ::: tip Note
     Depending on the connectivity with the LoRaWAN® network and the periodic LoRaWAN® hearbeat messages, it can take some time for the mode to be changed. The mode change can take at least the periodicity of the LoRaWAN® heartbeat messages defined by the LoRa_Live parameter. However it will take more time if there are network connectivity issues.
     :::
