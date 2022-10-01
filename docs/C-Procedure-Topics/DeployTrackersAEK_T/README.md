@@ -28,7 +28,7 @@ If your tracker's button does not blink when pressed, either the tracker is swit
 Unlike the industrial tracker which is shipped from the warehouse in **JOIN** state, the compact tracker is sent in **shipping** state to avoid draining the battery.
 
 You must change the state of your compact tracker before and after using it.
-1. <html>You will need to use to the magnet to activate the compact tracker. For more details on compact tracker activation, click <a href="../../../B-Feature-Topics/CompactTracker_C/" style="color:teal">here</a></html> 
+1. <html>You will need to use to the magnet to activate the compact tracker. For more details on compact tracker activation, click <a href="../../B-Feature-Topics/CompactTracker_C/" style="color:teal">here</a></html> 
 
 2. If the compact tracker does not **JOIN** the network, repeat the previous step again.
 
@@ -39,7 +39,7 @@ You must change the mode of your industrial or compact tracker before and after 
 * Before starting the tracking, the testing or the integration with the industrial or compact tracker, you must change the mode to **motion tracking**, and change it back to **standby mode** when finished.
  
 
-1. <html> Log in to <a href="../../../B-Feature-Topics/AbeewayDeviceManager_C/" style="color:teal">Abeeway Device Manager</a> on the community platform using this URL: <a href="https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community" style="color:teal">here</a>. The URLs for other ThingPark X Location Engine platforms are <a href="../../../D-Reference/ThingParkLocationURLs/" style="color:teal">here</a> </html>
+1. <html> Log in to <a href="../../B-Feature-Topics/AbeewayDeviceManager_C/" style="color:teal">Abeeway Device Manager</a> on the community platform using this URL: <a href="https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community" style="color:teal">here</a>. The URLs for other ThingPark X Location Engine platforms are <a href="../../D-Reference/ThingParkLocationURLs/" style="color:teal">here</a> </html>
 
 2. In the **Select Devices** column, select the tracker you want to change the mode, and click **Select**.
 
@@ -51,7 +51,7 @@ You must change the mode of your industrial or compact tracker before and after 
 
 4. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
 
-    * <html> <b>MCU Firmware</b> :  If need be, gives the tracker firmware version to refer to the relative <a href="../../../D-Reference/DocLibrary_R/#reference-guides-and-tools" style="color:teal">Asset Tracker Firmware Reference Guide </a> to know the supported features. </html>
+    * <html> <b>MCU Firmware</b> :  If need be, gives the tracker firmware version to refer to the relative <a href="../../D-Reference/DocLibrary_R/#reference-guides-and-tools" style="color:teal">Asset Tracker Firmware Reference Guide </a> to know the supported features. </html>
 
     * **First Position** and **Last Position** : When in standby mode, the tracker sends LoRaWAN® heartbeat messages periodically which can be used to get battery information, mode, firmware version, and so on.
     * **Last Mode** : Current mode of the tracker.
