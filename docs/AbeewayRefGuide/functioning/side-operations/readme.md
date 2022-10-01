@@ -2,7 +2,7 @@
 
 Whatever the operating mode (except OFF mode), the trackers support **side operations** as shown in the following table:
 
-|Side operations (1)    |Trackers|User Interface needed|
+|Side operations <sup>(1)</sup>    |Trackers|User Interface needed|
 |----------------------|-----------------|-------------------------|
 |**Periodic positions reporting**  |All              |          -              |
 |**Positions on demand**           |All              |          -              |
@@ -16,7 +16,7 @@ Whatever the operating mode (except OFF mode), the trackers support **side opera
 
 
 :::tip Note
-\(1\) All side operations can be accrued.
+<sup>(1)</sup> All side operations can be accrued.
 :::
 
 ## Periodic position message reporting
@@ -25,7 +25,7 @@ The device sends additional positions at the *periodic_pos_period* frequency. Th
 
 This periodic position reporting uses the *geoloc_method* geolocation strategy.
 
-:::tip Notes
+:::tip Note
 1.  If the selected *geoloc_method* uses GPS or LPGPS, the position is sent at the end of *gps_timeout or agps_timeout* delay (even if the acquisition is finished before)
 2.  A periodic position cannot be interrupted by a regular acquisition (triggered by the operational mode).
 :::
@@ -84,7 +84,7 @@ If the BLE geozoning feature is activated and the *collection_scan_type* paramet
 ## BLE Beaconing
 
 The purpose of this feature is to configure the tracker as a BLE beacon. The supported beaconing types are:
--   QUUPPA allowing an accurate indoor geolocation
+-   [QUUPPA](https://www.quuppa.com/) allowing an accurate indoor geolocation
 -   Eddystone
 -   IBeacon
 -   altBeacon

@@ -3,7 +3,7 @@
 This document describes in detail the usage of Asset tracker **MCU application Firmware 2.3** that runs on Abeeway trackers: Micro tracker, Compact tracker, Industrial tracker and Smart badge.
 
 ::: warning WARNING
-* You must ensure that the MCU Firmware reference Guide matches the MCU Firmware version running on the tracker. Please refer to [Idetifiying tracker firmware](D-Reference/IdentifyInstalledFirmware/) to know the MCU and BLE firmware running on the tracker.
+* You must ensure that the MCU Firmware reference Guide matches the MCU Firmware version running on the tracker. Please refer to [Idetifiying tracker firmware](../../D-Reference/IdentifyInstalledFirmware/) to know the MCU and BLE firmware running on the tracker.
 * Please ensure that the MCU and BLE Firmware version is compatible with each other and with the tracker model. You can find this information from [here](../../D-Reference/IdentifyTrackerModel/)
 * For older versions of MCU Firmware Reference guides, see [here](https://actilitysa.sharepoint.com/:f:/t/aby/Ep4-XPaCPlpDkUrSP2_Iao0BLcCjcPyL_wiSe1aak0MzOg?e=5yPIEM)
 :::

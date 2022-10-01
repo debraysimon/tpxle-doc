@@ -2,9 +2,9 @@
 
 -   **Multiple operating modes**
     -   **Standby**: LoRaWAN™ heartbeat only
-    -   **Motion tracking**: Get the tracker position at a given cycle when motion is detected.
-    -   **Permanent tracking**: Get permanent tracker positions .
-    -   **Start/End motion tracking**: Get position messages during motion start and end events.
+    -   **Motion tracking**: Get the tracker position at a given cycle when motion is detected
+    -   **Permanent tracking**: Get periodic tracker position irrespective of the motion
+    -   **Start/End motion tracking**: Get position messages during motion start and end events
     -   **Activity tracking**: Monitor activity rate with embedded  sensors.
     -   **OFF**: device stopped
 -   **Position on demand**: Receive the tracker position only when requested (very low power operating mode).
@@ -17,8 +17,8 @@
 -   **Multiple geolocation technologies**:
     -   **GPS**: Precise outdoor position.
     -   **Low power GPS (LPGPS)**: Get quick position outdoors and daylight indoor conditions.
-    -   **WIFI**: Indoors positioning and urban area.
-    -   **BLE**: Indoors positioning, (with beacons filtering capability)
+    -   **WIFI**: Indoor positioning and urban area.
+    -   **BLE**: Indoor positioning (with Bluetooth beacons filtering capability)
 -   **Buzzer and LEDs (micro trackers and smart badge only)**
 -   **Reed-switch interface (compact tracker only)**
 -   **GNSS constellation selection**

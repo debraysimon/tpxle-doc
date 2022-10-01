@@ -20,7 +20,7 @@ with a range of 1 to 111, the shock detection threshold can be configured betwee
 Note that the 1 in the equation has been introduced to remove the terrestrial gravity.
 
 :::tip Note
-The sensitivity configured via the *shock_detection* parameter must be lower than the one configured with the *motion_sensitivity parameter*, otherwise all motions events are considered as shocks. Refer to [Accelerometer parameters](/downlink-messages/parameters-configuration/#accelerometer-parameters) for more details about this parameter.
+The sensitivity configured via the *shock_detection* parameter must be lower than the one configured with the *motion_sensitivity parameter*, otherwise all motions events are considered as shocks. Refer to [Accelerometer parameters](/AbeewayRefGuide/downlink-messages/parameters-configuration/#accelerometer-parameters) for more details about this parameter.
 :::
 
 ### Examples

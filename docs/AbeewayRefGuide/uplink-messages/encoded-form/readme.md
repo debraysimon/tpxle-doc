@@ -16,7 +16,6 @@ float mt_value_decode(uint32_t value, float **lo**, float **hi**, unsigned **nbi
 
 :::tip Notes
 
-1. Values calculated using this formula provide a truncated value rounding within a range of step_size. Decoded value\<Real value\<decoded value + step_size 
-
+1. Values calculated using this formula provide a truncated value rounding within a range of step_size. Decoded value \< Real value \< decoded value + step_size.
 2. **if real value \< step size, then a value of 0 is decoded**.
 :::

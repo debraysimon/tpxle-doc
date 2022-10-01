@@ -1,6 +1,6 @@
 # Parameters configuration
 
- Any parameter can be remotely modified with a downlink LoRaWAN^TM^ message. Such messages are built according to the following format:
+ Any parameter can be remotely modified with a downlink LoRaWAN message. Such messages are built according to the following format:
 
 |  Byte 0 |  Byte 1  |  Byte2            |  Byte 3-6                |
 |---------|----------|-------------------|--------------------------|
@@ -13,7 +13,7 @@
 |  Byte 0  |   Byte 1     |  Byte 2   |  Byte 3-6 |  Byte 7  |  Byte 8-11 |
 |    0x0B  |  **ACK** | **Parameter ID 1** | **New value 1** [31-00]  | **Parameter ID 1** |  **New value 1** [31-00]  |
 
- **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
+ **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/AbeewayRefGuide/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
 
  The table below sum up all parameters and their identifiers (ID). The parameters described as "reserved" are not used for this tracker.
 
@@ -92,12 +92,12 @@
 |              |          |            |             | 1.  Sleep    |
 |              |          |            |             | 2.  Economic |
 |              |          |            |             | 3.  Intensive
-|Set dynamic profile| 0xF6 |  none      |  0 - 3     |set the dynamic profile of the tracker|
+|Set dynamic profile| 0xF6 |  none      |  0 - 3     |Set the dynamic profile of the tracker|
 |              |          |            |             | 0.  None     |
 |              |          |            |             | 1.  Sleep    |
 |              |          |            |             | 2.  Economic |
 |              |          |            |             | 3.  Intensive|
-|ul_period     |  0x00    |  second    |15(1) - 86400|Period of position or activity messages in motion, start/end, activity or permanent operating mode| 
+|ul_period     |  0x00    |  second    |15<sup>(1)</sup> - 86400|Period of position or activity messages in motion, start/end, activity or permanent operating mode| 
 |lora_period   |  0x01    |  second    |300 - 86400  |Period of LoRa heartbeat messages|
 |geoloc_sensor |  0x05    |  none      |  0 - 12    |Geolocation sensor profile used in main operating mode and SOS:|
 |           |          |           |           | 0.  WIFI only | 
@@ -113,14 +113,15 @@
 |           |          |           |           | 10. BLE scan only   |
 |           |          |           |           | 11. BLE-GPS only (BLE then GPS if BLE fails in one geolocation cycle)|
 |           |          |           |           | 12. BLE-LPGPS only (BLE then LPGPS if BLE fails in one geolocation cycle)      |
-|**motion_nb_pos**|0x08|  none     |  0 - 20   |This parameter has been updated in FW2.3 In motion tracking mode: additional positions are done when the device goes to static (after motion_duration period). If set to 0, no positions are added In motion start/end mode: Number of positions to report during motion events    |
+|**motion_nb_pos**|0x08|  none     |  0 - 20   |This parameter has been updated in FW2.3. In motion tracking mode: additional positions are done when the device goes to static (after motion_duration period). If set to 0, no positions are added In motion start/end mode: Number of positions to report during motion events    |
 |motion_duration|  0x17| second  |60 - 3600    |Period of time required to detect the end of a motion |
 |**sos_period**|  0x75   |  second  |  15 - 300  |SOS uplink period in seconds  |
 
 :::tip Note
-(1) If a small *ul_period* value is set the following issue can be encountered:
-    -   Uplink timing not respected (due to the duty cycle)
-    -   If it is a geolocation mode using GPS or LPGPS, It can be difficult for the device to acquire a position
+<sup>(1)</sup> If a small *ul_period* value is set the following issue can be encountered:</br>
+
+*   Uplink timing not respected (due to the duty cycle)
+*   If it is a geolocation mode using GPS or LPGPS, It can be difficult for the device to acquire a position
 :::
 
 **Example**:
@@ -153,10 +154,10 @@ The parameters for others side operation are described in dedicated sections.
 |           |          |           |           | 5.  BLE scan only|   
 |           |          |           |           | 6.  BLE-GPS only (BLE then GPS if BLE fails in one geolocation cycle)|   
 |           |          |           |           | 7.  BLE-LPGPS only (BLE then LPGPS if BLE fails in one geolocation cycle)| 
-|periodic_activity_period|0x16    |  second    |0, 1800 - 86400|Period of the periodic activity report The value must be a multiple of 6(1) When set to 0, the reporting is disabled|
+|periodic_activity_period|0x16    |  second    |0, 1800 - 86400|Period of the periodic activity report. The value must be a multiple of 6<sup>(1)</sup>. When set to 0, the reporting is disabled|
 
 :::tip Note
-(1) If a wrong value is set, it is automatically updated with an upper value that is a multiple of 6.
+<sup>(1)</sup> If a wrong value is set, it is automatically updated with an upper value that is a multiple of 6.
 :::
 
 **Example**:
@@ -197,7 +198,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 |Parameter|ID|Unit|Range|Description|
 |-------------|------|----------|------------|-------------|
-|gnss_constellation|0x2A|none   |  0 - 6    |Configure the GNSS constellations used by the GPS chip to compute a position: |
+|gnss_constellation|0x2A|none   |  0 - 6    |Configure the GNSS constellations used by the GPS chip to compute a position<sup>(1)</sup>: |
 |              |          |            |             | 0. GPS only             |
 |              |          |            |             | 1.  GLONASS only    |
 |              |          |            |             | 2.  GPS and GLONASS |
@@ -205,7 +206,6 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 |              |          |            |             | 4.  GPS, GLONASS and Galileo |
 |              |          |            |             | 5.  Beidou only |
 |              |          |            |             | 6.  GPS and Beidou |
-|              |          |            |             |**If a value is set out of the range, configuration 4 is used**|
 |collection_nb_entry| 0x22|  none      |  1 - 20     |Maximum number of elements to report in collection payloads after a scan.  |
 |gps_timeout|0x09|second|30 - 300|Timeout used for GPS geolocation mode before sending a message. (GPS position or timeout)|
 |gps_ehpe|0x0B|meter|0 - 100|Acceptable GPS horizontal error for GPS geolocation|
@@ -214,6 +214,11 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 |gps_t0_timeout|0x67|seconds|0, 1 - 300|Time in seconds to abort the GPS or LPGPS geolocation when not enough satellites are in view. The condition is at least one satellite with a C/N greater than 15 at the end of the configured period. When 0, the timeout doesn’t apply|
 |gps_fix_timeout|0x68|seconds|0, 1 - 300|**GPS**: Abort the current GPS geolocation if there is no GPS fix at the end of this duration. **LPGPS**: get back to LPGPS geolocation if there is no GPS fix at the end of this duration. When 0, the timeout doesn’t apply|
 |agps_timeout|0x0A|second|15 - 250|Timeout used for LPGPS geolocation mode before sending the geolocation message|
+
+:::tip Note
+<sup>(1)</sup> If a value is set out of the range, configuration 4 is used
+:::
+
 
 **Example**:
 
@@ -227,40 +232,40 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 |Parameter|ID|Unit|Range|Description|
 |-------------|------|----------|------------|-------------|
-|transmit_strat(1)(2)|0x0E|none|0 - 5|Transmit strategy in motion: |
+|transmit_strat<sup>(1)(2)</sup>|0x0E|none|0 - 5|Transmit strategy in motion: |
 |              |          |            |             | 0. Single fixed. Single TX. Using the data rate configured in default_datarate parameter             |
 |              |          |            |             | 1. Single random: Single TX. Using a random data rate within [DR0-DR5].    |
 |              |          |            |             | 2. Dual random: First TX using a random data rate within [DR4-DR5], next TX using a random data rate within [DR0-DR3]. |
 |              |          |            |             | 3. Dual fixed: First TX using a random data rate within [DR4-DR5]. Next TX Using the data rate configured in default_datarate parameter. (not recommended) |
 |              |          |            |             | 4. Reserved, internal use only. |
-|              |          |            |             | 5. Activate the strategy defined with the commands 0x0B050E00000005 (enable custom strategy) and 0x0B061E00180602 (to set the custom strategy) should be sent. (see thetable below to see the bitmap) parameter|
-|transmit_strat_custom(3)(2)|0x1E|none|0 –0xFFFFFF|bit 0: ADR activation in static (0: enabled)  |
-|              |          |            |             |bit 1: Transmission type:•	0: single transmission •	1: double transmission|
-|              |          |            |             |bit 2-4: First transmission, data rate distribution: •	0: Random •	1: Bell Curve •	2: Ring|
-|              |          |            |             |bit 5-7: Second transmission, data rate distribution: •	0: Random •	1: Bell Curve •	2: Ring|
-|              |          |            |             |bit 8-15: Bitmap representing each data rate to select for the first transmission (from DR0 to DR7) (4) bit 8 is DR0, then Bit 9, DR1 and so on.|
-|              |          |            |             |bit 16-23: Bitmap representing each data rate to select for the second transmission (from DR0 to DR7)(4). bit 16 is DR0, then Bit 17, DR1 and so on.|
-|**default_datarate**|0x78|none|-1, 0 - 7|-1: use the provisioned data rate. (6) 0-7: set the corresponding data rate. If the configured data rate is not supported by the Lora MAC. The min data rate supported is used instead|
-|confirmed_ul_bitmap(5)|0x12|none|0 –0xFFFF|Bitmap enabling the LoRaWANTM confirmation of specific type of uplink message|
+|              |          |            |             | 5. Activate the strategy defined with the *custom_transmit_strat* parameter|
+|transmit_strat_custom<sup>(3)(2)</sup>|0x1E|none|0 –0xFFFFFF|bit 0: ADR activation in static (0: enabled)  |
+|              |          |            |             |bit 1: Transmission type:</br>0: single transmission</br>1: double transmission|
+|              |          |            |             |bit 2-4: First transmission, data rate distribution:</br>0: Random </br>1: Bell Curve</br>2: Ring|
+|              |          |            |             |bit 5-7: Second transmission, data rate distribution:</br>0: Random</br>1: Bell Curve</br>2: Ring|
+|              |          |            |             |bit 8-15: Bitmap representing each data rate to select for the first transmission (from DR0 to DR7)<sup>(4)</sup> bit 8 is DR0, then Bit 9, DR1 and so on.|
+|              |          |            |             |bit 16-23: Bitmap representing each data rate to select for the second transmission (from DR0 to DR7)<sup>(4)</sup>. bit 16 is DR0, then Bit 17, DR1 and so on.|
+|default_datarate|0x78|none|-1, 0 - 7|-1: use the provisioned data rate.<sup>(6)</sup> </br>0-7: set the corresponding data rate.</br> If the configured data rate is not supported by the Lora MAC. The min data rate supported is used instead|
+|confirmed_ul_bitmap(5)|0x12|none|0 –0xFFFF|Bitmap enabling the LoRaWAN confirmation of specific type of uplink message|
 |confirmed_ul_retry(5)|0x13|none|0 – 8|The number of retries for each confirmed uplink when the confirmation is not received|
 |network_timeout_check|0x1F|seconds|0, 86400 – 5184000|Time without received downlink, before asking a link check request. 0: No timeout check is done|
 |network_timeout_reset|0x20|seconds|0, 21600 – 2592000|Time after network_timeout_check without received downlink before the tracker resets. 0: feature deactivated|
 
 :::tip Notes
 
-(1) Refer to the section [LoRaWAN&trade; uplink transmission](/uplink-messages/lorawan-ul-transmission/readme.md) for more details.
+<sup>(1)</sup> Refer to the section [LoRaWAN&trade; uplink transmission](/AbeewayRefGuide/uplink-messages/lorawan-ul-transmission/readme.md) for more details.
 
-(2) For trackers configured in US region:
-    -   DR5 is not used, and it is replaced by DR4.
+<sup>(2)</sup> For trackers configured in US region:</br>
+    -   DR5 is not used, and it is replaced by DR4.</br>
     -   If the selected data rate (DR) is not valid due to the payload length, the payload is sent using DR+1
 
-(3) Refer to the application note  [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more data.
+<sup>(3)</sup> Refer to the application note  [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more data.
 
-(4) If no data rate is selected, the default will be the minimum available for the current band.
+<sup>(4)</sup> If no data rate is selected, the default will be the minimum available for the current band.
 
-(5) Refer to the section [Confirmed uplink](/uplink-messages/lorawan-ul-transmission/readme.md) for more details
+<sup>(5)</sup> Refer to the section [Confirmed uplink](/AbeewayRefGuide/uplink-messages/lorawan-ul-transmission/readme.md) for more details
 
-(6) Value provisioned in the device during the manufacturing process
+<sup>(6)</sup> Value provisioned in the device during the manufacturing process
 :::
 
 **Examples**:
@@ -292,7 +297,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 |Parameter|ID|Unit|Range|Description|
 |-------------|------|----------|------------|-------------|
-|ble_beacon_cnt|0x0F|none|1 - 4|This parameter provides the maximum number of BLE beacons to provide in payload (1)|
+|ble_beacon_cnt|0x0F|none|1 - 4|This parameter provides the maximum number of BLE beacons to provide in payload <sup>(1)</sup>|
 |ble_beacon_timeout|0x10|second|1 - 5|BLE scan duration|
 |ble_rssi_filter|0x1A|dBm|-100 - -40|RSSI value to filter BLE beacons with BLE-GPS geolocation mode. (negative value, refer to the section Two’s complement Encoding for information for the encoding).|
 |position_ble_filter_type|0x23|  none|  0 - 6    |Beacon type to scan and report when position Scan Type is BLE:|
@@ -307,30 +312,30 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 |position_ble_filter_main_2|0x4F|none|0x0 –0xFFFFFFFF|Second part of the main BLE filter.|
 |position_ble_filter_sec_value|0x50|none|0x0 –0xFFFFFFFF|BLE secondary value|
 |position_ble_filter_sec_mask|0x51|none|0x0 –0xFFFFFFFF|BLE secondary mask|
-|position_ble_report_type|0x52|none|  0 - 3    |Configure the BLE data to report in payloads. (2)|
+|position_ble_report_type|0x52|none|  0 - 3    |Configure the BLE data to report in payloads.<sup>(2)</sup>|
 |           |          |           |           | 0.  MAC address  | 
 |           |          |           |           | 1.  Short ID   |    
 |           |          |           |           | 2.  Long ID |    
-|           |          |           |           | 3.  Short beacon ID including the Major and Minor field (iBeacon only) (4)|
+|           |          |           |           | 3.  Short beacon ID including the Major and Minor field (iBeacon only) <sup>(4)</sup>|
 
 ### BLE communication parameters
 
 |Parameter|ID|Unit|Range|Description|
 |-------------|------|----------|------------|-------------|
-|ble_cnx_adv_duration|0x6F|seconds|30 – 18000(5)|Time in seconds for BLE advertisement duration. (3)|
+|ble_cnx_adv_duration|0x6F|seconds|30 – 18000<sup>(5)</sup>|Time in seconds for BLE advertisement duration.<sup>(3)</sup>|
 |delete_ble_bond|0xF8|second|0|Delete BLE bond|
 
 :::tip Notes
 
-(1) This parameter has no effect with long ID BLE payloads: only one beacon is sent.
+<sup>(1)</sup> This parameter has no effect with long ID BLE payloads: only one beacon is sent.
 
-(2) Depends on the value of *position_ble_filter_type* parameter. Refer to the dedicated application note [AN-006_Position_BLE_filtering](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details.
+<sup>(2)</sup> Depends on the value of *position_ble_filter_type* parameter. Refer to the dedicated application note [AN-006_Position_BLE_filtering](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details.
 
-(3) refer to the section [BLE communication interface](/ble-communication-interface/readme.md) for more details.
+<sup>(3)</sup> refer to the section [BLE communication interface](/AbeewayRefGuide/ble-communication-interface/readme.md) for more details.
 
-(4) In the case where the parameter *position_ble_filter_type* is not iBeacon and the *position_ble_report_type* is set to the new value 3), the tracker will behave as if the *position_report_type* = 1 (short beacon ID).
+<sup>(4)</sup> In the case where the parameter *position_ble_filter_type* is not iBeacon and the *position_ble_report_type* is set to the new value 3), the tracker will behave as if the *position_report_type* = 1 (short beacon ID).
 
-(5) The max value is 18000 seconds with BLE firmware version 3.3.1 or above, 600 seconds for BLE firmware version 3.3.0.
+<sup>(5)</sup> The max value is 18000 seconds with BLE firmware version 3.3.1 or above, 600 seconds for BLE firmware version 3.3.0.
 :::
 
 **Example**:
@@ -352,24 +357,24 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 |           |          |           |           |bit1:	Activate very long button press to switch to off mode |    
 |           |          |           |           |bit2:	Deprecated, to not used|    
 |           |          |           |           |bit3:	Send a configuration uplink message in response to a configuration modification downlink.|     
-|           |          |           |           |bit4: WIFI payload with Cypher (0) or without Cypher (1) (1)|
-|           |          |           |           |bit5: Activate BLE connectivity interface at the start time (2)|   
+|           |          |           |           |bit4: WIFI payload with Cypher (0) or without Cypher<sup>(1)</sup> |
+|           |          |           |           |bit5: Activate BLE connectivity interface at the start time<sup>(2)</sup> |   
 |           |          |           |           |bit6: First WIFI scan when geolocation starts. If disabled (0), WIFI position is replaced by a geoloc start message|
 |           |          |           |           |bit7: LED blinks when a GPS fix is received. Set to enable the feature, reset to disable|
 |           |          |           |           |bit8: Set to enable the sending of a motion start message |
 |           |          |           |           |bit9:	Set to enable the sending of a motion end message|
-|           |          |           |           |bit10: Set to enable a new OTA join when leaving the mode OFF (3)|
-|           |          |           |           |bit11: Asymmetric BLE pairing: 0 accepted, 1 rejected(4) (5|
-|           |          |           |           |bit12: Set to enable Long WIFI payload with up to 12 BSSID(6) |
+|           |          |           |           |bit10: Set to enable a new OTA join when leaving the mode OFF<sup>(3)</sup> |
+|           |          |           |           |bit11: Asymmetric BLE pairing: 0 accepted, 1 rejected<sup>(4)(5)</sup>|
+|           |          |           |           |bit12: Set to enable Long WIFI payload with up to 12 BSSID<sup>(6)</sup> |
 |           |          |           |           |bit13: Set to enable Collection Long Report|
-|           |          |           |           |bit14: Set to enable the autostart of the tracker when leaving shipping state (7)|
-|           |          |           |           |bit15: Set to forbid the mode OFF. (8)|
+|           |          |           |           |bit14: Set to enable the autostart of the tracker when leaving shipping state<sup>(7)</sup> |
+|           |          |           |           |bit15: Set to forbid the mode OFF<sup>(8)</sup>|
 |           |          |           |           |bit16: Set to enable a melody during SOS|
-|           |          |           |           |bit17: Set to enable the automatic data rate selection in case of too long payloads (9) (10)|
+|           |          |           |           |bit17: Set to enable the automatic data rate selection in case of too long payloads<sup>(9)(10)</sup>|
 |           |          |           |           |**bit18**: Set to enable extended position payload, (type=0x0E), reset to use classic payload (type=0x03)|
 |           |          |           |           |bit19: Reserved, do not used|
 |           |          |           |           |bit 20: Enable the CLI over BLE|
-|battery_capacity(11)|0x28|mAh|-1, 0, 1 - 65535|Battery setting:|
+|battery_capacity<sup>(11)</sup>|0x28|mAh|-1, 0, 1 - 65535|Battery setting:|
 |           |          |           |           |-1: Used provisioned value. |
 |           |          |           |           |0: Rechargeable battery.|
 |           |          |           |           |1-65535: Capacity of the primary battery|
@@ -377,34 +382,44 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 :::tip Notes
 
-1.  Before V1.7 MCU application firmware version, WIFI position payloads were all encrypted, this parameter is for backward compatibility only and only non-cyphered payload should be use in new application.
-2.  If the bit is set, the advertising is activated when the tracker is turned on or with a debug downlink.
-3.  Force a new join to the LoRaWAN&trade; network when the tracker is turned on after it was in OFF mode due to a downlink or a user action.
-4.  It is only useful when the tracker is used BLE bonded with a mobile  or a tablet.
-5.  When this bit is modified, the buzzer plays a melody according to  the BLE bonding state:
+<sup>(1)</sup>  Before V1.7 MCU application firmware version, WIFI position payloads were all encrypted, this parameter is for backward compatibility only and only non-cyphered payload should be use in new application
+
+<sup>(2)</sup>  If the bit is set, the advertising is activated when the tracker is turned on or with a debug downlink
+
+<sup>(3)</sup>  Force a new join to the LoRaWAN&trade; network when the tracker is turned on after it was in OFF mode due to a downlink or a user action.
+
+<sup>(4)</sup>  It is only useful when the tracker is used BLE bonded with a mobile  or a tablet
+
+<sup>(5)</sup>  When this bit is modified, the buzzer plays a melody according to  the BLE bonding state:
     -   Tracker bonded: BLE bond success melody.
     -   Tracker not bonded: BLE bond on going melody.
-6.  Refer to the application note [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) to know how to set DR working with long payloads.
-7.  This bit is automatically set for compact and industrial tracker and can't be disabled.
-8.  The tracker switches to standby mode if the user sends downlink to change to OFF mode, or if a very long button press is done.
-9.  If the bit 17 is set to 1, and t*ransmit_strat* =1,2,4 or 5 then the tracker adapts the LoRaWAN&trade; data rate for long payloads (so it is possible that the transmit strategy is not respected).
-10. If bit 17 is set to 0, then the tracker does not adapt the LoRaWAN data rate for long payloads. In this case if the selected data rate does not support the payload size, then it is discarded
-11. This parameter should not be modified to have the right battery percentage in the uplinks. Provisioned value is always used
+
+<sup>(6)</sup>  Refer to the application note [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) to know how to set DR working with long payloads.
+
+<sup>(7)</sup>  This bit is automatically set for compact and industrial tracker and can't be disabled
+
+<sup>(8)</sup>  The tracker switches to standby mode if the user sends downlink to change to OFF mode, or if a very long button press is done.
+
+<sup>(9)</sup>  If the bit 17 is set to 1, and t*ransmit_strat* =1,2,4 or 5 then the tracker adapts the LoRaWAN&trade; data rate for long payloads (so it is possible that the transmit strategy is not respected)
+
+<sup>(10)</sup> If bit 17 is set to 0, then the tracker does not adapt the LoRaWAN data rate for long payloads. In this case if the selected data rate does not support the payload size, then it is discarded
+
+<sup>(11)</sup> This parameter should not be modified to have the right battery percentage in the uplinks. Provisioned value is always used
 :::
 
 |Parameter|ID|Unit|Range|Description|
 |-------------|------|----------|------------|-------------|
 |reed_switch_configuration|0x29|none|0 – 3|Reed switch action:|
 |           |          |           |           |0.	Disable the reed switch.| 
-|           |          |           |           |1.	A special sequence causes a device reset. (12)|    
+|           |          |           |           |1.	A special sequence causes a device reset<sup>(12)</sup> |    
 |           |          |           |           |2.	Behave as the button.|    
-|           |          |           |           |3.	Start BLE advertising using the special sequence (12)|
+|           |          |           |           |3.	Start BLE advertising using the special sequence<sup>(12)</sup> |
 |**button_mapping**|0x77|none|0 – 0x00086666|Configure the button action|     
 |           |          |           |           |Bit0-3:	Button **long press** action |
 |           |          |           |           |Bit4-7:	Button **short press** action|   
 |           |          |           |           |Bit8-11: **2 short button presses** action|
 |           |          |           |           |Bit12-15: **3 or more short button presses** action|
-|           |          |           |           |Bit16-19: Button **long press** duration in seconds, range is [1:8](13)|
+|           |          |           |           |Bit16-19: Button **long press** duration in seconds, range is [1:8]<sup>(13)</sup>|
 |           |          |           |           |**Possible actions are listed below, coded on 4 bits:**|
 |           |          |           |           |0.	No action| 
 |           |          |           |           |1.	Battery level is shown with the LEDs. |    
@@ -419,8 +434,9 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 |pw_stat_period|0x02|second|0, 300 - 604800|No more used| 
 
 :::tip Notes
-1.  Special sequence is described in [Reed switch interface](#reed-switch-interface) section.
-2.  If set to 0, the long press duration is 1 second, if set to a value above 8, the long press duration is 8 seconds
+<sup>12</sup>  Special sequence is described in [Reed switch interface](/AbeewayRefGuide/functioning/user-interfaces/#reed-switch-interface) section.
+
+<sup>13</sup>  If set to 0, the long press duration is 1 second, if set to a value above 8, the long press duration is 8 seconds
 :::
 
 **Example 1**:
@@ -546,7 +562,7 @@ Refer to the application note [AN-007_proximity feature](https://actilitysa.shar
 |           |          |           |           |2. Critical angle detection + Angle deviation detection |    
 |           |          |           |           |3. Critical angle detection triggered on shock detection|
 |angle_ref_acq|0x55|none|0 – 3|Reference acquisition mode for Angle detection feature.|
-|           |          |           |           |0. Manual (2)| 
+|           |          |           |           |0. Manual<sup>(2)</sup>| 
 |           |          |           |           |1. Configured |    
 |           |          |           |           |2. Automatic |    
 |           |          |           |           |3. Assisted|
@@ -555,7 +571,7 @@ Refer to the application note [AN-007_proximity feature](https://actilitysa.shar
 |angle_ref_acc_z|0x58|mG|-1000 – 1000, 0xFFFF|Z axis for reference orientation vector. 0xFFFF means this axis is ignored.|
 |angle_critical|0x59|degrees|5 -175|Critical angle|
 |angle_critical_hyst|0x5A|degrees|0 – 180|Critical angle hysteresis.|
-|angle_report_mode|0x5B|none|0 – 0x1F|Angle Detection events to report in LoRaWANTM messages:|
+|angle_report_mode|0x5B|none|0 – 0x1F|Angle Detection events to report in LoRaWAN messages:|
 |           |          |           |           |Bit 0: normal → critical.| 
 |           |          |           |           |Bit 1: critical → normal.|    
 |           |          |           |           |Bit 2: learning → normal.|    
@@ -567,13 +583,14 @@ Refer to the application note [AN-007_proximity feature](https://actilitysa.shar
 |angle_falling_time|0x5F|seconds|0 – 3600|Falling time phase duration, in seconds.|
 |angle_learning_time|0x60|seconds|0 – 3600|Learning time phase duration, in seconds. In automatic reference acquisition this is also the period between 2 learning steps|
 |angle_acc_accuracy|0x61|mg|0 – 1000|Accuracy of the measured acceleration.|
-|angle_deviation_delta|0x62|degrees|0 – 175|A deviation of *angle_deviation_delta* from the previous reported orientation triggers an event message. Applicable only with angle deviation methods.(1).|
+|angle_deviation_delta|0x62|degrees|0 – 175|A deviation of *angle_deviation_delta* from the previous reported orientation triggers an event message. Applicable only with angle deviation methods<sup>(1)</sup>|
 |angle_deviation_min_interval|0x63|seconds|0 – 1800|No event message is sent before the delay *angle_deviation_min_interval* from previous angle deviation event is elapsed. Any deviation before this delay is ignored. Applicable only with angle deviation methods.|
 |angle_deviation_max_interval|0x64|seconds|0 – 86400|No event message is sent after this duration from first event message is elapsed. Applicable only with angle deviation methods.|
 
 :::tip Notes
-1.  Depending on the setting of *angle_report_mode* parameter. Refer to the application note [AN-010_Angle_Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details about these parameters.
-2.  If selected *button mapping* parameter should be set to have a button action with angle reference acquisition activated
+<sup>(1)</sup>  Depending on the setting of *angle_report_mode* parameter. Refer to the application note [AN-010_Angle_Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details about these parameters.
+
+<sup>(2)</sup>  If selected *button mapping* parameter should be set to have a button action with angle reference acquisition activated
 :::
 
 ## BLE geozoning parameters

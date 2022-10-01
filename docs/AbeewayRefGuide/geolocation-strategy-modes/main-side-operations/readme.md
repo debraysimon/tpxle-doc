@@ -2,8 +2,11 @@
 
  The following geolocation technology settings (*geoloc_sensor*
  parameter) are used by the main operating modes: motion-tracking,
- permanent-tracking, start/end tracking and SOS. Note that in standby
- mode, only side operations can report positions.
+ permanent-tracking, start/end tracking and SOS.
+
+:::tip Notes
+In standby mode, only side operations can report positions
+:::
 
 -   **WIFI only** → Only WIFI scans are used for position determination.
 -   **GPS only** → Only the GPS is used for position determination.

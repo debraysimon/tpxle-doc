@@ -10,8 +10,8 @@
 
 **Example**:
 
- *network_timeout_check*= 172800 seconds (2 days)
- *network_timeout_reset*= 86400 seconds (1 day)
+ *network_timeout_check*= 172800 seconds (2 days)  
+ *network_timeout_reset*= 86400 seconds (1 day)  
  If after 2 days the tracker did not receive any downlink, it starts
  the link check request process. After 1 day of link check request
  process without answers, the tracker resets.

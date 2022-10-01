@@ -4,7 +4,7 @@
 |---------|----------|-----------|----------------------|
 |  0x07   |  **ACK** |  **Type** |  **Additional Data** |
 
- **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
+ **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/AbeewayRefGuide/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
 
 **Type:**
 

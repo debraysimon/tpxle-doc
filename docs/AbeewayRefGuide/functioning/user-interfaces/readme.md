@@ -2,88 +2,88 @@
 
  Depending on the trackers, some user interfaces can be unmounted.
 
+The table below shows the default user interface components shipped with our trackers.
 
 |  User interfaces |  Trackers             |
 |----------------------|----------------------------|
-|  **Button**          |  Micro tracker Smart badge |
-|  **LEDs**            |  Micro tracker Smart badge |
-|  **buzzer**          |  Micro tracker Smart badge |
+|  **Button**          |  Micro tracker, Smart badge |
+|  **LEDs**            |  Micro tracker, Smart badge |
+|  **buzzer**          |  Micro tracker, Smart badge |
 |  **Reed switch**     |  Compact tracker           |
 
 ## Button management
 
  The interface between the user and the tracker is performed via a
- button. It is configurable using a new parameter called
- *button_mapping.*
+ button. It is configurable using a new parameter called *button_mapping.*
 
- 3 actions are not configurable:
+ 
+**Non-configurable actions:**
 
-
-|  Sequence      |  Action         |  Output        |
+|  Sequence      |  Action         |  User Interface behaviour        |
 |---------------------|---------------------|---------------------|
-|One **press** when device OFF and good battery (3)|  Switch ON the tracker    |  LED pattern (See next section)  |
-|One **long press** when device ON (4)               |  Go to the OFF mode, except if mode disabled or if the tracker is in SOS   |  Buzzer melody      |
-|While the button is pressed when the device is ON   |                      |  Blue LED ON        |
+|One **press** when device OFF and good battery<sup>(3)</sup> |  Switch ON the tracker    |  LED pattern (See next section)  |
+|One **long press** when device ON<sup>(4)</sup>              |  Go to the OFF mode, except if mode disabled or if the tracker is in SOS   |  Buzzer melody      |
+|While the button is pressed when the device is ON   |                      |  LED is Blue while the button is pressed        |
+|Very Long Press or ESC Sequence<sup>(5)</sup> | Trigger the start of special sequence | LED is Blue and Red |
 
-5 actions are configurable:
+**Configurable actions:**
 
-| Action|Output           |
-|-------------------------------------|---------------------|
-|Battery level is shown with the LEDs |  LED pattern (See next section) |
-|Trigger a start/ end of the SOS      |  LED pattern (see next section) |
-|Trigger a position alert             |  LED pattern (see next section) |
-|Add a tracker in the whitelist contact (proximity feature) (1) | None|
-|Angle detection manual trigger (2)  |                                 |
-|Special Sequence start               |  Buzzer "bip" and led blinking in Red and blue  |
+| Sequence [Factory Default Configuration](/AbeewayRefGuide/factory-default-config/readme.md) | Action|User Interface Behaviour  |
+|-------------------------------------|---------------------|----------------------|
+|Click<sup>(2)</sup>	| Battery level is shown with the LEDs |	LED pattern (See next section)|
+|Triple click or more<sup>(7)</sup> |	Trigger a start/ end of the SOS |	LED pattern (see next section) |
+|Not configured	| Trigger a position alert |	LED pattern (see next section) |
+| Double click<sup>(6)</sup> |	Add a tracker in the whitelist contact (proximity feature)<sup>(1)</sup>|	None |
+| Not configured |	Angle detection manual trigger<sup>(9)</sup> |	None |
 
-**Notes**
 
-(1) Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details
 
-(2) For more details, please refer to the application note [AN-010_Angle Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS)
+Sequences for the above actions are the following:
+-	Click<sup>(2)</sup>
+-	Press<sup>(3)</sup>
+-	Long press<sup>(4)</sup>
+-	Double click<sup>(6)</sup>
+-	Triple click or more<sup>(7)</sup>
 
- Sequences for the above actions are the following:
--   Long press
--   Single short press
--   Double short press
--   3 or more short presses
 
 The *press_duration* is also configurable via the *button_mapping* parameter. 
 
-Special sequences that can be done after the "special Sequence start" button action has been done.
+Special sequences that can be applied after the **ESC Sequence**<sup>(5)</sup> button action has been done.
 
 
-|  Sequence     |  Action         |  Output         |
+|  Special Sequence     |  Action         |  User Interface behavior         |
 |---------------------|---------------------|---------------------|
-|1x click, Triple click or more, 1x Press (2)(7)|Enter the BLE bootloader|BLE firmware can be updated|
-|1x click, Double-click, 1x Press (2)(3)(6)    |Enter the MCU bootloader|MCU firmware can be updated|
-|1x click, 1x click, 1x Press (2)(3)           |Remove the BLE bond information|                    |
+|1x click, Triple click or more, 1x Press <sup>(2)(3)(7)</sup> |Enter the BLE bootloader|Tracker will play 3 beeps|
+|1x click, Double-click, 1x Press <sup>(2)(3)(6)</sup>    |Enter the MCU bootloader|Tracker will play 2 beeps followed by MCU bootloader reset melody|
+|1x click, 1x click, 1x Press <sup>(2)(3)</sup>           |Remove the BLE bond information|     Tracker will play 1 beep followed by Bluetooth bond removal melody               |
 
-The tracker exits this mode if:
+The tracker exits the special-sequence mode if:
 -   No button action is done within 10 seconds
 -   a wrong sequence is performed
 
-A "bip" is heard while the tracker is in special sequence mode. The LED is also blinking.
+A beep is played while the tracker is in special sequence mode. The LED is also blinking Blue.
 
-**Between 2 button sequences, a delay of 20 seconds must be respected**. If this delay is not respected the second sequence won't be considered.
+**Between 2 button sequences, a delay of 20 seconds must be respected**. If this delay is not respected the second sequence won't be taken into account.
 
 :::tip Notes
 
-(1) Refer to the [Low battery management](/functioning/low-battery-management/readme.md) topic for more details.
+<sup>(1)</sup> Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details.
 
-(2) **Click**: Press the button for less than 1 second
+<sup>(2)</sup> **Click**: Press the button for less than 1 second.
 
-(3) **Press**: Press the button between 1 and *press_duration* +3 seconds
+<sup>(3)</sup> **Press**: Press the button between 1 and *press_duration* +3 seconds. The button must be released to generate the event.
 
-(4) **Long Press**: Press the button between (*press_duration +3) and (*press_duration* +7) seconds
+<sup>(4)</sup> **Long Press**: Press the button between (*press_duration* +3) and (*press_duration* +7) seconds.
 
-(5) **Very Long Press or ESC Sequence:** Press the button **more than 14 seconds**. The tracker will play a beep every second during this time.
+<sup>(5)</sup> **Very Long Press or ESC Sequence:** Press the button **more than 14 seconds**. The tracker will play a beep every second during this time.
 
-(6) **Double-click:** Press the button 2 times (The duration **between** the clicks is **less than 1 second**).
+<sup>(6)</sup> **Double-click:** Press the button 2 times (The duration **between** the clicks is **less than 1 second**).
 
-(7) **Triple-click:** Press the button 3 times (The duration **between** the clicks is **less than 1 second**).
+<sup>(7)</sup> **Triple-click:** Press the button 3 times (The duration **between** the clicks is **less than 1 second**).
 
-(8) The default value of *press_duration* is 1 second (configurable via *button_mapping* parameter)
+<sup>(8)</sup> The default value of *press_duration* is 1 second (configurable via *button_mapping* parameter).
+
+<sup>(9)</sup> For more details, please refer to the application note [AN-010_Angle Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS).
 :::
 
 ## LED interface
@@ -97,25 +97,30 @@ LED blinking patterns
 
 :::tip Notes
 
-1.  If configured on *config_flags* parameter.
-2.  Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details.
-3.  Only if bootloader is entered using the associated CLI command (Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS))
-4.  In some trackers you can have blue + red colors instead of pink color.
+<sup>(1)</sup> If configured with *config_flags* parameter.
+
+<sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details.
+
+<sup>(3)</sup>  Only if bootloader is entered using the associated CLI command (Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS))
+
+<sup>(4)</sup> In some trackers you can have blue + red colors instead of pink color.
 :::
 
 ## Buzzer melodies
 
 The second interface from the tracker to the user is done via a buzzer. The volume can be managed using *buzzer_volume* parameter. Different melodies have been defined:
 
-|  Meaning        |Explanation|  Melody         |
+
+
+| Feature       |Explanation|  Melody         |
 |---------------------|----|---------------------|
-|**Device is resetting/ going to bootloader**||  Device reset|
-|**Device is starting** ||  Switch on (Major rising scale)   |
-|**Device is going to OFF mode** ||Switch off (Major falling scale)|
-|**Low battery detected** || Low battery     |
-|  **Tracker in SOS** ||  SOS                |
-|  **SOS is left**    ||  SOS stop           |
-|  **LoraWAN join success**||Join success melody (1)|
+|**Tracker Operation**|Device is resetting/ going to bootloader|  Device reset|
+| |Device is starting|  Switch on (Major rising scale)   |
+||Device is going to OFF mode |Switch off (Major falling scale)|
+||Low battery detected | Low battery     |
+|   |Tracker in SoS|  SOS                |
+|     |Tracker is exiting SoS |  SOS stop           |
+|  |LoRaWAN join success|Join success melody<sup>(1)</sup>|
 |  **Proximity**      |  Warning alert is triggered   |  Proximity warning  |
 |                     |  Alarm alert state is triggered  |  Proximity alert    |
 |                     |  A warning reminder is triggered |  proximity reminder 1 beep |
@@ -123,33 +128,33 @@ The second interface from the tracker to the user is done via a buzzer. The volu
 |**BLE communication**|  The tracker is not bound and waits for a bond|  BLE advertising    |
 |                     |  Bond process unsuccessful or bond deleted       |  BLE bond failure or deleted  |
 |                     |  Bond process successful      |  BLE bond success   |
-|                     |  Alert activated from connected device using BLE or BLE link loss    |  BLE Link Loss/alert (2)|
+|                     |  Alert activated from connected device using BLE or BLE link loss    |  BLE Link Loss/alert <sup>(2)</sup>|
 |  **BLE geozoning**  |  Entering a hazardous area        |  BLE geozoning alert   |
 
 :::tip Notes
-(1) It is only played for micro tracker, Smart badges et compact trackers for their **first** join.
+<sup>(1)</sup> It is only played for micro tracker, Smart badges et compact trackers for their **first** join.
 
-(2)  BLE Link Loss/alert melody has been modified in applicative firmware 2.3
+<sup>(2)</sup>  BLE Link Loss/alert melody has been modified in applicative firmware 2.3
 :::
 
-A zip file containing the different sounds (except proximity) can be found in the same folder as this document.
+The different melodies can be found [here](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=N3Rd8f)
 
 Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details about proximity feature.
 
 ## Reed switch interface
 
-A reed switch is a physical switch operated by an applied magnetic field. The reed switch is only present inside the compact tracker. It is used when no button is mounted on the tracker. It can be configured with the *reed_switch_configuration* parameter (2):
+A reed switch is a physical switch operated by an applied magnetic field. The reed switch is only present inside the compact tracker. It is used when no button is mounted on the tracker. It can be configured with the *reed_switch_configuration* parameter <sup>(2)</sup>:
 
 -   **Act as a button**, the reed switch behaves as described in the Button management section above. A short magnetic field input is recognized as a short press, and a long input, as a long press.
--   **Specific behavior**, the reed switch sequence (1) generates a device reset:
--   **BLE connectivity**: The reed switch sequence (1) turns on the BLE advertisement (regardless the setting of the advertised bit in the *config_flags* parameter)
+-   **Specific behavior**, the reed switch sequence<sup>(1)</sup> generates a device reset:
+-   **BLE connectivity**: The reed switch sequence<sup>(1)</sup> turns on the BLE advertisement (regardless the setting of the advertised bit in the *config_flags* parameter)
 
 :::tip Notes
 
-(1) In the configuration other than \"**Act as a button**\", the reed switch sequence is the following:
+<sup>(1)</sup> In the configuration other than \"**Act as a button**\", the reed switch sequence is the following:
     -   A long activation of the reed switch (between 3 to 6 seconds)
     -   A long time without activation of the reed switch (between 3 to 6 seconds)
     -   A long activation of the reed switch (between 3 to 6 seconds)
 
-(2)  In **Startup** mode, only one action is available and doesn't follow the configuration. The sequence described above is used to exit the **shipping** mode.
+<sup>(2)</sup>  In **Startup** mode, only one action is available and doesn't follow the configuration. The sequence described above is used to exit the **shipping** mode.
 :::

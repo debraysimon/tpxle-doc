@@ -26,5 +26,5 @@
 -   Byte 11: Firmware iteration
 
 :::tip Note
-The fields Major, Minor and Revision form the firmware version as follow: Major.Minor-Iteration Example:2.1-0 is coded as 0x020100
+The fields Major, Minor and Revision are encoded in the firmware version as follows: Major.Minor-Iteration. Example:2.1-0 is coded as 0x020100
 :::

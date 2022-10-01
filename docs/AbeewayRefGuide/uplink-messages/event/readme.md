@@ -14,7 +14,7 @@
 -   0x02: **motion_end** message: If activated (bit 9 of *config_flags* set), the event message is sent when the end. of a motion is detected.
 -   0x03: **BLE connected**: Sent when a tracker is bonded and BLE connected to a mobile or a tablet
 -   0x04: **BLE disconnected**: Sent when a tracker is bonded and BLE disconnected to a mobile or a tablet
--   0x05: **Temperature information** message: if the temperature monitoring is activated (the parameter *temperature_high* or *temperature_low* is set). the event message is sent when there is a state change in the temperature (normal to alert or alert to normal) or it can be sent instead of a geolocation data if the geolocation is cancelled due to *temperature_action* parameter. (Refer to the section [Temperature monitoring](/functioning/temperature-monitoring/readme.md) for more details)
+-   0x05: **Temperature information** message: if the temperature monitoring is activated (the parameter *temperature_high* or *temperature_low* is set), this event message is sent when there is a state change in the temperature (normal to alert or alert to normal) or it can be sent instead of a geolocation message if the geolocation is cancelled due to *temperature_action* parameter. (Refer to the section [Temperature monitoring](/AbeewayRefGuide/functioning/temperature-monitoring/readme.md) for more details)
 -   0x06: **BLE bond deleted**: Sent when the bond is deleted on the tracker (it is sent even if the tracker was not bonded before the command)
 -   0x07: **SOS start** message: The tracker enters in SOS
 -   0x08: **SOS stop** message: The tracker leaves the SOS
@@ -28,7 +28,7 @@
  Provide the gravity vector, which can be used for the device
  orientation. Vector components can be negative.
 
- Refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for the
+ Refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for the
  encoding.
 
 **Additional data with Event value=0x02**
@@ -111,7 +111,7 @@
  measurement
 
 :::tip Notes
-1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding
+1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding
 2.  G is the terrestrial gravity, mG means milli G.
 3.  For more details refer to the application note [AN_010 \_Angle Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS).
 :::

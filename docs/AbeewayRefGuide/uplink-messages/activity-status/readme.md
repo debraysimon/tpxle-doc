@@ -20,6 +20,6 @@ When the operation mode is activity, the activity status reporting has the follo
 |--------|--------|--------|--------|--------|--------|--------|--------|
 | 0x04 |  Window 1 |  Window 2|Window 3 |  Window 4 |  Window 5 |  Window 6 | Global counter |
 
- **Window x**: value containing the activity counter during the x^th^ time window. The window 6 is the most recent one and the window 1 is the oldest.
+ **Window x**: value containing the activity counter during the x<sup>th</sup> time window. The window 6 is the most recent one and the window 1 is the oldest.
 
  **Global counter**: Global activity counter, it contains the activity since the beginning.

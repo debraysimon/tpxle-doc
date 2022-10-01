@@ -6,7 +6,7 @@ The operating mode can be remotely configured with a downlink LoRaWAN&trade; mes
 |---------|---------|------------|
 |  0x02   |  **ACK** |  **Mode** |
 
- **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/downlink-messages/ack-token/readme.md) **Max value is 0x0F.**
+ **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/AbeewayRefGuide/downlink-messages/ack-token/readme.md) **Max value is 0x0F.**
 
  **Mode**: operating modes. Acceptable values are:
 -   0- Standby
@@ -21,6 +21,6 @@ The operating mode can be remotely configured with a downlink LoRaWAN&trade; mes
  Changing the operating mode to "motion track" (01) with an ack token of 3: 0x020301.
 
 :::tip Notes
-1.  There is an additional way to update the operational mode based on a special configuration parameter. See [here](#parameters-for-operational-modes) for more details
-2.  **Off** mode is not supported by all trackers (refer to section [Main operating modes](/functioning/main-operating-modes/readme.md) to check this mode support). **If Off mode is requested via downlink but not supported, the tracker moves to standby mode.**
+1.  There is an additional way to update the operational mode based on a special configuration parameter. See [here](/AbeewayRefGuide/downlink-messages/parameters-configuration/#parameters-for-operational-modes) for more details
+2.  **Off** mode is not supported by all trackers (refer to section [Main operating modes](/AbeewayRefGuide/functioning/main-operating-modes/readme.md) to check if this mode is supported). **If Off mode is requested via downlink but not supported, the tracker moves to standby mode.**
 :::

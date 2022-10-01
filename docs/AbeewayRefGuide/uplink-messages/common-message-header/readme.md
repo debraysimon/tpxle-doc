@@ -6,26 +6,24 @@
 |  Byte 0 |  Byte 1 |  Byte 2 |  Byte 3 |  Byte 4 | Variable      |
 | **Type** | **Status** | **Battery** |  **Temperature** | **ACK/Opt** |  **Information** |
 
- **Type**: refer to [Message types](/uplink-messages/)
+ **Type**: refer to [Message types](/AbeewayRefGuide/uplink-messages/)
 
 **Status:**
 
 |Bit     | Status                  |
 |------------|-----------------------------|
-|  **Bit7-5**|  Operating mode: 0- Standby/ 1-	Motion tracking / 2-	Permanent tracking / 3-	Motion start/end tracking/ 4- Activity tracking / 5- OFF(2)|
+|  **Bit7-5**|  Operating mode: 0- Standby/ 1-	Motion tracking / 2-	Permanent tracking / 3-	Motion start/end tracking/ 4- Activity tracking / 5- OFF<sup>(2)</sup> |
 |  **Bit 4** |  Set if the user alert/SOS has been entered         |
 |  **Bit 3** |  Reserved bit                                       |
-|  **Bit 2** |  Set if the tracker is in motion state since the last payload is sent(1)|
+|  **Bit 2** |  Set if the tracker is in motion state since the last payload is sent<sup>(1)</sup>|
 |  **Bit 1** |  Set for a periodic position message  |
 |  **Bit 0** |  Set for a position on demand message |
 
 :::tip Notes
 
-(1) The tracker in in motion state until the expiration of *motion_duration* period. The **motion bit** setting can be pictured as follow:
-
+<sup>(1)</sup>The tracker in in motion state until the expiration of *motion_duration* period. The **motion bit** setting can be pictured as follows:
 ![](./images/image14.png)
-
-(2) In shutdown payload, the operating mode is always OFF.
+<sup>(2)</sup>In shutdown payload, the operating mode is always OFF.
 :::
 
  **Battery**: battery percentage (non encoded form)
@@ -35,7 +33,7 @@
     -   Trackers with primary battery: the percentage is estimated based on the tracker usage.
 -   0xFF: Error in measurement (rechargeable devices only)
 
- **Temperature**: Temperature measured in the device, expressed in degree Celsius. [Encoded form](/uplink-messages/encoded-form/readme.md) using **lo**= - 44, **hi**= 85, **nbits**= 8, **nresv**= 0. It is given  with a step of 0.5°C
+ **Temperature**: Temperature measured in the device, expressed in degree Celsius. [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) using **lo**= - 44, **hi**= 85, **nbits**= 8, **nresv**= 0. It is given  with a step of 0.5°C
 
 **ACK/Opt:**
 |  Bit |  Parameter | Explanation   |

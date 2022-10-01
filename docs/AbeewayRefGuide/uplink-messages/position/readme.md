@@ -5,11 +5,11 @@
 
 |  Common header   | Common header |Common header  |   Position information data           |
 |----------------------|-------------------|-------------------|-------------------------------    |
-|  Byte 0     |  Byte 1-3   |  Byte 4  |  (1)   |    
+|  Byte 0     |  Byte 1-3   |  Byte 4  | <sup>(1)</sup>   |    
 | **Type**=0x03 | **Status/Batt/Temp.** |  **ACK / Opt**| **Position Information**         |
 
 :::tip Note
-\(1\) The size of data part depends on the type of position message.
+<sup>(1)</sup> The size of data part depends on the type of position message.
 :::
 
 **Opt**: type of position message
@@ -34,27 +34,27 @@
 |-------------|------------|------------|-----------|---------------- |
 | **Age**     |**Latitude**|**Longitude**|**EHPE**  |**Encrypted**    |
 
-**Age**: Time difference between the fix and the LoRaWAN^TM^ transmission. [Encoded form](/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**=2040, **nbits**= 8, **resv**= 0. Expressed in seconds. The step is 8 seconds.
+**Age**: Time difference between the fix and the LoRaWAN transmission. [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**=2040, **nbits**= 8, **resv**= 0. Expressed in seconds. The step is 8 seconds.
 
-![](./images/image15.png)
+<img src="./images/image15.png" width="600">
 
-**Latitude**: Latitude of the position (expressed in degree) calculated as follow: 
+**Latitude**: Latitude of the position (expressed in degrees) is calculated as follows: 
 
 Latitude = Latitude \<\< 8
 
-If Latitude \ 0x7FFFFFFF then Latitude = Latitude -- 0x100000000
+If Latitude \> 0x7FFFFFFF then Latitude = Latitude - 0x100000000
 
-Latitude = Latitude / 10^7^
+Latitude = Latitude / 10<sup>7</sup>
 
-**Longitude**: Longitude of the position (expressed in degree) calculated as follow: 
+**Longitude**: Longitude of the position (expressed in degrees) is calculated as follow: 
 
 Longitude = Longitude \<\< 8
 
-If Longitude \ 0x7FFFFFFF then Longitude = Longitude -- 0x100000000
+If Longitude \> 0x7FFFFFFF then Longitude = Longitude - 0x100000000
 
-Longitude = Longitude / 10^7^
+Longitude = Longitude / 10<sup>7</sup>
 
-**EHPE**: Estimated Horizontal Position Error, expressed in meters. [Encoded form](/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**= 1000, **nbits**= 8, **nresv**= 0. The step is 3.9 meters.
+**EHPE**: Estimated Horizontal Position Error, expressed in meters. [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**= 1000, **nbits**= 8, **nresv**= 0. The step is 3.9 meters.
 
 ## GPS timeout payload
 
@@ -77,7 +77,7 @@ Longitude = Longitude / 10^7^
 :::tip Notes
 1.  The satellites are ordered based on their **C/N**. The best is sent in **C/N 0**.
 2.  **C/N** encoding uses: **lo**= 0, **hi**=50, **nbits**=8, **nresv**= 0. It is expressed in dBm with a step of 0,2 dBm 
-3.  Encoded form is detailed in the [Encoded form](/uplink-messages/encoded-form/readme.md) section.
+3.  Encoded form is detailed in the [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) section.
 :::
 
 ## WIFI timeout payload
@@ -98,7 +98,7 @@ Longitude = Longitude / 10^7^
 :::tip Notes
 1.  Most of time a WIFI timeout occurs due to low battery.
 2.  **V_bat** encoding uses: **lo**= 2.8, **hi**=4.2, **nbits**=8, **nresv**= 2. It is expressed in volt with a step of 5.5mV
-3.  Encoded form is detailed in the [Encoded form](#_bookmark48) section.
+3.  Encoded form is detailed in the [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) section.
 :::
 
 ## WIFI failure payload
@@ -126,7 +126,7 @@ Longitude = Longitude / 10^7^
 :::tip Notes
 1.  Most of time a WIFI timeout occurs due to a low battery condition.
 2.  **V_bat** encoding uses: **lo**= 2.8, **hi**=4.2, **nbits**=8, **nresv**= 2. It is expressed in volt with a step of 5.5mV
-3.  Encoded form is detailed in the [Encoded form](/uplink-messages/encoded-form/readme.md) section.
+3.  Encoded form is detailed in the [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) section.
 :::
 
 ## WIFI BSSID payload
@@ -137,13 +137,13 @@ Longitude = Longitude / 10^7^
 |-------------|------------|------------|-----------|-----------|----------|---------|---------|---------|
 | **Age**  |**BSSID0**  |**RSSI0**  |**BSSID1** |**RSSI1** |**BSSID2**|**RSSI2**|**BSSID3**|**RSSI3**|
 
- **Age**: [Encoded form](/uplink-messages/encoded-form/readme.md) of scan age with **lo**=0, **hi**=2040, **nbits**=8, **nres**=0. Expressed in seconds. The step is 8 seconds.
+ **Age**: [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) of scan age with **lo**=0, **hi**=2040, **nbits**=8, **nres**=0. Expressed in seconds. The step is 8 seconds.
 
  **BSSIDx**: BSSID of the WIFI station x.
 
- **RSSIx**: Receive Signal Strength Indication of the WIFI station x. Non encoded form (negative value, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding). It is expressed in dBm.
+ **RSSIx**: Receive Signal Strength Indication of the WIFI station x. Non encoded form (negative value, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding). It is expressed in dBm.
 
- When long WIFI payload is activated in *config_flags* parameter and transmit strategy is not well chosen, too long payload could not be transmitted. In this case, after 5 discarded uplinks, the tracker sends an **uplink length error** message which is described [here](/uplink-messages/debug-payloads/readme.md)
+ When long WIFI payload is activated in *config_flags* parameter and transmit strategy is not well chosen, too long payload could not be transmitted. In this case, after 5 discarded uplinks, the tracker sends an **uplink length error** message which is described [here](/AbeewayRefGuide/uplink-messages/debug-payloads/readme.md)
 
 :::tip Notes
 1.  The payload contains the listened WIFI stations (up to 12 if bit 12 of *config_flags* parameter is set, up to 4 if it is reset).
@@ -160,11 +160,11 @@ Longitude = Longitude / 10^7^
 |-------------|------------|------------|-----------|-----------|----------|---------|---------|---------|
 | **Age**  |**MACADR0**  |**RSSI0**  |**MACADR1** |**RSSI1** |**MACADR2**|**RSSI2**|**MACADR3**|**RSSI3**|
 
- **Age**: [Encoded form](/uplink-messages/encoded-form/readme.md) of scan age with **lo**=0, **hi**=2040, **nbits**=8, **nres**=0. Expressed in seconds.
+ **Age**: [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) of scan age with **lo**=0, **hi**=2040, **nbits**=8, **nres**=0. Expressed in seconds.
 
  **MAC ADRx**: MAC Address of the BLE beacon x.
 
- **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (**negative value**, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm.
+ **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (**negative value**, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm.
 
 **Notes**
 
@@ -180,7 +180,7 @@ Longitude = Longitude / 10^7^
 |-------------|------------|------------|-----------|-----------|----------|---------|---------|---------|
 | **Age**  |**short BID0**  |**RSSI0**  |**short BID1** |**RSSI1** |**short BID2**|**RSSI2**|**short BID3**|**RSSI3**|
 
- **Age**: [Encoded form](/uplink-messages/encoded-form/readme.md) of scan age with lo=0, hi=2040, nbits=8, nres=0. Expressed in seconds.
+ **Age**: [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) of scan age with lo=0, hi=2040, nbits=8, nres=0. Expressed in seconds.
 
  **Short BIDx**: 
 Eddystone UID beacon: 6 last bytes of the Instance ID field 
@@ -190,7 +190,7 @@ Ibeacon UID beacon:
  If *position_ble_report_type*= 3: 2 last bytes of the UUID field, the
  Major number and the Minor
 
- **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding) and expressed in dBm.
+ **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding) and expressed in dBm.
 
 :::tip Notes
 1.  The payload contains the listened BLE beacons (up to 4, it is configurable using *ble_beacon_cnt* parameter), during *ble_beacon_timeout* delay.
@@ -208,14 +208,14 @@ Ibeacon UID beacon:
 |--------------------------------|----------------|------------|
 |  **Age**                       |  **long BID0** |  **RSSI0** |
 
- **Age**: [Encoded form](/uplink-messages/encoded-form/readme.md) of scan age with **lo**=0, **hi**=2040, **nbits**=8, **nres**=0. Expressed in seconds.
+ **Age**: [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) of scan age with **lo**=0, **hi**=2040, **nbits**=8, **nres**=0. Expressed in seconds.
 
  **Long BIDx**: 
  Eddystone UID beacon: Name space + instance ID (16 bytes) 
  Ibeacon UID beacon: 16 last bytes of the Ibeacon UUID 
  Altbeacon UID beacon: 16 last bytes of the beacon UID
 
- **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm.
+ **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm.
 
 :::tip Notes
 1. The payload contains the long ID of only one beacon. 

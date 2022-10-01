@@ -12,6 +12,6 @@
 |---------|----------|
 |  0x05   |  **ACK** |
 
- **ACK**: Acknowledge token. Refer to the section [Acknowledge token.](#_bookmark70) **Max value is 0x0F**.
+ **ACK**: Acknowledge token. Refer to the section [Acknowledge token.](/AbeewayRefGuide/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
 
- Refer to the section [SOS](#default-and-dynamic-profiles-1) to have more information about the SOS behavior.
+ Refer to the section [SOS](/AbeewayRefGuide/functioning/sos/) to have more information about the SOS behavior.

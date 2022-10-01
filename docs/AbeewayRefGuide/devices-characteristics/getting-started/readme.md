@@ -2,18 +2,18 @@
 
 Your Device needs to be registered on a LoRaWAN™ network
 
--   Your LoRaWAN™ network provider can use two activation modes:
-    -   OTAA (Over The Air Activation): This mode requires the following keys to join the network: DEVEUI, APPEUI and APPKEY for each device. (It is the one mostly used)
+-   Your LoRaWAN™ network provider can use one of the two activation modes:
+    -   OTAA (Over The Air Activation): This mode requires the following keys to join the network: DEVEUI, APPEUI and APPKEY for each device. (It is the one mostly used and trackers shipped by default are in this mode)
     -   ABP (Activation by personalization): This mode requires the following keys to connect to the network: DEVEUI, DEVADDR, NWKSKEY and APPSKEY
 -   Depending on your operator, some actions need to be done to activate the transfer of the data through Abeeway servers. Please refer to your LoRaWAN™ network provider for more information.
 
-The application firmware will start as soon as a join is successfully done.
+The application firmware will start as soon as LoRaWAN™ join is successfully done.
 
 :::tip Note
 
 The provided trackers are in OTA configuration only. It can't be
 changed by configuration. If you need trackers working in ABP please
-refer to your local distributor or Abeeway support if you purchased
+refer to your local distributor or [Abeeway support](../../../D-Reference/FAQ_R/) if you purchased
 the trackers from Actility/Abeeway.
 :::
 

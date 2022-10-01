@@ -7,7 +7,7 @@ Each threshold is used independently.
 The value 255 is used to disable the threshold and the temperature monitoring.
 A specific action can be taken if the temperature exceeds one of the configured thresholds. Example: The geolocation can be deactivated. This action is configured via the parameter *temperature_action* which uses the thresholds *temperature_high* and *temperature_low*.
 The temperature monitoring is enabled if one of the two thresholds is not set to the **disabled** value.
-The temperature measurement is done periodically. If one of the configured thresholds is reached, a matching event is sent, and a critical state is entered until the temperature comes back to an acceptable value (refer to the [Temperature event](/functioning/event-messages/readme.md) section for details).
+The temperature measurement is done periodically. If one of the configured thresholds is reached, a matching event is sent, and a critical state is entered until the temperature comes back to an acceptable value (refer to the [Temperature event](/AbeewayRefGuide/functioning/event-messages#temperature-event-all-operating-modes) section for details).
 
 :::tip Notes
 1.  The temperature measurement periodicity is 10 minutes if the tracker is in the critical state and 2 minutes otherwise. See the definition of critical state below.
@@ -20,4 +20,4 @@ The temperature measurement is done periodically. If one of the configured thres
 
 ![](./images/image030.jpg)
 
-Temperature Monitoring data is reported with an Event payload described in [Event message](/uplink-messages/event/readme.md).
+Temperature Monitoring data is reported with an Event payload described in section: [Event message](/AbeewayRefGuide/uplink-messages/event/readme.md).

@@ -6,6 +6,6 @@
 |---------|----------|
 |  0x01   |  **ACK** |
 
-**ACK**: Acknowledge token. Refer to the section [Acknowledge token](/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
+**ACK**: Acknowledge token. Refer to the section [Acknowledge token](/AbeewayRefGuide/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
 
 **Example** Position on demand message with ack token of 2: **0x0102**. The tracker will answer with a position message.

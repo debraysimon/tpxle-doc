@@ -521,7 +521,7 @@ module.exports = {
                             sidebarDepth: 3,
                             children:[
                               {
-                                title: 'Main operating modes, SOS and sides operations',
+                                title: 'Main operating modes, SOS and side operations',
                                 path: '/AbeewayRefGuide/geolocation-strategy-modes/main-side-operations/',
                               },
                               {

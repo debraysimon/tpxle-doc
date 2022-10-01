@@ -4,7 +4,7 @@
 |---------|----------|-------------|
 |  0x09   |  **ACK** |  **Action (optional)** |
 
- **ACK**: Acknowledge token. Refer to the section [Acknowledge token.](#_bookmark70) **Max value is 0x0F**.
+ **ACK**: Acknowledge token. Refer to the section [Acknowledge token.](/AbeewayRefGuide/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
 
 **Action**:
 

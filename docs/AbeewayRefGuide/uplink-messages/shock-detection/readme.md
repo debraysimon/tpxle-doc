@@ -16,6 +16,6 @@
 -   **Z Axis**: Value measured on axis Z of the accelerometer, it is expressed in mG
 
 :::tip Notes
-1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) to have information for the encoding.
+1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) to have information for the encoding.
 2.  G is the terrestrial gravity, mG means milli G.
 :::

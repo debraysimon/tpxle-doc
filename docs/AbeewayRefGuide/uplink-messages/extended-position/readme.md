@@ -6,15 +6,15 @@
 
 |Common header|Common header|Common header|Position information data|Position information data|
 |------------|----------------|-----------|----------------|-----------|
-| Byte 0     |  Byte 1-3      |  Byte 4   |  Bytes 5-6     | (1)       |
+| Byte 0     |  Byte 1-3      |  Byte 4   |  Bytes 5-6     | <sup>(1)</sup>       |
 |**Type**=0x0E|**Status/Batt/Temp.**|**ACK/OPT**|**Age** |**Extended Position data** |
 
- **Age**: Time difference between the fix and the LoRaWAN^TM^
+ **Age**: Time difference between the fix and the LoRaWAN
  transmission. It is **expressed in seconds**. The value is in big
  endian (MSB first).
 
 :::tip Note
-(1) The size of data part depends on the type of position message.
+<sup>(1)</sup> The size of data part depends on the type of position message.
 :::
 
 **Opt**: type of position message
@@ -51,27 +51,26 @@
 
  Latitude = Latitude \<\< 8
 
- If Latitude \ 0x7FFFFFFF then Latitude = Latitude -- 0x100000000
+ If Latitude \> 0x7FFFFFFF then Latitude = Latitude - 0x100000000
 
- Latitude = Latitude / 10^7^
+ Latitude = Latitude / 10<sup>7</sup>
 
  **Longitude**: Longitude of the position (expressed in degree) calculated as follow: 
 
  Longitude = Longitude \<\< 8
 
- If Longitude \ 0x7FFFFFFF then Longitude = Longitude -- 0x100000000
+ If Longitude \ 0x7FFFFFFF then Longitude = Longitude - 0x100000000
 
- Longitude = Longitude / 10^7^
+ Longitude = Longitude / 10<sup>7</sup>
 
- **Altitude**: only if Status Payload type is 0, Altitude is in centimeter
--   if Status Payload type is 1, Altitude is in meter 3D fix. Can be negative. Non encoded form
-    -   if Status Payload type is 0, Altitude is in centimeter
-    -   if Status Payload type is 1, Altitude is in meter
+ **Altitude**:
+-   if Status Payload type is 0, Altitude is in centimeter
+-   if Status Payload type is 1, Altitude is in meter 3D fix
 
  **EHPE**: Estimated Horizontal Position Error, expressed in meters. 
- **If status payload type bit1=0 =**[Encoded form](/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**= 1000, **nbits**= 8, **nresv**= 0. The step is 3.9 meters.
+ **If status payload type bit1=0 =**[Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**= 1000, **nbits**= 8, **nresv**= 0. The step is 3.9 meters.
 
- **If status payload type bit1=1**: it is coded as follow:
+ **If status payload type bit1=1**: it is encoded as follows:
 
 |  Coded value |  EHPE in meters        |
 |--------------|------------------------|
@@ -86,7 +85,7 @@
 
  **SOG**: (Speed Over Ground) The speed the tracker is moving over the ground. It is expressed in cm/second
 
- **Previous fix age:** Previous fix age in seconds. [Encoded form](/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**= 2040, **nbits**= 8, **resv**= 0. Expressed in seconds. The step is 8 seconds.
+ **Previous fix age:** Previous fix age in seconds. [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) using **lo**= 0, **hi**= 2040, **nbits**= 8, **resv**= 0. Expressed in seconds. The step is 8 seconds.
 
  **Previous fix Delta**: difference with the position given in the payload
 
@@ -103,15 +102,15 @@
 -   1: Timeout caused by the parameter *gps_t0_timeout*
 -   2: Timeout caused by the parameter *gps_fix_timeout*
 
- **C/N 0**: Carrier over noise (dBm) for the first satellite seen.
- **C/N 1**: Carrier over noise (dBm) for the second satellite seen.
- **C/N 2**: Carrier over noise (dBm) for the third satellite seen.
- **C/N 3**: Carrier over noise (dBm) for the fourth satellite seen.
+ **C/N 0**: Carrier over noise (dBm) for the first satellite seen.<br />
+ **C/N 1**: Carrier over noise (dBm) for the second satellite seen.<br />
+ **C/N 2**: Carrier over noise (dBm) for the third satellite seen.<br />
+ **C/N 3**: Carrier over noise (dBm) for the fourth satellite seen.<br />
 
 :::tip Notes
 1.  The satellites are ordered based on their **C/N**. The best is sent in **C/N 0**.
 2.  **C/N** encoding uses: **lo**= 0, **hi**=50, **nbits**=8, **nresv**= 0. It is expressed in dBm with a step of 0,2 dBm
-3.  Encoded form is detailed in the [Encoded form](/uplink-messages/encoded-form/readme.md) section.
+3.  Encoded form is detailed in the [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) section.
 :::
 
 ## Extended WIFI timeout payload
@@ -132,7 +131,7 @@
 :::tip Notes
 1.  Most of time a WIFI timeout occurs due to low battery.
 2.  **V_bat** encoding uses: **lo**= 2.8, **hi**=4.2, **nbits**=8, **nresv**= 2. It is expressed in volts with a step of 5.5mV
-3.  Encoded form is detailed in the [Encoded form](/uplink-messages/encoded-form/readme.md) section.
+3.  Encoded form is detailed in the [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) section.
 :::
 
 ## Extended WIFI failure payload
@@ -160,7 +159,7 @@
 :::tip Notes
 1.  Most of time a WIFI timeout occurs due to a low battery condition.
 2.  **V_bat** encoding uses: **lo**= 2.8, **hi**=4.2, **nbits**=8, **nresv**= 2. It is expressed in volts with a step of 5.5mV
-3.  Encoded form is detailed in the [Encoded form](/uplink-messages/encoded-form/readme.md) section.
+3.  Encoded form is detailed in the [Encoded form](/AbeewayRefGuide/uplink-messages/encoded-form/readme.md) section.
 :::
 
 ## Extended WIFI BSSID payload
@@ -173,15 +172,15 @@
 
  **BSSIDx**: BSSID of the WIFI station x.
 
- **RSSIx**: Receive Signal Strength Indication of the WIFI station x. Non encoded form (negative value, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding). It is expressed in dBm.
+ **RSSIx**: Receive Signal Strength Indication of the WIFI station x. Non encoded form (negative value, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding). It is expressed in dBm.
 
- When long WIFI payload is activated in *config_flags* parameter and transmit strategy is not well chosen, too long payload could not be transmitted. In this case, after 5 discarded uplinks, the tracker sends an **uplink length error** message which is described [here](/uplink-messages/debug-payloads/readme.md).
+ When long WIFI payload is activated in *config_flags* parameter and transmit strategy is not well chosen, too long payload could not be transmitted. In this case, after 5 discarded uplinks, the tracker sends an **uplink length error** message which is described [here](/AbeewayRefGuide/uplink-messages/debug-payloads/readme.md).
 
 :::tip Notes
 1.  The payload contains the listened WIFI stations (up to 12 if bit 12 of *config_flags* parameter is set, up to 4 if it is reset).
 2.  If less than 4 stations are listened to, the payload will be reduced.
 3.  BSSID address is provided in big endian format. So, byte 6 of the payload contains the MSB of the BSSID0, while byte 11 contains its LSB.
-4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN&trade; MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](#_bookmark105) for more data.
+4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN&trade; MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=MiF7XT) for more details.
 :::
 
 ## Extended BLE beacon scan payload (MAC address)
@@ -193,13 +192,13 @@
 |**MACADR0**  |**RSSI0**  |**MACADR1** |**RSSI1** |**MACADR2**|**RSSI2** |**MACADR3**|**RSSI3** |
 
  **MAC ADRx**: MAC Address of the BLE beacon x.
- **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (**negative value**, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding) and expressed in dBm.
+ **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (**negative value**, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding) and expressed in dBm.
 
 :::tip Notes
 
 1.  The payload contains the listened BLE beacons (up to 4, it is configurable using *ble_beacon_cnt* parameter), during *ble_beacon_timeout* delay.
 2.  If less than 4 BLE beacons are listened, the payload will be reduced. 
-3.  Refer to the application not [AN-006_Position_BLE_filtering](#_bookmark105) for more details.
+3.  Refer to the application not [AN-006_Position_BLE_filtering](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details.
 :::
 
 ## Extended BLE beacon scan payload (short identifier)
@@ -218,13 +217,13 @@
  	If *position_ble_report_type*= 1: 6 last bytes of the Ibeacon UUID
 	If *position_ble_report_type*= 3: 2 last bytes of the UUID field, the Major number and the Minor
 
- **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm.
+ **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm.
 
 :::tip Notes
 1.  The payload contains the listened BLE beacons (up to 4, it is configurable using *ble_beacon_cnt* parameter), during *ble_beacon_timeout* delay.
 2.  If less than 4 BLE beacons are listened to, the payload is reduced.
 3.  Short ID is not supported for eddystone url beacons.
-4.  Refer to the application not [AN-006_Position_BLE_filtering](#_bookmark105) for more details.
+4.  Refer to the application not [AN-006_Position_BLE_filtering](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details.
 :::
 
 ## Extended BLE beacon scan payload (long ID)
@@ -240,7 +239,7 @@
  Ibeacon UID beacon: 16 last bytes of the Ibeacon UUID 
  Altbeacon UID beacon: 16 last bytes of the beacon UID
 
- **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm. 
+ **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm. 
 
 :::tip Notes
  1- The payload contains the long ID of only one beacon. 

@@ -4,7 +4,7 @@
 |---------|----------|--------------|
 |  0x06   |  **ACK** |  **Opt CMD** |
 
- **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
+ **ACK**: Acknowledge token. Refer to the section [Acknowledge token](/AbeewayRefGuide/downlink-messages/ack-token/readme.md) **Max value is 0x0F**.
 
 **Opt CMD**:
 -   None or 0x00: The tracker answers this request with a temperature event message.

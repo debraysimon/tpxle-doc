@@ -6,26 +6,26 @@
 |-------------|-------------|---------------|----------------|
 |  0xFF       |  ACK        |  Debug CMD ID |  (optional)    |
 
- **ACK**: Acknowledge token. Refer to the section [Acknowledge token.](#_bookmark70) **Max value is 0x0F**. 
+ **ACK**: Acknowledge token. Refer to the section [Acknowledge token.](/AbeewayRefGuide/downlink-messages/ack-token) **Max value is 0x0F**. 
 
 **Debug CMD ID:**
 -   **0x01 Reset the device**
--   0x02 Delete the BLE bond^(1)^
+-   0x02 Delete the BLE bond<sup>(1)</sup>
 -   **0x03 Plays a melody**
 -   0x04 Send the current error code with the LoRa debug uplink
--   0x05 Trigger a heartbeat message^(1)^
--   0x06 Trigger a TX power debug uplink ^(1)^
+-   0x05 Trigger a heartbeat message<sup>(1)</sup>
+-   0x06 Trigger a TX power debug uplink<sup>(1)</sup>
 -   0x07 Write New TX Power Index
--   0x08 Entering in BLE bootloader^(1)^
+-   0x08 Entering in BLE bootloader<sup>(1)</sup>
 -   0x09: Firmware Specific parameters request
 -   0x0A Configure Startup modes
 -   **0x0B Start and stop BLE advertisement**
 -   0x0C requests Angle Detection debug information
--   0xF1 Trigger an error, Ack token value as error data^(1)^
+-   0xF1 Trigger an error, Ack token value as error data<sup>(1)</sup>
 
  **Note:**
 
- (1) No optional data is required for this **debug CMD ID**
+ <sup>(1)</sup> No optional data is required for this **debug CMD ID**
 
  Only bold commands are described below.
 
@@ -67,25 +67,27 @@
 |----------------|----------------|------------------------|-------------------------|
 |  0          |  A3, A4, A5, A6           |Switch on                  ||
 |  1          |  A5, A4, A3           |Switch off                  ||
-|  2          |  C5, C4, C5, C4, C3       |Low battery                  |YES(3)|
-|  3 (default)|C4, C5, E4, E5, G4, G5, C5, C6|BLE geozoning alert                  |YES(3)|
+|  2          |  C5, C4, C5, C4, C3       |Low battery                  |YES<sup>(3)</sup>|
+|  3 (default)|C4, C5, E4, E5, G4, G5, C5, C6|BLE geozoning alert                  |YES<sup>(3)</sup>|
 |  4         |E6, F6, E6, F6|SOS                 ||
 |  5          |F4, G4, A4, B4|SOS stop                ||
 |  6          |Falling frequency sweep (From E7 to A4)|Device reset||
-|  7          |C5, G4, D5|BLE advertising|YES(3)|
+|  7          |C5, G4, D5|BLE advertising|YES(<sup>(3)</sup>|
 |  8         | E6, G6, A6, E7|BLE bond success||
 |  9          |E7, A6, G6, E6|BLE bond failure or deleted||
 |  10         |high pitch beeps at 3200Hz, 2900Hz|BLE Link Loss/Alert||
-|  11          |beeps at 1340 Hz|Proximity warning|YES(3)|
+|  11          |beeps at 1340 Hz|Proximity warning|YES<sup>(3)</sup>|
 |  12          |1 beep at 1340 Hz|proximity warning reminder||
-|  13          |D4, C4, D4, E5, E5, E5|Proximity alert|YES(3)|
+|  13          |D4, C4, D4, E5, E5, E5|Proximity alert|YES<sup>(3)</sup>|
 |  14          |2 beeps at 1340 Hz|proximity alert reminder||
 
 **Notes**:
 
-(1) Reference: <https://en.wikipedia.org/wiki/Musical_note>
-(2) If the melody is used in the MCU applicative firmware V2.3
-(3) If Duration byte is not set, a duration of 10 seconds is used
+<sup>(1)</sup>Reference: <https://en.wikipedia.org/wiki/Musical_note>
+
+<sup>(2)</sup> If the melody is used in the MCU applicative firmware V2.3
+
+<sup>(3)</sup> If Duration byte is not set, a duration of 10 seconds is used
 
 ## Starting and stopping BLE Advertisement
 

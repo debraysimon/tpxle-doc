@@ -2,7 +2,7 @@
 
 |  Operating mode |     Trackers|User Interface needed|
 |----------------------|-----------------|-------------------------|
-|**OFF (1)**   |Micro, smart badge and compact trackers|button or reed switch acting like a button|
+|**OFF <sup>(1)</sup>**   |Micro, smart badge and compact trackers|button or reed switch acting like a button|
 |**Standby**  |   All|                                             |
 |**Motion tracking**  |     All|                                   |
 |**Permanent tracking**|     All|								   |
@@ -11,20 +11,20 @@
 
 :::tip Note
 
- \(1\) Can be forbidden using *config_flags* parameter bit 1 and bit 15
- (Refer to the section [Miscellaneous parameters](/downlink-messages/parameters-configuration/#miscellaneous-parameters) for more details)
+ <sup>(1)</sup> Can be forbidden using *config_flags* parameter bit 1 and bit 15
+ (Refer to the section [Miscellaneous parameters](/AbeewayRefGuide/downlink-messages/parameters-configuration/#miscellaneous-parameters) for more details)
  :::
 
 ## Overview
 
  The tracker supports up to six different operational modes: Off,
- Standby, Motion tracking, Permanent tracking, Start/End tracking and
+ Standby, Motion tracking, Permanent tracking, Start/End motion tracking and
  activity tracking.
 
  The operational mode is configurable using the configuration
  parameters.
 
- For more details, please refer to [Parameters for operational modes](/downlink-messages/parameters-configuration/#parameters-for-operational-modes)
+ For more details, please refer to [Parameters for operational modes](/AbeewayRefGuide/downlink-messages/parameters-configuration/#parameters-for-operational-modes)
 
  Alongside the main operating mode, the tracker can perform extra
  operations known as side operations. All the side operations can be
@@ -34,33 +34,33 @@
 
 1.  The LoRaWAN™ transmission periods may not be respected due to the duty cycle network constraint.
 
-2.  Event messages can also be sent depending on the configuration of bits 6, 8 and 9 of the *config_flags* parameter. (Refer to the tables in the [Event message](/uplink-messages/event/readme.md) topic)
+2.  Event messages can also be sent depending on the configuration of bits 6, 8 and 9 of the *config_flags* parameter. (Refer to the tables in the [Event message](/AbeewayRefGuide/uplink-messages/event/readme.md) topic)
 :::
 
 ## OFF mode
 
- The tracker is in deep low power mode. No LoRaWAN™ uplinks are sent.
+The tracker is in deep low power mode. No LoRaWAN™ uplinks are sent.
 
- A long button press (1) is required to wake up the device. There are
- three different ways to enter this mode:
+A press<sup>(1)</sup> is required to wake up the device. There are three different ways to enter this mode:
 
--   User action (very long button press (1), if the device is allowed for by setting bit 1 and clearing bit 15 of the *config_flags* parameter, and if the tracker is not in SOS).
+-   User action (long button press<sup>(2)</sup> , if the device is allowed for by setting bit 1 and clearing bit 15 of the *config_flags* parameter, and if the tracker is not in SOS).
 
 -   Low battery level.
 
 -   LoRaWAN™ downlink request.
 
- In each case, a shutdown message is sent via LoRaWAN™ uplink, with the
- cause. Refer to the section [Shutdown message](/uplink-messages/shutdown/readme.md) for more
- details.
+In each case, a shutdown message is sent via LoRaWAN™ uplink, with the
+cause. Refer to the section [Shutdown message](/AbeewayRefGuide/uplink-messages/shutdown/readme.md) for more details.
 
 :::tip Note
-(1) The very long press duration is long press duration + 3 seconds. The long button press duration is defined in the parameter *button_mapping*
+<sup>(1)</sup> The button press duration is defined by the firmware paramter, *button_mapping*.
+
+<sup>(2)</sup> The long press duration is button press duration + 3 seconds. Please refer to [User Interface](/AbeewayRefGuide/functioning/user-interfaces) section for more details on different button sequences.
 :::
 
 ## Standby mode
 
-The tracker sends periodically short LoRaWAN™ messages, called heartbeat, at the configured frequency (*lora_period*). The device positions can be obtained in this mode by using the side operations features (Refer to [Side operations](/functioning/side-operations/readme.md) for more details).
+The tracker sends periodically short LoRaWAN™ messages, called heartbeat, at the configured frequency (*lora_period*). The device positions can be obtained in this mode by using the side operations features (Refer to [Side operations](/AbeewayRefGuide/functioning/side-operations/readme.md) for more details).
 
 ## Motion tracking mode
 
@@ -83,13 +83,13 @@ This mode is used when only the beginning and the end of a motion are the points
 
 In this mode, (*motion_nb_pos*+1) positions messages (due to a start or an end) are reported and are spaced in time by the parameter *ul_period*.
 
-If either **geoloc_start** or the **motion_start** message is selected, the first LoRaWAN™ position message will be sent once the position has been acquired. For more details, please refer to the section [Position message scheduling](/geolocation-strategy-modes/geolocation-technology/readme.md).
+If either **geoloc_start** or the **motion_start** message is selected, the first LoRaWAN™ position message will be sent once the position has been acquired. For more details, please refer to the section [Position message scheduling](/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/readme.md).
 
 The end of the motion is detected when there is no movement during *motion_duration* seconds. Heartbeat messages are sent if there are no uplink message during *lora_period* seconds.
 
 :::tip Note
 
-In case of a too short motion the parameter *motion_nb_pos* may be not respected.
+In case of too short motion, the parameter *motion_nb_pos* may be not respected.
 :::
 
 ## Activity mode

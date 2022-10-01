@@ -1,6 +1,6 @@
-# BLE MAC address message
+# Bluetooth MAC address message
 
- This message is sent in answer to the DL [Status request](/downlink-messages/status-request/readme.md). It reports the BLE MAC address of the tracker.
+ This message is sent in answer to the DL [Status request](/AbeewayRefGuide/downlink-messages/status-request/readme.md). It reports the Bluetooth (BLE) MAC address of the tracker.
 
 |  Common header        |  Data |    Data         |
 |---------------------------|-----------|----------------------|

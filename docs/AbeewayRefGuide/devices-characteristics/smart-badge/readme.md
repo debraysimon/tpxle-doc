@@ -17,8 +17,5 @@ Refer to the [Startup process](/AbeewayRefGuide/functioning/startup-process/) to
 :::danger Warning
 - The tracker should not be submerged in water or left in the presence of high-pressure water jets for prolonged duration as the water will get inside the casing eventually and damage the tracker. Incorrect placement of the tracker will void the guarantee.
 - The tracker should not be left with low battery/completely discharged for more than a month. We recommend to periodically charge the tracker at least once a month. The warranty is void if the battery of the tracker is not functional as it was not charged for prolonged period.
-:::
-
-:::tip Notes
-The close environment and orientation of the tracker can influence the radio performance. For optimum results, keep the zone around the antenna area clear from any conducting material, magnetic fields and skin/body parts.  
+- The close environment and orientation of the tracker can influence the radio performance. For optimum results, keep the zone around the antenna area clear from any conducting material, magnetic fields and skin/body parts.  
 :::
