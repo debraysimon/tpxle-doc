@@ -1,6 +1,6 @@
 {
   "name": "tpxle-doc",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "",
   "main": "index.js",
   "authors": {
@@ -17,7 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "pre-commit": "^1.2.2",
-    "vuepress": "^1.8.1"
+    "vuepress": "^1.8.1",
+    "vuepress-plugin-md-enhance": "^2.0.0-beta.87"
   },
   "dependencies": {
     "vuepress-theme-abeeway": "3.10.0",
