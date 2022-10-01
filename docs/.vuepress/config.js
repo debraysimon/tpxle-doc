@@ -389,8 +389,20 @@ module.exports = {
                             path: '/D-Reference/IdentifyInstalledFirmware/',
                         },
                         {
-                            title: 'Firmware Update (Using Abeeway Updater)',
-                            path: '/D-Reference/AbeewayFirmwareUpdate_R/',
+                            title: 'Firmware Update',
+                            path: '/D-Reference/FirmwareUpdateOverview_R',
+                            collapsable: true,
+                            sidebarDepth: 3,
+                            children: [
+                                {
+                                    title: 'Firmware Update (Using Abeeway Tracking App)',
+                                    path: 'D-Reference/FirmwareUpdateMobileApp_R/',
+                                },
+                                {
+                                    title: 'Firmware Update (Using Abeeway Updater)',
+                                    path: '/D-Reference/AbeewayFirmwareUpdate_R/',
+                                },
+                            ],
                         },
                         {
                             title: 'Using Command Line Interface (CLI)',
