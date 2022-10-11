@@ -66,8 +66,13 @@ module.exports = {
                             ],
                         },
                         {
+                            title: 'Getting started with Abeeway tracking app',
+                            path: '/C-Procedure-Topics/GetStartedMobileApp_T/',
+                            collapsable: true,
+                        },
+                        {
                             title: 'Connecting your LoRaWAN network server',
-                            path: '/C-Procedure-Topics/ProvisionTrackerTPE_T/',
+                            path: '/C-Procedure-Topics/ProvisionTrackerOverview_T/',
                             collapsable: true,
                             sidebarDepth: 0,
                             children: [

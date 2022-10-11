@@ -3,7 +3,7 @@
 The easiest way to encode or decode Abeeway tracker payloads is to use Abeeway Device Manager. You can do that even if you do not have trackers linked to ThingPark Location.
  
 1. Create a free account on: [https://community.thingpark.org/](https://community.thingpark.org/)
-2. Log in to Abeeway Device Manager at the following URL: [https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community](https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community). If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).
+2. Log in to Abeeway Device Manager at the following URL: [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).
 3. You can then encode or decode Abeeway payloads from the device configuration page.
 <img src="./images/ADM_device_configuration_encode_decode_payloads.png" border="0" />
 # Using Abeeway driver

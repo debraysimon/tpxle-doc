@@ -16,7 +16,7 @@ For more information, see [Location templates](/D-Reference/LocationTemplates_R/
 :::
 
 1. Log in to Abeeway Device Manager using the URL that applies to your environment:
-    * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community](https://iot.thingpark.com/portal/web/)
+    * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api)
     * Abeeway Device Manager on IoT platform: [https://iot.thingpark.com/abeewayDeviceAnalyzer/?dxprofile=iot](https://iot.thingpark.com/portal/web/)
 
 If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>

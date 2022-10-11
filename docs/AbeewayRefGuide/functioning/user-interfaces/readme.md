@@ -152,9 +152,9 @@ A reed switch is a physical switch operated by an applied magnetic field. The re
 :::tip Notes
 
 <sup>(1)</sup> In the configuration other than \"**Act as a button**\", the reed switch sequence is the following:
-    -   A long activation of the reed switch (between 3 to 6 seconds)
-    -   A long time without activation of the reed switch (between 3 to 6 seconds)
-    -   A long activation of the reed switch (between 3 to 6 seconds)
+  - A long activation of the reed switch (between 3 to 6 seconds) </br>
+  - A long time without activation of the reed switch (between 3 to 6 seconds)</br>
+  - A long activation of the reed switch (between 3 to 6 seconds)</br>
 
 <sup>(2)</sup>  In **Startup** mode, only one action is available and doesn't follow the configuration. The sequence described above is used to exit the **shipping** mode.
 :::

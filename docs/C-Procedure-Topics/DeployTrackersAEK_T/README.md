@@ -39,7 +39,7 @@ You must change the mode of your industrial or compact tracker before and after 
 * Before starting the tracking, the testing or the integration with the industrial or compact tracker, you must change the mode to **motion tracking**, and change it back to **standby mode** when finished.
  
 
-1. Log in to [Abeeway Device Manager](../../B-Feature-Topics/AbeewayDeviceManager_C/) on the community platform using this URL:[here](https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community). The URLs for other ThingPark X Location Engine platforms are [here](../../D-Reference/ThingParkLocationURLs/)
+1. Log in to [Abeeway Device Manager](../../B-Feature-Topics/AbeewayDeviceManager_C/) on the community platform using this URL:[here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). The URLs for other ThingPark X Location Engine platforms are [here](../../D-Reference/ThingParkLocationURLs/)
 
 2. In the **Select Devices** column, select the tracker you want to change the mode, and click **Select**.
 

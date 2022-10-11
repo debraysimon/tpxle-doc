@@ -14,14 +14,14 @@ Other ThingPark platforms, contact either:
 * [Abeeway support](https://thingpark.page.link/AbeewaySupport) if you purchased trackers from Actility or Abeeway.
 
 
-## Access to Abeeway Device Manager  and DX Location API
+## Access to Abeeway Device Manager and DX Location API
 
 This table describes how to access  (ADM) and  for all the ThingPark platforms.
 
 ::: warning Important
 
-When routing the LoRaWAN® payloads to ThingPark Location, you must set the content type to XML.
-
+- When routing the LoRaWAN® payloads to ThingPark Location, you must set the content type to XML.
+- The routing URLs below are for ThingPark Location B2B use case. If you wish to use Abeeway mobile app, please visit [here](../../C-Procedure-Topics/GetStartedMobileApp_T/README.md). **The routing URL for B2B Use case and B2C Use case should never be set at the same time on the same tracker towards to the same ThingPark Location platform. This is not supported and will result in errors for both the use cases. The tracker can be only in one of the use cases but NOT both at the same time.**
 :::
 
 | ThingPark operator      | Abeeway Device Manager (ADM) | AS routing URL | AS Key (Tunnel Interface Authentication Key) | DX API Platform | DX API Prefix |

@@ -38,7 +38,7 @@ You must change the mode of your industrial or compact tracker before and after 
  
 
 1. Log in to Abeeway Device Manager using the URL that applies to your environment.<br/>
-    * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community](https://iot.thingpark.com/portal/web/)<br/>
+    * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api)<br/>
 
     * Abeeway Device Manager on IoT platform: [https://iot.thingpark.com/abeewayDeviceAnalyzer/?dxprofile=iot](https://iot.thingpark.com/portal/web/)<br/>
 If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>

@@ -6,7 +6,7 @@ You can track your assets locations on a map and assess your tracker performance
 :::
 
 1. Log in to Abeeway Device Manager using the URL that applies to your environment.For example:<br/>
-    * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [https://dev1.thingpark.com/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community](https://iot.thingpark.com/portal/web/)<br/>
+    * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api)<br/>
 
     * Abeeway Device Manager on IoT platform: [https://iot.thingpark.com/abeewayDeviceAnalyzer/?dxprofile=iot](https://iot.thingpark.com/portal/web/)<br/>
 If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>
