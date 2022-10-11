@@ -28,6 +28,9 @@ To complete this getting started guide, you need:
   - MCU Firmware >= 2.3.x (**For App version 1.0.3 and above**)
   - BLE Firmware >= 3.3.x (**For all the App versions**)
 
+  The mobile app version can be found on the home screen (See below) from the app store where the mobile app was downloaded.
+  <img src="./images/AppVersion.png" width="300px" border="1" />
+
 * Tracker Configuration. We recommend that before the tracker is added to the mobile app. It is flashed with the default configuration files. Before adding the tracker to the mobile app, it is important that the trackers are flashed with minimum MCU FW: 2.2.0 and BLE FW: 3.3.0 respectively. 
   - The update of the MCU Firmware can be carried out by the [Abeeway updater](../../D-Reference/AbeewayFirmwareUpdate_R/)
   - The MCU Firmware binary & config files are available [here](https://actilitysa.sharepoint.com/:w:/t/aby/EcuMNrIEoB9HvcIkCTXu2TkBTQQ49cYaQA2y1Wa6TmFmNg?e=Z1nEYc)
@@ -65,6 +68,14 @@ ThingPark X location engine has two main use cases:
 ::: warning Warning
 **The LoRaWAN routing profile for B2B Use case and B2C Use case should never be set at the same time on the same tracker towards to the same ThingPark Location platform. This is not supported and will result in errors for both the use cases. The tracker can be only in one of the use cases above but NOT both at the same time.**
 :::
+
+## Tracker behaviour when bluetooth securely connected to the mobile app
+Once the tracker is securely bluetooth connected to the mobile app, the following functionality in the tracker is disabled:
+1. LoRaWAN communication
+2. GPS/WiFi/BLE beacon scanning
+
+During the time the tracker is bluetooth connected to the app, it sends the phone position and other Bluetooth events (motion, SoS) to the backend on behalf of the tracker.
+Once the tracker is disconnected over Bluetooth, it resumes its functionality over LoRaWAN
 
 ## Distributor Selection
 There are three distributors (realms) that are currently configured in the mobile app. It allows you to connect to different mobile app backends.
