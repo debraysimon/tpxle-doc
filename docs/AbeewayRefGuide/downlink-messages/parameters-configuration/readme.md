@@ -384,7 +384,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 <sup>(1)</sup>  Before V1.7 MCU application firmware version, WIFI position payloads were all encrypted, this parameter is for backward compatibility only and only non-cyphered payload should be use in new application
 
-<sup>(2)</sup>  If the bit is set, the advertising is activated when the tracker is turned on or with a debug downlink
+<sup>(2)</sup>  If the bit is set, the advertising is activated when the tracker is turned on, with a debug downlink or in case of Compact Tracker when the special Reed switch sequence is detected.
 
 <sup>(3)</sup>  Force a new join to the LoRaWAN&trade; network when the tracker is turned on after it was in OFF mode due to a downlink or a user action.
 
