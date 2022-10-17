@@ -63,7 +63,7 @@ Please ask [Abeeway support](https://thingpark.page.link/AbeewaySupport) to enab
 ## ThingPark X Location Engine use cases
 ThingPark X location engine has two main use cases:
  - **B2B Use Case:** In this use case, the customer is using ThingPark X Location engine to manage a fleet of trackers. To be in this use case, the tracker uplinks are sent to [ThingPark Location Application server](../../D-Reference/ThingParkLocationURLs/) and visualize fleet of trackers in [Abeeway Device Manager](../../B-Feature-Topics/AbeewayDeviceManager_C/).
- - **B2C Use Case:** In this use case, the customer is using Abeeway Mobile app and all the trackers within a specific “Distributor” when logging to the mobile app are in a specific realm/subscriber. To visualize the mobile app trackers in Abeeway Device Manager, it requires logging into ADM with subscriber credentials associated to the realm/Distributor where mobile app end user account exists. For example, to visualize all the trackers in “Abeeway – Ecosystem” distributor, it requires login to ADM as a subscriber that is associated with “Abeeway – Ecosystem” realm. **The subscriber accounts for Abeeway distributors in the mobile app are restricted to Abeeway Operations team.**
+ - **B2C Use Case:** In this use case, the customer is using Abeeway Mobile app and all the trackers within a specific “Distributor” when logging to the mobile app are in a specific realm/subscriber. To visualize the mobile app trackers in Abeeway Device Manager, it requires logging into ADM with subscriber credentials associated to the realm/Distributor where mobile app end user account exists. For example, to visualize all the trackers in “Abeeway – Community” distributor, it requires login to ADM as a subscriber that is associated with “Abeeway – Community” realm. **The subscriber accounts for Abeeway distributors in the mobile app are restricted to Abeeway Operations team.**
 
 ::: warning Warning
 **The LoRaWAN routing profile for B2B Use case and B2C Use case should never be set at the same time on the same tracker towards to the same ThingPark Location platform. This is not supported and will result in errors for both the use cases. The tracker can be only in one of the use cases above but NOT both at the same time.**
@@ -85,9 +85,9 @@ Here are the general guidelines when selecting the mobile app distributor when c
 
 | Platform to Choose </br> (Mobile App Distributor) | Purpose|
 | --------------------- | ----- |
-|Abeeway - PREVIEW	| If you are involved in Beta testing of Abeeway Mobile App|
-|Abeeway - ECOSYSTEM |	If you bought the trackers from the [Actility Marketplace](https://market.thingpark.com) |
-|Abeeway - EUROPE |	If you have a large deployment of Abeeway trackers which are connected to public LoRaWAN networks |
+|Abeeway - Preview	| If you are involved in Beta testing of Abeeway Mobile App|
+|Abeeway - Community |	If you bought the trackers from the [Actility Marketplace](https://market.thingpark.com)</br>**Please use this platform for the mobile app testing with customers** |
+|Abeeway - Europe |	If you have a large deployment of Abeeway trackers which are connected to public LoRaWAN networks |
 |Abeeway - US |	Not deployed yet |
 |Abeeway - APAC |	Not deployed yet |
 
@@ -105,7 +105,7 @@ Abeeway tracker should be provisioned and functioning in the [LoRaWAN network se
 
 ::: warning Notes
 * The instructions in this section are for trackers 
-provisioned in [ThingPark Community](http://community.thingpark.org/) platform and using **Abeeway - Ecosystem** as the distributor realm when creating the mobile app account.  For using other ThingPark platforms with the mobile app, please visit [AN-017_Mobile APP Getting Started Guide](../../D-Reference/DocLibrary_R/#application-notes)
+provisioned in [ThingPark Community](http://community.thingpark.org/) platform and using **Abeeway - Community** as the distributor realm when creating the mobile app account.  For using other ThingPark platforms with the mobile app, please visit [AN-017_Mobile APP Getting Started Guide](../../D-Reference/DocLibrary_R/#application-notes)
 * **When using the mobile app, it is important to not route the uplinks from the tracker towards other ThingPark Location application servers in the same platorm.**
 :::
 
@@ -134,7 +134,7 @@ provisioned in [ThingPark Community](http://community.thingpark.org/) platform a
 The first step to use the mobile app is to create an account. 
 <img src="./images/appLogin.png" width="300px" border="1" />
 
-When creating an account, please select "Abeeway - Ecosystem" from the distributor dropdown list.
+When creating an account, please select "Abeeway - Community" from the distributor dropdown list.
 <img src="./images/appDistributorSelect.png" width="300px" border="1" />
 
 Click the **Register** button to create the account
