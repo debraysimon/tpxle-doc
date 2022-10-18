@@ -22,13 +22,20 @@ To complete this getting started guide, you need:
   - Smart Badge
   - Compact tracker
   - Industrial tracker V2
+::: warning Notes
+- The tracker model can be found from [here](../../D-Reference/IdentifyTrackerModel/)
+:::
 
 * Minimum Firmware Version
   - MCU Firmware 2.2.1 (**For App version 1.0.2 and below**)
   - MCU Firmware >= 2.3.x (**For App version 1.0.3 and above**)
   - BLE Firmware >= 3.3.x (**For all the App versions**)
 
-  The mobile app version can be found on the home screen (See below) from the app store where the mobile app was downloaded.
+::: warning Notes
+- The firmware versions can be found from [here](../../D-Reference/IdentifyInstalledFirmware/)
+:::
+
+  The mobile app version can be found on the home screen (See below) or from the Android/Apple app store where the mobile app was downloaded.
   <img src="./images/AppVersion.png" width="300px" border="1" />
 
 * Tracker Configuration. We recommend that before the tracker is added to the mobile app. It is flashed with the default configuration files. Before adding the tracker to the mobile app, it is important that the trackers are flashed with minimum MCU FW: 2.2.0 and BLE FW: 3.3.0 respectively. 
@@ -86,19 +93,19 @@ Here are the general guidelines when selecting the mobile app distributor when c
 | Platform to Choose </br> (Mobile App Distributor) | Purpose|
 | --------------------- | ----- |
 |Abeeway - Preview	| If you are involved in Beta testing of Abeeway Mobile App|
-|Abeeway - Community |	If you bought the trackers from the [Actility Marketplace](https://market.thingpark.com)</br>**Please use this platform for the mobile app testing with customers** |
+|Abeeway - Community |	If you bought the trackers from the [Actility Marketplace](https://market.thingpark.com) or if you want to use [Actility Community Platform](https://community.thingpark.org/)|
 |Abeeway - Europe |	If you have a large deployment of Abeeway trackers which are connected to public LoRaWAN networks |
 |Abeeway - US |	Not deployed yet |
 |Abeeway - APAC |	Not deployed yet |
 
 
 ## Provisioning the trackers
-Abeeway tracker should be provisioned and functioning in the [LoRaWAN network server](../../C-Procedure-Topics/ProvisionTrackerOverview_T/). You will also need an operational access to ThingPark Enterprise user portal: [ThingPark Community](https://community.thingpark.io/tpe/). The tracker uplinks must be routed to the following ThingPark Location Application server.
+Abeeway tracker should be provisioned and functioning in the [LoRaWAN network server](../../C-Procedure-Topics/ProvisionTrackerOverview_T/). You will also need an operational access to ThingPark Enterprise user portal: [ThingPark Community](https://community.thingpark.io/tpe/). The tracker uplinks must be routed to the following ThingPark Location Application server. In order to do this, new connection must be created in ThingPark Enterprise Community towards this application server.
 
 |   | Information | 
 | - | ----------- | 
 | **Name** |  ThingPark Location - Mobile app | 
-| **URL** | [here](https://abeeway-eu-eco.thingpark.com:50540/?TPXLE_TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NjM3NzY0NzcsInN1YiI6IjEwMDAxMjg4MyJ9.aAANx1rnybAAiCvYQLmEtPIoWVa7cyxsEVo2JfCHh3o) | 
+| **URL** | https://abeeway-eu-eco.thingpark.com:50540/?TPXLE_TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NjM3NzY0NzcsInN1YiI6IjEwMDAxMjg4MyJ9.aAANx1rnybAAiCvYQLmEtPIoWVa7cyxsEVo2JfCHh3o | 
 | **Content Type** |  XML | 
 | **Tunnel Interface Authentication Key** |  e8959e26fd9bce52700605a9cfe74d53 | 
 
