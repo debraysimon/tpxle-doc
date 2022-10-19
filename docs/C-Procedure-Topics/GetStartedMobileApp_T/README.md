@@ -216,3 +216,7 @@ Developer mode of the mobile app allows for advanced tracker debugging or perfor
 <img src="./images/developerMode.png" width="900px" border="1" />
 
 
+## Additional help
+The mobile app HELP menu has the [user guide](https://www.abeeway.com/user-guide/) and [FAQ](https://www.abeeway.com/FAQ/) for the most common problems. You can also report problems from the HELP menu of the mobile app.
+
+<img src="./images/appReportProblem.png" width="300px" border="1" />
