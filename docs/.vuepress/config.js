@@ -695,6 +695,10 @@ module.exports = {
                                 path: '/AbeewayRefGuide/downlink-messages/status-request/',
                               },
                               {
+                                title: 'Clear motion duty cycle',
+                                path: '/AbeewayRefGuide/downlink-messages/clear-motion-percentage/',
+                              },
+                              {
                                 title: 'Parameters configuration',
                                 path: '/AbeewayRefGuide/downlink-messages/parameters-configuration/',
                               },

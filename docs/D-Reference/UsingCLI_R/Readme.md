@@ -13,7 +13,7 @@ All the Abeeway trackers are equipped with USB port that can be connected with *
 ::: warning WARNING
 * The USB port for Compact/Industrial tracker is inside the casing which needs to be opened to access it.
 * The instructions below are for MCU Firmware version 2.2 and above. If you are using older MCU firmware version or need an overview of full feature set of CLI commands, please refer to [CLI Usage Training](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X)
-* There is also more detailed application note on CLI Usage which is available here, [AN-013_CLI_Description](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes)
+* There is also more detailed application note on CLI Usage which is available here, [AN-013_CLI_Description](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes)
 * If there are issues connecting to USB port, please ensure you are using USB data cable and connect the tracker to different computer to check if the USB port is properly detected. You can find more troubleshooting steps in [Abeeway Updater](https://github.com/Abeeway/Abeeway-updater) (chapter: Troubleshooting the USB port)
 * When sending the logs to the support team, please ensure the Tera Term(CLI) traces are timestamped with UTC or local time. See [CLI Usage Training](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) on how to timestamp CLI traces with local/UTC time. This is very useful when correlating the tracker logs with those of Network server uplinks.
 :::
