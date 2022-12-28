@@ -19,7 +19,7 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
 <img src="./images/ADASelectTracker.png" border="1" />
 
 3. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
-    * **MCU Firmware** : If need be, gives the tracker's MCU firmware version to refer to the relative [Asset Tracker Driver User Guide](/D-Reference/DocLibrary_R/#AssetTrackerDriver) to know the supported features.
+    * **MCU Firmware** : It gives the tracker MCU firmware version. Please refer to the [Abeeway trackers reference guide](/AbeewayRefGuide/introduction/) matching the MCU Firmware version to know the supported features.
     * **First Position** and **Last Position** of the tracker
     * **Last Mode** : Current mode of the tracker
     * **Battery** : Percentage of remaining battery
@@ -39,4 +39,4 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
     For a given tracker, all the sliders are synchronized between each other.
     :::
     <img src="./images/ADAPerfTab.png" border="1" />
-6. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/D-Reference/DocLibrary_R/#ADMUserGuide).
+6. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/B-Feature-Topics/AbeewayDeviceManager_C/).

@@ -50,8 +50,7 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
 <img src="./images/ADASelectTracker_1058x542.png" border="1" />
 
 3. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
-    * **MCU Firmware** : If need be, gives the tracker firmware version to refer to the relative [Asset Tracker Driver User Guide](/D-Reference/DocLibrary_R/#AssetTrackerDriver) to know the supported features.<br/>
-
+    * **MCU Firmware** :  It gives the tracker MCU firmware version. Please refer to the [Asset Tracker Firmware Reference Guide](/AbeewayRefGuide/introduction/) to know the supported features. **Please ensure to follow only the reference guide version matching the firmware version running on the tracker**.
     * **First Position** and **Last Position** : When in standby mode, the tracker sends LoRaWAN® heartbeat messages periodically which can be used to get battery information, mode, firmware version...
     * **Last Mode** : Current mode of the tracker.
     * **Battery** : Percentage of battery left.
@@ -131,6 +130,6 @@ To maximize responsiveness of the tracker, this LoRaWAN® uplink period is set t
 ### Adjusting tracker's configuration to your needs
 As mentioned previously, default tracker's configuration is made to optimize your experience while discovering our solution.<br/>
 Although you will enjoy this at the beginning, you might need to adapt trackers behavior to better suit your use case requirements, or optimize power consumption.<br/>
-Abeeway trackers support a wide variety of modes and configuration parameters to help you with that. Please refer to [Abeeway Device Manager User Guide](/D-Reference/DocLibrary_R/#ADMUserGuide) to learn how to change trackers configuration.
+Abeeway trackers support a wide variety of modes and configuration parameters to help you with that. Please refer to [Abeeway Device Manager User Guide](/B-Feature-Topics/AbeewayDeviceManager_C/) to learn how to change tracker configuration.
 
 

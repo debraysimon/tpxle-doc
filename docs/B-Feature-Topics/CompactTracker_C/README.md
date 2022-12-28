@@ -43,7 +43,7 @@ The example video below demonstrates the operation.
 
 ::: warning WARNING
 * For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/#TrackersRefGuide).
+* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#TrackersRefGuide).
 :::
 
 ### Geolocation technologies
@@ -66,7 +66,7 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
 * ATEX zone 2 (ordering option).
 
 ::: warning WARNING
-*  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#certifications).
+*  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
 * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down. 
 * **The warranty of the tracker is avoid if used incorrectly**.
 :::

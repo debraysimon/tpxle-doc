@@ -13,9 +13,8 @@ This section of our documentation answers the most typical questions we are gett
 3. **Where do I find Abeeway product data sheets?**
 <br/>The data sheets of different products is located in [DataSheet](https://actilitysa.sharepoint.com/:f:/t/aby/EjbhUI7oGiZHrPZ1wCDuXzsB7cUgti7AtYwTrMdn2_oRAg?e=qvyHWw).<br/>
 
-4. **How do I perform a firmware update of the trackers?**
-* A application/MCU firmware, which can be updated from [AN-009_mcu_firmware_update](/D-Reference/DocLibrary_R/#AN-009) <br/>
-* A BLE firmware, which can be updated from [AN-001_ble-update](/D-Reference/DocLibrary_R/#AN-001) <br/>
+4. **How do I perform a firmware update of the trackers?**<br/>
+Please refer to [Firmware Update](/D-Reference/FirmwareUpdateOverview_R/) for more details.
 
 5. **What are the steps to replace a faulty tracker?**
 <br/>The RMA procedure and the associated form are described in [RMA Procedure](https://actilitysa.sharepoint.com/:f:/t/aby/ElVVoXBbQitMoqlGqw5WS5UBAt1U2WCquWR7LrNb72DciQ?e=b6QaXX).<br/>
@@ -35,7 +34,7 @@ This section of our documentation answers the most typical questions we are gett
 <br/>Yes, you can see [Abeeway Device Manager](/B-Feature-Topics/AbeewayDeviceManager_C/) device configuration tab to select pre-defined profiles for most common use cases.
 
 9. **Is there a way to estimate battery life for a given configuration?**
-<br/>Yes, you can use [Power Comsumption Estimation](/D-Reference/DocLibrary_R/#PowerConsumption) to estimate the battery lifetime of your trackers. However, be aware that this is an approximation under ideal conditions.
+<br/>Yes, you can use [Power Comsumption Estimation](/D-Reference/PowerConsumption_R/) to estimate the battery lifetime of your trackers. However, be aware that this is an approximation under ideal conditions.
 
 10. **How often should I charge my device?**
 <br/>Only micro trackers and smart badges can be recharged. We recommend to periodically charge them at least once a month. To not damage the battery, they must not be left with a low or completely discharged battery for more than a month. The warranty is void if the battery has not been charged for a prolonged period.
@@ -44,7 +43,10 @@ This section of our documentation answers the most typical questions we are gett
 <br/>Yes, provided that you are certain that it has short-circuit protection, which is an essential security feature.
 
 12. **My tracker resets very often. How do I know the root cause?**
-<br/>You can look at the MCU Reset Cause in LoRaWAN® heartbeat uplinks. If the reset cause is 0x40, which means (System Request -application reset-), then one possible cause can be: There are lot of LoRaWAN® messages that the tracker is trying to send but there is lack of appropriate LoRaWAN® coverage. Then, if the LoRaWAN® MAC queue gets really full, the tracker will reset itself to be able to function properly. For more information about different reset causes and their explanation, see [Abeeway Trackers Reference Guide](/D-Reference/DocLibrary_R/#TrackersRefGuide).
+<br/>You can look at the MCU Reset Cause in LoRaWAN® heartbeat uplinks. If the reset cause is 0x40, which means (System Request -application reset-), then one possible cause can be: There are lot of LoRaWAN® messages that the tracker is trying to send but there is lack of appropriate LoRaWAN® coverage. Then, if the LoRaWAN® MAC queue gets really full, the tracker will reset itself to be able to function properly. For more information about different reset causes and their explanation, see [Abeeway Trackers Reference Guide](/AbeewayRefGuide/introduction/).
 
 13. **How do I debug the tracker over USB port?**
 <br/>You can connect the tracker to USB port and interact with the tracker using serial terminal program like Tera term. You can find more information [CLI Usage](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X).
+
+14. **My geolocation keeps getting stopped from time to time. What could be the reason?**
+<br/>There is temperature monitoring that has been enabled in the tracker configuration that disables the geolocation when the temperature detected by the tracker is outside the range. The symptom of this to receive [Temperature Alert Event](/AbeewayRefGuide/uplink-messages/event) message. You can find more information about temperature monitoring [here](/AbeewayRefGuide/functioning/temperature-monitoring/). Temperature monitoring can be disabled by setting the value of *temperature_high = 255* and *temperature_value=255* in the firmware. It can be easily be done using [Abeeway Device Manager (Device Configuration tab)](/C-Procedure-Topics/ChangeTrackerConfiguration_T/) or by connecting the tracker over [USB port with CLI](/D-Reference/UsingCLI_R/).

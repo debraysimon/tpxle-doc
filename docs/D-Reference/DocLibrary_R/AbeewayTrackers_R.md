@@ -1,32 +1,17 @@
-# Abeeway trackers and location services documentation
-This page lists all the documentation available for Abeeway trackers, Abeeway Device Manager and the ThingPark X Location Engine.
+# Abeeway trackers
 
-## Suggested journey through the documentation
-The complete documentation listed below can be a bit overwhelming. We recommend to read the documentation in the following order:
-1. Read the out-of-the box notice related to your specific tracker model (which will also provide convenient QR codes pointing to essential documentation). The out-of-the-box document is present in the tracker delivery package or it can be downloaded from [here](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k)
-2. Read the training on the tracker Button and LED [User Interface](https://actilitysa.sharepoint.com/:f:/t/aby/EiWIqYpAehBKg3Py8I6X07oBFFxUWT3i2FVHYRX2MzXtow?e=ZFkhrM) and on the [Command Line Interface (CLI)](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X). Many features require activation by button press sequences or CLI commands, and it is important to be familiar with both.
-3. Read the [Abeeway Device Manager (ADM) User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhbJycLDkulLhGAhJpcOztcBa_glwi7WYyyPMz58f-PEUQ?e=YN9ptc). This easy to use online tool will allow you to interact and configure your trackers without having to know the exact configuration commands or parameter IDs.
-4. You will need to tune the tracker's LoRaWAN transmit strategy to your specific use case and network. ADM provides default settings but if you want to optimize power consumption for a given private network you will need to make sure the the datarates used are as high as possible. [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) provides all the details.
-5. You will usually need to understand how to tune the embedded GNSS geolocation logic to optimize power consumption and tune it to your local GNSS reception conditions, or configure aggressive timeouts if you want the tracker to switch to WiFi or BLE geolocation as much as possible. [AN-016_GPS_LPGPS](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) provides the required reference.
-6. If you need to understand specific parameters when using the Abeeway Device Manager beyond the tooltip information, you can refer to the [Abeeway Trackers Reference Guide](/AbeewayRefGuide/introduction/). This document is not meant to be read end-to-end, but rather as a comprehensive reference for all commands and parameters.
-7. You can more information in [Abeeway Firmware trainings](../../D-Reference/DocLibrary_R/#abeeway-firmware-trainings) and [ThingPark X Location Engine trainings](../../D-Reference/DocLibrary_R/#thingpark-x-location-engine-trainings) below for more specific use cases.
-
-The rest of the documentation relates to specific use cases (e.g. BLE scanning, Covid proximity) or specific actions (Firmware update, debugging), and the titles are self-explanatory. You need to read them only if relevant to you.
-
-## Abeeway trackers
-
-### Reference Guides and Tools
+## Reference Guides and Tools
 
 | | Resource |
 | - | -------- |
 | **Asset tracker firmware**| [Abeeway Trackers Reference Guide](/AbeewayRefGuide/introduction/) |  
-| **Asset tracker firmware Release Notes**| [Abeeway tracker Firmware Release notes](https://actilitysa.sharepoint.com/:f:/t/aby/ElJzs_L4X5lDviZbdDBi10wBd9F2VUP19HY52fMxh4Z35g?e=xTkQzY) |  
+| **Asset tracker firmware Release Notes**| [Abeeway tracker Firmware Release notes](../../D-Reference/ReleaseNotes/) |  
 | **Trackers power consumption estimation**| [Power Consumption Estimation](https://actilitysa.sharepoint.com/:f:/t/aby/Er1CBFg9-YxChO-cdxGs5DUBj2CDpFGEhoEQtFeuH9l_4w?e=xmiDVM) |
 | **LED patterns for micro tracker and smart badge** | [LED patterns](https://actilitysa.sharepoint.com/:b:/t/aby/Ee9KhtkknRFMiBipu_fWDdgBh5pr8AIyZNYXkTCe5fg18A?e=DtRe8I) | 
 | **Asset tracker driver**| [Asset Tracker Driver User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhpXO62fGtlEstRRCMq6UAgBRgT_0xLToEZd1k_NyGzCcA?e=HlmwTS) |
 | **Melodies for Abeeway Trackers** | [Abeeway trackers melody](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=dCGByt) |
 
-### Out of Box User Guides
+## Out of Box User Guides
 
 | | Resource | 
 | - | -------- |
@@ -36,7 +21,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Compact tracker** | [Compact Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 | **Geolocation Module Discovery kit (EVK)** | [Geolocation Module Discovery kit Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 
-### Certifications
+## Certifications
 
 | | Resource | 
 | - | -------- | 
@@ -48,13 +33,13 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Compact tracker** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EtWpMlYIt0lGk3o2Nx0hKyMBC52iKMXjW2bAuYoxUdvjYg?e=wgyH4y) |
 | **Docking station** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EnEQl3ZoI4ZArh073pciqXoBoO706gpO262rev0V38G-gw?e=TAemPx) |
 
-### Abeeway Device Manager application
+## Abeeway Device Manager application
 
 | | Resource | 
 | - | -------- |
 | **Abeeway Device Manager** (ADM)| [Abeeway Device Manager User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhbJycLDkulLhGAhJpcOztcBa_glwi7WYyyPMz58f-PEUQ?e=YN9ptc) |
 
-### Data sheets
+## Data sheets
 
 | | Resource | 
 | - | -------- | 
@@ -67,13 +52,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Third party accessories** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/ErQIOhsLoiVFrDW5dcCW2qcBfdsNMAAIdhlkw5Hww8v0Xw?e=fvzYse) |
 
 
-### Application notes
-
-
-<html>
-<a id="AN-009"></a>
-<a id="AN-001"></a>
-</html>
+## Application notes
 
 | | Description | Resource | Minimum Required MCU/BLE Firmware Version |
 | - | ----------- | -------- |-------- |
@@ -96,7 +75,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **BLE beaconing** | This application note describes how to configure the firmware to send BLE beacons (iBeacon, Eddystone and Altbeacon) | [AN-019_BLE Beacon transmission](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.3.x, BLE: 3.3.2 |
 
 
-### Firmware Update
+## Firmware Update
 
 | | Description | Resource | 
 | - | ----------- | -------- |
@@ -106,7 +85,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Config files** | This folder has all the Firmware config files for different trackers. | [Abeeway Firmware Update](https://actilitysa.sharepoint.com/:f:/t/aby/ErEQcpIhgN9Khxt8q66GBy4Bj9FIV-0rGf5XhaVyCJo2CQ?e=QqegCQ) |
 | **BLE firmware update** | This application note describes the BLE firmware update procedure using Nordic NrfConnect smartphone application. | [AN-001_ble-update](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) |
 
-### Abeeway Firmware trainings
+## Abeeway Firmware trainings
 
 | | Description | Resource | 
 | - | ----------- | -------- |
@@ -118,68 +97,3 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Quuppa Beaconing** | This feature enables Quuppa beaconing for Abeeway trackers. | [Quuppa Beaconing](https://actilitysa.sharepoint.com/:f:/t/aby/EucRGJmCxnJEv_QCWbvL58YBkwyfz8RWgTmxU6YMwKJfkg?e=CE7yUH) |
 | **BLE Geozoning** | This feature enables BLE geozoning for Abeeway trackers. | [BLE geozoning](https://actilitysa.sharepoint.com/:f:/t/aby/EoMeflwX2UdBnUhmVmwYfOYBYjFIIYupWFfgyNsW2uQvOQ?e=ffx9va) |
 | **Abeeway Mobile App** | This feature explains how to use Abeeway Mobile for Abeeway trackers. | [Abeeway Mobile App](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=KgYKLP) |
-
-## ThingPark X Location Engine
-
-### ThingPark X Location Engine Trainings
-
-| | Description | Resource | 
-| - | ----------- | -------- |
-| **ThingPark Location Introduction** | These training slides introduce basic features of ThingPark Location. | [ThingPark Location Introduction](https://actilitysa.sharepoint.com/:f:/t/aby/EqVIEMaqJfVHoNAi90G068UB8K4HMfB1t2eyttWIGlIwbQ?e=JZYdsp) |
-
-### ThingPark X Location Engine Usage
-
-<html>
-<table>
-    <tr>
-        <th>
-        </th>
-        <th>
-            Resource
-        </th>
-    </tr>
-    <tbody>
-    <tr>
-        <td>
-            API
-        </td>
-        <td>
-            <ul>
-                <li>
-                    <a href="../../B-Feature-Topics/IntegrateAppwithTPLocation_C/">
-                        API Overview
-                    </a>
-                </li>
-                <li>
-                    <a href="https://dx-api.thingpark.io/getstarted/#/">
-                        API Getting Started
-                    </a>
-                </li>
-                <li>
-                    <a href="https://dx-api.thingpark.io/location/latest/doc/index.html">
-                        API online documentation
-                    </a>
-                </li>
-                <li>
-                    <a href="https://dx-api.thingpark.io/location/latest/swagger-ui/index.html?shortUrl=tpdx-location-api-contract.json">
-                        API - Swagger
-                    </a>
-                </li>
-                <li>
-                    <a href="https://dx-api.thingpark.io/location/latest/tpdx-location-api-contract.json">
-                        OPEN API contract
-                    </a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    </tbody>
-</table>
-</html>
-
-## ThingPark Market offers
-
-|  | Resource |
-| ------------ | -------- |
-| For a **private** connectivity network | [Low-Power Location for Private Network Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EkVaNRWQacRLkwOlneNsC3EBPahvZZCOdMRPiJYcH0F4KQ?e=M5NrCz). **This link is deprecated. Please click [here](../../../C-Procedure-Topics/GetStartedAEK_T/) if you bought the marketplace package recently.** |
-| For a **public** connectivity network | [Low-Power Location for Public Network Guide](https://actilitysa.sharepoint.com/:f:/t/aby/ErzF-smKHfhKjHbcyiIS7wwBNO3IdQTgCCnJgJTFR0Cj-Q?e=Qq6wCm). **This link is deprecated. Please click [here](../../../C-Procedure-Topics/GetStartedAEK_T/) if you bought the marketplace package recently.** |

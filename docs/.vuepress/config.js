@@ -376,8 +376,16 @@ module.exports = {
                     collapsable: true,
                     children: [
                         {
-                            title: 'Documentation library',
-                            path: '/D-Reference/DocLibrary_R/',
+                            title: 'Suggested journey through the documentation',
+                            path: '/D-Reference/DocLibrary_R/SuggestedJourney_R',
+                        },
+                        {
+                          title: 'Abeeway trackers',
+                          path: '/D-Reference/DocLibrary_R/AbeewayTrackers_R',
+                        },
+                        {
+                          title: 'ThingPark X Location Engine',
+                          path: '/D-Reference/DocLibrary_R/ThingParkLocationEngine_R',
                         },
                     ],
                 },
@@ -432,25 +440,31 @@ module.exports = {
                     collapsable: true,
                     children: [
                         {
-                        title: 'Introduction',
-                        path: '/AbeewayRefGuide/introduction/',
-                        collapsable: true,
-                        sidebarDepth: 3,
-                        children:[
-                            {
-                                title: 'Products description',
-                                path: '/AbeewayRefGuide/introduction/product-description/',
+                            title: 'Abeeway Firmware 2.4',
+                            path: '/AbeewayRefGuide/introduction/',
+                            collapsable: true,
+                            sidebarDepth: 3,
+                            children: [
+                                 {
+                                 title: 'Introduction',
+                                 path: '/AbeewayRefGuide/introduction/',
+                                 collapsable: true,
+                                 sidebarDepth: 3,
+                                 children:[
+                                    {
+                                    title: 'Products description',
+                                    path: '/AbeewayRefGuide/introduction/product-description/',
+                                    },
+                                    {
+                                    title: 'Typical applications',
+                                    path: '/AbeewayRefGuide/introduction/typical-apps/',
+                                    },
+                                    {
+                                    title: 'Features',
+                                    path: '/AbeewayRefGuide/introduction/features/',
+                                    },
+                                ],
                             },
-                            {
-                                title: 'Typical applications',
-                                path: '/AbeewayRefGuide/introduction/typical-apps/',
-                            },
-                            {
-                                title: 'Features',
-                                path: '/AbeewayRefGuide/introduction/features/',
-                            },
-                        ],
-                    },
                         {
                         title: 'Devices characteristics',
                         path: '/AbeewayRefGuide/devices-characteristics/',
@@ -718,6 +732,304 @@ module.exports = {
                             title: 'Tracker reset',
                             path: '/AbeewayRefGuide/tracker-reset/',
                             collapsable: true,
+                        },
+                            ]
+                        },
+                        {
+                          title: 'Abeeway Firmware 2.3',
+                          path: '/AbeewayRefGuide_2.3/introduction/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children: [
+                            {
+                            title: 'Introduction',
+                            path: '/AbeewayRefGuide_2.3/introduction/',
+                            collapsable: true,
+                            sidebarDepth: 3,
+                            children:[
+                          {
+                              title: 'Products description',
+                              path: '/AbeewayRefGuide_2.3/introduction/product-description/',
+                          },
+                          {
+                              title: 'Typical applications',
+                              path: '/AbeewayRefGuide_2.3/introduction/typical-apps/',
+                          },
+                          {
+                              title: 'Features',
+                              path: '/AbeewayRefGuide_2.3/introduction/features/',
+                          },
+                      ],
+                      },
+                      {
+                      title: 'Devices characteristics',
+                      path: '/AbeewayRefGuide_2.3/devices-characteristics/',
+                      collapsable: true,
+                      sidebarDepth: 3,
+                      children:[
+                          {
+                              title: 'Getting started with devices',
+                              path: '/AbeewayRefGuide_2.3/devices-characteristics/getting-started/',
+                          },
+                          {
+                              title: 'Micro tracker',
+                              path: '/AbeewayRefGuide_2.3/devices-characteristics/micro-tracker/',
+                          },
+                          {
+                              title: 'Smart badge',
+                              path: '/AbeewayRefGuide_2.3/devices-characteristics/smart-badge/',
+                          },
+                          {
+                              title: 'Compact and industrial devices',
+                              path: '/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/',
+                          },
+                          ]
+                      },
+                      {
+                          title: 'Functioning',
+                          path: '/AbeewayRefGuide_2.3/functioning/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children:[
+                            {
+                              title: 'Startup process',
+                              path: '/AbeewayRefGuide_2.3/functioning/startup-process/',
+                            },
+                            {
+                              title: 'Main operating modes',
+                              path: '/AbeewayRefGuide_2.3/functioning/main-operating-modes/',
+                            },
+                            {
+                              title: 'Side operations',
+                              path: '/AbeewayRefGuide_2.3/functioning/side-operations/',
+                            },
+                            {
+                              title: 'Default and dynamic profiles',
+                              path: '/AbeewayRefGuide_2.3/functioning/default-dynamic-profiles/',
+                            },
+                            {
+                              title: 'SOS',
+                              path: '/AbeewayRefGuide_2.3/functioning/sos/',
+                            },
+                            {
+                              title: 'Motion detection',
+                              path: '/AbeewayRefGuide_2.3/functioning/motion-detection/',
+                            },
+                            {
+                              title: 'Shock detection',
+                              path: '/AbeewayRefGuide_2.3/functioning/shock-detection/',
+                            },
+                            {
+                              title: 'Event messages',
+                              path: '/AbeewayRefGuide_2.3/functioning/event-messages/',
+                            },
+                            {
+                              title: 'Temperature monitoring',
+                              path: '/AbeewayRefGuide_2.3/functioning/temperature-monitoring/',
+                            },
+                            {
+                              title: 'Low battery management for trackers with rechargeable batteries',
+                              path: '/AbeewayRefGuide_2.3/functioning/low-battery-management/',
+                            },
+                            {
+                              title: 'Network timeout monitoring',
+                              path: '/AbeewayRefGuide_2.3/functioning/network-timeout-monitoring/',
+                            },
+                            {
+                              title: 'User interfaces',
+                              path: '/AbeewayRefGuide_2.3/functioning/user-interfaces/',
+                            },
+                          ]
+                      },
+                      {
+                          title: 'Geolocation strategy modes',
+                          path: '/AbeewayRefGuide_2.3/geolocation-strategy-modes/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children:[
+                            {
+                              title: 'Main operating modes, SOS and side operations',
+                              path: '/AbeewayRefGuide_2.3/geolocation-strategy-modes/main-side-operations/',
+                            },
+                            {
+                              title: 'Geolocation technology description',
+                              path: '/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/',
+                            },
+                          ]
+                      },
+                      {
+                          title: 'BLE communication interface',
+                          path: '/AbeewayRefGuide_2.3/ble-communication-interface/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children:[
+                            {
+                              title: 'Connection and pairing',
+                              path: '/AbeewayRefGuide_2.3/ble-communication-interface/connection-pairing/',
+                            },
+                            {
+                              title: 'Firmware update OTA via BLE and client application',
+                              path: '/AbeewayRefGuide_2.3/ble-communication-interface/fw-update-client-app/',
+                            },
+                          ]
+                      },
+                      {
+                          title: 'Uplink messages',
+                          path: '/AbeewayRefGuide_2.3/uplink-messages/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children:[
+                            {
+                              title: 'LoRaWAN uplink transmission',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/lorawan-ul-transmission/',
+                            },
+                            {
+                              title: 'Encoded form',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/encoded-form/',
+                            },
+                            {
+                              title: 'Common message header',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/common-message-header/',
+                            },
+                            {
+                              title: 'Heartbeat messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/heartbeat/',
+                            },
+                            {
+                              title: 'Position messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/position/',
+                            },
+                            {
+                              title: 'Extended position messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/extended-position/',
+                            },
+                            {
+                              title: 'Status messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/status/',
+                            },
+                            {
+                              title: 'Activity status messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/activity-status/',
+                            },
+                            {
+                              title: 'Configuration messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/configuration/',
+                            },
+                            {
+                              title: 'BLE MAC address messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/ble-mac-address/',
+                            },
+                            {
+                              title: 'Shock detection messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/shock-detection/',
+                            },
+                            {
+                              title: 'Frame pending messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/frame-pending/',
+                            },{
+                              title: 'Shutdown messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/shutdown/',
+                            },
+                            {
+                              title: 'Event messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/event/',
+                            },
+                            {
+                              title: 'Collection scan messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/collection-scan/',
+                            },
+                            {
+                              title: 'Proximity messages',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/proximity/',
+                            },
+                            {
+                              title: 'Debug payloads',
+                              path: '/AbeewayRefGuide_2.3/uplink-messages/debug-payloads/',
+                            },
+                          ]
+                      },
+                      {
+                          title: 'Downlink messages',
+                          path: '/AbeewayRefGuide_2.3/downlink-messages/',
+                          collapsable: true,
+                          sidebarDepth: 1,
+                          children:[
+                            {
+                              title: 'Acknowledge token',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/ack-token/',
+                            },
+                            {
+                              title: 'Operational mode configuration',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/operational-mode-configuration/',
+                            },
+                            {
+                              title: 'Position on demand',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/position-on-demand/',
+                            },
+                            {
+                              title: 'Request device configuration',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/request-device-configuration/',
+                            },
+                            {
+                              title: 'Request temperature status',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/request-temp-status/',
+                            },
+                            {
+                              title: 'SOS setup',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/sos-setup/',
+                            },
+                            {
+                              title: 'Proximity control',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/proximity-control/',
+                            },
+                            {
+                              title: 'Angle detection command',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/angle-detection-command/',
+                            },
+                            {
+                              title: 'Status request',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/status-request/',
+                            },
+                            {
+                              title: 'Parameters configuration',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/parameters-configuration/',
+                            },
+                            {
+                              title: 'Debug commands',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/debug-commands/',
+                            },
+                            {
+                              title: 'Two complement encoding',
+                              path: '/AbeewayRefGuide_2.3/downlink-messages/two-complement-encoding/',
+                            },
+                          ]
+                      },
+                      {
+                          title: 'Command Line Interpreter (CLI) interface',
+                          path: '/AbeewayRefGuide_2.3/cli-interface/',
+                          collapsable: true,
+                        },
+                        {
+                          title: 'Default configuration delivered with micro tracker and smart badge',
+                          path: '/AbeewayRefGuide_2.3/default-config-delivered-ms/',
+                          collapsable: true,
+                        },
+                        {
+                          title: 'Default delivered compact and industrial tracker configuration',
+                          path: '/AbeewayRefGuide_2.3/default-config-delivered-ci/',
+                          collapsable: true,
+                        },
+                        {
+                          title: 'Factory default configuration',
+                          path: '/AbeewayRefGuide_2.3/factory-default-config/',
+                          collapsable: true,
+                        },
+                        {
+                          title: 'Tracker reset',
+                          path: '/AbeewayRefGuide_2.3/tracker-reset/',
+                          collapsable: true,
+                      },
+                          ]
                         },
                     ]
                 },

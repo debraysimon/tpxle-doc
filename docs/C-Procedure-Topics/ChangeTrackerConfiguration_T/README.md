@@ -104,4 +104,4 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
     :::
 6. After a few minutes, refresh the Abeeway Device Manager's Configuration page in your browser for the profile change to take effect.
    
-7. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/D-Reference/DocLibrary_R/#ADMUserGuide).
+7. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-device-manager-application).

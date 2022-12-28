@@ -13,9 +13,9 @@ All the Abeeway trackers are equipped with USB port that can be connected with *
 ::: warning WARNING
 * The USB port for Compact/Industrial tracker is inside the casing which needs to be opened to access it.
 * The instructions below are for MCU Firmware version 2.2 and above. If you are using older MCU firmware version or need an overview of full feature set of CLI commands, please refer to [CLI Usage Training](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X)
-* There is also more detailed application note on CLI Usage which is available here, [AN-013_CLI_Description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS)
-* If there are issues connecting to USB port, please ensure you are using USB data cable and connect the tracker to different computer to check if the USB port is properly detected. You can find more troubleshooting steps in [Abeeway Updater](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#firmware-update) (chapter: Troubleshooting the USB port)
-* When sending the logs to the support team, please ensure the Tera Term(CLI) traces are timestamped with UTC or local time. See [CLI Usage Training](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X) on how to timestamp CLI traces with local/UTC time. This is very useful when correlating the tracker logs with those of Network server uplinks.
+* There is also more detailed application note on CLI Usage which is available here, [AN-013_CLI_Description](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes)
+* If there are issues connecting to USB port, please ensure you are using USB data cable and connect the tracker to different computer to check if the USB port is properly detected. You can find more troubleshooting steps in [Abeeway Updater](https://github.com/Abeeway/Abeeway-updater) (chapter: Troubleshooting the USB port)
+* When sending the logs to the support team, please ensure the Tera Term(CLI) traces are timestamped with UTC or local time. See [CLI Usage Training](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) on how to timestamp CLI traces with local/UTC time. This is very useful when correlating the tracker logs with those of Network server uplinks.
 :::
 
 1. Connect the tracker to the USB port and open Tera Term to connect to the serial port on which the tracker is connected.
@@ -36,6 +36,6 @@ Here is the list of most important commands and their purpose:
 | system boot | Enter MCU Bootloader to upgrade MCU Firmware (We do not recommend to this. Please use Abeeway Updater to do MCU firmware update) |
 | ble bootloader | Enter the BLE bootloader to do BLE firmware update |
 | system mode motion | To change the value of parameter, mode = motion_tracking  |
-| config save | To save the firmware configuration in flash. This is required to preserve firmware settings across device resets. The flash lifetime is limited so, please do not write too many times into the flash during the testing |
-| config set **parameter_ID** **value** | Change the parameter value. For ex, **config set 1 500** will change the value of Parameter ID (1) (lora_period) to 500. The parameter ID can be found from [Abeeway trackers reference guide](../../D-Reference/DocLibrary_R/#reference-guides-and-tools) |
+| config save | To save the firmware configuration in flash. This is required to preserve firmware settings across device resets. </br>The configuration on the tracker is saved across power on/off of the device. </br>**The flash lifetime is limited so, please do not write too many times into the flash during the testing. The warranty of the tracker is void if used incorrectly.** |
+| config set <**parameter_ID**> <**value**> | Change the parameter value. For ex, **config set 1 500** will change the value of Parameter ID (1) (lora_period) to 500. The parameter ID can be found from [Abeeway trackers reference guide](../../AbeewayRefGuide/downlink-messages/parameters-configuration/) |
 

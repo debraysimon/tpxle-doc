@@ -18,7 +18,7 @@ Abeeway smart badge provides you with the flexibility you need to adapt your tra
 
 ::: warning WARNING
 * For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/#TrackersRefGuide).
+* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools).
 :::
 
 ### Geolocation technologies
@@ -41,7 +41,7 @@ It leverages Bluetooth scanning capabilities of the micro tracker to send BLE be
 * Radio: EC, FCC, IC, TELEC, ATEX
 
 ::: warning WARNING
- *  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/#certifications).
+ *  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
  * The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. 
  * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. 
  **The warranty of the tracker is avoid if used incorrectly**.

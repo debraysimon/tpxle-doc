@@ -28,11 +28,11 @@ The tracker example in figure below has **MCU Firmware Version: 2.1.8** and **BL
 <img src="../../C-Procedure-Topics/TrackAssetsADM_T/images/ADADevicesTabFWVersion.png" border="1" />
 
 ## Method 3 (Abeeway Updater):
-[Abeeway updater](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#firmware-update) is very useful firmware update tool that can also be ued to retrieve the MCU/BLE Firmware version. You can connect the tracker over USB port with a computer and retrieve firmware version based on the options that can be selected on **Docking options** panel. 
+[Abeeway updater](../../D-Reference/AbeewayFirmwareUpdate_R/) is very useful firmware update tool that can also be ued to retrieve the MCU/BLE Firmware version. You can connect the tracker over USB port with a computer and retrieve firmware version based on the options that can be selected on **Docking options** panel. 
 
 ::: warning Important
-* The tracker must be connected with the USB data cable for this operation.
-* If for some reason, USB port is not detected, refer to [Chapter: Troubleshooting the USB port, Abeeway updater](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#firmware-update) 
+* The tracker must be connected with the **USB data cable** for this operation.
+* If for some reason, USB port is not detected, refer to [Chapter: Troubleshooting the USB port, Abeeway updater](https://github.com/Abeeway/Abeeway-updater) 
 :::
 
 In the example below, the MCU Firmware version is **2.3-197** and BLE Firmware version is **3.3.2**
@@ -41,17 +41,17 @@ In the example below, the MCU Firmware version is **2.3-197** and BLE Firmware v
 
 
 ## Method 4 (CLI over USB):
-The tracker can be connected to the USB port and a serial terminal tool like [Tera Term](https://ttssh2.osdn.jp/index.html.en) can be used to communicate with the tracker over USB port. For more details on CLI feature, please refer to [CLI Usage training](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#abeeway-firmware-trainings)
+The tracker can be connected to the USB port and a serial terminal tool like [Tera Term](https://ttssh2.osdn.jp/index.html.en) can be used to communicate with the tracker over USB port. For more details on CLI feature, please refer to [CLI Usage training](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings)
 
 ::: warning Important
  * The tracker must be connected the USB data cable for this method to work
  * The instructions below are only valid if the tracker is running MCU Firmware >= 2.2. For older Firmware versions, please refer to [CLI Usage Training](https://actilitysa.sharepoint.com/:f:/t/aby/EgxRhivJUIVNrq1Lwa3qBigBip9FcMMHhBD_ZaA9m8IT6w?e=WLr48X)
- * If for some reason, USB port is not detected, refer to [Chapter: Troubleshooting the USB port, Abeeway updater](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#firmware-update) 
+ * If for some reason, USB port is not detected, refer to [Chapter: Troubleshooting the USB port, Abeeway updater](https://github.com/Abeeway/Abeeway-updater) 
 :::
 
 1. Connect the tracker over USB port and open [Tera Term](https://ttssh2.osdn.jp/index.html.en) or any other Serial application that can communicate over USB port. 
 
-2. Identify the correct serial port by running [Abeeway updater](https://docs.thingpark.com/thingpark-location/D-Reference/DocLibrary_R/#firmware-update). In the example below, the serial port is COM5
+2. Identify the correct serial port by running [Abeeway updater](../../D-Reference/AbeewayFirmwareUpdate_R/). In the example below, the serial port is COM5
 <img src="../../C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_fw_abw_updater.png" width="800" border="1" />
 ::: warning Important
  * Abeeway updater must be closed before interacting with the tracker using Tera term or any other application. The device cannot interact with two serial applications at the same time.
@@ -69,14 +69,10 @@ The tracker can be connected to the USB port and a serial terminal tool like [Te
 <img src="../../C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_ble_fw.png" width="200" border="1" />
 
 ## Method 5 (Decoding LoRaWAN heartbeat uplinks)
-<html>
-<p>
-The tracker sends heartbeat uplinks periodically which also include the MCU and BLE Firmware version information. The payloads can be decoded using <a href="/D-Reference/DocLibrary_R/#reference-guides-and-tools" style="color:teal">Asset tracker driver</a>
-</p>
-</html>
+
+The tracker sends heartbeat uplinks periodically which also include the MCU and BLE Firmware version information. The payloads can be decoded using [Asset Tracker Driver](../../C-Procedure-Topics/UseAbeewayDriver_T/).
 
 In the example below, the MCU Firmware Version is **2.3.197** and BLE Firmware version is **3.3.2**.
-
 
 <img src="./images/PayloadDecoderFirmwareVersion.png" width="600" border="1" />
 

@@ -21,7 +21,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | | Resource |
 | - | -------- |
 | **Asset tracker firmware**| [Abeeway Trackers Reference Guide](/AbeewayRefGuide/introduction/) |  
-| **Asset tracker firmware Release Notes**| [Abeeway tracker Firmware Release notes](https://actilitysa.sharepoint.com/:f:/t/aby/ElJzs_L4X5lDviZbdDBi10wBd9F2VUP19HY52fMxh4Z35g?e=xTkQzY) |  
+| **Asset tracker firmware Release Notes**| [Abeeway tracker Firmware Release notes](../../D-Reference/ReleaseNotes/) |  
 | **Trackers power consumption estimation**| [Power Consumption Estimation](https://actilitysa.sharepoint.com/:f:/t/aby/Er1CBFg9-YxChO-cdxGs5DUBj2CDpFGEhoEQtFeuH9l_4w?e=xmiDVM) |
 | **LED patterns for micro tracker and smart badge** | [LED patterns](https://actilitysa.sharepoint.com/:b:/t/aby/Ee9KhtkknRFMiBipu_fWDdgBh5pr8AIyZNYXkTCe5fg18A?e=DtRe8I) | 
 | **Asset tracker driver**| [Asset Tracker Driver User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhpXO62fGtlEstRRCMq6UAgBRgT_0xLToEZd1k_NyGzCcA?e=HlmwTS) |
@@ -68,12 +68,6 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 
 
 ## Application notes
-
-
-<html>
-<a id="AN-009"></a>
-<a id="AN-001"></a>
-</html>
 
 | | Description | Resource | Minimum Required MCU/BLE Firmware Version |
 | - | ----------- | -------- |-------- |
@@ -127,4 +121,4 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | - | ----------- | -------- |
 | **ThingPark Location Introduction** | These training slides introduce basic features of ThingPark Location. | [ThingPark Location Introduction](https://actilitysa.sharepoint.com/:f:/t/aby/EqVIEMaqJfVHoNAi90G068UB8K4HMfB1t2eyttWIGlIwbQ?e=JZYdsp) |
 
-To get more resources on ThingPark Location, see [Documentation library](/D-Reference/DocLibrary_R/).
+To get more resources on ThingPark Location, see [Documentation library](/D-Reference/DocLibrary_R/SuggestedJourney_R).

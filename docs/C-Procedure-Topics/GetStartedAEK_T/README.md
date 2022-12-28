@@ -14,12 +14,10 @@ After completing these steps, you will be able to:
 ## Prerequisites
 To complete this getting started guide, you need:
 * The Abeeway trackers delivered with your Abeeway evaluation kit<br/>
-* The associated delivery note, that will provide you with the useful IDs of your trackers: DevEUI, AppEUI & AppKey.
+* The associated delivery note, that will provide you with the useful IDs of your trackers: DevEUI, JoinEUI/AppEUI & AppKey.
 * A LoRaWAN® infrastructure, either private or public:
     * If you bought a kit including public connectivity, you do not have to do anything!<br/>
-    * If you bought a kit including a LoRaWAN® gateway, refer to the [Low-Power Location for Private Network Guide](/D-Reference/DocLibrary_R/#PrivateLPLocGuide) to setup your private LoRaWAN® infrastructure.
-
-
+    * If you bought a kit including a LoRaWAN® gateway, please follow the instructions in the next sections. 
 * An operational access to ThingPark Enterprise user portal: [https://community.thingpark.io/tpe/](https://community.thingpark.io/tpe/)<br/>
 
 ## Steps

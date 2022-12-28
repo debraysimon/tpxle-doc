@@ -4,19 +4,12 @@ There is major difference in the Smart Badge commands from MCU Firmware 2.3 and 
 
 ## Find the MCU firmware version of the tracker
 
-<html>
-<p>
-The button sequence to reset the tracker is quite different between Asset Tracker MCU Firmware 2.3 and the versions below. The first step is to find out the installed MCU firmware version of the tracker from <a href="../../D-Reference/IdentifyInstalledFirmware/" style="color:teal">here</a>
-</p>
-</html>
+The button sequence to reset the tracker is quite different between Asset Tracker MCU Firmware 2.3 and the versions below. The first step is to find out the installed MCU firmware version of the tracker from [here](../../D-Reference/IdentifyInstalledFirmware/).
 
 ## The tracker commands for MCU Firmware 2.3 and above
 
-<html>
-<p>
-This table gives you quick access to the tracker commands. For more information on all the commands and LED patterns, see <a href="../../D-Reference/DocLibrary_R/#abeeway-trackers" style="color:teal">Abeeway Trackers Reference Guide</a>
-</p>
-</html>
+This table gives you quick access to the tracker commands. For more information on all the commands and LED patterns, see [Abeeway Trackers Reference Guide: User Interfaces](../../AbeewayRefGuide/functioning/user-interfaces).
+
 
 
 ::: warning Important
@@ -27,7 +20,7 @@ This table gives you quick access to the tracker commands. For more information 
 * **Triple-click:** Press the button 3 times (The duration **between** the clicks is **less than 1 second**).
 * **Very Long Press or ESC Sequence:** Press the button **more than 14 seconds**. The tracker will play a beep every second during this time.
 * **Since MCU Firmware 2.3+**, the button sequence is configurable with **button_mapping** parameter. The examples below are for the button mapping for the default firmware configuration. For more inforation, visit [User Interface training](https://actilitysa.sharepoint.com/:f:/t/aby/EiWIqYpAehBKg3Py8I6X07oBFFxUWT3i2FVHYRX2MzXtow?e=ZFkhrM).
-* Please ensure you refer to the [Abeeway Reference Guide](../../D-Reference/DocLibrary_R/#abeeway-trackers) that matches your MCU Firmware version. **The user interface of Abeeway trackers have different behavior across different MCU Firmware versions.**
+* Please ensure you refer to the [Abeeway Trackers Reference Guide](../../AbeewayRefGuide/introduction/) that matches your MCU Firmware version. **The user interface of Abeeway trackers have different behavior across different MCU Firmware versions.**
 * The sequences below are the same for micro tracker and smart badge.
 * Abeeway trackers have three important states:
    1. **SHIPPING:** This is usually the state when the tracker leaves the warehouse. The tracker is in lower power state waiting to be activated with a **button Press (between 1 and 4 seconds)**. Once, activated, the tracker moves to JOINING state.
@@ -139,7 +132,7 @@ This table gives you quick access to the tracker commands. For more information 
                         The default configuration of click is mapped to show battery level in default configuration of <b>button_mapping</b> parameter 
                     </li>
                     <li>
-                        Please refer to <a href="../../D-Reference/DocLibrary_R/#abeeway-trackers" style="color:teal">Abeeway Trackers Reference Guide</a> (Chapter: User Interfaces) on how to interpret LEDs to indicate battery level
+                        Please refer to <a href="../../AbeewayRefGuide/functioning/user-interfaces" style="color:teal">Abeeway Trackers Reference Guide</a> (Chapter: User Interfaces) on how to interpret LEDs to indicate battery level
                     </li>
                 </ul>
             </div>
@@ -215,7 +208,7 @@ This table gives you quick access to the tracker commands. For more information 
                         Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started.
                     </li>
                     <li>
-                        Once inside the special sequence, do the following: 1 click, triple click or more, 1x press (between 1 - 4 sec)
+                        Once inside the special sequence, do the following: 1 click, 1 click, 1x press (between 1 - 4 sec)
                     </li>
                     <li>
                         If the sequence is successful, the tracker will play Bluetooth advertisement melody indicating the Bluetooth bond is removed for about 10 minutes (which is the default configuration)
@@ -256,19 +249,14 @@ This table gives you quick access to the tracker commands. For more information 
 
 ## The tracker commands for MCU Firmware 2.2 and below
 
-<html>
-<p>
-This table gives you quick access to the tracker commands. For more information on all the commands and LED patterns, see <a href="../../D-Reference/DocLibrary_R/#abeeway-trackers" style="color:teal">Abeeway Trackers Reference Guide</a>
-</p>
-</html>
-
+This table gives you quick access to the tracker commands. For more information on all the commands and LED patterns, see [Abeeway Trackers Reference Guide](../../AbeewayRefGuide/functioning/user-interfaces/).
 
 ::: warning Important
 * **Click:** Press the button **less than one second**.
 * **Long Press:** Press the button **more than five seconds**.
 * **Double-click:** Press the button 2 times (The duration **between** the clicks is **less than 1 second**).
 * **Triple-click:** Press the button 3 times (The duration **between** the clicks is **less than 1 second**).
-* Please ensure you refer to the [Abeeway Reference Guide](../../D-Reference/DocLibrary_R/#abeeway-trackers) that matches your MCU Firmware version. **The user interface of Abeeway trackers have different behavior across different MCU Firmware versions.**
+* Please ensure you refer to the [Abeeway Trackers Reference Guide](../../AbeewayRefGuide/introduction/) that matches your MCU Firmware version. **The user interface of Abeeway trackers have different behavior across different MCU Firmware versions.**
 * The sequences below are the same for micro tracker and smart badge.
 * Abeeway trackers have three important states:
    1. **SHIPPING:** This is usually the state when the tracker leaves the warehouse. The tracker is in lower power state waiting to be activated with a **Long Press (more than 5 seconds)**. Once, activated, the tracker moves to JOINING state.
