@@ -13,7 +13,6 @@
 -   **SOS support**
 -   **Shock detection**
 -   **Angle detection**
--   **Proximity detection**
 -   **Multiple geolocation technologies**:
     -   **GPS**: Precise outdoor position.
     -   **Low power GPS (LPGPS)**: Get quick position outdoors and daylight indoor conditions.

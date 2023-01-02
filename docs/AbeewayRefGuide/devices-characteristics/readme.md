@@ -15,7 +15,6 @@
 |         | Alert position  | X    | X       | <sup>(1)</sup>          | NA    |Button or reed switch acting like a button|
 |         | Periodic activity reporting  | X    | X       | X       | X        |           |
 |         | Collection payloads  | X    | X       | X          | X  |                      |
-|         | proximity feature  | X    | X       | X          | X    |                      |
 |         | BLE geozoning  | X    | X       | X          | X        |                      |
 |         | BLE beaconing  | X    | X       | X          | X        |                      |
 |**default and dynamic profiles**|  | X    | X       | X          | X        |             |

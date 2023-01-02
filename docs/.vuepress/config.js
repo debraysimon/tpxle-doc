@@ -643,10 +643,6 @@ module.exports = {
                                 path: '/AbeewayRefGuide/uplink-messages/collection-scan/',
                               },
                               {
-                                title: 'Proximity messages',
-                                path: '/AbeewayRefGuide/uplink-messages/proximity/',
-                              },
-                              {
                                 title: 'Debug payloads',
                                 path: '/AbeewayRefGuide/uplink-messages/debug-payloads/',
                               },
@@ -681,10 +677,6 @@ module.exports = {
                               {
                                 title: 'SOS setup',
                                 path: '/AbeewayRefGuide/downlink-messages/sos-setup/',
-                              },
-                              {
-                                title: 'Proximity control',
-                                path: '/AbeewayRefGuide/downlink-messages/proximity-control/',
                               },
                               {
                                 title: 'Angle detection command',

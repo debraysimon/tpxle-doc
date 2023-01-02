@@ -33,8 +33,8 @@ The table below shows the default user interface components shipped with our tra
 |Click<sup>(2)</sup>	| Battery level is shown with the LEDs |	LED pattern (See next section)|
 |Triple click or more<sup>(7)</sup> |	Trigger a start/ end of the SOS |	LED pattern (see next section) |
 |Not configured	| Trigger a position alert |	LED pattern (see next section) |
-| Double click<sup>(6)</sup> |	Add a tracker in the whitelist contact (proximity feature)<sup>(1)</sup>|	None |
-| Not configured |	Angle detection manual trigger<sup>(9)</sup> |	None |
+| Double click<sup>(6)</sup> |	Not configured|	None |
+| Not configured |	Angle detection manual trigger<sup>(1)</sup> |	None |
 
 
 
@@ -67,7 +67,7 @@ A beep is played while the tracker is in special sequence mode. The LED is also 
 
 :::tip Notes
 
-<sup>(1)</sup> Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details.
+<sup>(1)</sup> For more details, please refer to the application note [AN-010_Angle Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS).
 
 <sup>(2)</sup> **Click**: Press the button for less than 1 second.
 
@@ -83,7 +83,7 @@ A beep is played while the tracker is in special sequence mode. The LED is also 
 
 <sup>(8)</sup> The default value of *press_duration* is 1 second (configurable via *button_mapping* parameter).
 
-<sup>(9)</sup> For more details, please refer to the application note [AN-010_Angle Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS).
+
 :::
 
 ## LED interface
@@ -99,7 +99,7 @@ LED blinking patterns
 
 <sup>(1)</sup> If configured with *config_flags* parameter.
 
-<sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details.
+<sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details. **Only Applicable to MCU FW 2.3 and below**.
 
 <sup>(3)</sup>  Only if bootloader is entered using the associated CLI command (Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS))
 
@@ -121,10 +121,6 @@ The second interface from the tracker to the user is done via a buzzer. The volu
 |   |Tracker in SoS|  SOS                |
 |     |Tracker is exiting SoS |  SOS stop           |
 |  |LoRaWAN join success|Join success melody<sup>(1)</sup>|
-|  **Proximity**      |  Warning alert is triggered   |  Proximity warning  |
-|                     |  Alarm alert state is triggered  |  Proximity alert    |
-|                     |  A warning reminder is triggered |  proximity reminder 1 beep |
-|                     |  An alert reminder is triggered  |  proximity reminder 2 beeps|
 |**BLE communication**|  The tracker is not bound and waits for a bond|  BLE advertising    |
 |                     |  Bond process unsuccessful or bond deleted       |  BLE bond failure or deleted  |
 |                     |  Bond process successful      |  BLE bond success   |
@@ -137,9 +133,7 @@ The second interface from the tracker to the user is done via a buzzer. The volu
 <sup>(2)</sup>  BLE Link Loss/alert melody has been modified in applicative firmware 2.3
 :::
 
-The different melodies can be found [here](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=N3Rd8f)
-
-Refer to the dedicated application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details about proximity feature.
+The different melodies can be found [here](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=N3Rd8f).
 
 ## Reed switch interface
 

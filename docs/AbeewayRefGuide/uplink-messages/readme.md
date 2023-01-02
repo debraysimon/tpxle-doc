@@ -23,7 +23,6 @@
 |**Shutdown**          |  **0x09**    |Sent when the tracker is set off|
 |**Event<sup>(2)</sup>**       |  **0x0A**    |Sends event information about tracker|
 |**Collection scan**   |  **0x0B**    |WIFI or BLE collection scan data (detailed in the application note [AN-003_ScanCollection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=lUTAH0))|
-|**Proximity**         |  **0x0C**    |Proximity feature messages (detailed in the application note [AN-007_proximity_detection](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd))|
 |**Extended Position** |  **0x0E**|GPS, low power GPS, WIFI or BLE position information|
 |**Debug**             |  **0x0F**    |Internal use only|
 

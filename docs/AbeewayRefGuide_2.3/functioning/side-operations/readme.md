@@ -65,7 +65,7 @@ A scan collection is a WIFI or a BLE extra scan used to sense the environment ar
 
 ## Proximity detection
 
-This feature detects the proximity of other Abeeway devices and reacts according to. It is particularly useful to monitor the proximity between two people to ensure that the Covid-19 sanity rules are satisfied.
+This feature detects the proximity of other Abeeway devices and reacts accordingly. It is particularly useful to monitor the proximity between two people to ensure that the Covid-19 sanity rules are satisfied.
 
 ## Angle detection
 

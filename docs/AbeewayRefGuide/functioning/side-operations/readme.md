@@ -9,7 +9,6 @@ Whatever the operating mode (except OFF mode), the trackers support **side opera
 |**Alert position**                |Smart Badge, Micro and compact tracker     |button or reed switch acting like a button|
 |**Periodic activity reporting**   |All              |          -              |
 |**Collection payloads**           |All              |          -              |
-|**Proximity detection**           |Smart Badge and Micro tracker              |       button            |
 |**Angle detection**               |All              |          -              |
 |**BLE geozoning**                 |All              |          -              |
 |**Beaconing**                     |All              |          -              |
@@ -62,10 +61,6 @@ The associated LoRaWAN™ uplink message will contain the history of the activit
 ## Scan collection
 
 A scan collection is a WIFI or a BLE extra scan used to sense the environment around the tracker, which is done after the usual geolocation and reported via LoRaWAN&trade; just after the position.
-
-## Proximity detection
-
-This feature detects the proximity of other Abeeway devices and reacts according to. It is particularly useful to monitor the proximity between two people to ensure that the Covid-19 sanity rules are satisfied.
 
 ## Angle detection
 

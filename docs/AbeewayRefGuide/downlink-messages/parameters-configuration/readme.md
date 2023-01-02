@@ -17,51 +17,137 @@ It is possible to modify up to 5 parameters in the same message by using the fol
 
 The table below sum up all parameters and their identifiers (ID). The parameters described as "reserved" are not used for this tracker.
 
-| Parameter                       | ID   | Parameter                     | ID   | Parameter                    | ID   |
-| ------------------------------- | ---- | ----------------------------- | ---- | ---------------------------- | ---- |
-| ul_period                       | 0x00 | reed_switch_configuration     | 0x29 | position_ble_report_type     | 0x52 |
-| lora_period                     | 0x01 | gnss_constellation            | 0x2A | buzzer_volume                | 0x53 |
-| pw_stat_period                  | 0x02 | prox_scan_pwr_min             | 0x2B | angle_detect_mode            | 0x54 |
-| periodic_pos_period             | 0x03 | prox_distance_coef            | 0x2C | angle_ref_acq                | 0x55 |
-| **Reserved, do not use**        | 0x04 | prox_scan_frequency           | 0x2D | angle_ref_acc_x              | 0x56 |
-| geoloc_sensor                   | 0x05 | prox_backtrace_max_age        | 0x2E | angle_ref_acc_y              | 0x57 |
-| geoloc_method                   | 0x06 | prox_distance_sliding_window  | 0x2F | angle_ref_acc_z              | 0x58 |
-| Reserved, do not use            | 0x07 | prox_exposure_50              | 0x30 | angle_critical               | 0x59 |
-| motion_nb_pos                   | 0x08 | prox_exposure_100             | 0x31 | angle_critical_hyst          | 0x5A |
-| gps_timeout                     | 0x09 | prox_exposure_150             | 0x32 | angle_report_mode            | 0x5B |
-| agps_timeout                    | 0x0A | prox_exposure_200             | 0x33 | angle_report_period          | 0x5C |
-| gps_ehpe                        | 0x0B | prox_exposure_250             | 0x34 | angle_report_repeat          | 0x5D |
-| gps_convergence                 | 0x0C | prox_exposure_300             | 0x35 | angle_rising_time            | 0x5E |
-| **config_flags**                | 0x0D | prox_exposure_400             | 0x36 | angle_falling_time           | 0x5F |
-| **transmit_strat**              | 0x0E | prox_alarm_dist_immediate     | 0x37 | angle_learning_time          | 0x60 |
-| ble_beacon_cnt                  | 0x0F | prox_alarm_exposure           | 0x38 | angle_acc_accuracy           | 0x61 |
-| ble_beacon_timeout              | 0x10 | prox_warn_dist_immediate      | 0x39 | angle_deviation_delta        | 0x62 |
-| gps_standby_timeout             | 0x11 | prox_warn_exposure            | 0x3A | angle_deviation_min_interval | 0x63 |
-| confirmed_ul_bitmap             | 0x12 | prox_record_dist_immediate    | 0x3B | angle_deviation_max_interval | 0x64 |
-| confirmed_ul_retry              | 0x13 | prox_record_exposure          | 0x3C | default_profile              | 0x65 |
-| **motion_sensitivity**          | 0x14 | prox_alarm_buz_duration       | 0x3D | password                     | 0x66 |
-| **shock_detection**             | 0x15 | prox_warn_buz_duration        | 0x3E | gps_t0_timeout               | 0x67 |
-| periodic_activity_period        | 0x16 | prox_contact_policy           | 0x3F | gps_fix_timeout              | 0x68 |
-| motion_duration                 | 0x17 | prox_scan_duration            | 0x40 | geofencing_scan_duration     | 0x69 |
-| geofencing_scan_period          | 0x18 | prox_scan_window              | 0x41 | beaconing_type               | 0x6A |
-| geofencing_collect_period       | 0x19 | prox_scan_interval            | 0x42 | beaconing_tx_power           | 0x6B |
-| ble_rssi_filter                 | 0x1A | prox_alarm_remanence          | 0x43 | beaconing_static_interval    | 0x6C |
-| temperature_high                | 0x1B | prox_warn_remanence           | 0x44 | beaconing_motion_interval    | 0x6D |
-| temperature_low                 | 0x1C | prox_bcn_repeat               | 0x45 | beaconing_motion_duration    | 0x6E |
-| temperature_action              | 0x1D | prox_bcn_tx_power             | 0x46 | ble_cnx_adv_duration         | 0x6F |
-| transmit_strat_custom           | 0x1E | prox_reminder_period          | 0x47 | **beacon_id_0**              | 0x70 |
-| network_timeout_check           | 0x1F | prox_reminder_distance        | 0x48 | **beacon_id_1**              | 0x71 |
-| network_timeout_reset           | 0x20 | prox_warn_disable_dist        | 0x49 | **beacon_id_2**              | 0x72 |
-| collection_scan_type            | 0x21 | prox_alarm_disable_dist       | 0x4A | **beacon_id_3**              | 0x73 |
-| collection_nb_entry             | 0x22 | prox_max_speed_filter         | 0x4B | **beacon_id_4**              | 0x74 |
-| collection_ble_filter_type      | 0x23 | prox_max_update               | 0x4C | **sos_period**               | 0x75 |
-| collection_ble_filter_main_1    | 0x24 | position_ble_filter_type      | 0x4D | **motion_debounce**          | 0x76 |
-| collection_ble_filter_main_2    | 0x25 | position_ble_filter_main_1    | 0x4E | **button mapping**           | 0x77 |
-| collection_ble_filter_sec_value | 0x26 | position_ble_filter_main_2    | 0x4F | **default_datarate**         | 0x78 |
-| collection_ble_filter_sec_mask  | 0x27 | position_ble_filter_sec_value | 0x50 | dynamic profile              | 0xF6 |
-| battery_capacity                | 0x28 | position_ble_filter_sec_mask  | 0x51 | power consumption            | 0xF7 |
-|                                 |      |                               |      | delete BLE bond              | 0xF8 |
-|                                 |      |                               |      | mode                         | 0xF9 |
+| Parameter                       | ID   | 
+| ------------------------------- | ---- | 
+| ul_period                       | 0x00 | 
+| lora_period                     | 0x01 | 
+| pw_stat_period                  | 0x02 | 
+| periodic_pos_period             | 0x03 | 
+| **Reserved, do not use**        | 0x04 | 
+| geoloc_sensor                   | 0x05 | 
+| geoloc_method                   | 0x06 | 
+| Reserved, do not use            | 0x07 | 
+| motion_nb_pos                   | 0x08 | 
+| gps_timeout                     | 0x09 | 
+| agps_timeout                    | 0x0A | 
+| gps_ehpe                        | 0x0B | 
+| gps_convergence                 | 0x0C | 
+| **config_flags**                | 0x0D | 
+| **transmit_strat**              | 0x0E | 
+| ble_beacon_cnt                  | 0x0F | 
+| ble_beacon_timeout              | 0x10 | 
+| gps_standby_timeout             | 0x11 | 
+| confirmed_ul_bitmap             | 0x12 | 
+| confirmed_ul_retry              | 0x13 | 
+| **motion_sensitivity**          | 0x14 | 
+| **shock_detection**             | 0x15 | 
+| periodic_activity_period        | 0x16 | 
+| motion_duration                 | 0x17 | 
+| geofencing_scan_period          | 0x18 | 
+| geofencing_collect_period       | 0x19 | 
+| ble_rssi_filter                 | 0x1A | 
+| temperature_high                | 0x1B | 
+| temperature_low                 | 0x1C | 
+| temperature_action              | 0x1D | 
+| transmit_strat_custom           | 0x1E | 
+| network_timeout_check           | 0x1F | 
+| network_timeout_reset           | 0x20 | 
+| collection_scan_type            | 0x21 | 
+| collection_nb_entry             | 0x22 | 
+| collection_ble_filter_type      | 0x23 | 
+| collection_ble_filter_main_1    | 0x24 | 
+| collection_ble_filter_main_2    | 0x25 | 
+| collection_ble_filter_sec_value | 0x26 | 
+| collection_ble_filter_sec_mask  | 0x27 | 
+| battery_capacity                | 0x28 | 
+| reed_switch_configuration     | 0x29 |
+| gnss_constellation            | 0x2A |
+| prox_scan_pwr_min             | 0x2B |
+| prox_distance_coef            | 0x2C |
+| prox_scan_frequency           | 0x2D |
+| prox_backtrace_max_age        | 0x2E |
+| prox_distance_sliding_window  | 0x2F |
+| prox_exposure_50              | 0x30 |
+| prox_exposure_100             | 0x31 |
+| prox_exposure_150             | 0x32 |
+| prox_exposure_200             | 0x33 |
+| prox_exposure_250             | 0x34 |
+| prox_exposure_300             | 0x35 |
+| prox_exposure_400             | 0x36 |
+| prox_alarm_dist_immediate     | 0x37 |
+| prox_alarm_exposure           | 0x38 |
+| prox_warn_dist_immediate      | 0x39 |
+| prox_warn_exposure            | 0x3A |
+| prox_record_dist_immediate    | 0x3B |
+| prox_record_exposure          | 0x3C |
+| prox_alarm_buz_duration       | 0x3D |
+| prox_warn_buz_duration        | 0x3E |
+| prox_contact_policy           | 0x3F |
+| prox_scan_duration            | 0x40 |
+| prox_scan_window              | 0x41 |
+| prox_scan_interval            | 0x42 |
+| prox_alarm_remanence          | 0x43 |
+| prox_warn_remanence           | 0x44 |
+| prox_bcn_repeat               | 0x45 |
+| prox_bcn_tx_power             | 0x46 |
+| prox_reminder_period          | 0x47 |
+| prox_reminder_distance        | 0x48 |
+| prox_warn_disable_dist        | 0x49 |
+| prox_alarm_disable_dist       | 0x4A |
+| prox_max_speed_filter         | 0x4B |
+| prox_max_update               | 0x4C |
+| position_ble_filter_type      | 0x4D |
+| position_ble_filter_main_1    | 0x4E |
+| position_ble_filter_main_2    | 0x4F |
+| position_ble_filter_sec_value | 0x50 |
+| position_ble_filter_sec_mask  | 0x51 |
+| position_ble_report_type     | 0x52 |
+| buzzer_volume                | 0x53 |
+| angle_detect_mode            | 0x54 |
+| angle_ref_acq                | 0x55 |
+| angle_ref_acc_x              | 0x56 |
+| angle_ref_acc_y              | 0x57 |
+| angle_ref_acc_z              | 0x58 |
+| angle_critical               | 0x59 |
+| angle_critical_hyst          | 0x5A |
+| angle_report_mode            | 0x5B |
+| angle_report_period          | 0x5C |
+| angle_report_repeat          | 0x5D |
+| angle_rising_time            | 0x5E |
+| angle_falling_time           | 0x5F |
+| angle_learning_time          | 0x60 |
+| angle_acc_accuracy           | 0x61 |
+| angle_deviation_delta        | 0x62 |
+| angle_deviation_min_interval | 0x63 |
+| angle_deviation_max_interval | 0x64 |
+| default_profile              | 0x65 |
+| password                     | 0x66 |
+| gps_t0_timeout               | 0x67 |
+| gps_fix_timeout              | 0x68 |
+| geofencing_scan_duration     | 0x69 |
+| beaconing_type               | 0x6A |
+| beaconing_tx_power           | 0x6B |
+| beaconing_static_interval    | 0x6C |
+| beaconing_motion_interval    | 0x6D |
+| beaconing_motion_duration    | 0x6E |
+| ble_cnx_adv_duration         | 0x6F |
+| **beacon_id_0**              | 0x70 |
+| **beacon_id_1**              | 0x71 |
+| **beacon_id_2**              | 0x72 |
+| **beacon_id_3**              | 0x73 |
+| **beacon_id_4**              | 0x74 |
+| **sos_period**               | 0x75 |
+| **motion_debounce**          | 0x76 |
+| **button mapping**           | 0x77 |
+| **default_datarate**         | 0x78 |
+| dynamic profile              | 0xF6 |
+| power consumption            | 0xF7 |
+| delete BLE bond              | 0xF8 |
+| mode                         | 0xF9 |
+| gps_ehpe_motion | 0x79|
+| gps_convergence_motion | 0x7A|
+| gps_t0_timeout_motion | 0x7B|
+
 
 :::tip Notes
 1.  the parameters in bold are new or modified in this firmware version
@@ -433,7 +519,7 @@ Description:
 |                           |      |        |                  | 1\. Battery level is shown with the LEDs.                                                         |
 |                           |      |        |                  | 2\. Start/Stop SOS.                                                                               |
 |                           |      |        |                  | 3\. Alert.                                                                                        |
-|                           |      |        |                  | 4\. Whitelist a badge with proximity.                                                             |
+|                           |      |        |                  | 4\. No action.                                                             |
 |                           |      |        |                  | 5\. Angle detection manual trigger.                                                               |
 |                           |      |        |                  | 6\. Special sequence activation.                                                                  |
 | buzzer_volume             | 0x53 | %      | 0 – 100          | Configure of the buzzer volume                                                                    |
@@ -466,10 +552,10 @@ To modify the _config_flags_ parameter to 0x1F, the command 0x0B030D0000001F sho
 
 To set the _button mapping_ parameter with the following setting
 
-- Button long press action: No action
-- Button short press action: Battery level is shown with the LEDs
-- 2 short button presses action: Start Alert
-- 3 or more short button presses action: Whitelist a badge with proximity
+- Button press action: No action
+- Button click: Battery level is shown with the LEDs
+- Double click: Start Alert
+- Triple click: No action
 - Button long press duration: 3 seconds
 
 0x0B027700034310 should be sent. Description:
@@ -534,51 +620,6 @@ These parameters are used to configure temperature monitoring
 2.  Critical state is entered if an over or under temperature is detected.  
 :::
 
-## Proximity feature parameters
-
-These parameters are used to configure the proximity feature.
-
-| Parameter                    | ID   | Unit            | Range       | Description                                                                                                                                                          |
-| ---------------------------- | ---- | --------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| prox_scan_pwr_min            | 0x2B | dBm             | \-90 – 10   | Minimum RSSI power for a proximity scan entry to be considered.                                                                                                      |
-| prox_distance_coef           | 0x2C | none            | 1 – 256     | Proximity distance coefficient.                                                                                                                                      |
-| prox_scan_frequency          | 0x2D | scan/hour       | 2 – 3600    | Number of proximity scans in an hour.                                                                                                                                |
-| prox_backtrace_max_age       | 0x2E | seconds         | 1 – 256     | Delay after which a proximity entry is removed from short term buffer.                                                                                               |
-| prox_distance_sliding_window | 0x2F | seconds         | 1 – 256     | Duration of a sliding window over which distance average will be evaluated.                                                                                          |
-| prox_exposure_50             | 0x30 | none            | 0, 1 – 256  | Marginal exposure index for (0-50) cm range during 1 second. 0 means it is not considered.                                                                           |
-| prox_exposure_100            | 0x31 | none            | 0, 1 – 256  | Marginal exposure index for (50-100) cm range during 1 second. 0 means it is not considered.                                                                         |
-| prox_exposure_150            | 0x32 | none            | 0, 1 – 256  | Marginal exposure index for (100-150) cm range during 1 second. 0 means it is not considered.                                                                        |
-| prox_exposure_200            | 0x33 | none            | 0, 1 – 256  | Marginal exposure index for (150-200) cm range during 1 second. 0 means it is not considered.                                                                        |
-| prox_exposure_250            | 0x34 | none            | 0, 1 – 256  | Marginal exposure index for (200-250) cm range during 1 second. 0 means it is not considered.                                                                        |
-| prox_exposure_300            | 0x35 | none            | 0, 1 – 256  | Marginal exposure index for (250-300) cm range during 1 second. 0 means it is not considered.                                                                        |
-| prox_exposure_400            | 0x36 | none            | 0, 1 – 256  | Marginal exposure index for (300-400) cm range during 1 second. 0 means it is not considered.                                                                        |
-| prox_alarm_dist_immediate    | 0x37 | 0.1meters       | 0 – 100     | Detection threshold to trigger an alarm.                                                                                                                             |
-| prox_alarm_exposure          | 0x38 | none            | 0 – 65535   | Total Exposure threshold to trigger an alarm.                                                                                                                        |
-| prox_warn_dist_immediate     | 0x39 | 0.1meters       | 0 – 100     | Detection threshold to trigger a warning.                                                                                                                            |
-| prox_warn_exposure           | 0x3A | none            | 0 – 65535   | Total Exposure threshold to trigger a warning.                                                                                                                       |
-| prox_record_dist_immediate   | 0x3B | 0.1meters       | 0 – 100     | Detection threshold to record a contact.                                                                                                                             |
-| prox_record_exposure         | 0x3C | none            | 1 – 65535   | Total Exposure threshold to record a contact.                                                                                                                        |
-| prox_alarm_buz_duration      | 0x3D | seconds         | 0 – 256     | Alarm buzzer duration.                                                                                                                                               |
-| prox_warn_buz_duration       | 0x3E | seconds         | 0 – 256     | Warning buzzer duration.                                                                                                                                             |
-| prox_contact_policy          | 0x3F | none            | 0 – 0x07    | Contact policy bitmap: bit 0: enable proximity feature // bit 1: store data in memory // bit 2: send data with Lora uplinks. If bit 0 is 0, the feature is disabled. |
-| prox_scan_duration           | 0x40 | 0.1seconds      | 1 – 600     | Duration of proximity scan.                                                                                                                                          |
-| prox_scan_window             | 0x41 | milli seconds   | 10 – 10240  | Duration of a scan window.                                                                                                                                           |
-| prox_scan_interval           | 0x42 | milli seconds   | 15 – 10245  | Duration of a scan interval.                                                                                                                                         |
-| prox_alarm_remanence         | 0x43 | seconds         | 0 – 256     | Time in seconds to keep an item in Alarm list when not detected anymore.                                                                                             |
-| prox_warn_remanence          | 0x44 | seconds         | 0 – 256     | Time in seconds to keep an item in Warning list when not detected anymore.                                                                                           |
-| prox_bcn_repeat              | 0x45 | milli seconds   | 0 – 65535   | Proximity beacon advertising interval.                                                                                                                               |
-| prox_bcn_tx_power            | 0x46 | dBm             | \-60 – -20  | Advertising calibrated TX power at 1m.                                                                                                                               |
-| prox_reminder_period         | 0x47 | seconds         | 0 – 256     | Interval to repeat Alarm or Warning buzzer reminder. 0 disables the reminder.                                                                                        |
-| prox_reminder_distance       | 0x48 | 0.1meters       | 0 – 256     | Distance to ignore reminder for Alarm or Warning devices.                                                                                                            |
-| prox_warn_disable_dist       | 0x49 | 0.1meters       | 1 – 256     | Distance to ignore Warning devices.                                                                                                                                  |
-| prox_alarm_disable_dist      | 0x4A | 0.1meters       | 1 – 256     | Distance to ignore Alarm devices.                                                                                                                                    |
-| prox_max_speed_filter        | 0x4B | 0.1meter/second | 0 – 40      | Maximum speed in tenth of meter to filter outliers.                                                                                                                  |
-| prox_max_update              | 0x4C | seconds         | 300 – 43200 | Time before sending a record                                                                                                                                         |
-
-:::tip Note  
-Refer to the application note [AN-007_proximity feature](https://actilitysa.sharepoint.com/:f:/t/aby/EgbhcfgQ-bZPrkYbQ7isqYYBPZkOHvKjhwmED46IDtiimA?e=m0AYsd) for more details about these parameters.  
-:::
-
 ## Angle feature parameters
 
 These parameters are used to configure the angle detection feature.
@@ -640,7 +681,7 @@ Refer to the application note [AN-011_BLE_geozoning](/DocLibrary_R/AbeewayTracke
 | ------------------------- | ---- | ----------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | beaconing_type            | 0x6A | none        | 0 – 5          | Beaconing advertisement type.                                                                                                                            |
 |                           |      |             |                | 0\. Disabled                                                                                                                                             |
-|                           |      |             |                | 1\. Proximity                                                                                                                                            |
+|                           |      |             |                | 1\. Not used                                                                                                                                            |
 |                           |      |             |                | 2\. Quuppa                                                                                                                                               |
 |                           |      |             |                | 3\. Eddystone UID                                                                                                                                        |
 |                           |      |             |                | 4\. Ibeacon                                                                                                                                              |
