@@ -20,7 +20,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 
 | | Resource |
 | - | -------- |
-| **Asset tracker firmware**| [Abeeway Trackers Reference Guide](/AbeewayRefGuide/introduction/) |  
+| **Asset tracker firmware reference guide**| [LATEST](/AbeewayRefGuide/introduction/) </br> [OLDER VERSIONS](https://actilitysa.sharepoint.com/:f:/t/aby/Ep4-XPaCPlpDkUrSP2_Iao0BLcCjcPyL_wiSe1aak0MzOg?e=AhKbQW) |  
 | **Asset tracker firmware Release Notes**| [Abeeway tracker Firmware Release notes](../../D-Reference/ReleaseNotes/) |  
 | **Trackers power consumption estimation**| [Power Consumption Estimation](https://actilitysa.sharepoint.com/:f:/t/aby/Er1CBFg9-YxChO-cdxGs5DUBj2CDpFGEhoEQtFeuH9l_4w?e=xmiDVM) |
 | **LED patterns for micro tracker and smart badge** | [LED patterns](https://actilitysa.sharepoint.com/:b:/t/aby/Ee9KhtkknRFMiBipu_fWDdgBh5pr8AIyZNYXkTCe5fg18A?e=DtRe8I) | 

@@ -1027,6 +1027,10 @@ module.exports = {
                       },
                           ]
                         },
+                        {
+                          title: 'Older Versions',
+                          path: 'https://actilitysa.sharepoint.com/:f:/t/aby/Ep4-XPaCPlpDkUrSP2_Iao0BLcCjcPyL_wiSe1aak0MzOg?e=AhKbQW',
+                        },
                     ]
                 },
             ],
