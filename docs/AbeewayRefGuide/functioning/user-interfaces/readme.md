@@ -8,7 +8,7 @@ The table below shows the default user interface components shipped with our tra
 |----------------------|----------------------------|
 |  **Button**          |  Micro tracker, Smart badge |
 |  **LEDs**            |  Micro tracker, Smart badge |
-|  **buzzer**          |  Micro tracker, Smart badge |
+|  **Buzzer**          |  Micro tracker, Smart badge |
 |  **Reed switch**     |  Compact tracker           |
 
 ## Button management
@@ -21,12 +21,12 @@ The table below shows the default user interface components shipped with our tra
 
 |  Sequence      |  Action         |  User Interface behaviour        |
 |---------------------|---------------------|---------------------|
-|One **press** when device OFF and good battery<sup>(3)</sup> |  Switch ON the tracker    |  LED pattern (See next section)  |
-|One **long press** when device ON<sup>(4)</sup>              |  Go to the OFF mode, except if mode disabled or if the tracker is in SOS   |  Buzzer melody      |
+|One **press** when device OFF and good battery<sup>(3)</sup> |  Switch ON the tracker    |  [Buzzer melody](https://actilitysa.sharepoint.com/:u:/t/aby/EaBIKuw6iQxLmT2vwYpUxykBBrhZPhQdoNO3OQ1324BnYw?e=5wNbPV) + LED pattern (See next section)  |
+|One **long press** when device ON<sup>(4)</sup>              |  Go to the OFF mode, except if mode disabled or if the tracker is in SOS   |  [Buzzer melody](https://actilitysa.sharepoint.com/:u:/t/aby/EViao4_dqSRJhByFCf6XEY0Bm4WhDEw1n8wIvD_ay3hFPg?e=w3Fnjq)      |
 |While the button is pressed when the device is ON   |                      |  LED is Blue while the button is pressed        |
 |Very Long Press or ESC Sequence<sup>(5)</sup> | Trigger the start of special sequence | LED is Blue and Red |
 
-**Configurable actions ([Factory Default Configuration](../../factory-default-config/readme.md)):**
+**Configurable actions ([Factory Default Configuration](../../Parameters-default-configuration/factory-default.md)):**
 
 | Sequence | Action|User Interface Behaviour  |
 |-------------------------------------|---------------------|----------------------|
@@ -128,7 +128,7 @@ The second interface from the tracker to the user is done via a buzzer. The volu
 |  **BLE geozoning**  |  Entering a hazardous area        |  BLE geozoning alert   |
 
 :::tip Notes
-<sup>(1)</sup> It is only played for micro tracker, Smart badges et compact trackers for their **first** join.
+<sup>(1)</sup> It is only played for micro tracker, Smart badges for their **first** join.
 
 <sup>(2)</sup>  BLE Link Loss/alert melody has been modified in applicative firmware 2.3
 :::
@@ -137,7 +137,7 @@ The different melodies can be found [here](https://actilitysa.sharepoint.com/:f:
 
 ## Reed switch interface
 
-A reed switch is a physical switch operated by an applied magnetic field. The reed switch is only present inside the compact tracker. It is used when no button is mounted on the tracker. It can be configured with the *reed_switch_configuration* parameter <sup>(2)</sup>:
+A reed switch is a physical switch operated by an applied magnetic field. The reed switch is only present inside the compact tracker. It is used when no button is mounted on the tracker. It can be configured with the [*reed_switch_configuration* parameter](../../Parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) <sup>(2)</sup>:
 
 -   **Act as a button**, the reed switch behaves as described in the Button management section above. A short magnetic field input is recognized as a short press, and a long input, as a long press.
 -   **Specific behavior**, the reed switch sequence<sup>(1)</sup> generates a device reset:
@@ -150,5 +150,7 @@ A reed switch is a physical switch operated by an applied magnetic field. The re
   - A long time without activation of the reed switch (between 3 to 6 seconds)</br>
   - A long activation of the reed switch (between 3 to 6 seconds)</br>
 
-<sup>(2)</sup>  In **Startup** mode, only one action is available and doesn't follow the configuration. The sequence described above is used to exit the **shipping** mode.
+<sup>(2)</sup>  In **Startup** mode, only one action is available and doesn't follow the configuration. The sequence described above is used to exit the **shipping** mode and will also enable Bluetooth advertising:
+  - If the tracker is not bonded to smart phone, the Bluetooth advertising will stop after _ble_cnx_adv_duration_ seconds.
+  - If the tracker is bonded, the Bluetooth advertising will continue indefinately.
 :::

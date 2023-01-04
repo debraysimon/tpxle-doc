@@ -543,6 +543,10 @@ module.exports = {
                                 title: 'User interfaces',
                                 path: '/AbeewayRefGuide/functioning/user-interfaces/',
                               },
+                              {
+                                title: 'Power Consumption',
+                                path: '/AbeewayRefGuide/functioning/power-consumption/',
+                              },
                             ]
                         },
                         {
@@ -705,23 +709,39 @@ module.exports = {
                             ]
                         },
                         {
+                          title: 'Parameters and default configuration',
+                          path: '/AbeewayRefGuide/Parameters-default-configuration/Overview',
+                          collapsable: true,
+                          sidebarDepth: 1,
+                          children:[
+                            {
+                              title: 'Firmware Parameters',
+                              path: '/AbeewayRefGuide/Parameters-default-configuration/firmware-parameters',
+                            },
+                            {
+                              title: 'Factory Default Configuration',
+                              path: '/AbeewayRefGuide/Parameters-default-configuration/factory-default',
+                            },
+                            {
+                            title: 'Default delivered Configuration',
+                            path: '/AbeewayRefGuide/Parameters-default-configuration/configuration-default',
+                            collapsable: true,
+                            children:[
+                              {
+                                title: 'Smart Badge & Micro Tracker',
+                                path: '/AbeewayRefGuide/Parameters-default-configuration/default-delivered-mt-sb',
+                              },
+                              {
+                                title: 'Compact Tracker & Industrial Tracker',
+                                path: '/AbeewayRefGuide/Parameters-default-configuration/default-delivered-ci',
+                              },
+                            ]
+                            },  
+                          ]
+                        },
+                        {
                             title: 'Command Line Interpreter (CLI) interface',
                             path: '/AbeewayRefGuide/cli-interface/',
-                            collapsable: true,
-                          },
-                          {
-                            title: 'Default configuration delivered with micro tracker and smart badge',
-                            path: '/AbeewayRefGuide/default-config-delivered-ms/',
-                            collapsable: true,
-                          },
-                          {
-                            title: 'Default delivered compact and industrial tracker configuration',
-                            path: '/AbeewayRefGuide/default-config-delivered-ci/',
-                            collapsable: true,
-                          },
-                          {
-                            title: 'Factory default configuration',
-                            path: '/AbeewayRefGuide/factory-default-config/',
                             collapsable: true,
                           },
                           {

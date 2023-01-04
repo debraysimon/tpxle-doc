@@ -508,7 +508,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 ## Proximity feature parameters
 
- These parameters are used to configure the proximity feature.
+These parameters are used to configure the proximity feature.
 
 |Parameter|ID|Unit|Range|Description|
 |-------------|------|----------|------------|-------------|

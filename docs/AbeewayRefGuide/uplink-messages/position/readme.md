@@ -66,7 +66,7 @@ Longitude = Longitude / 10<sup>7</sup>
 
  **Cause**: Timeout cause
 -   0: Default timeout cause (when it is not due to **Cause** 1 or 2)
--   1: Timeout caused by the parameter *gps_t0_timeout*
+-   1: Timeout caused by the parameter *gps_t0_timeout* (if the tracker is static) or *gps_t0_timeout_motion* (if the tracker is moving) 
 -   2: Timeout caused by the parameter *gps_fix_timeout*
 
  **C/N 0**: Carrier over noise (dBm) for the first satellite seen.

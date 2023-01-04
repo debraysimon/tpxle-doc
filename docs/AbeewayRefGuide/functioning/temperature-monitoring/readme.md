@@ -14,6 +14,7 @@ The temperature measurement is done periodically. If one of the configured thres
 2.  To come back in a normal state, the temperature should be either above the *temperature_low* + 5°Celsius or below the *temperature_high* - 5°Celsius.
 3.  Disabling the geolocation during the critical state (configured via the parameter *temperature_action*) could be useful to preserve the battery.
 4.  Temperature event payloads are sent only on state changes unless the geolocation has been disabled. In this case, geolocation uplinks are replaced by temperature event messages.
+5.  Starting Firmware 2.4+, The _temperature_min_ and _temperature_max_ are stored in flash so they are preserved across firmware resets. In MCU Firmware version 2.3 and below, _temperature_min_ and _temperature_max_were stored in RAM which resulted in resetting of these parameters during firmware reset or battery replacement.
 :::
 
 ![](./images/image029.jpg)

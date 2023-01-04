@@ -15,7 +15,7 @@ It notifies generic events.
 -   0x03: **BLE connected**: Sent when a tracker is bonded and BLE connected to a mobile or a tablet
 -   0x04: **BLE disconnected**: Sent when a tracker is bonded and BLE disconnected to a mobile or a tablet
 -   0x05: **Temperature information** message: if the temperature monitoring is activated (the parameter *temperature_high* or *temperature_low* is set), this event message is sent when there is a state change in the temperature (normal to alert or alert to normal) or it can be sent instead of a geolocation message if the geolocation is cancelled due to *temperature_action* parameter. (Refer to the section [Temperature monitoring](../../functioning/temperature-monitoring/readme.md) for more details)
--   0x06: **BLE bond deleted**: Sent when the bond is deleted on the tracker (it is sent even if the tracker was not bonded before the command)
+-   0x06: **BLE bond deleted**: Sent when the bond is deleted on the tracker (it is sent even if the tracker was not bonded before the command to remove BLE bond was sent to the tracker)
 -   0x07: **SOS start** message: The tracker enters in SOS
 -   0x08: **SOS stop** message: The tracker leaves the SOS
 -   0x09: **Angle detection** event
@@ -23,7 +23,7 @@ It notifies generic events.
 
 ## Additional data
 
-- **motion_end** messages:
+### Motion_end message:
 
 Provide the gravity vector, which can be used for the device  
 orientation. Vector components can be negative.
@@ -40,9 +40,9 @@ orientation. Vector components can be negative.
 **X axis**: X axis accelerometer value in mG  
 **Y axis**: Y axis accelerometer value in mG  
 **Z axis**: Z axis accelerometer value in mG  
-**MDP**: Motion Duration Percentage: It ranges from 0 to 100%
+**MDP**: Motion Duration Percentage (Motion Duty Cycle). It stores the %duration of tracker movement since the last reset of the tracker or by resetting it with [Clear motion percentage downlink](../../downlink-messages/clear-motion-percentage/). Its value ranges from 0 to 100%
 
-- **Temperature alert** messages:
+### Temperature alert message:
 
 Provides data about the measured temperature.
 
@@ -75,7 +75,7 @@ If the feature is not activated, values in the additional data part are not vali
 The counters never reset.  
 :::
 
-**Angle detection:**
+### Angle detection:
 
 Provide states and gravity vectors Additional data with Event  
 value=0x09  
@@ -122,9 +122,9 @@ measurement
 1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](../../downlink-messages/two-complement-encoding/readme.md) for information for the encoding
 2.  G is the terrestrial gravity, mG means milli G.
 3.  For more details refer to the application note [AN_010 \_Angle Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS).  
-    :::
+:::
 
-- **BLE geozoning** messages:
+### BLE geozoning message:
 
 **Additional data with Event value=0x0A**
 
@@ -132,7 +132,7 @@ measurement
 | ---------- | ------------- |
 | **Status** | **Beacon Id** |
 
-## Status
+#### Status
 
 | Bit     | Type                  |             |
 | ------- | --------------------- | ----------- |
@@ -145,5 +145,15 @@ measurement
 **Beacon Id:** beacon identifier of the detected beacon
 
 :::tip Note  
-Please refer to the dedicated application note [AN-011_BLE geozoning](/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.  
+Please refer to the dedicated application note [AN-011_BLE geozoning](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.  
 :::
+
+## BLE Connection messages:
+
+These messages are sent when the tracker is interacting over Bluetooth with the [Abeeway tracking app](/C-Procedure-Topics/GetStartedMobileApp_T/) installed on the smart phone.
+
+|  BLE Connection status                |  Message      |
+|-------------------------------------------|-----------------------|
+|  New BLE connection (if the tracker is also bonded)    |  **BLE connected**    |
+|  End of BLE connection (if the tracker is also bonded) |  **BLE disconnected** |
+|  BLE bond is deleted on the tracker       |  **BLE bond deleted** |

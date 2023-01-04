@@ -12,7 +12,7 @@
     	-   If the tracker is bonded, it continues to advertise
     	-   If the tracker is not bonded, the advertisement is stopped
 
-	-   **CLI command<sup>(1)</sup>:** Enter \"*ble connect start*\" on CLI with tracker connected to USB port. The tracker starts the advertisement for a fixed duration of 60 seconds. a parameter can be added to the command to specify an advertisement duration. After this period:
+	-   **CLI command<sup>(1)</sup>:** Enter \"*ble connect start*\" on [CLI with tracker connected to USB port](/D-Reference/UsingCLI_R/). The tracker starts the advertisement for a fixed duration of 60 seconds. Additional parameter can be added to the command to specify an advertisement duration. After this period:
     	-   If the tracker is bonded the trackers continue to advertise.
     	-   If not the advertisement is stopped
 
@@ -28,7 +28,7 @@
     	-   If the tracker is not bonded, the advertisement is stopped
 	-   **The tracker exits shipping state:** If the bit 5 of the *config_flags* parameter is set, the advertisement is activated during *ble_cnx_adv_duration* time. After this period, the advertisement is stopped no matter the bond state
 
-	-   **CLI command<sup>(1)</sup>:** Enter \"*ble connect start*\" on CLI with tracker connected to USB port. The tracker starts the advertisement for a duration of 60 seconds or *ble_cnx_adv_duration* time (if this parameter value is smaller than 60 seconds). A parameter can be added to the command to specify an advertisement duration. After this period, the advertisement is stopped no matter the bond state
+	-   **CLI command<sup>(1)</sup>:** Enter \"*ble connect start*\" on [CLI with tracker connected to USB port](/D-Reference/UsingCLI_R/). The tracker starts the advertisement for a duration of 60 seconds or *ble_cnx_adv_duration* time (if this parameter value is smaller than 60 seconds). Additional parameter can be added to the command to specify an advertisement duration. After this period, the advertisement is stopped no matter the bond state.
 
 	-   **A LoRa downlink<sup>(2)</sup>:** Advertises during the minimum value between the value set in the downlink and *ble_cnx_adv_duration* time. After this period, the advertisement is stopped no matter the bond state.
 
@@ -41,7 +41,7 @@
 :::tip Notes
 (1)  Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details.
 
-(2)  Refer to the section [BLE scan and communication parameters](../../downlink-messages/parameters-configuration/) and [Start and Stop BLE Advertisement](../../downlink-messages/parameters-configuration/) for more details.
+(2)  Refer to the section [BLE scan and communication parameters](../../Parameters-default-configuration/firmware-parameters.md#ble-communication-parameters) and [Start and Stop BLE Advertisement](../../downlink-messages/debug-commands/#starting-and-stopping-ble-advertisement) for more details.
 
 (3)  Only for compact trackers, refer to [Reed switch interface](../../functioning/user-interfaces/#reed-switch-interface) for more details.
 :::
@@ -69,7 +69,8 @@ As soon as the BLE secure connection is established (with the bond information),
 1.  Once connected, the tracker does not accept any other BLE connections.
 2.  If the tracker has the bond information, only the paired central device can connect to it.
 3.  When the tracker is bonded and securely connected to the central device, the geolocation is done by the central device.
-4.  If a bonded central device lost its security keys, it can establish the bond again with the tracker, if the bit 11 of the *config_flags* parameter is set to 0. See [Asymmetric BLE pairing](../../ble-communication-interface/connection-pairing/#asymmetric-ble-pairing) section below for more details
+4.  If a bonded central device lost its security keys, it can establish the bond again with the tracker, if the bit 11 of the *config_flags* parameter is set to 0. See [Asymmetric BLE pairing](../../ble-communication-interface/connection-pairing/#asymmetric-ble-pairing) section below for more details.
+5. If the bit21 of [**config_flags** parameter](../../downlink-messages/parameters-configuration/#miscellaneous-parameters) is set to true, the tracker will ask for 6 digit PIN on the phone requesting to pair with the tracker for the first time. This PIN can be retrieved from the backend and this feature is specific to [Abeeway tracking app](/C-Procedure-Topics/GetStartedMobileApp_T/).
 :::
 
 ### Disconnection with a bonded device
@@ -81,7 +82,7 @@ The BLE connection on the tracker is considered lost if no messages are received
 
  The bond information can be cleared by:
 
--   A LoRaWAN&trade; Downlink (Refer to the sections [BLE parameters](../../downlink-messages/parameters-configuration/) and [Reset the device](../../downlink-messages/debug-commands/readme.md) for more details)
+-   A LoRaWAN&trade; Downlink (Refer to the sections [BLE communication parameters](../../Parameters-default-configuration/firmware-parameters.html#ble-scan-and-communication-parameters) and [Reset the device](../../downlink-messages/debug-commands/readme.md) for more details)
 -   A specific BLE command
 -   A CLI command (Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details)
 -   A specific button sequence (see [Micro Tracker Commands](../../../D-Reference/MicroTrackerCommands_R/) for more details):

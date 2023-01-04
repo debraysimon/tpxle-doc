@@ -38,4 +38,6 @@ Here is the list of most important commands and their purpose:
 | system mode motion | To change the value of parameter, mode = motion_tracking  |
 | config save | To save the firmware configuration in flash. This is required to preserve firmware settings across device resets. </br>The configuration on the tracker is saved across power on/off of the device. </br>**The flash lifetime is limited so, please do not write too many times into the flash during the testing. The warranty of the tracker is void if used incorrectly.** |
 | config set <**parameter_ID**> <**value**> | Change the parameter value. For ex, **config set 1 500** will change the value of Parameter ID (1) (lora_period) to 500. The parameter ID can be found from [Abeeway trackers reference guide](../../AbeewayRefGuide/downlink-messages/parameters-configuration/) |
+| gnss show <gps, beidou> | Read the GPS or Beidou almanac status of constellation |
+| sys accelero show | It shows the accelerometer chip used in the tracker along with other statistics such as cumulative motion duration |
 

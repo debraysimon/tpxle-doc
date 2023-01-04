@@ -14,8 +14,8 @@ This document describes in detail the usage of Asset tracker **MCU application F
 - [BLE Communication Interface](../ble-communication-interface/readme.md) introduces BLE communication interface to the user.
 - [Uplink messages](../uplink-messages/readme.md) and [Downlink messages](../downlink-messages/readme.md) topics give more details regarding uplink and downlink messages of the trackers.
 - The [Command Line Interpreter](../cli-interface) topic introduces the CLI interface.
-- [Default configuration delivered with micro tracker and smart badge](../default-config-delivered-ms/readme.md), [Default delivered compact and industrial tracker configuration](../default-config-delivered-ci/readme.md) and [Factory default 
-configuration](../factory-default-config/readme.md) provide the basic default configuration of the trackers and the factory values for all parameters.
+- [Default configuration delivered with micro tracker and smart badge](../Parameters-default-configuration/default-delivered-mt-sb), [Default delivered compact and industrial tracker configuration](../Parameters-default-configuration/default-delivered-ci.md) and [Factory default 
+configuration](../Parameters-default-configuration/factory-default.md) provide the basic default configuration of the trackers and the factory values for all parameters.
 - [Tracker reset](../tracker-reset/readme.md) provides the relevant sequence of actions to be performed by the user.
 
 This document is reserved for the support team, distributors, and integrator teams to give a deeper knowledge of all the possible settings. We do reserve the right to modify the contents in future releases.

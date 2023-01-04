@@ -2,6 +2,12 @@
 
  This feature is supported by all Abeeway trackers.
 
+:::tip Note
+- Please refer to [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) application note for more details.
+- Please visit [here](../../Parameters-default-configuration/firmware-parameters.md#accelerometer-parameters) for the motion detection parameters.
+:::
+
+
 ## Overview
 
 The tracker embeds a three axes accelerometer, which detects accelerations and triggers motion events. It is configurable with three parameters:
@@ -15,7 +21,7 @@ The tracker embeds a three axes accelerometer, which detects accelerations and t
 
 ## Motion sensitivity
 
-The accelerometer sensitivity can be fine-tuned by configuration via the parameter *motion_sensitivity*. Prior to this version, this parameter expressed the accelerometer sensitivity in percentage. **From the AT2 v2.3, this parameter accepts different value ranges selecting different modes**:
+The accelerometer sensitivity can be fine-tuned by configuration via the parameter *motion_sensitivity*. Prior to this version, this parameter expressed the accelerometer sensitivity in percentage. **From the MCU FW AT2 v2.3, this parameter accepts different value ranges selecting different modes**:
 
 -   1-30: **high sensitivity/low power**
 -   100: **Default mode** (same behavior as the default value 0 in the previous versions).
@@ -31,9 +37,6 @@ The configuration parameters used for this mode are:
 * The detection **threshold** is configured via the *motion_sensitivity* parameter,and follows the formula: (*motion_sensitivity* \* 0.063g). A movement will be detected if its intensity is above or equals to the *motion_sensitivity* value during at least the *motion_debounce* time. This time is calculated from the following formulas:
   *   For an initial movement, the duration is given by the formula: *motion_debounce* \* 160 milliseconds
   *   For a continuous motion, the duration is given by the formula: *motion_debounce* \* 80 milliseconds
-
-
-
 
 :::tip Note
 A *motion_sensitivity* value between 31 and 99 is capped to 30.
@@ -69,8 +72,11 @@ The following picture shows the conversion between mg (milli Gravity unit) and p
  The end of a motion is detected by the absence of movement during a
  delay configured via the parameter *motion_duration*.
 
- This parameter is expressed in seconds and ranges from \[60 .. 3600\].
- The factory default value is 120 seconds.
+ This parameter is expressed in seconds and its range is defined [here](../../Parameters-default-configuration/firmware-parameters.md#accelerometer-parameters).
+
+ ## Motion Duty Cycle Percentage
+ 
+ The tracker stores the % of time tracker had been moving since the last reset of the tracker or when then counter is reset using [Clear motion percentage downlink](../../downlink-messages/clear-motion-percentage/). Motion Duty Cycle percentage (MDP) is reported in [motion end uplinks](../../uplink-messages/event/#event-message).
 
 ## Device orientation
 

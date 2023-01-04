@@ -41,14 +41,17 @@ Find below the flowchart describing the working of the gps module:
 
 For power consumption purpose, a predictive algorithm has been put in place: The GPS is stopped as soon as possible if it has no chance to make a fix (e.g. indoor location without a clear sky view). The following parameters are used to customize this algorithm:
 
--   *gps_t0_timeout*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition
+-   *gps_t0_timeout*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is static
+-   *gps_t0_timeout_motion*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is moving  
 -   *gps_fix_timeout*: when expired a GPS fix must be obtained detected to pursue the processing
 -   *gps_timeout:* when expired the GPS acquisition is stopped
 
-To complete a position, the GPS module expects one of the two following conditions to be achieved.
+To complete a position, the GPS module expects one of the following conditions to be achieved.
 
--   The *gps_convergence* timeout in seconds (time let to the GPS module to compute a more precise position) expires.
--   The *gps_ehpe* value is below the configured value. EHPE (Estimated Horizontal Position Error) is provided by the GPS component and is expressed in meters.
+-   The *gps_convergence* timeout in seconds (time let to the GPS module to compute a more precise position) expires when the tracker is static.
+-   The *gps_convergence_motion* timeout in seconds (time let to the GPS module to compute a more precise position) expires when the tracker is moving.
+-   The *gps_ehpe* value is below the configured value. EHPE (Estimated Horizontal Position Error) is provided by the GPS component and is expressed in meters when the tracker is static.
+-   The *gps_ehpe_motion* value is below the configured value. EHPE (Estimated Horizontal Position Error) is provided by the GPS component and is expressed in meters when the tracker is moving.
 
  <img src="./images/image7.png" width="1000">
 
@@ -73,15 +76,18 @@ With this technology, the device sends the data given by the GPS module before t
 
 In order to reduce power consumption on the tracker, a predictive algorithm has been put in place: The GPS is stopped as soon as possible if it has no chance to make a fix or to acquire enough data for LPGPS calculation (e.g. indoor location without a clear sky view).
 The following parameters are used to customize this algorithm:
--   *gps_t0_timeout*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition
+-   *gps_t0_timeout*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is static
+-   *gps_t0_timeout_motion*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is moving
 -   *gps_fix_timeout*: when expired if there is no GPS fix, the tracker switches back to LPGPS acquisition
 -   *agps_timeout:* when expired the LPGPS or GPS acquisition is stopped
 
 If the GPS component fails to provide enough data to the server, the tracker sends a LPGPS timeout uplink instead of a usual message.
 
-If a GPS position is obtained before having sufficient data for LPGPS calculation, the GPS position is sent if one of the two following conditions is achieved before *agps_timeout* expired.
--   The *gps_convergence* timeout in seconds (time let to the GPS module to compute a more precise position) expires.
--   The *gps_ehpe* value is below the configured value. EHPE (Estimated Horizontal Position Error) is provided by the GPS component and is expressed in meters.
+If a GPS position is obtained before having sufficient data for LPGPS calculation, the GPS position is sent if one of the following conditions is achieved before *agps_timeout* expired.
+-   The *gps_convergence* timeout in seconds (time let to the GPS module to compute a more precise position) expires if the tracker is static.
+-   The *gps_convergence_motion* timeout in seconds (time let to the GPS module to compute a more precise position) expires if the tracker is moving.
+-   The *gps_ehpe* value is below the configured value. EHPE (Estimated Horizontal Position Error) is provided by the GPS component and is expressed in meters if the tracker is static.
+-   The *gps_ehpe_motion* value is below the configured value. EHPE (Estimated Horizontal Position Error) is provided by the GPS component and is expressed in meters if the tracker is moving.
 
  <img src="./images/image9.png" width="600">
 
@@ -106,11 +112,11 @@ Once the scan is done, the BSSIDs along with associated RSSI are sent via LoRaWA
 -   4 If the bit 12 of the *config_flags* parameter is reset
 -   12 If the bit 12 of the *config_flags* parameter is set
 
-**In a multi technology geolocation**, WIFI scan results are only sent in the uplink if the number of BSSIDs are greater than or equals to 3. If there are less than 3 BSSIDs found, then this triggers a technology switch (move to GPS or LPGPS).
+**In a multi technology geolocation**, WIFI scan results are only sent in the uplink if the number of BSSIDs are greater than or equals to 3. If there are less than 3 BSSIDs found, then this triggers a technology switch (move to GPS or LPGPS depending on the value of *geoloc_sensor* or *geoloc_method*).
 
 :::tip Note
-A filtering system is applied when the WIFI finger printing is not used (bit 12 of the *config_flags* parameter reset). Multicast and locally administrated BSSID are removed.
-A locally administered MAC address is an address generated by the WIFI access point. This MAC address is not guaranteed to be unique. Conversely, a public MAC address is a registered address against the IEEE and is unique around the world. Usually, a WIFI access point advertises both locally administered and public MAC addresses. A multicast address is usually used by the WIFI access point to send multicast IP packet (You can find more data about these BSSID [here](https://en.wikipedia.org/wiki/MAC_address))
+A filtering system is applied when the WIFI fingerprinting is not used (bit 12 of the *config_flags* parameter reset). Multicast and locally administrated BSSID are removed.
+A locally administered MAC address is an address generated by the WIFI access point. This MAC address is not guaranteed to be unique for locally administered MAC address. Conversely, a public MAC address is a registered address against the IEEE and is unique around the world. Usually, a WIFI access point advertises both locally administered and public MAC addresses. A multicast address is usually used by the WIFI access point to send multicast IP packet (You can find more data about these BSSID [here](https://en.wikipedia.org/wiki/MAC_address))
 :::
 
 In the table below you can see the discarded BSSID:
