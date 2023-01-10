@@ -350,7 +350,7 @@ module.exports = {
                             path: '/B-Feature-Topics/UseTPLocationAPI_C/',
                         },
                         {
-                            title: 'Using Abeeway Device Manager to encode or decode payloads',
+                            title: 'Encoding/Decoding LoRaWAN payloads',
                             path: '/C-Procedure-Topics/UseAbeewayDriver_T/',
                             collapsable: true,
                             sidebarDepth: 3,

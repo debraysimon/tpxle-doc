@@ -16,7 +16,7 @@ Side operations setting:
 
 ## Configuration values
 
-|	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (hex)	|	Parameter Value (Decimal)	|
+|	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (Hex)	|	Parameter Value (Decimal)	|
 |	-------------------	|	-------------------	|	-------------------	|	-------------------	|
 |	ul_period                        	|	0	|	(0x00)	|	300	seconds |
 |	lora_period                      	|	1	|	(0x01)	|	600	seconds |

@@ -1,4 +1,4 @@
-# Configuration messages
+d # Configuration messages
 
 This message reports the parameter values configured in the trackers. If the complete list is requested, several UL messages will be transmitted.
 
@@ -36,7 +36,7 @@ For details on available parameters, their identifiers and their values, please 
 
  Parameter=0xfe00010881, Firmware version=0x01, Firmware revision=0x08, Firmware iteration= 0x81
 
--   **Tracker orientation** (Parameters ID equals to 0xFA, 0xFB or 0xFC) can be negative. Refer to the section Two's complement Encoding for information for the encoding.
+-   **Tracker orientation** (Parameters ID equals to 0xFA, 0xFB or 0xFC) can be negative.
 
 |  Parameter x          |  Parameter ID  |  Parameter value|
 |---------------------------|--------------------|----------------------|
@@ -45,22 +45,22 @@ For details on available parameters, their identifiers and their values, please 
 
  **X, Y or Z Axis**: Value measured on axis X, Y or Z of the accelerometer, it is expressed in mG. Refer to the section [Two's complement Encoding](../../downlink-messages/two-complement-encoding/readme.md) for information for the encoding
 
--   **Operational Mode** (Parameter ID equals to 0xF9): Unsigned 32 bits value in big endian format (MSB first).
+-   **Mode** (Parameter ID equals to 0xF9): Unsigned 32 bits value in big endian format (MSB first).
     -   0- Standby
     -   1- Motion tracking
     -   2- Permanent tracking
     -   3- Motion start/end tracking
     -   4- Activity tracking
 
--   **Dynamic profile** configuration (Parameter ID equals to 0xF6): provides the dynamic profile of the tracker.
+-   **profile** configuration (Parameter ID equals to 0xF6): provides the dynamic profile of the tracker.
     -   0: No profile
     -   1: Profile sleep
     -   2: Profile economic
     -   3: Profile intensive
 
--   **Power consumption** (Parameter ID equals to 0xF7): provides the power consumption of the tracker in mA
+-   **consumption** (Parameter ID equals to 0xF7): provides the power consumption of the tracker in mA
 
--   **BLE Bond status** (Parameter ID equals to 0xF8): Unsigned 32 bits value in big endian format (MSB first).
+-   **ble_bond_info** (Parameter ID equals to 0xF8): Unsigned 32 bits value in big endian format (MSB first).
     -   0: the tracker is not bonded
     -   1: the tracker is bonded
     -   2: unknown state

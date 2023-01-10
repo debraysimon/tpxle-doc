@@ -2,136 +2,144 @@
 
 The table below sum up all parameters and their identifiers (ID). The parameters described as "reserved" are not used in this firmware version.
 
-| Parameter                       | ID   | 
-| ------------------------------- | ---- | 
-| ul_period                       | 0x00 | 
-| lora_period                     | 0x01 | 
-| pw_stat_period                  | 0x02 | 
-| periodic_pos_period             | 0x03 | 
-| Reserved, do not use       | 0x04 | 
-| geoloc_sensor                   | 0x05 | 
-| geoloc_method                   | 0x06 | 
-| Reserved, do not use            | 0x07 | 
-| motion_nb_pos                   | 0x08 | 
-| gps_timeout                     | 0x09 | 
-| agps_timeout                    | 0x0A | 
-| gps_ehpe                        | 0x0B | 
-| gps_convergence                 | 0x0C | 
-| config_flags                | 0x0D | 
-| transmit_strat            | 0x0E | 
-| ble_beacon_cnt                  | 0x0F | 
-| ble_beacon_timeout              | 0x10 | 
-| **gps_standby_timeout**             | 0x11 | 
-| confirmed_ul_bitmap             | 0x12 | 
-| confirmed_ul_retry              | 0x13 | 
-| **motion_sensitivity**        | 0x14 | 
-| shock_detection             | 0x15 | 
-| periodic_activity_period        | 0x16 | 
-| motion_duration                 | 0x17 | 
-| geofencing_scan_period          | 0x18 | 
-| geofencing_collect_period       | 0x19 | 
-| ble_rssi_filter                 | 0x1A | 
-| temperature_high                | 0x1B | 
-| temperature_low                 | 0x1C | 
-| temperature_action              | 0x1D | 
-| transmit_strat_custom           | 0x1E | 
-| network_timeout_check           | 0x1F | 
-| network_timeout_reset           | 0x20 | 
-| collection_scan_type            | 0x21 | 
-| collection_nb_entry             | 0x22 | 
-| collection_ble_filter_type      | 0x23 | 
-| collection_ble_filter_main_1    | 0x24 | 
-| collection_ble_filter_main_2    | 0x25 | 
-| collection_ble_filter_sec_value | 0x26 | 
-| collection_ble_filter_sec_mask  | 0x27 | 
-| battery_capacity                | 0x28 | 
-| reed_switch_configuration     | 0x29 |
-| gnss_constellation            | 0x2A |
-| prox_scan_pwr_min (**Reserved**)            | 0x2B |
-| prox_distance_coef   (**Reserved**)          | 0x2C |
-| prox_scan_frequency  (**Reserved**)          | 0x2D |
-| prox_backtrace_max_age   (**Reserved**)      | 0x2E |
-| prox_distance_sliding_window (**Reserved**)  | 0x2F |
-| prox_exposure_50     (**Reserved**)          | 0x30 |
-| prox_exposure_100    (**Reserved**)          | 0x31 |
-| prox_exposure_150    (**Reserved**)          | 0x32 |
-| prox_exposure_200     (**Reserved**)         | 0x33 |
-| prox_exposure_250     (**Reserved**)         | 0x34 |
-| prox_exposure_300     (**Reserved**)         | 0x35 |
-| prox_exposure_400      (**Reserved**)        | 0x36 |
-| prox_alarm_dist_immediate  (**Reserved**)    | 0x37 |
-| prox_alarm_exposure     (**Reserved**)       | 0x38 |
-| prox_warn_dist_immediate  (**Reserved**)     | 0x39 |
-| prox_warn_exposure       (**Reserved**)      | 0x3A |
-| prox_record_dist_immediate (**Reserved**)    | 0x3B |
-| prox_record_exposure   (**Reserved**)        | 0x3C |
-| prox_alarm_buz_duration (**Reserved**)       | 0x3D |
-| prox_warn_buz_duration  (**Reserved**)       | 0x3E |
-| prox_contact_policy  (**Reserved**)          | 0x3F |
-| prox_scan_duration  (**Reserved**)           | 0x40 |
-| prox_scan_window   (**Reserved**)            | 0x41 |
-| prox_scan_interval   (**Reserved**)          | 0x42 |
-| prox_alarm_remanence (**Reserved**)          | 0x43 |
-| prox_warn_remanence  (**Reserved**)          | 0x44 |
-| prox_bcn_repeat       (**Reserved**)         | 0x45 |
-| prox_bcn_tx_power     (**Reserved**)         | 0x46 |
-| prox_reminder_period  (**Reserved**)         | 0x47 |
-| prox_reminder_distance (**Reserved**)        | 0x48 |
-| prox_warn_disable_dist  (**Reserved**)       | 0x49 |
-| prox_alarm_disable_dist  (**Reserved**)      | 0x4A |
-| prox_max_speed_filter    (**Reserved**)      | 0x4B |
-| prox_max_update          (**Reserved**)      | 0x4C |
-| position_ble_filter_type      | 0x4D |
-| position_ble_filter_main_1    | 0x4E |
-| position_ble_filter_main_2    | 0x4F |
-| position_ble_filter_sec_value | 0x50 |
-| position_ble_filter_sec_mask  | 0x51 |
-| position_ble_report_type     | 0x52 |
-| buzzer_volume                | 0x53 |
-| angle_detect_mode            | 0x54 |
-| angle_ref_acq                | 0x55 |
-| angle_ref_acc_x              | 0x56 |
-| angle_ref_acc_y              | 0x57 |
-| angle_ref_acc_z              | 0x58 |
-| angle_critical               | 0x59 |
-| angle_critical_hyst          | 0x5A |
-| angle_report_mode            | 0x5B |
-| angle_report_period          | 0x5C |
-| angle_report_repeat          | 0x5D |
-| angle_rising_time            | 0x5E |
-| angle_falling_time           | 0x5F |
-| angle_learning_time          | 0x60 |
-| angle_acc_accuracy           | 0x61 |
-| angle_deviation_delta        | 0x62 |
-| angle_deviation_min_interval | 0x63 |
-| angle_deviation_max_interval | 0x64 |
-| default_profile              | 0x65 |
-| password                     | 0x66 |
-| gps_t0_timeout               | 0x67 |
-| gps_fix_timeout              | 0x68 |
-| geofencing_scan_duration     | 0x69 |
-| beaconing_type               | 0x6A |
-| beaconing_tx_power           | 0x6B |
-| beaconing_static_interval    | 0x6C |
-| beaconing_motion_interval    | 0x6D |
-| beaconing_motion_duration    | 0x6E |
-| ble_cnx_adv_duration         | 0x6F |
-| beacon_id_0           | 0x70 |
-| beacon_id_1              | 0x71 |
-| beacon_id_2              | 0x72 |
-| beacon_id_3              | 0x73 |
-| beacon_id_4              | 0x74 |
-| sos_period               | 0x75 |
-| motion_debounce          | 0x76 |
-| button mapping           | 0x77 |
-| default_datarate         | 0x78 |
-| dynamic profile              | 0xF6 |
-| power consumption            | 0xF7 |
-| delete BLE bond              | 0xF8 |
-| mode                         | 0xF9 |
-| **gps_ehpe_motion** | 0x79|
-| **gps_convergence_motion** | 0x7A|
-| **gps_t0_timeout_motion** | 0x7B|
+							
+|	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (Hex)	|
+|	--------------	|	--------------	|	--------------	|
+|	ul_period                        	|	0	|	(0x00)	|
+|	lora_period                      	|	1	|	(0x01)	|
+|	pw_stat_period                   	|	2	|	(0x02)	|
+|	periodic_pos_period              	|	3	|	(0x03)	|
+|	unknown                          	|	4	|	(0x04)	|
+|	geoloc_sensor                    	|	5	|	(0x05)	|
+|	geoloc_method                    	|	6	|	(0x06)	|
+|	antenna                          	|	7	|	(0x07)	|
+|	motion_nb_pos                    	|	8	|	(0x08)	|
+|	gps_timeout                      	|	9	|	(0x09)	|
+|	agps_timeout                     	|	10	|	(0x0A)	|
+|	gps_ehpe                         	|	11	|	(0x0B)	|
+|	gps_convergence                  	|	12	|	(0x0C)	|
+|	config_flags                     	|	13	|	(0x0D)	|
+|	transmit_strat                   	|	14	|	(0x0E)	|
+|	ble_beacon_cnt                   	|	15	|	(0x0F)	|
+|	ble_beacon_timeout               	|	16	|	(0x10)	|
+|	**gps_standby_timeout**              	|	17	|	(0x11)	|
+|	confirmed_ul_bitmap              	|	18	|	(0x12)	|
+|	confirmed_ul_retry               	|	19	|	(0x13)	|
+|	motion_sensitivity               	|	20	|	(0x14)	|
+|	shock_detection                  	|	21	|	(0x15)	|
+|	periodic_activity_period         	|	22	|	(0x16)	|
+|	motion_duration                  	|	23	|	(0x17)	|
+|	geofencing_scan_period           	|	24	|	(0x18)	|
+|	geofencing_collect_period        	|	25	|	(0x19)	|
+|	ble_rssi_filter                  	|	26	|	(0x1A)	|
+|	temperature_high                 	|	27	|	(0x1B)	|
+|	temperature_low                  	|	28	|	(0x1C)	|
+|	temperature_action               	|	29	|	(0x1D)	|
+|	transmit_strat_custom            	|	30	|	(0x1E)	|
+|	network_timeout_check            	|	31	|	(0x1F)	|
+|	network_timeout_reset            	|	32	|	(0x20)	|
+|	collection_scan_type             	|	33	|	(0x21)	|
+|	collection_nb_entry              	|	34	|	(0x22)	|
+|	collection_ble_filter_type       	|	35	|	(0x23)	|
+|	collection_ble_filter_main_1	|	36	|	(0x24)	|
+|	collection_ble_filter_main_2	|	37	|	(0x25)	|
+|	collection_ble_filter_sec_value  	|	38	|	(0x26)	|
+|	collection_ble_filter_sec_mask   	|	39	|	(0x27)	|
+|	battery_capacity                 	|	40	|	(0x28)	|
+|	reed_switch_configuration        	|	41	|	(0x29)	|
+|	gnss_constellation               	|	42	|	(0x2A)	|
+|	prox_scan_pwr_min                	|	43	|	(0x2B)	|
+|	prox_distance_coef               	|	44	|	(0x2C)	|
+|	prox_scan_frequency              	|	45	|	(0x2D)	|
+|	prox_backtrace_max_age           	|	46	|	(0x2E)	|
+|	prox_distance_sliding_window     	|	47	|	(0x2F)	|
+|	prox_exposure_50	|	48	|	(0x30)	|
+|	prox_exposure_100	|	49	|	(0x31)	|
+|	prox_exposure_150	|	50	|	(0x32)	|
+|	prox_exposure_200	|	51	|	(0x33)	|
+|	prox_exposure_250	|	52	|	(0x34)	|
+|	prox_exposure_300	|	53	|	(0x35)	|
+|	prox_exposure_400	|	54	|	(0x36)	|
+|	prox_alarm_dist_immediate        	|	55	|	(0x37)	|
+|	prox_alarm_exposure              	|	56	|	(0x38)	|
+|	prox_warn_dist_immediate         	|	57	|	(0x39)	|
+|	prox_warn_exposure               	|	58	|	(0x3A)	|
+|	prox_record_dist_immediate       	|	59	|	(0x3B)	|
+|	prox_record_exposure             	|	60	|	(0x3C)	|
+|	prox_alarm_buz_duration          	|	61	|	(0x3D)	|
+|	prox_warn_buz_duration           	|	62	|	(0x3E)	|
+|	prox_contact_policy              	|	63	|	(0x3F)	|
+|	prox_scan_duration               	|	64	|	(0x40)	|
+|	prox_scan_window                 	|	65	|	(0x41)	|
+|	prox_scan_interval               	|	66	|	(0x42)	|
+|	prox_alarm_remanence             	|	67	|	(0x43)	|
+|	prox_warn_remanence              	|	68	|	(0x44)	|
+|	prox_bcn_repeat                  	|	69	|	(0x45)	|
+|	prox_bcn_tx_power                	|	70	|	(0x46)	|
+|	prox_reminder_period             	|	71	|	(0x47)	|
+|	prox_reminder_distance           	|	72	|	(0x48)	|
+|	prox_warn_disable_dist           	|	73	|	(0x49)	|
+|	prox_alarm_disable_dist          	|	74	|	(0x4A)	|
+|	prox_max_speed_filter            	|	75	|	(0x4B)	|
+|	prox_max_update                  	|	76	|	(0x4C)	|
+|	position_ble_filter_type         	|	77	|	(0x4D)	|
+|	position_ble_filter_main_1	|	78	|	(0x4E)	|
+|	position_ble_filter_main_2	|	79	|	(0x4F)	|
+|	position_ble_filter_sec_value    	|	80	|	(0x50)	|
+|	position_ble_filter_sec_mask     	|	81	|	(0x51)	|
+|	position_ble_report_type         	|	82	|	(0x52)	|
+|	buzzer_volume                    	|	83	|	(0x53)	|
+|	angle_detect_mode                	|	84	|	(0x54)	|
+|	angle_ref_acq                    	|	85	|	(0x55)	|
+|	angle_ref_acc_x                  	|	86	|	(0x56)	|
+|	angle_ref_acc_y                  	|	87	|	(0x57)	|
+|	angle_ref_acc_z                  	|	88	|	(0x58)	|
+|	angle_critical                   	|	89	|	(0x59)	|
+|	angle_critical_hyst              	|	90	|	(0x5A)	|
+|	angle_report_mode                	|	91	|	(0x5B)	|
+|	angle_report_period              	|	92	|	(0x5C)	|
+|	angle_report_repeat              	|	93	|	(0x5D)	|
+|	angle_rising_time                	|	94	|	(0x5E)	|
+|	angle_falling_time               	|	95	|	(0x5F)	|
+|	angle_learning_time              	|	96	|	(0x60)	|
+|	angle_acc_accuracy               	|	97	|	(0x61)	|
+|	angle_deviation_delta            	|	98	|	(0x62)	|
+|	angle_deviation_min_interval     	|	99	|	(0x63)	|
+|	angle_deviation_max_interval     	|	100	|	(0x64)	|
+|	default_profile                  	|	101	|	(0x65)	|
+|	password                         	|	102	|	(0x66)	|
+|	gps_t0_timeout	|	103	|	(0x67)	|
+|	gps_fix_timeout                  	|	104	|	(0x68)	|
+|	geofencing_scan_duration         	|	105	|	(0x69)	|
+|	beaconing_type                   	|	106	|	(0x6A)	|
+|	beaconing_tx_power               	|	107	|	(0x6B)	|
+|	beaconing_static_interval        	|	108	|	(0x6C)	|
+|	beaconing_motion_interval        	|	109	|	(0x6D)	|
+|	beaconing_motion_duration        	|	110	|	(0x6E)	|
+|	ble_cnx_adv_duration             	|	111	|	(0x6F)	|
+|	beacon_id_0	|	112	|	(0x70)	|
+|	beacon_id_1	|	113	|	(0x71)	|
+|	beacon_id_2	|	114	|	(0x72)	|
+|	beacon_id_3	|	115	|	(0x73)	|
+|	beacon_id_4	|	116	|	(0x74)	|
+|	sos_period                       	|	117	|	(0x75)	|
+|	motion_debounce                  	|	118	|	(0x76)	|
+|	button_mapping                   	|	119	|	(0x77)	|
+|	default_datarate                 	|	120	|	(0x78)	|
+|	**gps_ehpe_motion**                	|	121	|	(0x79)	|
+|	**gps_convergence_motion**           	|	122	|	(0x7A)	|
+|	**gps_t0_timeout_motion**	|	123	|	(0x7B)	|
+|	[_Special Parameters_](../uplink-messages/configuration/#special-parameters)	|		|		|
+|	ble_cli_active                   	|	245	|	(0xF5)	|
+|	profile                          	|	246	|	(0xF6)	|
+|	consumption                      	|	247	|	(0xF7)	|
+|	ble_bond_info                    	|	248	|	(0xF8)	|
+|	mode                             	|	249	|	(0xF9)	|
+|	acc_x_axis  (**Read only**)                      	|	250	|	(0xFA)	|
+|	acc_y_axis   (**Read only**)                     	|	251	|	(0xFB)	|
+|	acc_z_axis   (**Read only**)                     	|	252	|	(0xFC)	|
+|	ble_version    (**Read only**)                   	|	253	|	(0xFD)	|
+|	firmware_version   (**Read only**)               	|	254	|	(0xFE)	|
 
 
 :::tip Notes
@@ -405,7 +413,8 @@ The value in the table above is 0001 1000 0000 0110 0000 0010 =0x180602
 | Parameter            | ID   | Unit    | Range         | Description                                        |
 | -------------------- | ---- | ------- | ------------- | -------------------------------------------------- |
 | ble_cnx_adv_duration | 0x6F | seconds | 30 – 18000(5) | Time in seconds for BLE advertisement duration(3). |
-| delete_ble_bond      | 0xF8 | second  | 0             | Delete BLE bond                                    |
+| ble_bond_info      | 0xF8 | second  | 0,1             | 0: Delete BLE bond </br> 1: Indicates that the BLE bond is present on the tracker.</br> **Only value 0 can be set for this parameter**.                                    |
+| ble_cli_active(6)      | 0xF5 | None    | 0,1           | 0: Disable the CLI traces over BLE interface with tracker connected to [Abeeway tracking app](/C-Procedure-Topics/GetStartedMobileApp_T/). </br> 1: Enables the CLI traces over BLE interface with tracker connected to [Abeeway tracking app](/C-Procedure-Topics/GetStartedMobileApp_T/). |
 
 :::tip Notes
 
@@ -418,6 +427,8 @@ The value in the table above is 0001 1000 0000 0110 0000 0010 =0x180602
 (4) In the case where the parameter _position_ble_filter_type_ is not iBeacon and the _position_ble_report_type_ is set to the new value 3), the tracker will behave as if the _position_report_type_ = 1 (short beacon ID).
 
 (5) The max value is 18000 seconds with BLE firmware version 3.3.1 or above, 600 seconds for BLE firmware version 3.3.0.  
+
+(6) The CLI traces will be sent over BLE interface instead over USB interface when _ble_cli_enable_ parameter is set to true.
 :::
 
 **Example**:
@@ -459,7 +470,7 @@ Description:
 |                      |      |      |                   | bit 20: Enable the CLI over BLE                                                                                     |
 |                      |      |      |                   | bit 21: BLE passkey authentication enable. When this bit is enabld, the tracker will ask for 6 digit PIN to be entered into the phone initiating the first pairing request. The 6 digit PIN needs to be requested from the backend. This feature is specific to the [Abeeway Mobile app](/C-Procedure-Topics/GetStartedMobileApp_T/).|
 | battery_capacity(11) | 0x28 | mAh  | \-1, 0, 1 - 65535 | Battery setting:                                                                                                    |
-|                      |      |      |                   | \-1: Used provisioned value.                                                                                        |
+|                      |      |      |                   | \-1: Use provisioned value.                                                                                        |
 |                      |      |      |                   | 0: Rechargeable battery.                                                                                            |
 |                      |      |      |                   | 1-65535: Capacity of the primary battery                                                                            |
 
@@ -513,15 +524,18 @@ Description:
 |                           |      |        |                  | 6\. Special sequence activation.                                                                  |
 | buzzer_volume             | 0x53 | %      | 0 – 100          | Configure of the buzzer volume                                                                    |
 | password                  | 0x66 | none   | 100 – 999999     | password used to access CLI interface with tracker connected to USB port   |
-| power consumption         | 0xF7 | mAh    | 0, 1 –0xFFFFFFFF | 0: the current consumption of the tracker is resetted. A non-zero value can be used to set the current consumption of the tracker |
+| consumption(14)         | 0xF7 | mAh    | 0, 1 –0xFFFFFFFF | 0: the current consumption of the tracker is reset. A non-zero value can be used to set the current consumption of the tracker.  |
 | pw_stat_period            | 0x02 | second | 0, 300 - 604800  | No more used                                                                                      |
-
+| ble_version           | 0xFD| NA | NA  | BLE Firmware version. **It is read only parameter**. |
+| firmware_version            | 0xFE | NA | NA  | MCU Firmware version. **It is read only parameter**. |
 
 :::tip Notes
   
 (12) Special sequence is described in [Reed switch interface](../functioning/user-interfaces/#reed-switch-interface) section.
 
-(13) If set to 0, the long press duration is 1 second, if set to a value above 8, the long press duration is 8 seconds  
+(13) If set to 0, the long press duration is 1 second, if set to a value above 8, the long press duration is 8 seconds.
+
+(14) _consumption_ parameter should be set to 0 when replacing batteries for primary trackers (Compact Tracker/Industrial Tracker).
 :::
 
 **Example 1**:
@@ -567,7 +581,7 @@ The functioning of these 2 parameters and accelerometer driver has been signific
 
 | Parameter              | ID   | Unit | Range      | Description |
 | ---------------------- | ---- | ---- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| motion_sensitivity | 0x14 | none | 1 – 200    | Accelerometer configuration. Functioning has been modified in FW 2.4. Bit fields  composed by 3 octets(1):                                                                                                                                                                                                              |
+| motion_sensitivity | 0x14 | none | 1 – 200    | Accelerometer configuration. Functioning has been modified in FW 2.4. Bit fields  composed by 3 octets(1)(2):                                                                                                                 |
 |                        |      |      |            | **Octet 0 (LSB). Configure the sensitivity**                                                                                                                                                                                                                                                                            |
 |                        |      |      |            | 1-30: The threshold is coded as follow: motion_sensitivity \* 0.063g                                                                                                                                                                                                                                                    |
 |                        |      |      |            | 31-99: Same mode than above with the value 30. The threshold is capped to 30 \* 0.063 = 1,89g                                                                                                                                                                                                                           |
@@ -586,9 +600,12 @@ The functioning of these 2 parameters and accelerometer driver has been signific
 |                        |      |      |            | 3: 16G                                                                                                                                                                                                                                                                                                                  |
 | shock_detection    | 0x15 | none | 0, 1 – 111 | This parameter provides the configuration of the sensitivity of the shock detection. A value of 0 disables shock detection. _shock_detection_ value = (shock intensity (in g) - 1)/0.063.</br> **Note: When enabled _shock_detection_ sensitivity should be strictly less than *motion_sensitivity* parameter**. |
 | motion_debounce    | 0x76 | none | 0 – 4      | Minimum duration of a movement to be detected if _motion_sensitivity_ parameter is set between 1 and 30. 0 triggers motion detection as soon as a single accelerometer sample is above the value set in _motion_sensitivity_. The duration of the motion debounce period is given by the formula: _motion_debounce_ \* 20 milli seconds |
+| acc_x_axis     | 0xFA | mG | -2<sup>16</sup> – 2<sup>16</sup>-1    | Value measured on X axis of the accelerometer. **It is read only parameter**. |
+| acc_y_axis     | 0xFB | mG | -2<sup>16</sup> – 2<sup>16</sup>-1      | Value measured on Y axis of the accelerometer. **It is read only parameter**.|
+| acc_z_axis     | 0xFC | mG | -2<sup>16</sup> – 2<sup>16</sup>-1     | Value measured on Z axis of the accelerometer. **It is read only parameter**. |
 
 :::tip Notes  
-(1) The driver of the old accelerometer chip (MMA) ignores the values of the octets 1 and 2. Only the octet 0 is relevant and the sensitivity is configured as described.  
+(1) The driver of the old accelerometer chip (MMA8256FC) ignores the values of the octets 1 and 2. Only the octet 0 is relevant and the sensitivity is configured as described.  </br>
 (2) The accelerometer chip details can be easily found by connecting the tracker with USB cable on [CLI terminal](/D-Reference/UsingCLI_R/) and entering **system accelero show**.
 :::
 
