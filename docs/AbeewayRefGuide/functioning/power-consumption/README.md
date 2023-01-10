@@ -1,4 +1,4 @@
-# consumption
+# Power consumption
 
 
 The tracker maintains the [**consumption** (special Parameter ID: 0xF7)](../../Parameters-default-configuration/firmware-parameters.html#miscellaneous-parameters) parameter which keeps tracker of the current power comsumption of the tracker

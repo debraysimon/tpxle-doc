@@ -430,6 +430,10 @@ module.exports = {
                             path: '/D-Reference/ReleaseNotes/',
                         },
                         {
+                          title: 'Power Consumption',
+                          path: '/AbeewayRefGuide/functioning/power-consumption/',
+                        },
+                        {
                             title: 'FAQ',
                             path: '/D-Reference/FAQ_R/',
                         },
