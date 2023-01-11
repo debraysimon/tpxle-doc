@@ -17,6 +17,7 @@ This is the configuration that is applied on the trackers from the warehouse. Th
 -   Geozoning, Collection payload, Angle detection, and Bluetooth (BLE) beaconing are deactivated
 
 ## Configuration values
+Any parameter not listed here will take the values of the [Factory Defaut Configuration](https://docs.thingpark.com/thingpark-location/AbeewayRefGuide/Parameters-default-configuration/factory-default.html).
 								
 |	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (Hex)	|	Parameter Value (Decimal)	|
 |	-------------------	|	-------------------	|	-------------------	|	-------------------	|
