@@ -13,7 +13,7 @@ disconnected from the tracker. So, the estimated consumption indicates what we c
 
 
 ### Primary Battery trackers (Compact Tracker/Industrial Tracker)
-**consumption** is stored in flash area of the tracker. This area of flash is preserved across tracker resets except in the case of brownout. The **consumption** parameter is updated in flash
+**consumption** is stored in flash area of the tracker. This area of flash is preserved across tracker resets including in the case of brownout. The **consumption** parameter is updated in flash
 only when the consumption difference (new value - stored value) exceeds a calculated threshold.
 The threshold is 0.5 percent of the **battery_capacity**.
 
@@ -50,7 +50,7 @@ via the CLI or via LoRa Downlink.
 
 
 ## Reporting of battery % in LoRaWAN uplinks
-The tracker reports the current battery level (%) in [LoRaWAN common message header](../../uplink-messages/common-message-header/) (Supported since MCU Firmware V2.0). If your tracker is is already integration with [ThingPark X Location Engine](/B-Feature-Topics/IntegrateAppwithTPLocation_C/), then you can see the current battery level(%) in [Abeeway device manager](/B-Feature-Topics/AbeewayDeviceManager_C/)  as shown in the screenshot below.
+The tracker reports the remaining battery level (%) in [LoRaWAN common message header](../../uplink-messages/common-message-header/) (Supported since MCU Firmware V2.0). If your tracker is already integrated with [ThingPark X Location Engine](/B-Feature-Topics/IntegrateAppwithTPLocation_C/), then you can see the remaining battery level(%) in [Abeeway device manager](/B-Feature-Topics/AbeewayDeviceManager_C/)  as shown in the screenshot below.
 
 <img src="./images/batteryPercentage.png" width="1500" border="1" />
 
