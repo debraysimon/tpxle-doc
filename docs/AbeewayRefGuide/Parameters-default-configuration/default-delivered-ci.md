@@ -15,6 +15,7 @@ Side operations setting:
 -   Geozoning, Collection payload, Angle detection, and Bluetooth (BLE) beaconing are deactivated
 
 ## Configuration values
+Any parameter not listed here will take the values of the [Factory Defaut Configuration](../Parameters-default-configuration/factory-default.md).
 
 |	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (Hex)	|	Parameter Value (Decimal)	|
 |	-------------------	|	-------------------	|	-------------------	|	-------------------	|
