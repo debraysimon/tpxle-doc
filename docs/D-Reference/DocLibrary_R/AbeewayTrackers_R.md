@@ -56,6 +56,8 @@
 
 | | Description | Resource | Minimum Required MCU/BLE Firmware Version |
 | - | ----------- | -------- |-------- |
+| **Battery Percentage** | This application note describes the computation of the remaining (%) battery level | [AN-000_battery-percentage](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 1.9.x, BLE: 2.2.0 **</br> This application note is deprecated since MCU FW 2.0 and above**|
+| **BLE Firmware Update** | This application note describes the update of BLE Firmware on the tracker using nRFconnect app. | [AN-001_ble_firmware_update](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 1.9.x, BLE: 2.2.0 |
 | **LoRa transmit strategy** | This application note describes the configuration and usage of LoRaWAN® custom transmit strategy. | [AN-002_LoRa_Transmission_strategy](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 1.9.x, BLE: 2.2.0 |
 | **Scan collection** | This feature describes the scan collection feature which allows scanning, filtering and reporting up to twenty BLE beacons in several uplink payloads. | [AN-003_ScanCollection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 2.0, BLE: 3.1.0 |
 | **Device orientation** | This application note explains how to use the accelerometer data from the tracker to detect its orientation. | [AN-005_device_orientation](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) | MCU: 1.9.x, BLE: 2.2.0 |

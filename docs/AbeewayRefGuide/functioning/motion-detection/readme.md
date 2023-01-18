@@ -23,7 +23,7 @@ The tracker embeds a three axes accelerometer, which detects accelerations and t
 
 The accelerometer sensitivity can be fine-tuned by configuration via the parameter *motion_sensitivity*. Prior to this version, this parameter expressed the accelerometer sensitivity in percentage. **From the MCU FW AT2 v2.3, this parameter accepts different value ranges selecting different modes**:
 
--   1-30: **high sensitivity/low power**
+-   1-30: **High sensitivity/Low power**
 -   100: **Default mode** (same behavior as the default value 0 in the previous versions).
 -   101..200: **Low sensitivity** (sensitivity ranging from 1% to 100% as before).
 

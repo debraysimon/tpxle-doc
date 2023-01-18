@@ -61,7 +61,7 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	collection_ble_filter_main_2	|	37	|	(0x25)	|	0	|
 |	collection_ble_filter_sec_value  	|	38	|	(0x26)	|	0	|
 |	collection_ble_filter_sec_mask   	|	39	|	(0x27)	|	0	|
-|	battery_capacity                 	|	40	|	(0x28)	|	-1 (Use provisioned value)	|
+|	battery_capacity                 	|	40	|	(0x28)	|	-1 (Use provisioned value. This parameter should not be modified)	|
 |	reed_switch_configuration        	|	41	|	(0x29)	|	0	|
 |	gnss_constellation               	|	42	|	(0x2A)	|	Europe, India, America, Australia: 2 (GPS and Glonass), </br> Asia: 6 (GPS and Beidou)	|
 |	prox_scan_pwr_min (**Reserved(4)**)                	|	43	|	(0x2B)	|	-90	|

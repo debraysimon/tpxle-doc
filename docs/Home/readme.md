@@ -37,7 +37,7 @@
             <a href="/thingpark-location/B-Feature-Topics/TP-Location_C/" class="textColorStyle" >What is ThingPark Location?</a>
         </div>
         <div class="grid-item">
-            <a href="/thingpark-location/D-Reference/DocLibrary_R/" class="textColorStyle">Documentation library</a>
+            <a href="/thingpark-location/D-Reference/DocLibrary_R/SuggestedJourney_R" class="textColorStyle">Documentation library</a>
         </div>
         <div class="grid-item">
             <a href="/thingpark-location/D-Reference/FAQ_R/" class="textColorStyle" >FAQ</a>
