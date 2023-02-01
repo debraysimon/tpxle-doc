@@ -27,6 +27,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Asset tracker driver**| [Asset Tracker Driver User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhpXO62fGtlEstRRCMq6UAgBRgT_0xLToEZd1k_NyGzCcA?e=HlmwTS) |
 | **Melodies for Abeeway Trackers** | [Abeeway trackers melody](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=dCGByt) |
 
+
 ### Out of Box User Guides
 
 | | Resource | 
@@ -106,6 +107,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 
 | | Description | Resource | 
 | - | ----------- | -------- |
+| **Abeeway Firmware feature overview** | These sessions provide overview of firmware features for each release | [What's new sessions](https://actilitysa.sharepoint.com/:f:/t/aby/EmU61087UklJsyAbuyDzlXsBfyeS_YLBfFfHMqjVRLhTkQ?e=x6DMRe) |
 | **User Interface** | These training slides introduce the user interface (LED, buzzer, button) for Abeeway trackers. | [User Interface](https://actilitysa.sharepoint.com/:f:/t/aby/EiWIqYpAehBKg3Py8I6X07oBFFxUWT3i2FVHYRX2MzXtow?e=ZFkhrM) |
 | **Proximity Policy Enforcement** | These training slides introduce basic concepts of proximity solution and how to set it up. | [Proximity Solution](https://actilitysa.sharepoint.com/:f:/t/aby/Eux5K7WVG8JClipPzZsJn7YB4snhG68oscKKw89g20UwRw?e=xqY4gZ) | 
 | **Scan Collection** | This feature introduces BLE/WiFi scanning and reporting of up to 20 BLE Beacons/WiFi BSSIDs. | [Scan Collection](https://actilitysa.sharepoint.com/:f:/t/aby/ErgX0cSv_8dNgJZsYVbYVdAB3G-5rve_CK8dHQ1a2dSGkQ?e=6Q2Q47) |
@@ -122,5 +124,6 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | | Description | Resource | 
 | - | ----------- | -------- |
 | **ThingPark Location Introduction** | These training slides introduce basic features of ThingPark Location. | [ThingPark Location Introduction](https://actilitysa.sharepoint.com/:f:/t/aby/EqVIEMaqJfVHoNAi90G068UB8K4HMfB1t2eyttWIGlIwbQ?e=JZYdsp) |
+| **ThingPark Location feature overview** | These sessions provide overview of ThingPark X Location Engine features for each release | [What's new sessions](https://actilitysa.sharepoint.com/:f:/t/aby/EkFg4UZ8LvNHmkXbaxOKJugB2efnuws_-QyRqND-IvaQqg?e=HbfUd2) |
 
 To get more resources on ThingPark Location, see [Documentation library](/D-Reference/DocLibrary_R/SuggestedJourney_R).

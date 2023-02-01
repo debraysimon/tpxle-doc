@@ -20,4 +20,4 @@ This allows you to easily get positions from the trackers most frequently use-ca
 * [Tracking your assets](/C-Procedure-Topics/TrackAssetsADM_T/)
 * [Changing the tracker configuration](/C-Procedure-Topics/ChangeTrackerConfiguration_T/)
 * [Location templates](/D-Reference/LocationTemplates_R/)
-* [Estimate battery lifetime](/D-Reference/PowerConsumption_R)
+* [Estimate battery lifetime](/D-Reference/PowerConsumption_R/)

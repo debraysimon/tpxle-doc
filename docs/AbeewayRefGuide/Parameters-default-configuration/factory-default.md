@@ -27,7 +27,7 @@ The output below can be easily contructed by doing **config show** once the firm
 |	**gps_standby_timeout**              	|	17	|	(0x11) 	|	0	|
 |	confirmed_ul_bitmap              	|	18	|	(0x12) 	|	0	|
 |	confirmed_ul_retry               	|	19	|	(0x13) 	|	3	|
-|	motion_sensitivity               	|	20	|	(0x14) 	|	65537	|
+|	motion_sensitivity               	|	20	|	(0x14) 	|	131073	|
 |	shock_detection                  	|	21	|	(0x15) 	|	0	|
 |	periodic_activity_period         	|	22	|	(0x16) 	|	0	|
 |	motion_duration                  	|	23	|	(0x17) 	|	180	|

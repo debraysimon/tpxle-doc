@@ -4,3 +4,4 @@ In this section, we provide the overview of the following Abeeway trackers:
 2. [Smart Badge](/B-Feature-Topics/SmartBadge_C/)
 3. [Industrial Tracker](/B-Feature-Topics/IndustrialTracker_C/)
 3. [Compact Tracker](/B-Feature-Topics/CompactTracker_C/)
+4. [Geolocation Module](/B-Feature-Topics/GeolocModule_C/)

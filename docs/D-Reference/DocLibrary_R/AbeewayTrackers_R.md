@@ -91,6 +91,7 @@
 
 | | Description | Resource | 
 | - | ----------- | -------- |
+| **Abeeway Firmware feature overview** | These sessions provide overview of firmware features for each release | [What's new sessions](https://actilitysa.sharepoint.com/:f:/t/aby/EmU61087UklJsyAbuyDzlXsBfyeS_YLBfFfHMqjVRLhTkQ?e=x6DMRe) |
 | **User Interface** | These training slides introduce the user interface (LED, buzzer, button) for Abeeway trackers. | [User Interface](https://actilitysa.sharepoint.com/:f:/t/aby/EiWIqYpAehBKg3Py8I6X07oBFFxUWT3i2FVHYRX2MzXtow?e=ZFkhrM) |
 | **Proximity Policy Enforcement** | These training slides introduce basic concepts of proximity solution and how to set it up. | [Proximity Solution](https://actilitysa.sharepoint.com/:f:/t/aby/Eux5K7WVG8JClipPzZsJn7YB4snhG68oscKKw89g20UwRw?e=xqY4gZ) | 
 | **Scan Collection** | This feature introduces BLE/WiFi scanning and reporting of up to 20 BLE Beacons/WiFi BSSIDs. | [Scan Collection](https://actilitysa.sharepoint.com/:f:/t/aby/ErgX0cSv_8dNgJZsYVbYVdAB3G-5rve_CK8dHQ1a2dSGkQ?e=6Q2Q47) |
@@ -99,3 +100,4 @@
 | **Quuppa Beaconing** | This feature enables Quuppa beaconing for Abeeway trackers. | [Quuppa Beaconing](https://actilitysa.sharepoint.com/:f:/t/aby/EucRGJmCxnJEv_QCWbvL58YBkwyfz8RWgTmxU6YMwKJfkg?e=CE7yUH) |
 | **BLE Geozoning** | This feature enables BLE geozoning for Abeeway trackers. | [BLE geozoning](https://actilitysa.sharepoint.com/:f:/t/aby/EoMeflwX2UdBnUhmVmwYfOYBYjFIIYupWFfgyNsW2uQvOQ?e=ffx9va) |
 | **Abeeway Mobile App** | This feature explains how to use Abeeway Mobile for Abeeway trackers. | [Abeeway Mobile App](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=KgYKLP) |
+

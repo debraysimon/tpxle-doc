@@ -5,6 +5,7 @@
 | | Description | Resource | 
 | - | ----------- | -------- |
 | **ThingPark Location Introduction** | These training slides introduce basic features of ThingPark Location. | [ThingPark Location Introduction](https://actilitysa.sharepoint.com/:f:/t/aby/EqVIEMaqJfVHoNAi90G068UB8K4HMfB1t2eyttWIGlIwbQ?e=JZYdsp) |
+| **ThingPark Location feature overview** | These sessions provide overview of ThingPark X Location Engine features for each release | [What's new sessions](https://actilitysa.sharepoint.com/:f:/t/aby/EkFg4UZ8LvNHmkXbaxOKJugB2efnuws_-QyRqND-IvaQqg?e=HbfUd2) |
 
 ### ThingPark X Location Engine Usage
 
