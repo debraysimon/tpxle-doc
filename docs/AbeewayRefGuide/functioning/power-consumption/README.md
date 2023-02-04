@@ -173,9 +173,9 @@ If you are using ThingPark location, then the tracker power consumption state mu
 The **consumption** parameter in the tracker must be reset to 0 before resetting the state of the backend.
 :::
 
-The application can then send [downlink tracker command](https://dx-api.thingpark.io/location-trackercommand/latest/swagger-ui/index.html?shortUrl=tpdx-location-trackercommand-api-contract.json) to reset the state of the backend.
+The application can then send the following [backend API command](https://dx-api.thingpark.io/location-trackercommand/latest/swagger-ui/index.html?shortUrl=tpdx-location-trackercommand-api-contract.json) to reset the state of the backend.
 
-The API documentation of downlink tracker command is [here](https://dx-api.thingpark.io/location-trackercommand/latest/doc/index.html). The URLs above are for ThingPark Location for community platform. For other platforms, see [here](/D-Reference/ThingParkLocationURLs/).
+The API documentation of backend commands is [here](https://dx-api.thingpark.io/location-trackercommand/latest/doc/index.html). The URLs above are for ThingPark Location for community platform. For other platforms, see [here](/D-Reference/ThingParkLocationURLs/).
 
 ```
 ------------------------------ Snippet begin ------------------------------
@@ -188,7 +188,7 @@ The API documentation of downlink tracker command is [here](https://dx-api.thing
 ------------------------------ Snippet End ------------------------------
 ```
 ## Health status 
-The application can request [Health Status Reports](../uplink-messages/status/#health-status-message) by sending [status request](../../downlink-messages/status-request/) downlink to the tracker.
+The application can request [Health Status Reports](../../uplink-messages/status/#health-status-message) by sending [status request](../../downlink-messages/status-request/) downlink to the tracker. It can be used to troubleshoot the power consumption of the tracker and its breakdown.
 
 ## Known Issues
 
