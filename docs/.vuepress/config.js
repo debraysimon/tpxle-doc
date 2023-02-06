@@ -440,6 +440,16 @@ module.exports = {
                     ],
                 },
                 {
+                  title: 'Use Cases',
+                  collapsable: true,
+                  children: [
+                      {
+                          title: 'Getting the first GPS position',
+                          path: '/D-Reference/UseCaseGPSPositioning_R/',
+                      },
+                  ],
+                },
+                {
                     title: 'Abeeway trackers reference guide',
                     collapsable: true,
                     children: [

@@ -41,3 +41,6 @@ Here is the list of most important commands and their purpose:
 | gnss show <gps, beidou> | Read the GPS or Beidou almanac status of constellation |
 | sys accelero show | It shows the accelerometer chip used in the tracker along with other statistics such as cumulative motion duration |
 
+## Reporting CLI traces on our support portal
+It is important that the tracker logs are captured in a trace file with the absolute timestamp of your PC or UTC. This is required to correlate the traces from the tracker to those of LoRaWAN uplinks. The timestamps from Tera term can be enabled as shown in the image below.
+<img src="./images/TeraTermTimestampLogs.png" width="800" border="1" />

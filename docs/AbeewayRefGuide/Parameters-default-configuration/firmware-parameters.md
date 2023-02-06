@@ -611,7 +611,7 @@ The functioning of these 2 parameters and accelerometer driver has been signific
 
 (2) The accelerometer chip details can be easily found by connecting the tracker with USB cable on [CLI terminal](/D-Reference/UsingCLI_R/) and entering **system accelero show**.
 
-(3) The range of *shock_detection* parmaeter depends on the accelerometer inside the tracker. The range is [0,111] for trackers using MMA8256FC and its [0,255] for trackers using LIS2DW. Please refer to the [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) to find out the accelerometer inside your tracker.
+(3) The range of *shock_detection* parameter depends on the accelerometer inside the tracker. The range is [0,111] for trackers using MMA8256FC and its [0,255] for trackers using LIS2DW. Please refer to the [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) to find out the accelerometer inside your tracker.
 :::
 
 ## Temperature monitoring parameters
