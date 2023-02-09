@@ -1,6 +1,6 @@
-# Getting the first GNSS position
+# Preparing your tracker for fist use after unpacking
 
-This section describes step by step procedure to get the first GNSS fix on the tracker. 
+This section describes the step by step procedure to get a first GNSS fix on the tracker and update the Almanac information. It must be used after first unpacking a new tracker, each time a tracker has not performed a fix for over 3 months, or each time a tracker seems to be unable to obtain new GNSS fixes quickly.
 
 ::: warning Note
 Even if you plan to use your own location solver, we recommend to use ThingPark X Location Engine (TPX-LE) when preparing your tracker for first use for the following reasons:
@@ -31,7 +31,7 @@ You can use one of the pre-configured DEFAULT templates in [Abeeway Device Manag
 
 ## First satellite scan and refreshing the orbit information (Almanac)
 When you use the tracker for the first time, it may have been stored for several months and therefore it is likely that the satellite orbit information (Almanac) will be stale. In such condition detection of satellite signal is much longer as the GNSS chip does not know which satellites to scan first (which satellites are visible from the current location), cannot correct for Doppler frequency shift, etc... In addition, unlike the Pseudorange information used to evaluate the distance between the satellite and the tracker which can be detected below thermal noise (negative C/N), receiving the Almanac updates requires very good reception conditions (positive C/N).
-Therefore **the first scan and refresh of Almanac must be made in open sky conditions, and can last over 15mns**. You must configure the tracker to use GNSS as main geoloc method (geoloc_method=0x01), keep the GNSS memory powered between between fixes (gps_standby_timeout=0 or higher than ul_period) (**To Do** Recommend a configuration preset e.g. "Out of box first GNSS scan"), and you can use a fix frequency of e.g. once every couple minutes (e.g. ul_period=120) to evaluate the progress of the scans and Almanac update. Once you start getting regular GNSS positions, keep the tracker in open sky conditions for at least 15mns (in the best possible conditions, a full Almanac refresh takes 12.5mn). You can check the Almanac information status for the GPS constallation using CLI command 
+Therefore **the first scan and refresh of Almanac must be made in open sky conditions, and can last over 15mns**. You must configure the tracker to use GNSS as main geoloc method (geoloc_method=0x01), keep the GNSS memory powered between between fixes (gps_standby_timeout=0 or higher than ul_period) (**To Do** Recommend a configuration preset e.g. "First use: Almanac refresh"), and you can use a fix frequency of e.g. once every couple minutes (e.g. ul_period=120) to evaluate the progress of the scans and Almanac update. Once you start getting regular GNSS positions, keep the tracker in open sky conditions for at least 15mns (in the best possible conditions, a full Almanac refresh takes 12.5mn). You can check the Almanac information status for the GPS constallation using CLI command 
 ...
 gnss show gps
 ...
