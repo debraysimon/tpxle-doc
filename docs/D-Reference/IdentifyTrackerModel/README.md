@@ -1,4 +1,4 @@
-# Identifying the tracker model & Firmware
+# Identifying the tracker model & firmware
 
 It is important to identify the tracker model when updating the firmware or knowing the features of the tracker. The tracker model can be easily identified by the first 10 digits of DevEUI. 
 
@@ -22,6 +22,17 @@ The table below lists Tracker model and Firmware compatibility.
 | Industrial Tracker V1 | 20635f00C5, 20635f00C6, 20635f00C8, 20635f00C9, 20635F0131, 20635F0132, 20635F0133 | 1.8.x and below | Not Applicable | 
 | Industrial Tracker V2 | 20635F0134, 20635F0135, 20635F02D1 | 2.x and above | 3.2.x and above | 
 
+## Lastest MCU and BLE Firmware
+| Tracker Model | Latest MCU firmware | Latest BLE firmware | 
+| - | ----------- | -------- |-|
+| Micro Tracker V3.1 | XX/XX/XXXX | 2.4.1 |
+| Micro Tracker V3.0 | XX/XX/XXXX | 2.4.1 | 
+| Micro Tracker V2 | XX/XX/XXXX | X.X.X | 
+| Smart Badge | XX/XX/XXXX | 2.4.1 |
+| Compact Tracker | XX/XX/XXXX | 2.4.1 |
+| Industrial Tracker V2 | XX/XX/XXXX | 2.4.1 |
+| Industrial Tracker V1 | XX/XX/XXXX | 2.4.1 |
+
 ## MCU & BLE Firmware Compatibility
 
 It is important to ensure the BLE Firmware and MCU Firmware are compatible with each other to avoid any issues. The following table below describes the compatible MCU and BLE Firmware that we have validated. 
@@ -33,9 +44,9 @@ It is important to ensure the BLE Firmware and MCU Firmware are compatible with 
 
 | MCU Firmware| BLE Firmware | Compatible tracker models | 
 | - | ----------- | -------- |
-| 1.9.x | 2.2.0 | Micro Tracker V2|
-| 2.0 | 3.1.0 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
-| 2.1.x | 3.2.2 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
-| 2.2.x | 3.3.3 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
-| 2.3.x | 3.3.3 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
 | 2.4.x | 3.3.4 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
+| 2.3.x | 3.3.3 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
+| 2.2.x | 3.3.3 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
+| 2.1.x | 3.2.2 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
+| 2.0 | 3.1.0 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
+| 1.9.x | 2.2.0 | Micro Tracker V2|
