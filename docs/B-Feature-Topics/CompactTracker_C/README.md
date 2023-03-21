@@ -70,3 +70,6 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
 * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down. 
 * **The warranty of the tracker is avoid if used incorrectly**.
 :::
+
+### Datasheet
+The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).

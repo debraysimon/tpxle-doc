@@ -263,7 +263,6 @@ This table gives you quick access to the tracker commands. For more information 
    2. **JOINING:** In this state, the tracker is trying to join the LoRaWAN network, but has not joined yet. Each **long press (more than 5 seconds)** in this state restarts the join procedure and also activates the Bluetooth of the tracker to allow pairing with the Abeeway tracking app. If the Bluetooth is successfully activated, the tracker will play [Bluetooth advertisement melody](https://actilitysa.sharepoint.com/:u:/t/aby/EWdjoLPV12BGiHsZptjIOrABxRdVpqTLLJM72K795IUQsg?e=kcW1U3) for about 10 minutes (which is the default configuration). The Micro tracker/Smart Badge will make 15 LoRaWAN join attempts for EU region and 27 attempts for other regions. If the join is not successful after these attempts, tracker will go back to SHIPPING state and needs to be re-activated again with a **long press (more than 5 seconds)**. 
    3. **JOINED:** In this state, the tracker has successfully joined the LoRaWAN network and is functioning normally. 
 :::
-:::
 
 <html>
 <table cellspacing="21">

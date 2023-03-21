@@ -1,4 +1,4 @@
-# Module Evaluation Kit Board (EVK) Introduction
+# Type 1WL Geolocation Module Evaluation kit (EVK) Introduction
 
 The EVK is the evaluation kit for the ultra-low power geolocation module co-developed by [Murata](http://www.murata.com) and [Abeeway](http://www.abeeway.com). This kit allows to evaluate the geoloc module and develop the application firmware. The board gives a full access to all the functionalities of the module including: 
 
@@ -18,7 +18,7 @@ The easiest way to get started with the discovery kit is to flash the pre-compil
 <img src="./images/jumpers.png" border="0" width="900" />
 
 2.	Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
-3.	Download the pre-compiled binary from [GitHub](https://github.com/Abeeway/abeeway-geolocation-module)
+3.	Download the pre-compiled binary from [GitHub](https://github.com/Abeeway/abeeway-geolocation-module/tree/master/apps/abeeway/app-abw-demo/Release)
 4.	Connect the Evaluation board through USB3 micro-USB port
 5.	Flash the module binary into the board using STM32CubeProgrammer
 
@@ -116,7 +116,6 @@ lora send aabbcc
 * [EVK First Flash instructions](https://actilitysa.sharepoint.com/:f:/t/aby/Evu48ACuFjhMmrAus6F6Kr8Bdn5Roz5ug5M67MHuVqpFqg?e=CYoNzT)
 * [EVK User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EiX2Y8y8xhFCnn4DE78bWtkBpk2KVE9mOXlT7qOH0DFyyA?e=YS9t6h)
 * [EVK Datasheet](https://actilitysa.sharepoint.com/:b:/t/aby/Eat2H1zqEbtEl8VBFMaOicIBk0q_FNdnkcAgFkY_unyISA?e=wda8xv)
-* [Flashing the firmware](https://actilitysa.sharepoint.com/:b:/t/aby/ET5cthwckEFBtsDKI7FViYYBvYnug1R_VcTYmS9Hnbn2-A?e=GBDMXU)
 
 ## EVK Board Accessories datasheet
 * [ISM antenna datasheet](https://actilitysa.sharepoint.com/:b:/t/aby/EboESMeA--hFrTeQ-DC5OOwBPwmW9nkFpLUL6Hl9_tj0zw?e=CqUdE5)

@@ -220,23 +220,27 @@ module.exports = {
                             ],
                         },
                         {
-                            title: 'Geolocation Module',
+                            title: 'Type 1WL Geolocation module',
                             path: '/B-Feature-Topics/GeolocModule_C/',
                             collapsable: true,
                             sidebarDepth: 3,
                             children: [
                                 {
-                                    title: 'Geolocation Module Hardware Introduction',
+                                    title: 'Hardware Introduction',
                                     path: '/B-Feature-Topics/GeolocModuleHWIntro_C/',
                                 },
                                 {
-                                    title: 'Geolocation Module Firmware Introduction',
+                                    title: 'Firmware Introduction',
                                     path: '/B-Feature-Topics/GeolocModuleFWIntro_C/',
                                 },
                                 {
-                                    title: 'Geolocation Module Evaluation Kit Introduction',
+                                    title: 'Type 1WL Geolocation Module Evaluation kit (EVK)',
                                     path: '/B-Feature-Topics/GeolocModuleEVKIntro_C/',
                                 },
+                                {
+                                  title: 'Type 1WL Geolocation Module Documentation library',
+                                  path: '/B-Feature-Topics/GeolocModuleDocLib_C/',
+                              },
                             ],
                         },
                         {

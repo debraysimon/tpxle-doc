@@ -1,4 +1,4 @@
-# Geolocation Module Overview
+# Type 1WL Geolocation module Overview
 The **Abeeway-Murata Geolocation Module** is a **multi-technology fused location LPWAN module** designed as the ideal platform to **develop a wide range of IoT tracking solutions, minimizing the Total Cost of Ownership (TCO) of IoT geolocation use cases**. It allows your engineering to focus on the use case, to **optimize time-to-market and cost** by using less complex PCBs (all high-density devices being encapsulated), to reduce certification risk and budget, as well as testing time and cost for mass production. This LoRaWAN® fused location module is a **cost effective, ultra-low power and small foot print SiP (System in Package)** integrating the high performance STM32WB micro-controller (MCU) with integrated Bluetooth 5.x Low Energy transceiver, the latest LoRaWAN® radio transceiver from Semtech, and an optimized arrangement of multi-technology RF engines for indoor and outdoor positioning.
 
 The module contains 3 main chips: a **high end MCU STM32WB** associated with **BLE radio**, a  high-performance multi-constellation **GNSS receiver** (GPS, GLONASS, Beidou, and Galileo) and the **LR1110 Semtech transceiver** to provide LoRa & FSK sub-GHz radio, low power WIFI and GNSS RX. 
@@ -58,3 +58,6 @@ for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem fo
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923, AU915
 * Radio: EC, FCC, IC, TELEC, ATEX
+
+### Datasheet
+The datasheet of the module can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).

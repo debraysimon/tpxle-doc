@@ -46,3 +46,6 @@ It leverages Bluetooth scanning capabilities of the micro tracker to send BLE be
  * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. 
  **The warranty of the tracker is avoid if used incorrectly**.
 :::
+
+### Datasheet
+The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).

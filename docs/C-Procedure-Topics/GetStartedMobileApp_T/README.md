@@ -15,6 +15,10 @@ Here are the high-level features of the mobile app:
 10.	Developer mode features
 
 
+<html>
+<iframe width="712" height="515" src="https://www.youtube.com/embed/clisVxqFx6A?list=PLrtUhsI_mcGTbbZGGSc8sKOFgBRpJkP5Z" title="Abeeway Mobile APP demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</html>
+
 ## Prerequisites
 To complete this getting started guide, you need:
 * Abeeway trackers compatible with the mobile app. The app is compatible with the following tracker models.
@@ -221,6 +225,15 @@ Developer mode of the mobile app allows for advanced tracker debugging or perfor
 
 <img src="./images/developerMode.png" width="900px" border="1" />
 
+## Using Abeeway device Manager (ADM)
+You can use mobile app credentials to login to [Abeeway device manager (ADM)](/B-Feature-Topics/AbeewayDeviceManager_C/) for troubleshooting purposes.
+
+
+| Abeeway Mobile app (Distributor)| ADM URL|
+| --------------------- | ----- |
+|  Abeeway - Europe  | [here](https://thingparkenterprise.eu.actility.com/thingpark/abeewayDeviceAnalyzer/index.php?realm=abeeway-mobile-app) |
+|  Abeeway - Preview  | [here](https://dev1.preview.thingpark.com/abeeway-device-analyzer/index.php?realm=le-lab) |
+|  Abeeway - Community  | [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?realm=abeeway-mobile-app) |
 
 ## Additional help
 The mobile app HELP menu has the [user guide](https://www.abeeway.com/user-guide/) and [FAQ](https://www.abeeway.com/FAQ/) for the most common problems. You can also report problems from the HELP menu of the mobile app.

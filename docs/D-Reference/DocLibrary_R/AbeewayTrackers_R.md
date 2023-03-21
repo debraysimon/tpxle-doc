@@ -100,4 +100,5 @@
 | **Quuppa Beaconing** | This feature enables Quuppa beaconing for Abeeway trackers. | [Quuppa Beaconing](https://actilitysa.sharepoint.com/:f:/t/aby/EucRGJmCxnJEv_QCWbvL58YBkwyfz8RWgTmxU6YMwKJfkg?e=CE7yUH) |
 | **BLE Geozoning** | This feature enables BLE geozoning for Abeeway trackers. | [BLE geozoning](https://actilitysa.sharepoint.com/:f:/t/aby/EoMeflwX2UdBnUhmVmwYfOYBYjFIIYupWFfgyNsW2uQvOQ?e=ffx9va) |
 | **Abeeway Mobile App** | This feature explains how to use Abeeway Mobile for Abeeway trackers. | [Abeeway Mobile App](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=KgYKLP) |
-
+| **Motion and shock detection** | This feature explains how to use accelerometer features inside Abeeway trackers. | [Motion & Shock detection](https://actilitysa.sharepoint.com/:f:/t/aby/EuC-wMdBd6lItOlUUsQYbuoBDwzLdK6QY_uPTwgjG1tqzA?e=4USOgi) |
+| **GPS LP-GPS features** | This feature explains how to use GPS/LP-GPS features inside Abeeway trackers. | [GPS & LP-GPS Usage](https://actilitysa.sharepoint.com/:f:/t/aby/EliM0bMyOoJOqE67Y4HS8rMBBymloFfI0GD6JtakAsu_4Q?e=ohnMEh) |
