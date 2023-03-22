@@ -87,7 +87,7 @@ The BLE connection on the tracker is considered lost if no messages are received
 -   A CLI command (Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details)
 -   A specific button sequence (see [Micro Tracker Commands](../../../D-Reference/MicroTrackerCommands_R/) for more details):
 	-   Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started.
-	-   Once inside the special sequence, do the following: 1 click, triple click or more, 1x press (between 1 and 4 sec)
+	-   Once inside the special sequence, do the following: 1 click, 1 click, 1x press (between 1 and 4 sec)
 
 Once bluetooth bond is removed, the tracker is disconnected from the central device and switches to its configured operational mode.
 An event payload **bond deleted** is systematically sent regardless of the bonding state. In prior MCU/Application Firmware version 2.2-1 and below, this uplink was only sent if the tracker was bonded.
