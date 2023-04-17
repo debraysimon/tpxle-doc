@@ -455,6 +455,10 @@ module.exports = {
                           title: 'Getting the first GPS position',
                           path: '/D-Reference/UseCaseGPSPositioning_R/',
                       },
+                      {
+                        title: 'Bluetooth Indoor Geolocation',
+                        path: '/D-Reference/UseCaseBleIndoorGeolocation_R/',
+                    },
                   ],
                 },
                 {

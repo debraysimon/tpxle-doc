@@ -1,4 +1,4 @@
-# Preparing your tracker for fist use after unpacking
+# Preparing your tracker for first use after unpacking
 
 This section describes the step by step procedure to get a first GNSS fix on the tracker and update the Almanac information. It must be used after first unpacking a new tracker, each time a tracker has not performed a fix for over 3 months, or each time a tracker seems to be unable to obtain new GNSS fixes quickly.
 

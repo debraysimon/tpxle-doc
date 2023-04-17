@@ -121,7 +121,7 @@ measurement
 :::tip Notes
 1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](../../downlink-messages/two-complement-encoding/readme.md) for information for the encoding
 2.  G is the terrestrial gravity, mG means milli G.
-3.  For more details refer to the application note [AN_010 \_Angle Detection](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS).  
+3.  For more details refer to the application note [AN_010_Angle Detection](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes).  
 :::
 
 ### BLE geozoning message:

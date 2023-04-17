@@ -239,3 +239,23 @@ You can use mobile app credentials to login to [Abeeway device manager (ADM)](/B
 The mobile app HELP menu has the [user guide](https://www.abeeway.com/user-guide/) and [FAQ](https://www.abeeway.com/FAQ/) for the most common problems. You can also report problems from the HELP menu of the mobile app.
 
 <img src="./images/appReportProblem.png" width="300px" border="1" />
+
+## Using ThingPark Location APIs to push the location information to external application server
+
+ThingPark Location APIs can be used to the push the location information shown in the mobile app to the external application server. Here are the URLs for ThingPark Location APIs depending on the Distributor you selected when creating the account.
+
+| Abeeway Mobile app (Distributor)| ThingPark Location API URL (Mobile App Realm)|
+| --------------------- | ----- |
+|  Abeeway - Europe  | [here](https://abeeway-mobile-app-eu.thingpark.com/location-alarm-config/latest/swagger-ui/index.html?shortUrl=tpdx-location-alarm-config-api-contract.json) |
+|  Abeeway - Preview  | [here](https://le-lab.preview.thingpark.com/location-alarm-config/latest/swagger-ui/index.html?shortUrl=tpdx-location-alarm-config-api-contract.yaml) |
+|  Abeeway - Community  | [here](https://abeeway-mobile-app-eco.thingpark.com/location-alarm-config/latest/swagger-ui/index.html?shortUrl=tpdx-location-alarm-config-api-contract.json) |
+
+Here are the steps:
+
+1. Login with the keycloack authentication, which will open the page to enter your mobile app credentials
+
+<img src="./images/KeycloackLoginMobileApp.png" width="800px" border="1" />
+
+2. Once logged in, goto the push connector module and enter the URL of the external application server where ThingPark Location will send the location updates.
+
+<img src="./images/PushConnectorConfiguration.png" width="800px" border="1" />

@@ -1,6 +1,25 @@
 # Using ThingPark Location API
 ThingPark Location provides developers with a comprehensive set of web-services based on the ThingPark DX framework.
 The following API are to be considered when interfacing with ThingPark Location.
+
+## Push locations to external application server
+
+This section outlines the basic steps to configure ThingPark Location to send locations to external application server.
+
+1. The first step is to authenticate with ThingPark Location using your credentials. If you are using community platform, see [here](https://dx-api.thingpark.io/getstarted/#/). For other platforms, see [here](/D-Reference/ThingParkLocationURLs/#how-to-create-a-free-account).
+
+<img src="./images/GenerateToken.png" width="800px" border="1" />
+
+2. Once authenticated, you can access the ThingPark Location API documentation and swagger UI to interact with APIs.
+
+<img src="./images/TPXLEDocSwagger.png" width="800px" border="1" />
+
+2. Goto Connector module and configure the URL of the external application server.
+
+<img src="./images/PushConnectorConfiguration.png" width="800px" border="1" />
+
+You should see ThingPark Location making JSON posts to external application server for the future positions sent by the tracker.
+
 ## DX Admin API
 DX Admin API provides a standard-based token management and administration features for the ThingPark DX API platform.
 ### Useful links
@@ -9,6 +28,7 @@ DX Admin API provides a standard-based token management and administration featu
 | ------------ | -------- | 
 | **DX Admin Swagger UI** | [https://dx-api.thingpark.io/admin/latest/swagger-ui/index.html?shortUrl=tpdx-admin-api-contract.json](https://dx-api.thingpark.io/admin/latest/swagger-ui/index.html?shortUrl=tpdx-admin-api-contract.json) | 
 | **DX Admin latest documentation** | [https://dx-api.thingpark.io/admin/latest/doc/index.html](https://dx-api.thingpark.io/admin/latest/doc/index.html) | 
+
 ## DX Location API
 The purpose of this API is to provide the best experience for all developers who intend to interface their application with ThingPark Location features.
 ### Modules
@@ -135,3 +155,4 @@ The purpose of this API is to provide the best experience for all developers who
 You can find more information on using ThingPark Location API, [ThingPark Location Training](https://actilitysa.sharepoint.com/:f:/t/aby/EqVIEMaqJfVHoNAi90G068UB8K4HMfB1t2eyttWIGlIwbQ?e=aqnuDd).
 
 If you are using some other ThingPark Location platform, see [ThingPark Location Platform URLs](/D-Reference/ThingParkLocationURLs/)
+

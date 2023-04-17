@@ -16,7 +16,7 @@
  The tracker remains in this state until the battery is recharged and
  restarted with a button press (press duration configured in
  the parameter *button_mapping*).
- Before moving to the OFF state, a [low battery melody](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=dokaud) is played.
+ Before moving to the OFF state, a [low battery melody](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.html#reference-guides-and-tools) is played.
  Once restarted, the tracker goes back to its previous operational mode.
 
 :::tip Note
