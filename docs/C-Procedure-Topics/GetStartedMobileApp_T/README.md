@@ -79,7 +79,7 @@ ThingPark X location engine has two main use cases:
 **The LoRaWAN routing profile for B2B Use case and B2C Use case should never be set at the same time on the same tracker towards to the same ThingPark Location platform. This is not supported and will result in errors for both the use cases. The tracker can be only in one of the use cases above but NOT both at the same time.**
 :::
 
-## Tracker behaviour when bluetooth securely connected to the mobile app
+## Tracker behavior when bluetooth securely connected to the mobile app
 Once the tracker is securely bluetooth connected to the mobile app, the following functionality in the tracker is disabled:
 1. LoRaWAN communication
 2. GPS/WiFi/BLE beacon scanning
@@ -116,7 +116,7 @@ Abeeway tracker should be provisioned and functioning in the [LoRaWAN network se
 ::: warning Notes
 * The instructions in this section are for trackers 
 provisioned in [ThingPark Community](http://community.thingpark.org/) platform and using **Abeeway - Community** as the distributor realm when creating the mobile app account.  For using other ThingPark platforms with the mobile app, please visit [AN-017_Mobile APP Getting Started Guide](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes)
-* **When using the mobile app, it is important to not route the uplinks from the tracker towards other ThingPark Location application servers in the same platorm.**
+* **When using the mobile app, it is important to not route the uplinks from the tracker towards other ThingPark Location application servers in the same platform.**
 :::
 
 ## Prepare the trackers
@@ -152,7 +152,7 @@ The following screen will prompt you to enter your personal details to complete 
 <img src="./images/appRegisterPersonalDetails.png" width="300px" border="1" />
 
 ## App permissions after first login
-After the first app login, the mobile app will request location, Bluetooth, notification and storage permissions. These permissions must be granted to the app all the time (even when the app is in background). This is especially required for location and Bluetooth permissions as the app is connecting to the tracker over bluetooth and reporting the phone positions on behalf of the tracker (only when the app is connected to the tracker over Blueooth). 
+After the first app login, the mobile app will request location, Bluetooth, notification and storage permissions. These permissions must be granted to the app all the time (even when the app is in background). This is especially required for location and Bluetooth permissions as the app is connecting to the tracker over bluetooth and reporting the phone positions on behalf of the tracker (only when the app is connected to the tracker over Bluetooth). 
 
 The screenshot below shows the app permissions for location in Android/iOS settings.
 <img src="./images/appLocationPermission.png" width="300px" border="1" />

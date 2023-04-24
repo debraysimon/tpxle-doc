@@ -12,7 +12,7 @@
 
 |  Message type      | Uplink  |   Content          |
 |------------------------|-------------|------------------------|
-|**Frame pending**|**0x00**|This uplink message is sent to trigger the sending. (and speed up the configuration of the tracker) if downlink messages areavailable on gateway and no other uplink message is on the queue|
+|**Frame pending**|**0x00**|This uplink message is sent to trigger the sending. (and speed up the configuration of the tracker) if downlink messages are available on gateway and no other uplink message is on the queue|
 |**Position**          |  **0x03**    |GPS, low power GPS, WIFI or BLE position data|
 |**status**            |  **0x04**    |It replaces the old energy status payload provides a power and health status of the tracker|
 |**Heartbeat**         |  **0x05**    |Notify the server that the tracker is operational and under LoRaWAN coverage|

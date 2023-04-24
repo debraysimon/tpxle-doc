@@ -19,7 +19,7 @@ The table below shows the default user interface components shipped with our tra
  
 **Non-configurable actions:**
 
-|  Sequence      |  Action         |  User Interface behaviour        |
+|  Sequence      |  Action         |  User Interface behavior        |
 |---------------------|---------------------|---------------------|
 |One **press** when device OFF and good battery<sup>(3)</sup> |  Switch ON the tracker    |  [Buzzer melody](https://actilitysa.sharepoint.com/:u:/t/aby/EaBIKuw6iQxLmT2vwYpUxykBBrhZPhQdoNO3OQ1324BnYw?e=5wNbPV) + LED pattern (See next section)  |
 |One **long press** when device ON<sup>(4)</sup>              |  Go to the OFF mode, except if mode disabled or if the tracker is in SOS   |  [Buzzer melody](https://actilitysa.sharepoint.com/:u:/t/aby/EViao4_dqSRJhByFCf6XEY0Bm4WhDEw1n8wIvD_ay3hFPg?e=w3Fnjq)      |
@@ -28,7 +28,7 @@ The table below shows the default user interface components shipped with our tra
 
 **Configurable actions ([Factory Default Configuration](../../Parameters-default-configuration/factory-default.md)):**
 
-| Sequence | Action|User Interface Behaviour  |
+| Sequence | Action|User Interface Behavior  |
 |-------------------------------------|---------------------|----------------------|
 |Click<sup>(2)</sup>	| Battery level is shown with the LEDs |	LED pattern (See next section)|
 |Triple click or more<sup>(7)</sup> |	Trigger a start/ end of the SOS |	LED pattern (see next section) |
@@ -152,5 +152,5 @@ A reed switch is a physical switch operated by an applied magnetic field. The re
 
 <sup>(2)</sup>  In **Startup** mode, only one action is available and doesn't follow the configuration. The sequence described above is used to exit the **shipping** mode and will also enable Bluetooth advertising:
   - If the tracker is not bonded to smart phone, the Bluetooth advertising will stop after _ble_cnx_adv_duration_ seconds.
-  - If the tracker is bonded, the Bluetooth advertising will continue indefinately.
+  - If the tracker is bonded, the Bluetooth advertising will continue indefinitely.
 :::

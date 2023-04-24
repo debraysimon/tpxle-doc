@@ -1,0 +1,272 @@
+``` 
+{
+  "deviceEUI" : "20635f028100003e",
+  "time" : "2022-09-05T07:06:28.161Z",
+  "customerId" : "100009247",
+  "modelCfg" : "1:TPX_ba3df8fb-bc93-45ee-aa0d-b2f873b9bbc6",
+  "dxProfileId" : "community-api",
+  "coordinates" : [ 103.92496607062048, 1.3151012024817, null ],
+  "age" : 0,
+  "validityState" : "NEW",
+  "horizontalAccuracy" : 9,
+  "incomingSubscriberId" : "100009247",
+  "processedFeed" : {
+    "SF" : 7,
+    "deviceProfileId" : "ABEEWAY/MICRO",
+    "payloadEncoded" : "03485196a9005ca6e65de86fd354af9740aacac71831bf887cb0bc30230376ea1db3",
+    "sequenceNumber" : 26440,
+    "receptionTime" : "2022-09-05T07:06:28.161Z",
+    "dynamicMotionState" : "STATIC",
+    "temperatureMeasure" : 31.882353,
+    "processedPacket" : {
+      "SNR" : 10.25,
+      "RSSI" : -73.0,
+      "baseStationId" : "100008CE",
+      "antennaCoordinates" : [ 103.924858, 1.314996 ]
+    },
+    "port" : 18
+  },
+  "rawPosition" : {
+    "rawPositionType" : "RawPositionByWifiSolver",
+    "coordinates" : [ 103.92496472, 1.31509533, null ],
+    "age" : 0,
+    "horizontalAccuracy" : 30,
+    "bssidCount" : 4,
+    "wifiBssids" : [ {
+      "bssid" : "5C:A6:E6:5D:E8:6F",
+      "rssi" : -45
+    }, {
+      "bssid" : "54:AF:97:40:AA:CA",
+      "rssi" : -57
+    }, {
+      "bssid" : "18:31:BF:88:7C:B0",
+      "rssi" : -68
+    }, {
+      "bssid" : "30:23:03:76:EA:1D",
+      "rssi" : -77
+    } ]
+  },
+  "resolvedTracker" : {
+    "firmwareVersion" : "2.3.1",
+    "bleFirmwareVersion" : "3.3.3",
+    "messageType" : "POSITION_MESSAGE",
+    "eventType" : "UNKNOWN",
+    "shutdownCause" : "UNKNOWN",
+    "trackingMode" : "PERMANENT_TRACKING",
+    "gpsScanMode" : "UNKNOWN",
+    "sensorMode" : "UNKNOWN",
+    "periodicPositionInterval" : 3600,
+    "batteryLevel" : 81,
+    "batteryStatus" : "OPERATING",
+    "sosFlag" : false,
+    "activityCount" : -1,
+    "trackingUlPeriod" : 30,
+    "loralivePeriod" : 600,
+    "energyStatusPeriod" : 0,
+    "geolocSensorProfile" : "WIFI_ONLY",
+    "oneshotGeolocMethod" : "GPS",
+    "extAntennaProfile" : "UNKNOWN",
+    "motionStartEndNbTx" : -1,
+    "gpsTimeout" : -1,
+    "xgpsTimeout" : -1,
+    "gpsEHPE" : 20,
+    "gpsConvergence" : 30,
+    "configFlags" : {
+      "framePendingMechanism" : true,
+      "buttonPressToTurnDeviceOff" : true,
+      "doubleClickIsSosModeOrAlert" : false,
+      "downlinkSetParameterConfirmation" : true,
+      "wifiPayloadWithNoCypher" : true,
+      "bleAdvertisingAtStart" : true,
+      "selectWifiScanOrGeolocStartMessage" : true,
+      "ledBlinkWithGpsFix" : false,
+      "startMotionEventUplink" : true,
+      "endMotionEventUplink" : true,
+      "otaJoinWhenLeavingModeOff" : false,
+      "rejectAsymmetricBlePairing" : false,
+      "enableLongWifiPayload" : false,
+      "collectionLongReport" : false,
+      "autoStart" : false
+    },
+    "transmitStrat" : "CUSTOM_STRATEGY",
+    "bleBeaconCount" : -1,
+    "bleBeaconTimeout" : -1,
+    "gpsStandbyTimeout" : -1,
+    "confirmedUlBitmap" : 0,
+    "confirmedUlRetry" : 3,
+    "motionSensitivity" : -1,
+    "shockDetection" : 10,
+    "periodicActivityPeriod" : -1,
+    "motionDuration" : -1,
+    "bleRssiFilter" : -1,
+    "temperatureHigh" : -1.0,
+    "temperatureLow" : -1.0,
+    "temperatureAction" : "UNKNOWN",
+    "bleBond" : "UNKNOWN",
+    "transmitStratCustom" : {
+      "ADREnabled" : false,
+      "transmissionType" : "SINGLE",
+      "firstTransmissionDatarateDistribution" : "RANDOM",
+      "secondTransmissionDatarateDistribution" : "RANDOM",
+      "firstTransmissionDatarate" : {
+        "dr0" : false,
+        "dr1" : false,
+        "dr2" : true,
+        "dr3" : false,
+        "dr4" : false,
+        "dr5" : false,
+        "dr6" : false,
+        "dr7" : false
+      },
+      "secondTransmissionDatarate" : {
+        "dr0" : false,
+        "dr1" : false,
+        "dr2" : false,
+        "dr3" : false,
+        "dr4" : false,
+        "dr5" : false,
+        "dr6" : false,
+        "dr7" : false
+      }
+    },
+    "batteryCapacity" : -1,
+    "reedSwitchConfiguration" : "UNKNOWN",
+    "collectionScanType" : "WIFI_BSSID",
+    "collectionBLEFilterType" : "NO_FILTER",
+    "collectionBLEFilterMain1" : 0,
+    "collectionBLEFilterMain2" : 0,
+    "collectionBLEFilterSecValue" : 0,
+    "collectionBLEFilterSecMask" : 0,
+    "collectionNbEntry" : 4,
+    "networkTimeoutCheck" : -1,
+    "networkTimeoutReset" : -1
+  },
+  "uplinkPayload" : {
+    "messageType" : "POSITION_MESSAGE",
+    "age" : 0,
+    "trackingMode" : "PERMANENT_TRACKING",
+    "batteryLevel" : 81,
+    "batteryStatus" : "OPERATING",
+    "ackToken" : 10,
+    "rawPositionType" : "WIFI_BSSIDS_WITH_NO_CYPHER",
+    "periodicPosition" : false,
+    "temperatureMeasure" : 31.9,
+    "sosFlag" : 0,
+    "appState" : 1,
+    "dynamicMotionState" : "STATIC",
+    "onDemand" : false,
+    "payload" : "03485196a9005ca6e65de86fd354af9740aacac71831bf887cb0bc30230376ea1db3",
+    "deviceConfiguration" : {
+      "mode" : "PERMANENT_TRACKING"
+    },
+    "wifiBssids" : [ {
+      "bssid" : "5c:a6:e6:5d:e8:6f",
+      "rssi" : -45
+    }, {
+      "bssid" : "54:af:97:40:aa:ca",
+      "rssi" : -57
+    }, {
+      "bssid" : "18:31:bf:88:7c:b0",
+      "rssi" : -68
+    }, {
+      "bssid" : "30:23:03:76:ea:1d",
+      "rssi" : -77
+    } ]
+  },
+  "resolvedTrackerParameters" : {
+    "mode" : "PERMANENT_TRACKING",
+    "firmwareVersion" : "2.3.1",
+    "bleFirmwareVersion" : "3.3.3",
+    "trackingUlPeriod" : 30,
+    "geolocSensorProfile" : "WIFI_ONLY",
+    "oneshotGeolocMethod" : "GPS",
+    "gpsEhpe" : 20,
+    "gpsConvergence" : 30,
+    "transmitStrat" : "CUSTOM_STRATEGY",
+    "loralivePeriod" : 600,
+    "energyStatusPeriod" : 0,
+    "periodicPositionInterval" : 3600,
+    "transmitStratCustom" : {
+      "adrEnabled" : 0,
+      "transmissionType" : "SINGLE",
+      "firstTransmissionDatarateDistribution" : "RANDOM",
+      "secondTransmissionDatarateDistribution" : "RANDOM",
+      "firstTransmissionDatarate" : {
+        "dr0" : 0,
+        "dr1" : 0,
+        "dr2" : 1,
+        "dr3" : 0,
+        "dr4" : 0,
+        "dr5" : 0,
+        "dr6" : 0,
+        "dr7" : 0
+      },
+      "secondTransmissionDatarate" : {
+        "dr0" : 0,
+        "dr1" : 0,
+        "dr2" : 0,
+        "dr3" : 0,
+        "dr4" : 0,
+        "dr5" : 0,
+        "dr6" : 0,
+        "dr7" : 0
+      }
+    },
+    "defaultProfile" : "UNKNOWN",
+    "dynamicProfile" : "Unknown",
+    "unknown" : 0,
+    "periodicPositionPeriod" : 3600,
+    "confirmedUplink" : {
+      "framePending" : false,
+      "position" : false,
+      "energyStatus" : false,
+      "healthStatus" : false,
+      "heartbeat" : false,
+      "activityStatus" : false,
+      "configuration" : false,
+      "shockDetection" : false,
+      "shutdown" : false,
+      "event" : false,
+      "scanCollection" : false,
+      "extendedPosition" : false,
+      "debug" : false,
+      "confirmedUlBitmap" : 0,
+      "confirmedUlRetry" : 3
+    },
+    "confirmedUlBitmap" : 0,
+    "confirmedUlRetry" : 3,
+    "shockDetection" : 10,
+    "configFlags" : {
+      "framePendingMechanism" : true,
+      "buttonPressToTurnOff" : true,
+      "doubleClickIsSosModeOrAlert" : false,
+      "downlinkSetParameterConfirmation" : true,
+      "wifiPayloadWithNoCypher" : true,
+      "bleAdvertisingAtStart" : true,
+      "selectWifiScanOrGeolocStartMessage" : true,
+      "ledBlinkWithGpsFix" : false,
+      "startMotionEventUplink" : true,
+      "endMotionEventUplink" : true,
+      "otaJoinWhenLeavingModeOff" : false,
+      "rejectAsymmetricPairing" : false,
+      "enableLongWifiPayload" : false,
+      "collectionLongReport" : false,
+      "autoStart" : true,
+      "forbidModeOff" : false,
+      "sosModeSound" : true,
+      "automaticDatarateSelection" : false,
+      "extendedPosition" : false,
+      "bleCli" : false
+    },
+    "collectionNbEntry" : 4,
+    "collectionScanType" : "WIFI_BSSID",
+    "collectionBLEFilterMain1" : 0,
+    "collectionBLEFilterMain2" : 0,
+    "collectionBLEFilterSecMask" : 0,
+    "collectionBLEFilterSecValue" : 0,
+    "collectionBLEFilterType" : "NO_FILTER"
+  },
+  "messageSource" : "LORA",
+  "downlinkUrl" : "https://community.thingpark.io/iot-flow/downlinkMessages/6f7b1b1a-5887-447d-a734-014a4e6926a9"
+}
+``` 

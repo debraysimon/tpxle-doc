@@ -223,7 +223,7 @@
 :::tip Notes
 1.  The payload contains the listened BLE beacons (up to 4, it is configurable using *ble_beacon_cnt* parameter), during *ble_beacon_timeout* delay.
 2.  If less than 4 BLE beacons are listened to, the payload is reduced.
-3.  Short ID is not supported for eddystone url beacons.
+3.  Short ID is not supported for Eddystone url beacons.
 4.  Refer to the application not [AN-006_Position_BLE_filtering](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.
 :::
 
@@ -244,8 +244,8 @@
 
 :::tip Notes
  1- The payload contains the long ID of only one beacon. 
- 2- Long ID is not supported for eddystone url beacon.
- 3- Refer to the application not [AN-006_Position_BLE_filtering](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.
+ 2- Long ID is not supported for Eddystone URL frame type.
+ 3- Refer to the application note [AN-006_Position_BLE_filtering](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.
  :::
 
 ## Extended BLE failure payload

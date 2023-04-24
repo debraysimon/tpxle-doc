@@ -144,3 +144,49 @@ system info
 ble info
 config show
 ```
+## Visualization of tracker location
+Once the tracker starts to send uplinks with Bluetooth beacon IDs, you can see the location of the tracker in the map view.
+
+## Configure ThingPark Location to send uplinks to external application server
+[ThingPark Location Connector module](https://dx-api.thingpark.io/location-connector/latest/doc/index.html) can be used to send the locations to the external application server.
+
+<img src="./images/TPXLEpushConnector.png" width="800" border="1" />
+
+
+## Setting up Geofencing to receive alerts when the tracker enters/leaves the geofence zone
+
+[ThingPark Location Alarm Config module](https://dx-api.thingpark.io/location-alarm-config/latest/swagger-ui/index.html?shortUrl=tpdx-location-alarm-config-api-contract.json) can be used to setup the Geofence for the tracker. Once the tracker enters/leaves or leaves the geofence, ThingPark Location will send [alarm object](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#alert) to the external application server configured in the [connector module](https://dx-api.thingpark.io/location-connector/latest/doc/index.html)
+
+<img src="./images/SetUpGeofencing.png" width="800" border="1" />
+
+The following is an example [GeofenceAlarm](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#geofencealarm) JSON object that is sent by ThingPark Location to the application server when the tracker enters the geofence configured by the user.
+
+``` 
+{
+  "deviceEUI": "20635f028100003e",
+  "geofenceAlarm": {
+    "geofence": {
+      "circleRegion": {
+        "centerCoordinates": [
+          103.925065,
+          1.31458
+        ],
+        "radius": 100
+      },
+      "deviceEUIList": "20635F028100003E",
+      "icon": "http://abeeway.com",
+      "name": "TestGeofenceYanik",
+      "ref": "1cc7f58e-ee31-4550-993d-503bcbd2c698",
+      "regionShape": "CIRCLE",
+      "transition": {
+        "notifyByEmail": true,
+        "notifyOnInterface": true,
+        "type": "ENTERING_LEAVING"
+      }
+    },
+    "transition": "ENTERING"
+  },
+  "time": "2022-09-05T00:59:10.124Z",
+  "typeAlarm": "GEOFENCE"
+}
+```

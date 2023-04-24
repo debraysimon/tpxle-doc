@@ -212,14 +212,14 @@ Ibeacon UID beacon:
 
  **Long BIDx**: 
  Eddystone UID beacon: Name space + instance ID (16 bytes) 
- Ibeacon UID beacon: 16 last bytes of the Ibeacon UUID 
+ IBeacon UID beacon: 16 last bytes of the Ibeacon UUID 
  Altbeacon UID beacon: 16 last bytes of the beacon UID
 
  **RSSIx**: Receive Signal Strength Indication of the BLE beacon x. Non-encoded form (negative value, refer to the section [Two's complement Encoding](/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md) for information for the encoding).and expressed in dBm.
 
 :::tip Notes
 1. The payload contains the long ID of only one beacon. 
-2. Long ID is not supported for eddystone url beacon.
+2. Long ID is not supported for Eddystone URL frame type.
 3. Refer to the application not[AN-006_Position_BLE_filtering](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.
 :::
 

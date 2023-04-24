@@ -444,6 +444,10 @@ module.exports = {
                         {
                           title: 'ThingPark Community Forum',
                           path: 'https://support.thingpark.org/portal/en/community/recent',
+                        },
+                        {
+                          title: 'Known Issues',
+                          path: '/D-Reference/KnownIssues_R/',
                       },
                     ],
                 },
