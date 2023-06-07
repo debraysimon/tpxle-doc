@@ -97,7 +97,7 @@ LED blinking patterns
 
 :::tip Notes
 
-<sup>(1)</sup> If configured with *config_flags* parameter.
+<sup>(1)</sup> If configured with bit 7 of [config_flags](../../Parameters-default-configuration/firmware-parameters.html#miscellaneous-parameters) parameter.
 
 <sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details. **Only Applicable to MCU FW 2.3 and below**.
 

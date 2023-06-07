@@ -389,7 +389,7 @@ The value in the table above is 0001 1000 0000 0110 0000 0010 =0x180602
 | ----------------------------- | ---- | ------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ble_beacon_cnt                | 0x0F | none   | 1 - 4           | This parameter provides the maximum number of BLE beacons to provide in payload (1)                                                                                |
 | ble_beacon_timeout            | 0x10 | second | 1 - 21          | BLE scan duration                                                                                                                                                  |
-| ble_rssi_filter               | 0x1A | dBm    | \-100 - -40     | RSSI value to filter BLE beacons with BLE geolocation modes. (Please refer to the section [Two’s complement Encoding](../downlink-messages/two-complement-encoding/) for information for the encoding). |
+| ble_rssi_filter(7)               | 0x1A | dBm    | \-100 - -40     | RSSI value to filter BLE beacons with BLE geolocation modes (only applicable for BLE-GPS & BLE-LPGPS). (Please refer to the section [Two’s complement Encoding](../downlink-messages/two-complement-encoding/) for information for the encoding). |
 | position_ble_filter_type      | 0x23 | none   | 0 - 6           | Beacon type to scan and report when position Scan Type is BLE:                                                                                                     |
 |                               |      |        |                 | 0\. No filter                                                                                                                                                      |
 |                               |      |        |                 | 1\. Eddystone UID only                                                                                                                                             |
@@ -429,6 +429,10 @@ The value in the table above is 0001 1000 0000 0110 0000 0010 =0x180602
 (5) The max value is 18000 seconds with BLE firmware version 3.3.1 or above, 600 seconds for BLE firmware version 3.3.0.  
 
 (6) The CLI traces will be sent over BLE interface instead over USB interface when _ble_cli_enable_ parameter is set to true.
+
+(7) The *ble_rssi_filter* signal level applies only to the BLE-LPGPS and BLE-GPS [geolocation modes](../geolocation-strategy-modes/main-side-operations/), as the BLE RSSI threshold is used to switch to LPGPS/GPS. The beacon scan algorithm ensures that regardless of the number of beacons around, only the strongest ones will be reported.
+   - The number of reported beacons is defined by *ble_beacon_cnt* when using BLE geolocation feature (see [AN-006_Position_BLE_filtering](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes), [BLE Position Filtering](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) )
+   - The number of reported beacons is defined by *collection_nb_entry* when using Scan collection feature (see [AN-003_ScanCollection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes), [Scan Collection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) )
 :::
 
 **Example**:
@@ -440,7 +444,7 @@ Description:
 - (0x0B): set the parameter
 - (0x06): with an ack token of 6
 - (0x0F): _ble_beacon_cnt_ parameter
-- (0x 00 00 00 03): to a value of 03 (max numbers of BLE beacon reported in payloa\[\]{#\_bookmark87 .anchor}d)
+- (0x 00 00 00 03): to a value of 03 (max numbers of BLE beacon reported in payload)
 
 ## Miscellaneous parameters
 
@@ -468,7 +472,7 @@ Description:
 |                      |      |      |                   | bit18: Set to enable extended position payload, (type=0x0E), reset to use classic payload (type=0x03)           |
 |                      |      |      |                   | bit19: Reserved, do not used                                                                                        |
 |                      |      |      |                   | bit 20: Enable the CLI over BLE                                                                                     |
-|                      |      |      |                   | bit 21: BLE passkey authentication enable. When this bit is enabld, the tracker will ask for 6 digit PIN to be entered into the phone initiating the first pairing request. The 6 digit PIN needs to be requested from the backend. This feature is specific to the [Abeeway Mobile app](/C-Procedure-Topics/GetStartedMobileApp_T/).|
+|                      |      |      |                   | bit 21: BLE passkey authentication enable. When this bit is enabled, the tracker will ask for 6 digit PIN to be entered into the phone initiating the first pairing request. The 6 digit PIN needs to be requested from the backend. This feature is specific to the [Abeeway Mobile app](/C-Procedure-Topics/GetStartedMobileApp_T/).|
 | battery_capacity(11) | 0x28 | mAh  | \-1, 0, 1 - 65535 | Battery setting:                                                                                                    |
 |                      |      |      |                   | \-1: Use provisioned value.                                                                                        |
 |                      |      |      |                   | 0: Rechargeable battery.                                                                                            |
@@ -494,7 +498,7 @@ Description:
 
 (8) The tracker switches to standby mode if the user sends downlink to change to OFF mode, or if a very long button press is done.
 
-(9) If the bit 17 is set to 1, and t*ransmit_strat* =1,2,4 or 5 then the tracker adapts the LoRaWAN™ data rate for long payloads (so it is possible that the transmit strategy is not respected).
+(9) If the bit 17 is set to 1, and *transmit_strat* =1,2,4 or 5 then the tracker adapts the LoRaWAN™ data rate for long payloads (so it is possible that the transmit strategy is not respected).
 
 (10) If bit 17 is set to 0, then the tracker does not adapt the LoRaWAN data rate for long payloads. In this case if the selected data rate does not support the payload size, then it is discarded.
 

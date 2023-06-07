@@ -22,11 +22,6 @@ Abeeway micro tracker provides you with the flexibility you need to adapt your t
 * **Activity tracking** : Monitor activity rate with embedded sensors.
 * **OFF** : Tracker is switched off.
 
-::: warning WARNING
-* For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools).
-:::
-
 ### Geolocation technologies
 
 * **GPS** : For **precise outdoor** positioning
@@ -41,17 +36,32 @@ It leverages the Wi-Fi access point scanning capabilities of the micro tracker.
 * **Temperature** monitoring
 * **LoRaWAN® Class A radio**
 * Water-spray resistant enclosure ( **IP65** )
+* Geofencing zone detection
+* Edge computing for Proximity detection and exposure assessment
+* User interface: 80 dBa buzzer, bicolor LEDs, button
+* Temperature monitoring
+* BLE Communication link with a phone
+* ATEX Zone 2 Certified for explosive atmosphere (see Datasheet, specific SKUs only)
+* Firmware Upgrade via USB or Bluetooth
+* 450mAh rechargeable battery
+* BLE scan function for inventory of tools and accessories
+* Indoor BLE/WiFi fingerprinting with HERE Tracking or Combain (requires subscription)
+* Indoor BLE based geolocation with Quuppa Intelligent Location (requires Quuppa infrastructure)
+* BLE based safe/hazard zone detection
 
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923, AU915
-* Radio: EC, FCC, IC, TELEC, ATEX
+* Radio: EC, FCC, IC, TELEC
+* ATEX Zone 2 (ordering option):
+  - II 3 G Ex ic IIB T4 Gc (-20°C ≤ Tamb ≤ +40°C)
+  - II 3 D Ex ic IIIB T135°C Dc (-20°C ≤ Tamb ≤ +40°C)
 
 ::: warning WARNING
+ * The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
  * The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
+ * For more information on the battery lifetime of the tracker, visit [here](../../D-Reference/PowerConsumption_R)
+* For more information on tracker documentation, visit [here](../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools).
  * The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. 
  * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. 
  * **The warranty of the tracker is avoid if used incorrectly.**
 :::
-
-### Datasheet
-The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).

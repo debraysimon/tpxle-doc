@@ -2,9 +2,7 @@
 
 This section describes the step by step procedure to use Bluetooth beacons with Abeeway trackers and ThingPark Location Engine.
 
-
-We assume that the tracker is already connected to LoRaWAN network server and the LoRaWAN uplinks are routed to ThingPark Location (refer to the [here](/C-Procedure-Topics/ProvisionTrackerOverview_T/).
-
+We assume that the tracker is already connected to LoRaWAN network server and the LoRaWAN uplinks are routed to ThingPark Location (see [here](/C-Procedure-Topics/ProvisionTrackerOverview_T/) for more details).
 
 ## Tracker Placement
 It is important that the tracker is placed without any obstructions (for ex. human body, metallic objects, etc) blocking the Bluetooth antenna. The tracker placement instructions are below:
@@ -93,7 +91,28 @@ Once the tracker starts to send uplinks with Bluetooth beacon IDs, you can see t
 
 <img src="./images/TPXLEpushConnector.png" width="800" border="1" />
 
-The position from the Bluetooth solver is inside the JSON object [RawPositionByBleSolver](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#rawpositionbyblesolver). You can find the example JSON object that is sent when ThingPark Location resolves Bluetooth position [here](/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-ble.md).
+The position from the Bluetooth solver is inside the JSON object [ResolvedPosition](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#resolvedposition). You can find the example JSON object that is sent when ThingPark Location resolves Bluetooth position [here](/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-ble.md).
+
+
+```
+{
+  "deviceEUI" : "20635f028100003e",
+  "time" : "2022-09-02T08:04:25.731Z",
+  "customerId" : "100009247",
+  "modelCfg" : "1:TPX_ba3df8fb-bc93-45ee-aa0d-b2f873b9bbc6",
+  "dxProfileId" : "community-api",
+  "coordinates" : [ 103.924992, 1.3143296, 0.0 ],
+  "age" : 0,
+  "validityState" : "NEW",
+  "horizontalAccuracy" : 129,
+  "incomingSubscriberId" : "100009247",
+
+....
+
+}
+```
+
+
 
 ## Setting up Geofencing to receive alerts when the tracker enters/leaves the geofence zone
 

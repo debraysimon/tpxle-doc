@@ -152,6 +152,26 @@ Once the tracker starts to send uplinks with Bluetooth beacon IDs, you can see t
 
 <img src="./images/TPXLEpushConnector.png" width="800" border="1" />
 
+The position from the GPS solver is inside the JSON object [ResolvedPosition](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#resolvedposition). You can find the example JSON object that is sent when ThingPark Location resolves GPS position [here](/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-gps.md).
+
+
+```
+{
+  "deviceEUI" : "20635f028100003e",
+  "time" : "2022-09-02T08:04:25.731Z",
+  "customerId" : "100009247",
+  "modelCfg" : "1:TPX_ba3df8fb-bc93-45ee-aa0d-b2f873b9bbc6",
+  "dxProfileId" : "community-api",
+  "coordinates" : [ 103.924992, 1.3143296, 0.0 ],
+  "age" : 0,
+  "validityState" : "NEW",
+  "horizontalAccuracy" : 129,
+  "incomingSubscriberId" : "100009247",
+
+....
+
+}
+```
 
 ## Setting up Geofencing to receive alerts when the tracker enters/leaves the geofence zone
 

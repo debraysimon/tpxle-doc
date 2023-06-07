@@ -1,25 +1,27 @@
+``` js
+
 {
   "deviceEUI" : "20635f028100003e",
-  "time" : "2022-09-02T07:41:46.596Z",
+  "time" : "2022-09-05T00:37:55.000Z",
   "customerId" : "100009247",
   "modelCfg" : "1:TPX_ba3df8fb-bc93-45ee-aa0d-b2f873b9bbc6",
   "dxProfileId" : "community-api",
   "coordinates" : [ 103.92496472, 1.31509533, 0.0 ],
-  "age" : 19,
+  "age" : 11,
   "validityState" : "PREVIOUS",
   "horizontalAccuracy" : 30,
   "incomingSubscriberId" : "100009247",
   "processedFeed" : {
     "SF" : 10,
     "deviceProfileId" : "ABEEWAY/MICRO",
-    "payloadEncoded" : "0a583293a007",
-    "sequenceNumber" : 18502,
-    "receptionTime" : "2022-09-02T07:41:46.596Z",
-    "dynamicMotionState" : "STATIC",
-    "temperatureMeasure" : 30.364706,
+    "payloadEncoded" : "0a4c64a4a001",
+    "sequenceNumber" : 25652,
+    "receptionTime" : "2022-09-05T00:37:55.000Z",
+    "dynamicMotionState" : "MOVING",
+    "temperatureMeasure" : 38.964706,
     "processedPacket" : {
-      "SNR" : 8.75,
-      "RSSI" : -87.0,
+      "SNR" : 8.0,
+      "RSSI" : -65.0,
       "baseStationId" : "100008CE",
       "antennaCoordinates" : [ 103.924858, 1.314996 ]
     },
@@ -29,14 +31,15 @@
     "firmwareVersion" : "2.3.1",
     "bleFirmwareVersion" : "3.3.3",
     "messageType" : "EVENT",
+    "eventType" : "MOTION_START",
     "shutdownCause" : "UNKNOWN",
     "trackingMode" : "PERMANENT_TRACKING",
     "gpsScanMode" : "UNKNOWN",
     "sensorMode" : "UNKNOWN",
     "periodicPositionInterval" : 3600,
-    "batteryLevel" : 50,
+    "batteryLevel" : 100,
     "batteryStatus" : "OPERATING",
-    "sosFlag" : true,
+    "sosFlag" : false,
     "activityCount" : -1,
     "trackingUlPeriod" : 30,
     "loralivePeriod" : 600,
@@ -56,7 +59,7 @@
     "confirmedUlBitmap" : 0,
     "confirmedUlRetry" : 3,
     "motionSensitivity" : -1,
-    "shockDetection" : -1,
+    "shockDetection" : 10,
     "periodicActivityPeriod" : -1,
     "motionDuration" : -1,
     "bleRssiFilter" : -1,
@@ -105,20 +108,20 @@
   "uplinkPayload" : {
     "messageType" : "EVENT",
     "trackingMode" : "PERMANENT_TRACKING",
-    "batteryLevel" : 50,
+    "batteryLevel" : 100,
     "batteryStatus" : "OPERATING",
     "ackToken" : 10,
     "periodicPosition" : false,
-    "temperatureMeasure" : 30.4,
-    "sosFlag" : 1,
+    "temperatureMeasure" : 39,
+    "sosFlag" : 0,
     "appState" : 1,
-    "dynamicMotionState" : "STATIC",
+    "dynamicMotionState" : "MOVING",
     "onDemand" : false,
-    "payload" : "0a583293a007",
+    "payload" : "0a4c64a4a001",
     "deviceConfiguration" : {
       "mode" : "PERMANENT_TRACKING"
     },
-    "eventType" : "SOS_MODE_START"
+    "eventType" : "MOTION_START"
   },
   "resolvedTrackerParameters" : {
     "mode" : "PERMANENT_TRACKING",
@@ -181,7 +184,8 @@
       "confirmedUlRetry" : 3
     },
     "confirmedUlBitmap" : 0,
-    "confirmedUlRetry" : 3
+    "confirmedUlRetry" : 3,
+    "shockDetection" : 10
   },
   "messageSource" : "LORA",
   "downlinkUrl" : "https://community.thingpark.io/iot-flow/downlinkMessages/6f7b1b1a-5887-447d-a734-014a4e6926a9"

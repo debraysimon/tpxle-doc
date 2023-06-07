@@ -2,8 +2,9 @@
 # Smart badge
 The Abeeway smart badge is a multi-mode tracker combining **GPS**, **Low Power-GPS (LP-GPS)**, **Wi-Fi**, **LoRaWAN®** and **BLE** radios with embedded sensors to support accurate **outdoor** and **indoor** geolocation. This low-power location device tracks and **locates anything, anyone, anytime** at a **low cost** of ownership.<br/>
 Its **small size** and **long battery lifetime** make smart badge the **ideal product for numerous tracking applications**. It is simple to use, and a single button gives access to numerous functionalities that can be personalized for specific application needs. It can be used to keep track of assets and valuables, and to improve safety and security. It comes with a magnetic **USB charging cable** and a lanyard.
+
 <img src="./images/smartBadgePlacement_450x234.png" border="0" />
-<img src="../../B-Feature-Topics/MicroTracker_C/images/image_azure_certification.png" border="0" />
+<img src="./images/image_azure_certification.png" border="0" />
 
 ## Key product features
 Abeeway smart badge provides you with the flexibility you need to adapt your tracker's behavior to your use case, selecting the right operating mode and geolocation technology.
@@ -35,10 +36,24 @@ It leverages Bluetooth scanning capabilities of the micro tracker to send BLE be
 * **Temperature** monitoring
 * **LoRaWAN® Class A radio**
 * Water-spray resistant enclosure ( **IP65** )
+* Geofencing zone detection
+* Edge computing for Proximity detection and exposure assessment
+* User interface: 80 dBa buzzer, bicolor LEDs, button
+* Temperature monitoring
+* BLE Communication link with a phone
+* ATEX Zone 2 Certified for explosive atmosphere (see Datasheet, specific SKUs only)
+* Firmware Upgrade via USB or Bluetooth
+* BLE scan function for inventory of tools and accessories
+* Indoor BLE/WiFi fingerprinting with HERE Tracking or Combain (requires subscription)
+* Indoor BLE based geolocation with Quuppa Intelligent Location (requires Quuppa infrastructure)
+* BLE based safe/hazard zone detection
 
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923, AU915
-* Radio: EC, FCC, IC, TELEC, ATEX
+* Radio: EC, FCC, IC, TELEC
+* ATEX Zone 2 (ordering option):
+  - II 3 G Ex ic IIB T4 Gc (-20°C ≤ Tamb ≤ +40°C)
+  - II 3 D Ex ic IIIB T135°C Dc (-20°C ≤ Tamb ≤ +40°C)
 
 ::: warning WARNING
  *  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).

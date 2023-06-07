@@ -34,7 +34,7 @@ Please refer to [Firmware Update](/D-Reference/FirmwareUpdateOverview_R/) for mo
 <br/>Yes, you can see [Abeeway Device Manager](/B-Feature-Topics/AbeewayDeviceManager_C/) device configuration tab to select pre-defined profiles for most common use cases.
 
 9. **Is there a way to estimate battery life for a given configuration?**
-<br/>Yes, you can use [Power Comsumption Estimation](/D-Reference/PowerConsumption_R/) to estimate the battery lifetime of your trackers. However, be aware that this is an approximation under ideal conditions.
+<br/>Yes, you can use [Power Consumption Estimation](/D-Reference/PowerConsumption_R/) to estimate the battery lifetime of your trackers. However, be aware that this is an approximation under ideal conditions.
 
 10. **How often should I charge my device?**
 <br/>Only micro trackers and smart badges can be recharged. We recommend to periodically charge them at least once a month. To not damage the battery, they must not be left with a low or completely discharged battery for more than a month. The warranty is void if the battery has not been charged for a prolonged period.
@@ -51,5 +51,8 @@ Please refer to [Firmware Update](/D-Reference/FirmwareUpdateOverview_R/) for mo
 14. **My geolocation keeps getting stopped from time to time. What could be the reason?**
 <br/>There is temperature monitoring feature in the tracker, which if enabled in the tracker configuration results in disabling the geolocation when the temperature detected by the tracker is outside the range. The symptom of this is to receive [Temperature Alert Event](/AbeewayRefGuide/uplink-messages/event) message. You can find more information about temperature monitoring [here](/AbeewayRefGuide/functioning/temperature-monitoring/). Temperature monitoring can be disabled by setting the value of *temperature_high = 255* and *temperature_value=255* in the firmware. It can be easily be done using [Abeeway Device Manager (Device Configuration tab)](/C-Procedure-Topics/ChangeTrackerConfiguration_T/) or by connecting the tracker over [USB port with CLI](/D-Reference/UsingCLI_R/).
 
-15. **What is the behaviour of LoRaWAN join procedure of the trackers?**
-</br> The behaviour of Abeeway trackers during the LoRaWAN join process is described [here](/AbeewayRefGuide/functioning/startup-process/)
+15. **What is the behavior of LoRaWAN join procedure of the trackers?**
+</br> The behavior of Abeeway trackers during the LoRaWAN join process is described [here](/AbeewayRefGuide/functioning/startup-process/).
+
+16. **Where can I find End of Life (EoL) policy for Abeeway devices?**
+</br>You can find EoL policy for Abeeway devices [here](https://actilitysa.sharepoint.com/:f:/t/aby/ErUc5bGWzYdMsw3skEdq1KUBKvSwzEL4F-7yDs9GnZ0qNg?e=cnkWB3).

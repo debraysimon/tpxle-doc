@@ -460,6 +460,10 @@ module.exports = {
                           path: '/D-Reference/UseCaseGPSPositioning_R/',
                       },
                       {
+                        title: 'Abeeway tracking app',
+                        path: '/C-Procedure-Topics/GetStartedMobileApp_T/',
+                      },
+                      {
                         title: 'Bluetooth Indoor Geolocation',
                         path: '/D-Reference/UseCaseBleIndoorGeolocation_R/',
                     },

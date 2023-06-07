@@ -1,25 +1,27 @@
+``` js
+
 {
   "deviceEUI" : "20635f028100003e",
-  "time" : "2022-09-02T07:42:56.273Z",
+  "time" : "2022-09-02T07:41:46.596Z",
   "customerId" : "100009247",
   "modelCfg" : "1:TPX_ba3df8fb-bc93-45ee-aa0d-b2f873b9bbc6",
   "dxProfileId" : "community-api",
   "coordinates" : [ 103.92496472, 1.31509533, 0.0 ],
-  "age" : 0,
-  "validityState" : "NEW",
+  "age" : 19,
+  "validityState" : "PREVIOUS",
   "horizontalAccuracy" : 30,
   "incomingSubscriberId" : "100009247",
   "processedFeed" : {
     "SF" : 10,
     "deviceProfileId" : "ABEEWAY/MICRO",
-    "payloadEncoded" : "0a503295a008",
-    "sequenceNumber" : 18504,
-    "receptionTime" : "2022-09-02T07:42:56.273Z",
+    "payloadEncoded" : "0a583293a007",
+    "sequenceNumber" : 18502,
+    "receptionTime" : "2022-09-02T07:41:46.596Z",
     "dynamicMotionState" : "STATIC",
-    "temperatureMeasure" : 31.37647,
+    "temperatureMeasure" : 30.364706,
     "processedPacket" : {
-      "SNR" : 8.5,
-      "RSSI" : -72.0,
+      "SNR" : 8.75,
+      "RSSI" : -87.0,
       "baseStationId" : "100008CE",
       "antennaCoordinates" : [ 103.924858, 1.314996 ]
     },
@@ -109,16 +111,16 @@
     "batteryStatus" : "OPERATING",
     "ackToken" : 10,
     "periodicPosition" : false,
-    "temperatureMeasure" : 31.4,
+    "temperatureMeasure" : 30.4,
     "sosFlag" : 1,
-    "appState" : 0,
+    "appState" : 1,
     "dynamicMotionState" : "STATIC",
     "onDemand" : false,
-    "payload" : "0a503295a008",
+    "payload" : "0a583293a007",
     "deviceConfiguration" : {
       "mode" : "PERMANENT_TRACKING"
     },
-    "eventType" : "SOS_MODE_END"
+    "eventType" : "SOS_MODE_START"
   },
   "resolvedTrackerParameters" : {
     "mode" : "PERMANENT_TRACKING",
@@ -186,3 +188,4 @@
   "messageSource" : "LORA",
   "downlinkUrl" : "https://community.thingpark.io/iot-flow/downlinkMessages/6f7b1b1a-5887-447d-a734-014a4e6926a9"
 }
+``` 

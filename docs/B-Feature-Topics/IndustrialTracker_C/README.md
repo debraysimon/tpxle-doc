@@ -3,7 +3,7 @@
 The Abeeway industrial tracker is a multi-mode tracker with large battery for long battery lifetime. It combines **GPS**, **Low Power-GPS (LP-GPS)**, **Wi-Fi**, **LoRaWAN®** and **BLE** radios with embedded sensors to support accurate **outdoor** and **indoor** geolocation.<br/>
 This tracker is equipped with the rugged casing which is designed to withstand harsh surroundings enabling seamless asset tracking and management in any industrial environment – whether it is for heavy duty assets, inventory or livestock.
 <img src="./images/Industrial-Tracker-980x1024_466x486.png" border="0" width="400"/>
-<img src="../../B-Feature-Topics/MicroTracker_C/images/image_azure_certification.png" border="0" />
+<img src="./images/image_azure_certification.png" border="0" />
 
 ## Key product features
 Abeeway industrial tracker provides you with the flexibility you need to adapt your tracker's behavior to your use case, selecting the right operating mode and geolocation technology.
@@ -33,10 +33,20 @@ It leverages the Wi-Fi access point scanning capabilities of the industrial trac
 * **Temperature** monitoring
 * **LoRaWAN® Class A radio**
 * Dust-proof and powerful water jets ( **IP65** )
+* Geofencing zone detection
+* Edge computing for Proximity detection and exposure assessment
+* User interface: 80 dBa buzzer, bicolor LEDs, button
+* Temperature monitoring
+* BLE Communication link with a phone
+* Firmware Upgrade via USB or Bluetooth
+* BLE scan function for inventory of tools and accessories
+* Indoor BLE/WiFi fingerprinting with HERE Tracking or Combain (requires subscription)
+* Indoor BLE based geolocation with Quuppa Intelligent Location (requires Quuppa infrastructure)
+* BLE based safe/hazard zone detection
 
 ### Standards and Certifications
 * LoRa Alliance: EU868, US915, AS923, AU915
-* Radio: EC, FCC, IC, TELEC ATEX
+* Radio: EC, FCC, IC, TELEC
 
 ::: warning WARNING
 * The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).

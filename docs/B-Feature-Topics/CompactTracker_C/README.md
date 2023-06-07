@@ -3,7 +3,7 @@ The Abeeway compact tracker is a multi-mode tracker that uses 3 replaceable AA f
 This tracker is equipped with a rugged waterproof casing which is designed to withstand harsh surroundings enabling seamless asset tracking and management in any industrial environment – whether it is for heavy duty assets, inventory or livestock.
 
 <img src="./images/CompactTrackerPlacement.jpg" border="0" />
-<img src="../../B-Feature-Topics/MicroTracker_C/images/image_azure_certification.png" border="0" />
+<img src="./images/image_azure_certification.png" border="0" />
 
 ## Key product features
 The Abeeway compact tracker provides you with the flexibility you need to adapt your tracker's behavior to your use case, selecting the right operating mode and geolocation technology.
@@ -58,12 +58,31 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
 * **Temperature** monitoring
 * **LoRaWAN® Class A radio**
 * Dust-proof and waterproof ( **IP65** )
+* Geofencing zone detection
+* Edge computing for Proximity detection and exposure assessment
+* User interface: 80 dBa buzzer, bicolor LEDs, button
+* Temperature monitoring
+* BLE Communication link with a phone
+* ATEX Zone 0/2 and IECEx Certified for explosive atmosphere (see Datasheet, specific SKUs only)
+* Firmware Upgrade via USB or Bluetooth
+* BLE scan function for inventory of tools and accessories
+* Indoor BLE/WiFi fingerprinting with HERE Tracking or Combain (requires subscription)
+* Indoor BLE based geolocation with Quuppa Intelligent Location (requires Quuppa infrastructure)
+* BLE based safe/hazard zone detection
 
 ### Standards and certifications
 
 * LoRa Alliance: EU868, US915, AS923, AU915
 * Radio: EC, FCC, IC, TELEC
-* ATEX zone 2 (ordering option).
+* ATEX zone 0 (ordering option)
+  - II 1G Ex ia IIC T4 Ga Ta -20 °C ... +40 °C
+  - II 1D Ex ia IIIC T135°C Da Ta -20 °C ... +40 °C
+* ATEX zone 2 (ordering option)
+  - II 3G Ex ic nA IIC T4 Gc Ta -20 °C ... +40 °C
+  - II 3D Ex ic tc IIIB T135°C Dc Ta -20 °C ... +40 °C
+* IECEX (ordering option)
+  - Ex ia IIC T4 Ga
+  - Ex ia IIIC T135°C Da
 
 ::: warning WARNING
 *  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).

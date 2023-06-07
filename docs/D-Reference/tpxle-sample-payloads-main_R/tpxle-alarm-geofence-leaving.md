@@ -1,4 +1,5 @@
-``` 
+``` js
+
 {
   "deviceEUI": "20635f028100003e",
   "geofenceAlarm": {
