@@ -38,7 +38,6 @@ It leverages the Wi-Fi access point scanning capabilities of the micro tracker.
 * Water-spray resistant enclosure ( **IP65** )
 * Geofencing zone detection
 * Edge computing for Proximity detection and exposure assessment
-* User interface: 80 dBa buzzer, bicolor LEDs, button
 * Temperature monitoring
 * BLE Communication link with a phone
 * ATEX Zone 2 Certified for explosive atmosphere (see Datasheet, specific SKUs only)

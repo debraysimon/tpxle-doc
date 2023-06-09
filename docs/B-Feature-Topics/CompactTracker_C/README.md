@@ -60,7 +60,6 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
 * Dust-proof and waterproof ( **IP65** )
 * Geofencing zone detection
 * Edge computing for Proximity detection and exposure assessment
-* User interface: 80 dBa buzzer, bicolor LEDs, button
 * Temperature monitoring
 * BLE Communication link with a phone
 * ATEX Zone 0/2 and IECEx Certified for explosive atmosphere (see Datasheet, specific SKUs only)
@@ -80,7 +79,7 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
 * ATEX zone 2 (ordering option)
   - II 3G Ex ic nA IIC T4 Gc Ta -20 °C ... +40 °C
   - II 3D Ex ic tc IIIB T135°C Dc Ta -20 °C ... +40 °C
-* IECEX (ordering option)
+* IECEx (ordering option)
   - Ex ia IIC T4 Ga
   - Ex ia IIIC T135°C Da
 
