@@ -5,7 +5,7 @@
 - [Side operations](../functioning/side-operations/readme.md)
 - [Default and dynamic profiles](../functioning/default-dynamic-profiles/readme.md)
 - [SOS](../functioning/sos/readme.md)
-- [Motion direction](../functioning/motion-detection/readme.md)
+- [Motion detection](../functioning/motion-detection/readme.md)
 - [Shock detection](../functioning/shock-detection/readme.md)
 - [Event messages](../functioning/event-messages/readme.md)
 - [Temperature monitoring](../functioning/temperature-monitoring/readme.md)
