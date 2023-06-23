@@ -325,7 +325,7 @@ To modify the _gps_convergence_ time to 5 minutes, the command 0x0B040C0000012C 
 |              |          |            |             | 2. Dual random: First TX using a random data rate within [DR4-DR5], next TX using a random data rate within [DR0-DR3]. |
 |              |          |            |             | 3. Dual fixed: First TX using a random data rate within [DR4-DR5]. Next TX Using the data rate configured in default_datarate parameter. **(NOT recommended)** |
 |              |          |            |             | 4. Reserved, internal use only. |
-|              |          |            |             | 5. Activate the strategy defined with the *custom_transmit_strat* parameter|
+|              |          |            |             | 5. Activate the strategy defined with the *transmit_strat_custom* parameter|
 |transmit_strat_custom<sup>(3)(2)</sup>|0x1E|none|0 –0xFFFFFF|bit 0: ADR activation in static (0: enabled)  |
 |              |          |            |             |bit 1: Transmission type:</br>0: single transmission</br>1: double transmission|
 |              |          |            |             |bit 2-4: First transmission, data rate distribution:</br>0: Random </br>1: Bell Curve</br>2: Ring|
