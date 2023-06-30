@@ -49,4 +49,4 @@ It is important to ensure the BLE Firmware and MCU Firmware are compatible with 
 | 2.2.x | 3.3.3 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
 | 2.1.x | 3.2.2 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
 | 2.0 | 3.1.0 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
-| 1.9.x | 2.2.0 | Micro Tracker V2|
+| 1.9.x | 2.0.0 | Micro Tracker V2|
