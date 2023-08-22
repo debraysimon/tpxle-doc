@@ -140,138 +140,172 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Learning about Abeeway trackers',
-                    collapsable: true,
-                    children: [
-                        {
-                            title: 'Trackers Overview',
-                            path: '/B-Feature-Topics/TrackerOverview/',
-                        },
-                        {
-                            title: 'Micro tracker',
-                            path: '/B-Feature-Topics/MicroTracker_C/',
-                            collapsable: true,
-                            sidebarDepth: 3,
-                            children: [
-                                {
-                                    title: 'Key micro tracker commands',
-                                    path: '/D-Reference/MicroTrackerCommands_R/',
-                                },
-                                {
-                                    title: 'Micro tracker best placement',
-                                    path: '/B-Feature-Topics/MicroTrackerPlacement_C/',
-                                },
-                                {
-                                    title: 'Reset the micro tracker and re-join LoRaWAN network',
-                                    path: '/C-Procedure-Topics/ReDoJoinRequestMT_T/',
-                                },
-                            ],
-                        },
-                        {
-                            title: 'Smart badge',
-                            path: '/B-Feature-Topics/SmartBadge_C/',
-                            collapsable: true,
-                            sidebarDepth: 3,
-                            children: [
-                                {
-                                    title: 'Key smart badge commands',
-                                    path: '/D-Reference/SmartBadgeCommands_R/',
-                                },
-                                {
-                                    title: 'Smart badge best placement',
-                                    path: '/B-Feature-Topics/SmartBadgePlacement_C/',
-                                },
-                                {
-                                    title: 'Reset the smart badge and re-join LoRaWAN network',
-                                    path: '/C-Procedure-Topics/ReDoJoinRequestSB_T/',
-                                },
-                            ],
-                        },
-                        {
-                            title: 'Industrial tracker',
-                            path: '/B-Feature-Topics/IndustrialTracker_C/',
-                            collapsable: true,
-                            sidebarDepth: 1,
-                            children: [
-                                {
-                                    title: 'Industrial tracker best placement',
-                                    path: '/B-Feature-Topics/IndusTrackerPlacement_C/',
-                                },
-                                {
-                                    title: 'Reset the Industrial tracker and re-join LoRaWAN network',
-                                    path: '/C-Procedure-Topics/ReDoJoinRequestIND_T/',
-                                },
-                            ],
-                        },
-                        {
-                            title: 'Compact tracker',
-                            path: '/B-Feature-Topics/CompactTracker_C/',
-                            collapsable: true,
-                            sidebarDepth: 1,
-                            children: [
-                                {
-                                    title: 'Compact tracker best placement',
-                                    path: '/B-Feature-Topics/CompactTrackerPlacement_C/',
-                                },
-                                {
-                                    title: 'Reset the compact tracker and re-join LoRaWAN network',
-                                    path: '/C-Procedure-Topics/ReDoJoinRequestCT_T/',
-                                },
-                            ],
-                        },
-                        {
-                            title: 'Type 1WL Geolocation module',
-                            path: '/B-Feature-Topics/GeolocModule_C/',
-                            collapsable: true,
-                            sidebarDepth: 3,
-                            children: [
-                                {
-                                    title: 'Hardware Introduction',
-                                    path: '/B-Feature-Topics/GeolocModuleHWIntro_C/',
-                                },
-                                {
-                                    title: 'Firmware Introduction',
-                                    path: '/B-Feature-Topics/GeolocModuleFWIntro_C/',
-                                },
-                                {
-                                    title: 'Type 1WL Geolocation Module Evaluation kit (EVK)',
-                                    path: '/B-Feature-Topics/GeolocModuleEVKIntro_C/',
-                                },
-                                {
-                                  title: 'Type 1WL Geolocation Module Documentation library',
-                                  path: '/B-Feature-Topics/GeolocModuleDocLib_C/',
+                  title: 'Learning about Abeeway trackers',
+                  collapsable: true,
+                  children: [
+                      {
+                          title: 'Trackers Overview',
+                          path: '/B-Feature-Topics/TrackerOverview/',
+                      },
+                      {
+                          title: 'Micro tracker',
+                          path: '/B-Feature-Topics/MicroTracker_C/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children: [
+                              {
+                                  title: 'Key micro tracker commands',
+                                  path: '/D-Reference/MicroTrackerCommands_R/',
                               },
-                            ],
-                        },
-                        {
-                            title: 'Abeeway Device Manager',
-                            path: '/B-Feature-Topics/AbeewayDeviceManager_C/',
-                            collapsable: true,
-                            sidebarDepth: 3,
-                            children: [
-                                {
-                                    title: 'Tracking your assets',
-                                    path: '/C-Procedure-Topics/TrackAssetsADM_T/',
-                                },
-                                {
-                                    title: 'Changing the tracker configuration',
-                                    path: '/C-Procedure-Topics/ChangeTrackerConfiguration_T/',
-                                },
-                                {
-                                    title: 'Location templates',
-                                    path: '/D-Reference/LocationTemplates_R/',
-                                },
-                                {
-                                    title: 'Battery lifetime calculator',
-                                    path: '/D-Reference/PowerConsumption_R/',
-                                },
-                            ],
-                        },
-                        {
-                            title: 'Trackers documentation',
-                            path: '/D-Reference/TrackersDoc_R/',
-                        },
-                    ],
+                              {
+                                  title: 'Micro tracker best placement',
+                                  path: '/B-Feature-Topics/MicroTrackerPlacement_C/',
+                              },
+                              {
+                                  title: 'Reset the micro tracker and re-join LoRaWAN network',
+                                  path: '/C-Procedure-Topics/ReDoJoinRequestMT_T/',
+                              },
+                          ],
+                      },
+                      {
+                          title: 'Smart badge',
+                          path: '/B-Feature-Topics/SmartBadge_C/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children: [
+                              {
+                                  title: 'Key smart badge commands',
+                                  path: '/D-Reference/SmartBadgeCommands_R/',
+                              },
+                              {
+                                  title: 'Smart badge best placement',
+                                  path: '/B-Feature-Topics/SmartBadgePlacement_C/',
+                              },
+                              {
+                                  title: 'Reset the smart badge and re-join LoRaWAN network',
+                                  path: '/C-Procedure-Topics/ReDoJoinRequestSB_T/',
+                              },
+                          ],
+                      },
+                      {
+                          title: 'Industrial tracker',
+                          path: '/B-Feature-Topics/IndustrialTracker_C/',
+                          collapsable: true,
+                          sidebarDepth: 1,
+                          children: [
+                              {
+                                  title: 'Industrial tracker best placement',
+                                  path: '/B-Feature-Topics/IndusTrackerPlacement_C/',
+                              },
+                              {
+                                  title: 'Reset the Industrial tracker and re-join LoRaWAN network',
+                                  path: '/C-Procedure-Topics/ReDoJoinRequestIND_T/',
+                              },
+                          ],
+                      },
+                      {
+                          title: 'Compact tracker',
+                          path: '/B-Feature-Topics/CompactTracker_C/',
+                          collapsable: true,
+                          sidebarDepth: 1,
+                          children: [
+                              {
+                                  title: 'Compact tracker best placement',
+                                  path: '/B-Feature-Topics/CompactTrackerPlacement_C/',
+                              },
+                              {
+                                  title: 'Reset the compact tracker and re-join LoRaWAN network',
+                                  path: '/C-Procedure-Topics/ReDoJoinRequestCT_T/',
+                              },
+                          ],
+                      },
+                      {
+                        title: 'Industrial Manageable ATEX Beacon',
+                        path: '/B-Feature-Topics/IndustrialManageableATEXBeacon/',
+                        collapsable: true,
+                        sidebarDepth: 1,
+                        children: [
+                            {
+                                title: 'Beacon best placement',
+                                path: '/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/',
+                            },
+                            {
+                                title: 'Reset the beacon and re-join LoRaWAN network',
+                                path: '/C-Procedure-Topics/ReDoJoinRequestBeacon_T/',
+                            },
+                        ],
+                      },
+                      {
+                          title: 'Type 1WL Geolocation module',
+                          path: '/B-Feature-Topics/GeolocModule_C/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children: [
+                              {
+                                  title: 'Hardware Introduction',
+                                  path: '/B-Feature-Topics/GeolocModuleHWIntro_C/',
+                              },
+                              {
+                                  title: 'Firmware Introduction',
+                                  path: '/B-Feature-Topics/GeolocModuleFWIntro_C/',
+                              },
+                              {
+                                  title: 'Type 1WL Geolocation Module Evaluation kit (EVK)',
+                                  path: '/B-Feature-Topics/GeolocModuleEVKIntro_C/',
+                              },
+                              {
+                                title: 'Type 1WL Geolocation Module Documentation library',
+                                path: '/B-Feature-Topics/GeolocModuleDocLib_C/',
+                            },
+                          ],
+                      },
+                      {
+                          title: 'Abeeway Device Manager',
+                          path: '/B-Feature-Topics/AbeewayDeviceManager_C/',
+                          collapsable: true,
+                          sidebarDepth: 3,
+                          children: [
+                              {
+                                  title: 'Tracking your assets',
+                                  path: '/C-Procedure-Topics/TrackAssetsADM_T/',
+                              },
+                              {
+                                  title: 'Changing the tracker configuration',
+                                  path: '/C-Procedure-Topics/ChangeTrackerConfiguration_T/',
+                              },
+                              {
+                                  title: 'Location templates',
+                                  path: '/D-Reference/LocationTemplates_R/',
+                              },
+                              {
+                                  title: 'Battery lifetime calculator',
+                                  path: '/D-Reference/PowerConsumption_R/',
+                              },
+                          ],
+                      },
+                      {
+                          title: 'Trackers documentation',
+                          path: '/D-Reference/TrackersDoc_R/',
+                      },
+                  ],
+                },
+                {
+                  title: 'ATEX/IECEx/HAZLOC',
+                  collapsable: true,
+                  children: [
+                      {
+                          title: 'What is ATEX/IECEx/HAZLOC',
+                          path: '/D-Reference/WhatIsAtex_R/',
+                      },
+                      {
+                        title: 'Decoding the ATEX/IECEx Markings',
+                        path: '/D-Reference/DecodingAtexMarking_R/',
+                      },
+                      {
+                        title: 'Abeeway ATEX/IECEx products',
+                        path: '/D-Reference/AbeewayAtexMarking_R/',
+                      },
+                  ],
                 },
                 {
                     title: 'Connecting your LoRaWAN network server',
@@ -466,7 +500,11 @@ module.exports = {
                       {
                         title: 'Bluetooth Indoor Geolocation',
                         path: '/D-Reference/UseCaseBleIndoorGeolocation_R/',
-                    },
+                      },
+                      {
+                        title: 'Customizing the JoinEUI/AppEUI',
+                        path: '/D-Reference/UseCaseCustomizeJoinEUI/',
+                      },
                   ],
                 },
                 {

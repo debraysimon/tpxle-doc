@@ -140,14 +140,16 @@ The table below sum up all parameters and their identifiers (ID). The parameters
 |	acc_z_axis   (**Read only**)                     	|	252	|	(0xFC)	|
 |	ble_version    (**Read only**)                   	|	253	|	(0xFD)	|
 |	firmware_version   (**Read only**)               	|	254	|	(0xFE)	|
-
+| appeui_low<sup>(3)</sup> (**Write only**)                       | NA  | NA |
+| appeui_high<sup>(3)</sup> (**Write only**)                       | NA  | NA |
 
 :::tip Notes
-1.  the parameters in bold are new or modified in this firmware version
-2.  The Application should avoid sending invalid parameter values. The firmware accommodates an invalid value as follows:
+(1)  the parameters in bold are new or modified in this firmware version
+(2)  The Application should avoid sending invalid parameter values. The firmware accommodates an invalid value as follows:
     - Value above the maximum is set to the maximum
     - Value below the minimum is set to the minimum
     - If the downlink contains out of range Parameter ID, then the downlink is silently discarded.  
+(3) The **appeui_low** and **appeui_high** are used to change the JoinEUI/AppEUI of the tracker to allow it to join with third party join server. These parameters can only be changed by passing the config file during the [firmware update](/D-Reference/FirmwareUpdateOverview_R/). These parameters cannot be set with LoRa downlink. For more information on changing the JoinEUI/AppEUI, see [here](/D-Reference/UseCaseCustomizeJoinEUI/).
 :::
 
 **Example**: If the application sends a downlink to change the *lora_period* to 120 seconds, the tracker will set the value of *lora_period* to 300 since this is the minimum acceptable (range \[300-86400\]). If configured for (the bit3 of _config_flags_ parameter is set) the tracker will send a device configuration uplink with the corrected value. The application should check the reported value of the device configuration which it is trying to set and send another downlink if the device configuration is not reported in the uplink.

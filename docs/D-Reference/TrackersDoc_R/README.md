@@ -47,6 +47,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Industrial tracker V1** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/Eqk_LfFUHJBDotzEK2gdX9IBNXcynn_DlKWKqmuCbOYtnw?e=aGg18b) |
 | **Industrial tracker V2** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/Ek4c_6w2bOBKuP1Bk2VDSjEB48s56zmOwVpzppyjDF1xSQ?e=wWTbuT) |
 | **Compact tracker** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EtWpMlYIt0lGk3o2Nx0hKyMBC52iKMXjW2bAuYoxUdvjYg?e=wgyH4y) |
+| **Industrial Manageable ATEX Beacon** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EohTrUr31FBLhAoHKED-F8sB0rICCeBtzEPaCV0qyz2mlA?e=afYhym) |
 | **Docking station** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EnEQl3ZoI4ZArh073pciqXoBoO706gpO262rev0V38G-gw?e=TAemPx) |
 
 ## Abeeway Device Manager application
@@ -63,6 +64,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Smart badge** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/ErQx5OT96LVAuVqNst7mOtEBfDCxo7sbOntVT0smN5EVug?e=ukxqa3) |
 | **Industrial tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/Evkh40X6gVlHqFouOdAl4uIBj139ph9fzji835sewtlFVg?e=SVf1m4) |
 | **Compact tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
+| **Industrial Manageable ATEX beacon** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
 | **Smart badge docking station** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EvDDLZ6OdzVGrv1O3J5P2aoBjlI_rQrBeaafiawmbFONgA?e=d1EOAw) |
 | **Geolocation module** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EgYK6e26eYdPkTnRaIdN15IBJ3W_Lvi4CEtB6_z6ZMRO8Q?e=73BkwT) |
 | **Third party accessories** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/ErQIOhsLoiVFrDW5dcCW2qcBfdsNMAAIdhlkw5Hww8v0Xw?e=fvzYse) |
@@ -118,6 +120,7 @@ The rest of the documentation relates to specific use cases (e.g. BLE scanning, 
 | **Abeeway Mobile App** | This feature explains how to use Abeeway Mobile for Abeeway trackers. | [Abeeway Mobile App](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=KgYKLP) |
 | **Motion and shock detection** | This feature explains how to use accelerometer features inside Abeeway trackers. | [Motion & Shock detection](https://actilitysa.sharepoint.com/:f:/t/aby/EuC-wMdBd6lItOlUUsQYbuoBDwzLdK6QY_uPTwgjG1tqzA?e=4USOgi) |
 | **GPS LP-GPS features** | This feature explains how to use GPS/LP-GPS features inside Abeeway trackers. | [GPS & LP-GPS Usage](https://actilitysa.sharepoint.com/:f:/t/aby/EliM0bMyOoJOqE67Y4HS8rMBBymloFfI0GD6JtakAsu_4Q?e=ohnMEh) |
+| **ATEX/IECEx Certification** | These training slides explain the ATEX/IECEx certification for Abeeway trackers | [ATEX/IECEx Certification](https://actilitysa.sharepoint.com/:f:/t/aby/EkH65elONnpKktjVAhHXFHYB9ZcYKILOp8yOMvLAGrqRhA?e=1X6evp) |
 
 ## ThingPark X Location Engine
 
