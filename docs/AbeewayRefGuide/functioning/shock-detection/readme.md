@@ -11,9 +11,11 @@ This feature is supported by all Abeeway trackers.
 ## Overview
 
 The mechanical definition of a shock is a strong acceleration intensity during a short period. It can be seen as a pulse. Once a shock has been detected, a [shock detection event message](../../uplink-messages/shock-detection/#accelerometer-shock-data) is sent via LoRaWAN, which will contain a measurement for the intensity of the shock.
-Note
-•	The shock detection embeds a debounce timer (fixed value of 1 second) to avoid sending multiple LoRa event messages for the same shock.
-•	The shock detection requires the high sensitivity mode (Octet 0 of motion_sensitivity must be in the range [1..99]).
+
+:::tip Note
+- The shock detection embeds a debounce timer (fixed value of 1 second) to avoid sending multiple LoRa event messages for the same shock.
+- The shock detection requires the high sensitivity mode (Octet 0 of motion_sensitivity must be in the range [1..99]).
+:::
 
 ## The Gadd index
 From AT2 R2.4, the shock detection has been enhanced with the calculation of the GADD index. The Gadd index seeks to measure the effects of a shock on the body, and considers both the intensity of acceleration and the duration, as it was found during experiments that body damage increases with the duration of the shock and acceleration to the power 2.5. This enhancement is only available with trackers embedding the LIS2DW12 accelerometer.

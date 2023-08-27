@@ -17,13 +17,14 @@ Abeeway Smart Badge is certified as ATEX Zone 2-22 with the following ATEX Marki
 
 The markings are explained in the following figures below :
 
-![](./images/ATEX_zone_II_G_SB_MTV2.png)
+<img src="./images/ATEX_zone_II_G_SB_MTV2.png" width="1000" />
+</br></br>
+<img src="./images/ATEX_zone_II_D_SB_MTV2.png" width="1000" />
 
-![](./images/ATEX_zone_II_D_SB_MTV2.png)
 
 ::: warning Note
 - The certification documents are available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
-- The datasheet is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#data-sheets).
+- The data sheet is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#data-sheets).
 - The OOB document is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#out-of-box-user-guides).
 :::
 
@@ -35,13 +36,13 @@ Abeeway Micro Tracker V2 is certified as ATEX Zone 2-22 with the following ATEX 
 
 The markings are explained in the following figures below :
 
-![](./images/ATEX_zone_II_G_SB_MTV2.png)
-
-![](./images/ATEX_zone_II_D_SB_MTV2.png)
+<img src="./images/ATEX_zone_II_G_SB_MTV2.png" width="1000" />
+</br></br>
+<img src="./images/ATEX_zone_II_D_SB_MTV2.png" width="1000" />
 
 ::: warning Note
 - The certification documents are available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
-- The datasheet is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#data-sheets).
+- The data sheet is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#data-sheets).
 :::
 
 ## Compact Tracker
@@ -53,9 +54,10 @@ Abeeway compact tracker is certified as ATEX Zone 0-20 with the following markin
 
 The markings are explained in the following figures below :
 
-![](./images/ATEX_zone_0_G_CT.png)
+<img src="./images/ATEX_zone_0_G_CT.png" width="1000" />
+</br></br>
+<img src="./images/ATEX_zone_0_D_CT.png" width="1000" />
 
-![](./images/ATEX_zone_0_D_CT.png)
 
 ### ATEX Zone 2-22
 Abeeway compact tracker is certified as ATEX Zone 2-22 with the following marking:</br>
@@ -64,9 +66,9 @@ Abeeway compact tracker is certified as ATEX Zone 2-22 with the following markin
 
 The markings are explained in the following figures below :
 
-![](./images/ATEX_zone_II_G_CT.png)
-
-![](./images/ATEX_zone_II_D_CT.png)
+<img src="./images/ATEX_zone_II_G_CT.png" width="1000" />
+</br></br>
+<img src="./images/ATEX_zone_II_D_CT.png" width="1000" />
 
 ### IECEx Zone 0
 Abeeway compact tracker is certified as IECEx Zone 0 with the following marking:</br>
@@ -75,6 +77,6 @@ Abeeway compact tracker is certified as IECEx Zone 0 with the following marking:
 
 The markings are explained in the following figures below :
 
-![](./images/IECEx_zone_0_G_CT.png)
-
-![](./images/IECEx_zone_0_D_CT.png)
+<img src="./images/IECEx_zone_0_G_CT.png" width="1000" />
+</br></br>
+<img src="./images/IECEx_zone_0_D_CT.png" width="1000" />

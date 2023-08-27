@@ -43,7 +43,7 @@
 |          | Reed switch |        |        | X        |          |
 | Geolocation          | GPS         | X      | X      | X        |  X |
 |                        | LPGPS       | X      | X      | X        |  X |
-|                        | WIFI        | X      | X      | X        |  X |
+|                        | Wi-Fi        | X      | X      | X        |  X |
 |                        | BLE         | X      | X      | X        |  X |
 | Rechargeable battery |       | 450  mAh |       1300 mAh  |          |     |
 | Primary battery      |               |        |  | 8000 mAh |    19000 mAh<sup>(2)</sup> |

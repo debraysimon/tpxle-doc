@@ -10,6 +10,7 @@ It is important that the tracker is placed without any obstructions (for ex. hum
 2. [Smart Badge](/B-Feature-Topics/SmartBadgePlacement_C/)
 3. [Industrial Tracker](/B-Feature-Topics/IndusTrackerPlacement_C/)
 4. [Compact Tracker](/B-Feature-Topics/CompactTrackerPlacement_C/)
+5. [Industrial Manageable ATEX Beacon](/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/)
 
 ## Tracker Firmware versions
 We highly recommend to update the tracker to the latest [MCU and BLE Firmware version](/D-Reference/IdentifyTrackerModel/). The firmware update instructions are [here](/D-Reference/FirmwareUpdateOverview_R/).

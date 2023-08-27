@@ -2,7 +2,11 @@
 # Location templates
 Abeeway Device Manager uses the following predefined location templates that you can apply to trackers to configure quickly their location profile. For more information, see [Changing the tracker configuration](/C-Procedure-Topics/ChangeTrackerConfiguration_T/).
 
-<htlm>
+:::warning Warning
+All templates below assume that parameters that are not explicitly listed are set to their [default values](/AbeewayRefGuide/Parameters-default-configuration/configuration-default.md). If you have some of these other parameters that are not set to the default values, please review them carefully for possible interactions with the parameters modified by the template.
+:::
+
+<html>
     <thead>
     <tr>
         <th>Telplate</th>
@@ -399,4 +403,4 @@ Abeeway Device Manager uses the following predefined location templates that you
         </td>
     </tr>
     </tbody>
-</htlm>
+</html>

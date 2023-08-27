@@ -1,4 +1,4 @@
-# Preparing your tracker for first use after unpacking
+# Preparing your tracker for first use with GNSS
 
 This section describes the step by step procedure to get a first GNSS fix on the tracker and update the Almanac information. It must be used after first unpacking a new tracker, each time a tracker has not performed a fix for over 3 months, or each time a tracker seems to be unable to obtain new GNSS fixes quickly.
 
@@ -18,6 +18,7 @@ It is important that the tracker is placed in open sky without any obstructions 
 2. [Smart Badge](/B-Feature-Topics/SmartBadgePlacement_C/)
 3. [Industrial Tracker](/B-Feature-Topics/IndusTrackerPlacement_C/)
 4. [Compact Tracker](/B-Feature-Topics/CompactTrackerPlacement_C/)
+5. [Industrial Manageable ATEX Beacon](/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/)
 
 ## Ensure the tracker is running the correct MCU/BLE Firmware version
 We recommend to run the [latest MCU and BLE firmware versions] as there have been numerous fixes to the GPS/LP-GPS feature. </br>
@@ -29,7 +30,7 @@ When you use the tracker for the first time, it may have been stored for several
 Therefore **the first scan and refresh of Almanac must be made in open sky conditions, and can last over 15mns**. 
 
 You can use pre-configured template: **"First use: Almanac refresh"** to retrieve the Almanac if using the tracker for the first time. The template can be applied from [Abeeway Device Manager (Device Configuration tab)](/B-Feature-Topics/AbeewayDeviceManager_C/).
-<img src="./images/ADMDeviceConfiration.png" width="800" border="1" />
+<img src="./images/PrepareTrackersFirstUse.png" width="800" border="1" />
 
 The template **"First use: Almanac refresh"** has the following parameters and can also be applied by sending downlinks to the Abeeway tracker on LoRaWAN port=2. The downlink payloads can be generated using [Abeeway Device Manager (Device Configuration tab)](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-device-manager) or using [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-driver). 
 

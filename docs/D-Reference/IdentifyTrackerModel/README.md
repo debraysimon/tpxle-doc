@@ -25,13 +25,13 @@ The table below lists Tracker model and Firmware compatibility.
 ## Latest MCU and BLE Firmware
 | Tracker Model | Latest MCU firmware | Latest BLE firmware | 
 | - | ----------- | -------- |-|
-| Micro Tracker V3.1 | 2.4.1 | 3.3.4 |
-| Micro Tracker V3.0 | 2.4.1 | 3.3.4 | 
+| Micro Tracker V3.1 | 2.5.0 | 3.3.4 |
+| Micro Tracker V3.0 | 2.5.0 | 3.3.4 | 
 | Micro Tracker V2 | 1.9.1 | 2.0.0 | 
-| Smart Badge | 2.4.1 | 3.3.4 |
-| Compact Tracker | 2.4.1 | 3.3.4 |
-| Industrial Tracker V2 | 2.4.1 | 3.3.4 |
-| Industrial Tracker V1 | 1.8.1 | NA |
+| Smart Badge | 2.5.0 | 3.3.4 |
+| Compact Tracker | 2.5.0 | 3.3.4 |
+| Industrial Tracker V2 | 2.5.0 | 3.3.4 |
+| Industrial Tracker V1 | 2.5.0 | NA |
 
 ## MCU & BLE Firmware Compatibility
 
@@ -44,7 +44,8 @@ It is important to ensure the BLE Firmware and MCU Firmware are compatible with 
 
 | MCU Firmware| BLE Firmware | Compatible tracker models | 
 | - | ----------- | -------- |
-| 2.4.x | 3.3.4 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
+| 2.5.x| 3.3.4 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
+| 2.4.x| 3.3.4 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
 | 2.3.x | 3.3.3 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
 | 2.2.x | 3.3.3 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |
 | 2.1.x | 3.2.2 | Micro Tracker V3.x, Smart Badge, Compact Tracker, Industrial Tracker V2 |

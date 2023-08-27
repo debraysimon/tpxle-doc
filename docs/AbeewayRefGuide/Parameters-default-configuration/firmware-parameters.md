@@ -180,14 +180,14 @@ The parameters identifiers and the values are given in the following tables.
 | ul_period           | 0x00 | second | 15(1) - 86400 | Periodicity of position or activity messages in motion, start/end, activity or permanent operating mode                                                                                                                                                                               |
 | lora_period         | 0x01 | second | 300 - 86400   | Periodicity of LoRa heartbeat messages                                                                                                                                                                                                                                                |
 | geoloc_sensor       | 0x05 | none   | 0 - 12        | Geolocation sensor profile used in main operating mode and SOS:                                                                                                                                                                                                                  |
-|                     |      |        |               | 0\. WIFI only                                                                                                                                                                                                                                                                    |
+|                     |      |        |               | 0\. Wi-Fi only                                                                                                                                                                                                                                                                    |
 |                     |      |        |               | 1\. GPS only                                                                                                                                                                                                                                                                     |
 |                     |      |        |               | 2\. LPGPS (AGPS/GPS)                                                                                                                                                                                                                                                             |
 |                     |      |        |               | 3\. Reserved (do not use)                                                                                                                                                                                                                                                        |
 |                     |      |        |               | 4\. Reserved (do not use)                                                                                                                                                                                                                                                        |
 |                     |      |        |               | 5\. Reserved (do not use)                                                                                                                                                                                                                                                        |
-|                     |      |        |               | 6\. WIFI-GPS only (WIFI then GPS if WIFI fails in one geolocation cycle)                                                                                                                                                                                                         |
-|                     |      |        |               | 7\. WIFI-LPGPS only (WIFI then LPGPS if WIFI fails in one geolocation cycle)                                                                                                                                                                                                      |
+|                     |      |        |               | 6\. WIFI-GPS only (Wi-Fi then GPS if Wi-Fi fails in one geolocation cycle)                                                                                                                                                                                                         |
+|                     |      |        |               | 7\. WIFI-LPGPS only (Wi-Fi then LPGPS if Wi-Fi fails in one geolocation cycle)                                                                                                                                                                                                      |
 |                     |      |        |               | 8 Reserved (do not use)                                                                                                                                                                                                                                                          |
 |                     |      |        |               | 9\. WIFI-LPGPS first, then WIFI-GPS until timeout, then back to WIFI-LPGPS                                                                                                                                                                                                       |
 |                     |      |        |               | 10\. BLE scan only                                                                                                                                                                                                                                                               |
@@ -229,11 +229,11 @@ The parameters for other side operations are described in dedicated sections.
 | ------------------------ | ---- | ------ | --------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | periodic_pos_period      | 0x03 | second | 0, 900 - 604800 | Period of the periodic position report. When set to 0, the reporting is disabled.                                      |
 | geoloc_method            | 0x06 | none   | 0 - 7           | Geolocation policy used for the side operating modes:                                                                  |
-|                          |      |        |                 | 0\. WIFI                                                                                                               |
+|                          |      |        |                 | 0\. Wi-Fi                                                                                                               |
 |                          |      |        |                 | 1\. GPS                                                                                                                |
 |                          |      |        |                 | 2\. LPGPS (AGPS/GPS)                                                                                                   |
-|                          |      |        |                 | 3\. WIFI-GPS only (WIFI then GPS if WIFI fails in one geolocation cycle)                                               |
-|                          |      |        |                 | 4\. WIFI-LPGPS only (WIFI then LPGPS if WIFI fails in one geolocation cycle)                                           |
+|                          |      |        |                 | 3\. WIFI-GPS only (Wi-Fi then GPS if Wi-Fi fails in one geolocation cycle)                                               |
+|                          |      |        |                 | 4\. WIFI-LPGPS only (Wi-Fi then LPGPS if Wi-Fi fails in one geolocation cycle)                                           |
 |                          |      |        |                 | 5\. BLE scan only                                                                                                      |
 |                          |      |        |                 | 6\. BLE-GPS only (BLE then GPS if BLE fails in one geolocation cycle)                                                  |
 |                          |      |        |                 | 7\. BLE-LPGPS only (BLE then LPGPS if BLE fails in one geolocation cycle)                                              |
@@ -259,7 +259,7 @@ To modify the periodic position period to 12 hours, the command 0x0B01030000A8C0
 | collection_scan_type            | 0x21 | none | 0 - 2           | Collection scan type used:                                                |
 |                                 |      |      |                 | 0\. No collection scan                                                    |
 |                                 |      |      |                 | 1\. BLE collection scan                                                   |
-|                                 |      |      |                 | 2\. WIFI collection scan                                                  |
+|                                 |      |      |                 | 2\. Wi-Fi collection scan                                                  |
 | collection_nb_entry             | 0x22 | none | 1 - 20          | Maximum number of elements to report in collection payloads after a scan. |
 | collection_ble_filter_type      | 0x23 | none | 0 - 6           | Beacon type to scan and report when Collection Scan Type is BLE:          |
 |                                 |      |      |                 | 0\. No filter                                                             |
@@ -457,15 +457,15 @@ Description:
 |                      |      |      |                   | bit1: Set to activate very long button press to switch to off mode                                                         |
 |                      |      |      |                   | bit2: Deprecated, to not used                                                                                       |
 |                      |      |      |                   | bit3: Set to send the configuration uplink message in response to a configuration modification downlink.                     |
-|                      |      |      |                   | bit4: WIFI payload with Cypher (0) or without Cypher(1)                                                             |
+|                      |      |      |                   | bit4: Wi-Fi payload with Cypher (0) or without Cypher(1)                                                             |
 |                      |      |      |                   | bit5: Activate BLE connectivity interface at the start time(2)                                                      |
-|                      |      |      |                   | bit6: First WIFI scan when geolocation starts. If disabled (0), WIFI position is replaced by a geoloc start message |
+|                      |      |      |                   | bit6: First Wi-Fi scan when geolocation starts. If disabled (0), Wi-Fi position is replaced by a geoloc start message |
 |                      |      |      |                   | bit7: LED blinks when a GPS fix is received. Set to enable the feature, reset to disable                            |
 |                      |      |      |                   | bit8: Set to enable the sending of a motion start message                                                           |
 |                      |      |      |                   | bit9: Set to enable the sending of a motion end message                                                             |
 |                      |      |      |                   | bit10: Set to enable a new OTA join when leaving the mode OFF(3)                                                    |
 |                      |      |      |                   | bit11: Asymmetric BLE pairing: 0 accepted, 1 rejected(4)(5)                                                         |
-|                      |      |      |                   | bit12: Set to enable Long WIFI payload with up to 12 BSSID(6)                                                       |
+|                      |      |      |                   | bit12: Set to enable Long Wi-Fi payload with up to 12 BSSID(6)                                                       |
 |                      |      |      |                   | bit13: Set to enable Collection Long Report                                                                         |
 |                      |      |      |                   | bit14: Set to enable the autostart of the tracker when leaving shipping state(7)                                    |
 |                      |      |      |                   | bit15: Set to forbid the mode OFF(8)                                                                                |
@@ -474,7 +474,9 @@ Description:
 |                      |      |      |                   | bit18: Set to enable extended position payload, (type=0x0E), reset to use classic payload (type=0x03)           |
 |                      |      |      |                   | bit19: Reserved, do not used                                                                                        |
 |                      |      |      |                   | bit 20: Enable the CLI over BLE                                                                                     |
-|                      |      |      |                   | bit 21: BLE passkey authentication enable. When this bit is enabled, the tracker will ask for 6 digit PIN to be entered into the phone initiating the first pairing request. The 6 digit PIN needs to be requested from the backend. This feature is specific to the [Abeeway Mobile app](/C-Procedure-Topics/GetStartedMobileApp_T/).|
+|                      |      |      |                   | bit 21: BLE passkey authentication enable. When this bit is enabled, the tracker will ask for 6 digit PIN to be entered into the phone initiating the first pairing request. The 6 digit PIN needs to be requested from the backend. This feature is specific to the [Abeeway Mobile app](/C-Procedure-Topics/GetStartedMobileApp_T/)|
+|                      |      |      |                   | bit 22: Build Wi-Fi database using GPS positions. When enabled, this feature can be used to build Wi-Fi data base in the cloud based on GPS positions. For more information, see [here](../functioning/build-wifi-gps-database)|
+|                      |      |      |                   | bit 23: Enable Wi-Fi beaconing. When this bit is enabled, the tracker will perform active Wi-Fi scan instead of passive Wi-Fi scan. For more information, see [here](../functioning/wifi-beaconing)|
 | battery_capacity(11) | 0x28 | mAh  | \-1, 0, 1 - 65535 | Battery setting:                                                                                                    |
 |                      |      |      |                   | \-1: Use provisioned value.                                                                                        |
 |                      |      |      |                   | 0: Rechargeable battery.                                                                                            |
@@ -482,7 +484,7 @@ Description:
 
 :::tip Notes
 
-(1) Before V1.7 MCU application firmware version, WIFI position payloads were all encrypted, this parameter is for backward compatibility only and only non-cyphered payload should be use in new application.
+(1) Before V1.7 MCU application firmware version, Wi-Fi position payloads were all encrypted, this parameter is for backward compatibility only and only non-cyphered payload should be use in new application.
 
 (2) If the bit is set, the Bluetooth advertising is activated when the tracker is turned on (Micro Tracker/Smart Badge), or in case of Compact Tracker when the special [Reed switch](../functioning/user-interfaces/#reed-switch-interface) sequence is detected.
 
@@ -498,7 +500,7 @@ Description:
 
 (7) This bit is automatically set for compact and industrial tracker and can't be disabled.
 
-(8) The tracker switches to standby mode if the user sends downlink to change to OFF mode, or if a very long button press is done.
+(8) The tracker switches to standby mode if the user sends downlink to change to OFF mode, or if a very long button press is done. **This bit is forced to true for Compact tracker, Industrial tracker V2, Industrial manageable ATEX beacon**.
 
 (9) If the bit 17 is set to 1, and *transmit_strat* =1,2,4 or 5 then the tracker adapts the LoRaWAN™ data rate for long payloads (so it is possible that the transmit strategy is not respected).
 
@@ -604,7 +606,7 @@ The functioning of these 2 parameters and accelerometer driver has been signific
 |                        |      |      |            | 1: 4G                                                                                                                                                                                                                                                                                                                   |
 |                        |      |      |            | 2: 8G                                                                                                                                                                                                                                                                                                                   |
 |                        |      |      |            | 3: 16G                                                                                                                                                                                                                                                                                                                  |
-| shock_detection    | 0x15 | none | 0, see note (3) | This parameter provides the configuration of the sensitivity of the shock detection. A value of 0 disables shock detection. _shock_detection_ value = (shock intensity (in g) - 1)/0.063.</br> **Note: When enabled _shock_detection_ sensitivity should be strictly less than *motion_sensitivity* parameter**. |
+| shock_detection    | 0x15 | none | 0-255 see | This parameter provides the configuration of the sensitivity of the shock detection. A value of 0 disables shock detection.</br> **See note(3) for more details**. |
 | motion_debounce    | 0x76 | none | 0 – 255      | **For MCU Firmware 2.3.x:**</br>Minimum duration of a movement to be detected if _motion_sensitivity_ parameter is set between 1 and 30. 0 triggers motion detection as soon as a single accelerometer sample is above the value set in _motion_sensitivity_. The duration of the motion debounce period is given by the formula: _motion_debounce_ \* 20 milli seconds</br>**For MCU Firmware 2.4.x and above:**</br>Please refer to [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes) for more details. |
 | motion_nb_pos   | 0x08 | none   | 0 - 20        | Number of positions to report during motion start/end events. </br> **Note: This parameter has been updated in MCU/Application FW2.3. In motion tracking mode: additional positions are done when the device goes to static (after the expiration of motion_duration). If set to 0, no positions are sent in motion start/end mode. Please refer to [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes) for more details.**  |
 | motion_duration     | 0x17 | second | 20 - 3600     | Period of time required to detect the end of a motion |
@@ -617,7 +619,7 @@ The functioning of these 2 parameters and accelerometer driver has been signific
 
 (2) The accelerometer chip details can be easily found by connecting the tracker with USB cable on [CLI terminal](/D-Reference/UsingCLI_R/) and entering **system accelero show**.
 
-(3) The range of *shock_detection* parameter depends on the accelerometer inside the tracker. The range is [0,111] for trackers using MMA8256FC and its [0,255] for trackers using LIS2DW. Please refer to the [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) to find out the accelerometer inside your tracker.
+(3) The range of *shock_detection* parameter depends on the accelerometer inside the tracker and also the MCU Firmware version. Please refer to the [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) to find out the accelerometer inside your tracker.
 :::
 
 ## Temperature monitoring parameters

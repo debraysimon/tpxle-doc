@@ -21,6 +21,7 @@ the following table.
 | Status request          | 0x09 | Requests the tracker status                     |
 | Set parameter           | 0x0B | Modify parameter(s)                             |
 | Clear motion percentage | 0x0C | Clear the motion percentage                     |
+| Short message service   | 0x0D | Short message service payload                   |
 | Debug command           | 0xFF | Reset the tracker                               |
 | Debug command           | 0xFF | Plays a melody                                  |
 | Debug command           | 0xFF | Trigger a heartbeat                             |

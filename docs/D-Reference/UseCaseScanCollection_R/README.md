@@ -6,7 +6,7 @@ We assume that the tracker is already connected to LoRaWAN network server and th
 
 ## Use Case
 
-The main use case of this feature is to track the equipment and the usage efficiency of tools. The Bluetooth beacons are placed on the tools and Abeeway tracker sniff the beacons along with the report of the tracker's position. The main advantanges of this feature are:
+The main use case of this feature is to track the equipment and the usage efficiency of tools. The Bluetooth beacons are placed on the tools and Abeeway tracker sniff the beacons along with the report of the tracker's position. The main advantages of this feature are:
 
 - Locate the lost equipment
 - access to an inventory of all assets
@@ -21,6 +21,7 @@ It is important that the tracker is placed without any obstructions (for ex. hum
 2. [Smart Badge](/B-Feature-Topics/SmartBadgePlacement_C/)
 3. [Industrial Tracker](/B-Feature-Topics/IndusTrackerPlacement_C/)
 4. [Compact Tracker](/B-Feature-Topics/CompactTrackerPlacement_C/)
+5. [Industrial Manageable ATEX Beacon](/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/)
 
 ## Tracker Firmware versions
 We highly recommend to update the tracker to the latest [MCU and BLE Firmware version](/D-Reference/IdentifyTrackerModel/). The firmware update instructions are [here](/D-Reference/FirmwareUpdateOverview_R/).

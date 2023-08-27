@@ -60,17 +60,17 @@ The associated LoRaWAN™ uplink message will contain the history of the activit
 
 ## Scan collection
 
-A scan collection is a WIFI or a BLE extra scan used to sense the environment around the tracker, which is done after the usual geolocation and reported via LoRaWAN&trade; just after the position.
+A scan collection is a WIFI or a BLE extra scan used to sense the environment around the tracker, which is done after the usual geolocation and reported via LoRaWAN&trade; just after the position. This feature is used to track equipment and tools for inventory purposes. For more information on scan collection, please see [Abeeway firmware: scan collection training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#abeeway-firmware-trainings) and [AN-003_ScanCollection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes).
 
 ## Angle detection
 
-Angle detection is a side operation, that triggers an event when the tracker angular position reaches a configured critical angle between a reference gravity vector and the current measured vector.
+Angle detection is a side operation, that triggers an event when the tracker angular position reaches a configured critical angle between a reference gravity vector and the current measured vector. For more information on this feature, please see [AN-010_Angle_Detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes).
 
-This feature uses the on-board accelerometer, also used for motion detection.
+This feature uses the on-board accelerometer which is also used for motion detection.
 
 ## BLE geozoning
 
-The BLE geozoning is a side operation, which periodically scans BLE beacons and reacts according to the type of beacons detected.
+The BLE geozoning is a side operation, which periodically scans BLE beacons and reacts according to the type of beacons detected. This feature can be used to detect hazard/safe zones and also adapt the UI of the tracker accordingly. For more information on BLE geozoning, please see [Abeeway firmware: BLE Geozoning training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#abeeway-firmware-trainings) and [AN-011_BLE_geozoning](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes).
 
 :::tip Note
 If the BLE geozoning feature is activated and the *collection_scan_type* parameter is set to BLE, then the BLE collection message is not sent after a position. Only the BLE geozoning collection message is sent.
@@ -82,5 +82,5 @@ The purpose of this feature is to configure the tracker as a BLE beacon. The sup
 -   [QUUPPA](https://www.quuppa.com/) allowing an accurate indoor geolocation, please see the [AN-012_Quuppa_beaconing](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for reference.
 -   Eddystone
 -   IBeacon
--   altBeacon
-The beaconing behavior is activated and configured by means of the [BLE Beaconing configuration parameters](../../Parameters-default-configuration/firmware-parameters.md#ble-beaconing-parameters).
+-   AltBeacon </br>
+The beaconing behavior is activated and configured by means of the [BLE Beaconing configuration parameters](../../Parameters-default-configuration/firmware-parameters.md#ble-beaconing-parameters). For more information on BLE beaconing feature, please see [Abeeway firmware: BLE beaconing training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#abeeway-firmware-trainings) and [AN-019_BLE Beacon transmission](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes).
