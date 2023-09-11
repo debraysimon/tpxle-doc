@@ -17,6 +17,7 @@ The operating mode can be remotely configured with a downlink LoRaWAN&trade; mes
 -   5- Off mode
 
 **Persistence**
+
 This configuration is initially modified in the device RAM in order to minimize number of flash writes in case of multiple concatenated commands. After 5 seconds, the last RAM configuration (including any other changes from remote or CLI commands) is saved to flash and will be used if the device resets.
 
 **Example**
