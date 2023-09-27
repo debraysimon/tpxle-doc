@@ -19,6 +19,12 @@ Here are the high-level features of the mobile app:
 <iframe width="712" height="515" src="https://www.youtube.com/embed/clisVxqFx6A?list=PLrtUhsI_mcGTbbZGGSc8sKOFgBRpJkP5Z" title="Abeeway Mobile APP demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </html>
 
+## Downloading the app
+
+The mobile app can be downloaded from the following links below:
+* **Android**: [here](https://play.google.com/store/apps/details?id=com.abeeway.mobile&hl=en_US&gl=US)
+* **iOS**: [here](https://apps.apple.com/au/app/abeeway-wifi-gps-tracking/id1572268239)
+    
 ## Prerequisites
 To complete this getting started guide, you need:
 * Abeeway trackers compatible with the mobile app. The app is compatible with the following tracker models.
@@ -52,9 +58,7 @@ To complete this getting started guide, you need:
 | Compact Tracker       | ProdCompact\_EU\_IN\_YYYYMMDD<sup>(1)</sup>  (Region: EU868) </br> ProdCompact\_US\_YYYYMMDD<sup>(1)</sup>   (Region: US915) </br> ProdCompact\_AS\_AU\_YYYYMMDD<sup>(1)</sup>  (Region: AS923/AU915) |
 | Industrial Tracker V2 | ProdIndustrial\_EU\_IN\_YYYYMMDD<sup>(1)</sup>  (Region: EU868) </br> ProdIndustrial\_US\_YYYYMMDD<sup>(1)</sup>  (Region: US915) </br> ProdIndustrial\_AS\_AU\_YYYYMMDD<sup>(1)</sup> (Region: AS923/AU915) |
 
-* Downloading the app
-  - Android: [here](https://play.google.com/store/apps/details?id=com.abeeway.mobile&hl=en_US&gl=US)
-  - iOS: [here](https://apps.apple.com/au/app/abeeway-wifi-gps-tracking/id1572268239)
+
   
 ::: warning Notes
 <sup>(1)</sup> YYYYMMDD corresponds to the date when the config files were generated
