@@ -48,6 +48,7 @@
 | **Smart badge** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/ErQx5OT96LVAuVqNst7mOtEBfDCxo7sbOntVT0smN5EVug?e=ukxqa3) |
 | **Industrial tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/Evkh40X6gVlHqFouOdAl4uIBj139ph9fzji835sewtlFVg?e=SVf1m4) |
 | **Compact tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
+| **Combo LPWAN Compact tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/Eqqg-R42cJlCuUzx6CAW2OEB1UJWRy8wv6zg0Lcz9JkdEg?e=YliDhz) |
 | **Industrial Manageable ATEX beacon** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
 | **Smart badge docking station** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EvDDLZ6OdzVGrv1O3J5P2aoBjlI_rQrBeaafiawmbFONgA?e=d1EOAw) |
 | **Geolocation module** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EgYK6e26eYdPkTnRaIdN15IBJ3W_Lvi4CEtB6_z6ZMRO8Q?e=73BkwT) |

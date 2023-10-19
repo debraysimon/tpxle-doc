@@ -260,6 +260,11 @@ module.exports = {
                           ],
                       },
                       {
+                        title: 'Combo LPWAN Compact Tracker',
+                        path: '/B-Feature-Topics/ComboCompactTracker_C/',
+                        collapsable: true,
+                      },
+                      {
                           title: 'Abeeway Device Manager',
                           path: '/B-Feature-Topics/AbeewayDeviceManager_C/',
                           collapsable: true,

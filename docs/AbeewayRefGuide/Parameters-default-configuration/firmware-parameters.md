@@ -452,7 +452,7 @@ Description:
 
 | Parameter            | ID   | Unit | Range             | Description                                                                                                         |
 | -------------------- | ---- | ---- | ----------------- | ------------------------------------------------------------------------------------------------------------------- |
-| config_flags         | 0x0D | none | 0 –0x1FFFFF       | Configuration flags:                                                                                                |
+| config_flags         | 0x0D | none | 0 –0x1FFFFF       | Configuration flags: </br>Example: see note (12)                                                                                                |
 |                      |      |      |                   | bit0: Set to enable the Frame pending mechanism                                                                                       |
 |                      |      |      |                   | bit1: Set to activate very long button press to switch to off mode                                                         |
 |                      |      |      |                   | bit2: Deprecated, to not used                                                                                       |
@@ -507,7 +507,15 @@ Description:
 (10) If bit 17 is set to 0, then the tracker does not adapt the LoRaWAN data rate for long payloads. In this case if the selected data rate does not support the payload size, then it is discarded.
 
 (11) This parameter should not be modified to have the right battery percentage in the uplinks. Provisioned value is always used.
+
+(12) Example value of config_flags=213055 (decimal). Bit 0 is Least significant bit (LSB).
+|config_flags (binary)|1 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0| 0| 1| 1|1| 1| 1| 1 |
+|-----|--| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|Bit number           |17 | 16 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7| 6| 5| 4|3| 2| 1| 0 |
+
 :::
+
+
 
 | Parameter                 | ID   | Unit   | Range            | Description                                                                                       |
 | ------------------------- | ---- | ------ | ---------------- | ------------------------------------------------------------------------------------------------- |
