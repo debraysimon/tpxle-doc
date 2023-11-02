@@ -84,3 +84,7 @@ The example video below demonstrates the operation.
 
 ### Datasheet
 The datasheet of the beacon can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
+
+
+### Beacon configuration
+The beacon can be easily configured using Abeeway tracking app, using CLI over USB or using Abeeway device manager. You can find more information [here](/D-Reference/UseCaseBleBeaconing_R/).
