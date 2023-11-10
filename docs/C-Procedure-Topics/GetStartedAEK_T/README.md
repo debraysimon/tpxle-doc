@@ -2,7 +2,7 @@
 This topic guides you through all the steps required to get started with your:
 * [Abeeway low-power evaluation kit for public network](https://market.thingpark.com/abeeway-low-power-asset-tracking-evaluation-kit-public-network-eu.html)<br/>
 
-* [Abeeway low-power evaluation kit for private network]([https://market.thingpark.com/abeeway-low-power-asset-tracking-evaluation-kit-private-network.html)
+* [Abeeway low-power evaluation kit for private network](https://market.thingpark.com/asset-tracking-evaluation-kit-private-network)
 
 
 ## What you will learn
