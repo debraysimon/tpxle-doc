@@ -47,7 +47,7 @@ To complete this getting started guide, you need:
   The mobile app version can be found on the home screen (See below) or from the Android/Apple app store where the mobile app was downloaded.
   <img src="./images/AppVersion.png" width="300px" border="1" />
 
-* Tracker Configuration. We recommend that before the tracker is added to the mobile app. It is flashed with the default configuration files. Before adding the tracker to the mobile app, it is important that the trackers are flashed with minimum MCU FW: 2.2.0 and BLE FW: 3.3.0 respectively. 
+* Tracker Configuration. We recommend that before the tracker is added to the mobile app, It is flashed with the default configuration files and the latest firmware version.
   - The update of the MCU Firmware can be carried out by the [Abeeway updater](../../D-Reference/AbeewayFirmwareUpdate_R/)
   - The MCU Firmware binary & config files are available [here](https://actilitysa.sharepoint.com/:w:/t/aby/EcuMNrIEoB9HvcIkCTXu2TkBTQQ49cYaQA2y1Wa6TmFmNg?e=Z1nEYc)
 
