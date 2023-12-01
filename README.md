@@ -1,49 +1,41 @@
+# Website
 
-y# Overview
-The Thingpark Location Engine documentation is a VuePress project.
-All modifications could be done on all Markdown files, available in the docs folder.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Prerequisites
-
-Before running the project, you need to install the following:
-* [NodeJS](https://nodejs.org/en/download/), needed to compile the VuePress project into an HTML website.
-* [VisualStudio Code](https://code.visualstudio.com/download) or other IDE.
-
-## Running the project
-
-The following commands are all commands used to run the project.
-These commands can be found in the package.json. 
-
-* If you want to execute all the commands from the package.json, run the following command: ```npm run```
-
-```json
-{
-  "docs:build:abeeway": "vuepress build docs abeeway",
-  "docs:dev:abeeway": "vuepress dev docs abeeway",
-  "docs:build": "vuepress build docs",
-  "docs:dev": "vuepress dev docs"
-}
-```
-
-Follow these steps in order to get your project working:
-
-1. Install all the dependencies:
+### Installation
 
 ```
-    npm install
-```
-2. Build the project with the following command:
-
-```
-    npm run-script docs:build
-```
-   
-3. Open a new terminal and run the project with the following commands:
-
-```
-    npm run-script docs:dev
+$ yarn
 ```
 
-* You can access to the website by the link given in your terminal.
+### Local Development
 
-![terminal_link](./img/terminal_link.png)
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

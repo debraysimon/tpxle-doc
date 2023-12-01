@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a06d6ec-1ab1-4c1d-95b8-ab0bafc8add9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/Overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/configuration-default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/default-delivered-ci.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/default-delivered-mt-sb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/factory-default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/firmware-parameters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/images/image16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/Parameters-default-configuration/images/image17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/ble-communication-interface/connection-pairing/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/ble-communication-interface/fw-update-client-app/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/ble-communication-interface/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/cli-interface/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image2_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image3_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/compact-industrial/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/getting-started/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/images/image010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/micro-tracker/images/image015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/micro-tracker/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/smart-badge/images/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/devices-characteristics/smart-badge/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/ack-token/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/angle-detection-command/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/clear-motion-percentage/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/debug-commands/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/operational-mode-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/parameters-configuration/images/image16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/parameters-configuration/images/image17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/parameters-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/position-on-demand/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/proximity-control/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/request-device-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/request-temp-status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/short-message-service/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/sos-setup/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/status-request/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/build-wifi-gps-database/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/build-wifi-gps-database/images/wifi-active-scan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/build-wifi-gps-database/images/wifi-passive-scan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/default-dynamic-profiles/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/event-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/low-battery-management/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/main-operating-modes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/motion-detection/images/image21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/motion-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/network-timeout-monitoring/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/power-consumption/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/power-consumption/images/batteryPercentage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/power-consumption/images/consumptionVerify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/power-consumption/images/resetBattery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/shock-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/short-message-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/side-operations/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/sos/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/startup-process/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/temperature-monitoring/images/image029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/temperature-monitoring/images/image030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/temperature-monitoring/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/user-interfaces/images/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/user-interfaces/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/wifi-beaconing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/wifi-beaconing/images/wifi-active-scan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/functioning/wifi-beaconing/images/wifi-passive-scan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/main-side-operations/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/geolocation-strategy-modes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/introduction/features/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/introduction/product-description/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/introduction/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/introduction/typical-apps/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/tracker-reset/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/activity-status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/ble-mac-address/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/collection-scan/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/common-message-header/images/image14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/common-message-header/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/debug-payloads/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/encoded-form/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/event/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/extended-position/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/frame-pending/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/heartbeat/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/lorawan-ul-transmission/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/position/images/image15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/position/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/proximity/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/shock-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/short-message-service/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/shutdown/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide/uplink-messages/status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/ble-communication-interface/connection-pairing/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/ble-communication-interface/fw-update-client-app/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/ble-communication-interface/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/cli-interface/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/default-config-delivered-ci/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/default-config-delivered-ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image2_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image3_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/getting-started/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/images/image010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/micro-tracker/images/image015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/micro-tracker/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/smart-badge/images/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/devices-characteristics/smart-badge/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/ack-token/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/angle-detection-command/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/debug-commands/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/operational-mode-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/parameters-configuration/images/image16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/parameters-configuration/images/image17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/parameters-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/position-on-demand/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/proximity-control/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/request-device-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/request-temp-status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/sos-setup/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/status-request/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/downlink-messages/two-complement-encoding/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/factory-default-config/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/default-dynamic-profiles/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/event-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/low-battery-management/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/main-operating-modes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/motion-detection/images/image21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/motion-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/network-timeout-monitoring/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/shock-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/side-operations/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/sos/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/startup-process/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/temperature-monitoring/images/image029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/temperature-monitoring/images/image030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/temperature-monitoring/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/user-interfaces/images/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/functioning/user-interfaces/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/main-side-operations/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/geolocation-strategy-modes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/introduction/features/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/introduction/product-description/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/introduction/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/introduction/typical-apps/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/tracker-reset/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/activity-status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/ble-mac-address/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/collection-scan/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/common-message-header/images/image14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/common-message-header/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/debug-payloads/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/encoded-form/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/event/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/extended-position/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/frame-pending/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/heartbeat/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/lorawan-ul-transmission/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/position/images/image15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/position/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/proximity/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/shock-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/shutdown/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.3/uplink-messages/status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/Overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/configuration-default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/default-delivered-ci.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/default-delivered-mt-sb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/factory-default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/firmware-parameters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/images/image16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/Parameters-default-configuration/images/image17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/ble-communication-interface/connection-pairing/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/ble-communication-interface/fw-update-client-app/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/ble-communication-interface/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/cli-interface/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image2_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image3_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/getting-started/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/images/image010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/micro-tracker/images/image015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/micro-tracker/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/smart-badge/images/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/devices-characteristics/smart-badge/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/ack-token/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/angle-detection-command/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/clear-motion-percentage/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/debug-commands/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/operational-mode-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/parameters-configuration/images/image16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/parameters-configuration/images/image17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/parameters-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/position-on-demand/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/proximity-control/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/request-device-configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/request-temp-status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/sos-setup/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/status-request/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/downlink-messages/two-complement-encoding/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/default-dynamic-profiles/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/event-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/low-battery-management/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/main-operating-modes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/motion-detection/images/image21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/motion-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/network-timeout-monitoring/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/power-consumption/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/power-consumption/images/batteryPercentage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/power-consumption/images/consumptionVerify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/power-consumption/images/resetBattery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/shock-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/side-operations/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/sos/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/startup-process/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/temperature-monitoring/images/image029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/temperature-monitoring/images/image030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/temperature-monitoring/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/user-interfaces/images/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/functioning/user-interfaces/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/main-side-operations/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/geolocation-strategy-modes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/introduction/features/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/introduction/product-description/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/introduction/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/introduction/typical-apps/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/tracker-reset/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/activity-status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/ble-mac-address/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/collection-scan/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/common-message-header/images/image14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/common-message-header/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/configuration/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/debug-payloads/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/encoded-form/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/event/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/extended-position/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/frame-pending/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/heartbeat/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/lorawan-ul-transmission/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/position/images/image15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/position/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/proximity/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/shock-detection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/shutdown/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/AbeewayRefGuide_2.4/uplink-messages/status/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/AbeewayDeviceManager_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/ComboCompactTracker_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/ComboCompactTracker_C/images/CompactTrackerPlacement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/ComboCompactTracker_C/images/CompactTrackerPlacement2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/ComboCompactTracker_C/images/CompactTrackerPlacement_594x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/ComboCompactTracker_C/images/image_azure_certification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/CompactTrackerPlacement_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/CompactTrackerPlacement_C/images/CompactTrackerPlacement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/CompactTrackerPlacement_C/images/CompactTrackerPlacement_594x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/CompactTracker_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/CompactTracker_C/images/CompactTrackerPlacement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/CompactTracker_C/images/CompactTrackerPlacement_594x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/CompactTracker_C/images/image_azure_certification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleDocLib_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleEVKIntro_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleEVKIntro_C/images/evk_block_diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleEVKIntro_C/images/jumpers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleEVKIntro_C/images/pcb_evk_V2.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleFWIntro_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleFWIntro_C/images/GeolocModule_FW_diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleFWIntro_C/images/MicrosoftTeams-image (1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModuleHWIntro_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModule_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/GeolocModule_C/images/geoloc_module_block_diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndusTrackerPlacement_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndusTrackerPlacement_C/images/IndusTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialManageableATEXBeacon/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialManageableATEXBeacon/images/CompactTrackerPlacement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialManageableATEXBeacon/images/CompactTrackerPlacement_594x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialManageableATEXBeacon/images/image_azure_certification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/images/CompactTrackerPlacement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/images/CompactTrackerPlacement_594x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialTracker_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialTracker_C/images/Industrial-Tracker-980x1024_466x486.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IndustrialTracker_C/images/image_azure_certification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_0_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_0_C/images/3rdpartyNScomponents_747x1017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/101-tpcp-signUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/102-tpcp-signIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/103-tpcp-createApp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/103-tpcp-createApp01_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/104-tpcp-createApp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/105-tpcp-createDevice01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/105-tpcp-createDevice01_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/106-tpcp-createDevice02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/107-tpcp-createDevice03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/201-dxapi-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/202-dxapi-loggedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/202-dxapi-loggedin_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/203-dxapi-locationAPI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/203-dxapi-locationAPI_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/204-dxapi-binderConfigPost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/204-dxapi-binderConfigPost_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/205-dxapi-binderConfigPostTryitout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/205-dxapi-binderConfigPostTryitout_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/206-dxapi-binderConfigGet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/206-dxapi-binderConfigGet_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/207-dxapi-binderConfigGetTryitout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/207-dxapi-binderConfigGetTryitout_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/301-adm-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/302-adm-selectDevice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/302-adm-selectDevice_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/303-adm-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/303-adm-map_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/304-adm-deviceConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/304-adm-deviceConfiguration_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/401-helium-integration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/401-helium-integration_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/402-helium-integration-http.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/402-helium-integration-http_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/501-ttn-apps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/501-ttn-xapi-key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/501-ttn-xapi-key_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/502-ttn-webhook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/502-ttn-webhook_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/503-ttn-custom-webhook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/504-ttn-custom-webhook-config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_1_C/images/504-ttn-custom-webhook-config_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/Integrate3PNS_2_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IntegrateAppwithTPLocation_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IntegrateAppwithTPLocation_C/images/Aoption.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IntegrateAppwithTPLocation_C/images/Boption.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/IntegrateAppwithTPLocation_C/images/LP-GPS-ABEEWAY_08options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/MicroTrackerPlacement_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/MicroTrackerPlacement_C/images/MicrotrackerPlacement_450x361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/MicroTracker_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/MicroTracker_C/images/MicrotrackerHWarrows_450x234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/MicroTracker_C/images/image_azure_certification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/SmartBadgePlacement_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/SmartBadgePlacement_C/images/smartBadgePlacement_521x330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/SmartBadge_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/SmartBadge_C/images/image_azure_certification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/SmartBadge_C/images/smartBadgePlacement_450x234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/TP-Location_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/TP-Location_C/images/LP-GPS-ABEEWAY_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/TrackerOverview/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/UseTPLocationAPI_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/UseTPLocationAPI_C/images/GenerateToken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/UseTPLocationAPI_C/images/PushConnectorConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/B-Feature-Topics/UseTPLocationAPI_C/images/TPXLEDocSwagger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ChangeTrackerConfiguration_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ChangeTrackerConfiguration_T/images/ADAConfigTabIndusTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ConfigureNIC_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DecodeDownlinkMessage_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DecodeUplinkMessage_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/images/ADAConfigTabIndusTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/images/ADADevicesTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/images/ADASelectTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/images/CompactTrackerPlacement_594x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/images/IndusTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/images/MicrotrackerPlacement_450x361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackersAEK_T/images/smartBadgePlacement_521x330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/images/ADAConfigTabIndusTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/images/ADADevicesTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/images/ADASelectTracker_1058x542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/images/CompactTrackerPlacement_594x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/images/IndusTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/images/MicrotrackerPlacement_450x361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/DeployTrackers_T/images/smartBadgePlacement_521x330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/EncodeDownlinkMessage_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_ble_fw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_fw_abw_updater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_mcu_fw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedAEK_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/AppVersion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/KeycloackLoginMobileApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/PushConnectorConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/addtrackerWorkflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/advancedSettings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appCreateAccount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appDistributor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appDistributorSelect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appLocationPermission.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appLogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appRegisterPersonalDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/appReportProblem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/developerMode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/trackerAlerts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/trackerSharing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetStartedMobileApp_T/images/trackerView.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetToken_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step 2 Get the token for ThingPark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step 2 Get the token for ThingPark_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step2CopyToken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step2GetTheTokenNew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/NetworkServerOverview/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTracker3PNS_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTracker3PNS_T/images/NewApplication_TTN_LoRAWAN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTracker3PNS_T/images/open_register_device_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTracker3PNS_T/images/register_ttn_device.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerOverview_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPE_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPECreateDevice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPECreateDevice_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPESelecGenericApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPESetApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPW_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPW_T/images/ASRP_DestinationFrame_675x187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPW_T/images/CreateDevice2_653x52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPW_T/images/DeviceManagerArrow_177x177.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPW_T/images/NewASRP_DB_680x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPW_T/images/NewASRP_LoRAWAN_687x193.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ProvisionTrackerTPW_T/images/NewDeviceDB_652x972.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ReDoJoinRequestBeacon_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ReDoJoinRequestCT_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ReDoJoinRequestIND_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ReDoJoinRequestMT_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ReDoJoinRequestSB_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/RerouteUplinks_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/RerouteUplinks_T/images/Integration3PNS-TTN-Norbertv2/Step 4 Route the uplinks from.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsADM_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsADM_T/images/ADADevicesTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsADM_T/images/ADADevicesTabFWVersion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsADM_T/images/ADAMapTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsADM_T/images/ADAPerfTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsADM_T/images/ADASelectTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsADM_T/images/retrieve_mcu_fw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsAEK_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsAEK_T/images/ADADevicesTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsAEK_T/images/ADAMapTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsAEK_T/images/ADAPerfTab_1078x475.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssetsAEK_T/images/ADASelectTracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssets_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssets_T/images/ADADevicesTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssets_T/images/ADAMapTab_1079x505.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssets_T/images/ADAPerfTab_1078x475.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/TrackAssets_T/images/ADASelectTracker_1058x542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/UseAbeewayDriver_T/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/UseAbeewayDriver_T/images/ADM_device_configuration_encode_decode_payloads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/C-Procedure-Topics/UseAbeewayDriver_T/images/AbeewayDriver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_0_D_CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_0_G_CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_D_CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_D_SB_MTV2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_G_CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_G_SB_MTV2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/IECEx_zone_0_D_CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayAtexMarking_R/images/IECEx_zone_0_G_CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/AbeewayFirmwareUpdate_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/atex_marking_explanation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/table_atex_categories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/table_equipment_groups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/table_gas_groups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/table_ingress_protection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/table_protection_concepts_dust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/table_protection_concepts_gas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DecodingAtexMarking_R/images/table_temperature_classification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DocLibrary_R/AbeewayTrackers_R.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DocLibrary_R/PrepareTrackersFirstUse_R.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DocLibrary_R/SuggestedJourney_R.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DocLibrary_R/ThingParkLocationEngine_R.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/DocLibrary_R/images/PrepareTrackersFirstUse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FAQ_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FAQ_R/images/abeewaysupportemail_251x22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateMobileApp_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateMobileApp_R/images/AppFwUpdateEndUser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateMobileApp_R/images/addtracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateMobileApp_R/images/addtrackerWorkflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOnly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOptions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateMobileApp_R/images/forgetBluetoothbond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/FirmwareUpdateOverview_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/IdentifyInstalledFirmware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/IdentifyInstalledFirmware/images/PayloadDecoderFirmwareVersion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/IdentifyTrackerModel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/KnownIssues_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/LocationTemplates_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/MicroTrackerCommands_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/PowerConsumption_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/PowerConsumption_R/images/ADAPowerConsumption.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/ReleaseNotes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/SmartBadgeCommands_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/ThingParkLocationURLs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/TrackersDoc_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/TrackersDoc_R/images/PrepareTrackersFirstUse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_1_recovered.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/GeojsonFile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/SetUpGeofencing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/Steps to connect to NIT from community.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/TPXLEpushConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleBeaconing_R/images/~$AConfiguration_1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_1_recovered.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/GeojsonFile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/SetUpGeofencing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/Steps to connect to NIT from community.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/TPXLEpushConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseBleIndoorGeolocation_R/images/~$AConfiguration_1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseCustomizeJoinEUI/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseGPSPositioning_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseGPSPositioning_R/images/ADMDeviceConfiration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseGPSPositioning_R/images/PrepareTrackersFirstUse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseGPSPositioning_R/images/SetUpGeofencing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseGPSPositioning_R/images/TPXLEpushConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseGPSPositioning_R/images/TeraTermTimestampLogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UseCaseScanCollection_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UsingCLI_R/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/UsingCLI_R/images/TeraTermTimestampLogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/WhatIsAtex_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/WhatIsAtex_R/images/atex_industries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-alarm-geofence-entering.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-alarm-geofence-leaving.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-configuration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-entry.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-exit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-hazard.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-safe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geoloc-start.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-motion-end.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-motion-start.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-sos-mode-start.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-sos-mode-stop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-heartbeat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-ble.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-gps.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-gps_timeout.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-lpgps-no_position.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-lpgps-unresolved.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-lpgps.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-wifi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-scancollection-ble-eddystone-id.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-scancollection-ble-mac.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-scancollection-wifi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-shock_detection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-shutdown.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/Home/images/FAQbig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/Home/images/Icon-Forum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/Home/images/Icon-Gears.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/Home/images/Icon-PDFs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/Home/images/Main-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Other/Home/images/roue-dentee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page.md/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompactTrackerPlacement2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/DesktopBanner-abeeway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/DesktopBanner-actility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/Overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/configuration-default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/default-delivered-ci.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/default-delivered-mt-sb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/factory-default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/firmware-parameters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/images/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/Parameters-default-configuration/images/image17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/ble-communication-interface/connection-pairing/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/ble-communication-interface/fw-update-client-app/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/ble-communication-interface/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/cli-interface/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image2_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/compact-industrial/images/image3_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/compact-industrial/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/getting-started/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/images/image010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/micro-tracker/images/image015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/micro-tracker/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/smart-badge/images/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/devices-characteristics/smart-badge/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/ack-token/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/angle-detection-command/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/clear-motion-percentage/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/debug-commands/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/operational-mode-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/parameters-configuration/images/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/parameters-configuration/images/image17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/parameters-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/position-on-demand/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/proximity-control/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/request-device-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/request-temp-status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/short-message-service/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/sos-setup/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/status-request/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/downlink-messages/two-complement-encoding/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/build-wifi-gps-database/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/build-wifi-gps-database/images/wifi-active-scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/build-wifi-gps-database/images/wifi-passive-scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/default-dynamic-profiles/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/event-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/low-battery-management/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/main-operating-modes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/motion-detection/images/image21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/motion-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/network-timeout-monitoring/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/power-consumption/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/power-consumption/images/batteryPercentage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/power-consumption/images/consumptionVerify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/power-consumption/images/resetBattery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/shock-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/short-message-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/side-operations/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/sos/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/startup-process/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/temperature-monitoring/images/image029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/temperature-monitoring/images/image030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/temperature-monitoring/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/user-interfaces/images/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/user-interfaces/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/wifi-beaconing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/wifi-beaconing/images/wifi-active-scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/functioning/wifi-beaconing/images/wifi-passive-scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/images/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/geolocation-technology/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/main-side-operations/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/geolocation-strategy-modes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/introduction/features/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/introduction/product-description/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/introduction/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/introduction/typical-apps/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/tracker-reset/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/activity-status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/ble-mac-address/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/collection-scan/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/common-message-header/images/image14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/common-message-header/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/debug-payloads/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/encoded-form/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/event/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/extended-position/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/frame-pending/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/heartbeat/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/lorawan-ul-transmission/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/position/images/image15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/position/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/proximity/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/shock-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/short-message-service/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/shutdown/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide/uplink-messages/status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/ble-communication-interface/connection-pairing/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/ble-communication-interface/fw-update-client-app/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/ble-communication-interface/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/cli-interface/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/default-config-delivered-ci/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/default-config-delivered-ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image2_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/images/image3_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/compact-industrial/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/getting-started/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/images/image010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/micro-tracker/images/image015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/micro-tracker/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/smart-badge/images/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/devices-characteristics/smart-badge/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/ack-token/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/angle-detection-command/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/debug-commands/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/operational-mode-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/parameters-configuration/images/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/parameters-configuration/images/image17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/parameters-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/position-on-demand/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/proximity-control/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/request-device-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/request-temp-status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/sos-setup/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/status-request/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/downlink-messages/two-complement-encoding/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/factory-default-config/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/default-dynamic-profiles/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/event-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/low-battery-management/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/main-operating-modes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/motion-detection/images/image21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/motion-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/network-timeout-monitoring/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/shock-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/side-operations/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/sos/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/startup-process/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/temperature-monitoring/images/image029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/temperature-monitoring/images/image030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/temperature-monitoring/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/user-interfaces/images/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/functioning/user-interfaces/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/images/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/geolocation-technology/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/main-side-operations/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/geolocation-strategy-modes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/introduction/features/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/introduction/product-description/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/introduction/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/introduction/typical-apps/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/tracker-reset/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/activity-status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/ble-mac-address/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/collection-scan/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/common-message-header/images/image14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/common-message-header/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/debug-payloads/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/encoded-form/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/event/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/extended-position/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/frame-pending/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/heartbeat/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/lorawan-ul-transmission/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/position/images/image15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/position/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/proximity/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/shock-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/shutdown/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.3/uplink-messages/status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/Overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/configuration-default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/default-delivered-ci.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/default-delivered-mt-sb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/factory-default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/firmware-parameters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/images/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/Parameters-default-configuration/images/image17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/ble-communication-interface/connection-pairing/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/ble-communication-interface/fw-update-client-app/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/ble-communication-interface/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/cli-interface/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image2_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/images/image3_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/compact-industrial/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/getting-started/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/images/image010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/micro-tracker/images/image015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/micro-tracker/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/smart-badge/images/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/devices-characteristics/smart-badge/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/ack-token/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/angle-detection-command/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/clear-motion-percentage/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/debug-commands/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/operational-mode-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/parameters-configuration/images/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/parameters-configuration/images/image17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/parameters-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/position-on-demand/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/proximity-control/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/request-device-configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/request-temp-status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/sos-setup/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/status-request/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/downlink-messages/two-complement-encoding/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/default-dynamic-profiles/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/event-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/low-battery-management/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/main-operating-modes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/motion-detection/images/image21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/motion-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/network-timeout-monitoring/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/power-consumption/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/power-consumption/images/batteryPercentage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/power-consumption/images/consumptionVerify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/power-consumption/images/resetBattery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/shock-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/side-operations/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/sos/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/startup-process/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/temperature-monitoring/images/image029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/temperature-monitoring/images/image030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/temperature-monitoring/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/user-interfaces/images/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/functioning/user-interfaces/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/images/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/geolocation-technology/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/main-side-operations/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/geolocation-strategy-modes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/introduction/features/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/introduction/product-description/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/introduction/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/introduction/typical-apps/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/tracker-reset/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/activity-status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/ble-mac-address/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/collection-scan/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/common-message-header/images/image14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/common-message-header/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/configuration/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/debug-payloads/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/encoded-form/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/event/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/extended-position/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/frame-pending/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/heartbeat/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/lorawan-ul-transmission/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/position/images/image15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/position/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/proximity/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/shock-detection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/shutdown/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AbeewayRefGuide_2.4/uplink-messages/status/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/AbeewayDeviceManager_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/ComboCompactTracker_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/ComboCompactTracker_C/images/CompactTrackerPlacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/ComboCompactTracker_C/images/CompactTrackerPlacement2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/ComboCompactTracker_C/images/CompactTrackerPlacement_594x286.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/ComboCompactTracker_C/images/image_azure_certification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/CompactTrackerPlacement_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/CompactTrackerPlacement_C/images/CompactTrackerPlacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/CompactTrackerPlacement_C/images/CompactTrackerPlacement_594x286.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/CompactTracker_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/CompactTracker_C/images/CompactTrackerPlacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/CompactTracker_C/images/CompactTrackerPlacement_594x286.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/CompactTracker_C/images/image_azure_certification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleDocLib_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleEVKIntro_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleEVKIntro_C/images/evk_block_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleEVKIntro_C/images/jumpers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleEVKIntro_C/images/pcb_evk_V2.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleFWIntro_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleFWIntro_C/images/GeolocModule_FW_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleFWIntro_C/images/MicrosoftTeams-image (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModuleHWIntro_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModule_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/GeolocModule_C/images/geoloc_module_block_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndusTrackerPlacement_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndusTrackerPlacement_C/images/IndusTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialManageableATEXBeacon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialManageableATEXBeacon/images/CompactTrackerPlacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialManageableATEXBeacon/images/CompactTrackerPlacement_594x286.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialManageableATEXBeacon/images/image_azure_certification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/images/CompactTrackerPlacement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/images/CompactTrackerPlacement_594x286.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialTracker_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialTracker_C/images/Industrial-Tracker-980x1024_466x486.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IndustrialTracker_C/images/image_azure_certification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_0_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_0_C/images/3rdpartyNScomponents_747x1017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/101-tpcp-signUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/102-tpcp-signIn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/103-tpcp-createApp01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/103-tpcp-createApp01_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/104-tpcp-createApp02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/105-tpcp-createDevice01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/105-tpcp-createDevice01_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/106-tpcp-createDevice02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/107-tpcp-createDevice03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/201-dxapi-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/202-dxapi-loggedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/202-dxapi-loggedin_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/203-dxapi-locationAPI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/203-dxapi-locationAPI_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/204-dxapi-binderConfigPost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/204-dxapi-binderConfigPost_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/205-dxapi-binderConfigPostTryitout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/205-dxapi-binderConfigPostTryitout_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/206-dxapi-binderConfigGet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/206-dxapi-binderConfigGet_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/207-dxapi-binderConfigGetTryitout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/207-dxapi-binderConfigGetTryitout_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/301-adm-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/302-adm-selectDevice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/302-adm-selectDevice_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/303-adm-map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/303-adm-map_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/304-adm-deviceConfiguration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/304-adm-deviceConfiguration_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/401-helium-integration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/401-helium-integration_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/402-helium-integration-http.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/402-helium-integration-http_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/501-ttn-apps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/501-ttn-xapi-key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/501-ttn-xapi-key_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/502-ttn-webhook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/502-ttn-webhook_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/503-ttn-custom-webhook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/504-ttn-custom-webhook-config.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_1_C/images/504-ttn-custom-webhook-config_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/Integrate3PNS_2_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IntegrateAppwithTPLocation_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IntegrateAppwithTPLocation_C/images/Aoption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IntegrateAppwithTPLocation_C/images/Boption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/IntegrateAppwithTPLocation_C/images/LP-GPS-ABEEWAY_08options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/MicroTrackerPlacement_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/MicroTrackerPlacement_C/images/MicrotrackerPlacement_450x361.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/MicroTracker_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/MicroTracker_C/images/MicrotrackerHWarrows_450x234.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/MicroTracker_C/images/image_azure_certification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/SmartBadgePlacement_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/SmartBadgePlacement_C/images/smartBadgePlacement_521x330.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/SmartBadge_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/SmartBadge_C/images/image_azure_certification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/SmartBadge_C/images/smartBadgePlacement_450x234.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/TP-Location_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/TP-Location_C/images/LP-GPS-ABEEWAY_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/TrackerOverview/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/UseTPLocationAPI_C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/UseTPLocationAPI_C/images/GenerateToken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/UseTPLocationAPI_C/images/PushConnectorConfiguration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/B-Feature-Topics/UseTPLocationAPI_C/images/TPXLEDocSwagger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ChangeTrackerConfiguration_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ChangeTrackerConfiguration_T/images/ADAConfigTabIndusTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ConfigureNIC_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ConfigureNIC_T/images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DecodeDownlinkMessage_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DecodeUplinkMessage_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/images/ADAConfigTabIndusTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/images/ADADevicesTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/images/ADASelectTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/images/CompactTrackerPlacement_594x286.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/images/IndusTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/images/MicrotrackerPlacement_450x361.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackersAEK_T/images/smartBadgePlacement_521x330.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/images/ADAConfigTabIndusTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/images/ADADevicesTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/images/ADASelectTracker_1058x542.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/images/CompactTrackerPlacement_594x286.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/images/IndusTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/images/MicrotrackerPlacement_450x361.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/DeployTrackers_T/images/smartBadgePlacement_521x330.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/EncodeDownlinkMessage_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_ble_fw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_fw_abw_updater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_mcu_fw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedAEK_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/AppVersion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/KeycloackLoginMobileApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/PushConnectorConfiguration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/addtrackerWorkflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/advancedSettings.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appCreateAccount.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appDistributor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appDistributorSelect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appHistory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appLocationPermission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appLogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appRegisterPersonalDetails.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/appReportProblem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/developerMode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/trackerAlerts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/trackerSharing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetStartedMobileApp_T/images/trackerView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetToken_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step 2 Get the token for ThingPark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step 2 Get the token for ThingPark_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step2CopyToken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/GetToken_T/images/Integration3PNS-TTN-Norbertv2/Step2GetTheTokenNew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 1 Installing Node RED_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/InstallNodeRED_T/images/Integration3PNS-TTN-Norbertv2/Option 2 Installing Node RED_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/NetworkServerOverview/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTracker3PNS_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTracker3PNS_T/images/NewApplication_TTN_LoRAWAN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTracker3PNS_T/images/open_register_device_menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTracker3PNS_T/images/register_ttn_device.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerOverview_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPE_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPECreateDevice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPECreateDevice_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPESelecGenericApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPE_T/images/TPESetApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPW_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPW_T/images/ASRP_DestinationFrame_675x187.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPW_T/images/CreateDevice2_653x52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPW_T/images/DeviceManagerArrow_177x177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPW_T/images/NewASRP_DB_680x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPW_T/images/NewASRP_LoRAWAN_687x193.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ProvisionTrackerTPW_T/images/NewDeviceDB_652x972.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ReDoJoinRequestBeacon_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ReDoJoinRequestCT_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ReDoJoinRequestIND_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ReDoJoinRequestMT_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ReDoJoinRequestSB_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/RerouteUplinks_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/RerouteUplinks_T/images/Integration3PNS-TTN-Norbertv2/Step 4 Route the uplinks from.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsADM_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsADM_T/images/ADADevicesTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsADM_T/images/ADADevicesTabFWVersion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsADM_T/images/ADAMapTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsADM_T/images/ADAPerfTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsADM_T/images/ADASelectTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsADM_T/images/retrieve_mcu_fw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsAEK_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsAEK_T/images/ADADevicesTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsAEK_T/images/ADAMapTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsAEK_T/images/ADAPerfTab_1078x475.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssetsAEK_T/images/ADASelectTracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssets_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssets_T/images/ADADevicesTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssets_T/images/ADAMapTab_1079x505.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssets_T/images/ADAPerfTab_1078x475.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/TrackAssets_T/images/ADASelectTracker_1058x542.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/UseAbeewayDriver_T/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/UseAbeewayDriver_T/images/ADM_device_configuration_encode_decode_payloads.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/C-Procedure-Topics/UseAbeewayDriver_T/images/AbeewayDriver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_0_D_CT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_0_G_CT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_D_CT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_D_SB_MTV2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_G_CT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/ATEX_zone_II_G_SB_MTV2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/IECEx_zone_0_D_CT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayAtexMarking_R/images/IECEx_zone_0_G_CT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/AbeewayFirmwareUpdate_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/atex_marking_explanation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/table_atex_categories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/table_equipment_groups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/table_gas_groups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/table_ingress_protection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/table_protection_concepts_dust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/table_protection_concepts_gas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DecodingAtexMarking_R/images/table_temperature_classification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DocLibrary_R/AbeewayTrackers_R.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DocLibrary_R/PrepareTrackersFirstUse_R.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DocLibrary_R/SuggestedJourney_R.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DocLibrary_R/ThingParkLocationEngine_R.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/DocLibrary_R/images/PrepareTrackersFirstUse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FAQ_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FAQ_R/images/abeewaysupportemail_251x22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateMobileApp_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateMobileApp_R/images/AppFwUpdateEndUser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateMobileApp_R/images/addtracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateMobileApp_R/images/addtrackerWorkflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOnly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOptions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateMobileApp_R/images/forgetBluetoothbond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/FirmwareUpdateOverview_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/IdentifyInstalledFirmware/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/IdentifyInstalledFirmware/images/PayloadDecoderFirmwareVersion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/IdentifyTrackerModel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/KnownIssues_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/LocationTemplates_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/MicroTrackerCommands_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/PowerConsumption_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/PowerConsumption_R/images/ADAPowerConsumption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/ReleaseNotes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/SmartBadgeCommands_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/ThingParkLocationURLs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/TrackersDoc_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/TrackersDoc_R/images/PrepareTrackersFirstUse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_1_recovered.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/ADAConfiguration_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/GeojsonFile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/SetUpGeofencing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/Steps to connect to NIT from community.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/TPXLEpushConnector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleBeaconing_R/images/~$AConfiguration_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_1_recovered.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/ADAConfiguration_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/GeojsonFile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/SetUpGeofencing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/Steps to connect to NIT from community.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/TPXLEpushConnector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseBleIndoorGeolocation_R/images/~$AConfiguration_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseCustomizeJoinEUI/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseGPSPositioning_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseGPSPositioning_R/images/ADMDeviceConfiration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseGPSPositioning_R/images/PrepareTrackersFirstUse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseGPSPositioning_R/images/SetUpGeofencing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseGPSPositioning_R/images/TPXLEpushConnector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseGPSPositioning_R/images/TeraTermTimestampLogs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UseCaseScanCollection_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UsingCLI_R/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/UsingCLI_R/images/TeraTermTimestampLogs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/WhatIsAtex_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/WhatIsAtex_R/images/atex_industries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-alarm-geofence-entering.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-alarm-geofence-leaving.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-configuration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-entry.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-exit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-hazard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geofencing-safe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-geoloc-start.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-motion-end.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-motion-start.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-sos-mode-start.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-event-sos-mode-stop.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-heartbeat.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-ble.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-gps.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-gps_timeout.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-lpgps-no_position.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-lpgps-unresolved.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-lpgps.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-wifi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-scancollection-ble-eddystone-id.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-scancollection-ble-mac.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-scancollection-wifi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-shock_detection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-shutdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home/images/FAQbig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home/images/Icon-Forum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home/images/Icon-Gears.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home/images/Icon-PDFs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home/images/Main-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home/images/roue-dentee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/NOW/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/buildAndrun.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NpmCommand1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NpmCommand2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NpmCommand3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NpmCommand4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/OpenFolder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/OpenTerminal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/WebSite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/terminal_link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2Yws98Ycydnpwl9uKmOiDchV8Dh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Simon/Documents/tpxle-doc/docs/Other",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Simon\Documents\tpxle-doc\docs\Other" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Simon\Documents\tpxle-doc\page.md" />
+      <recent name="C:\Users\Simon\Documents\tpxle-doc" />
+      <recent name="C:\Users\Simon\Documents\tpxle-doc\src\pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a06d6ec-1ab1-4c1d-95b8-ab0bafc8add9" name="Changes" comment="" />
+      <created>1701447822179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701447822179</updated>
+      <workItem from="1701447823413" duration="4742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
