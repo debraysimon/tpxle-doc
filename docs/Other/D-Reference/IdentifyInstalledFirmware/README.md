@@ -15,7 +15,7 @@ If the tracker was purchased from Actility/Abeeway or [Marketplace](https://mark
 
 <html>
 <p>
-If the tracker is connected to ThingPark X Location Engine and has already sent heartbeat uplink messages, then the <a href="/B-Feature-Topics/AbeewayDeviceManager_C/" style="color:teal">Abeeway device manager</a> already shows the MCU Firmware and BLE Firmware Version.
+If the tracker is connected to ThingPark X Location Engine and has already sent heartbeat uplink messages, then the <a href="/B-Feature-Topics/AbeewayDeviceManager_C/" >Abeeway device manager</a> already shows the MCU Firmware and BLE Firmware Version.
 </p>
 </html>
 

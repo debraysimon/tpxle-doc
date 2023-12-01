@@ -92,6 +92,6 @@ The **New device dialog** box appears with LoRaWAN® OTAA configuration.
 | - | ----------- | 
 | **AS routing profile** |  To associate your tracker with ThingPark X Location Engine, select the routing profile you have created. It will route the tracker packets towards the Actility's application server. | 
 | **DevAddr** |  **Allocated by the network server** must be selected. | 
-7. Click **Create**.<BR/>
+7. Click **Create**.<br/>
 The device is displayed in the device list.
    

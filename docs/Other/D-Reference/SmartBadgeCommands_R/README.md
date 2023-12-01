@@ -141,7 +141,7 @@ This table gives you quick access to the tracker commands. For more information 
                         The default configuration of click is mapped to show battery level in default configuration of <b>button_mapping</b> parameter 
                     </li>
                     <li>
-                        Please refer to <a href="../../AbeewayRefGuide/functioning/user-interfaces" style="color:teal">Abeeway Trackers Reference Guide</a> (Chapter: User Interfaces) on how to interpret LEDs to indicate battery level
+                        Please refer to <a href="../../AbeewayRefGuide/functioning/user-interfaces" >Abeeway Trackers Reference Guide</a> (Chapter: User Interfaces) on how to interpret LEDs to indicate battery level
                     </li>
                 </ul>
             </div>
@@ -383,7 +383,7 @@ This table gives you quick access to the tracker commands. For more information 
                         This sequence is only applicable for the following tracker states: (JOINED). The tracker must be ON to trigger to sequence.
                     </li>
                     <li>
-                        Please refer to <a href="../../D-Reference/DocLibrary_R/#abeeway-trackers" style="color:teal">Abeeway Trackers Reference Guide</a> (Chapter: User Interfaces) on how to interpret LEDs to indicate battery level
+                        Please refer to <a href="../../D-Reference/DocLibrary_R/#abeeway-trackers" >Abeeway Trackers Reference Guide</a> (Chapter: User Interfaces) on how to interpret LEDs to indicate battery level
                     </li>
                 </ul>
             </div>

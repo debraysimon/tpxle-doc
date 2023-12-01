@@ -8,7 +8,7 @@ If necessary, you can force a new join request for a tracker that is already joi
 
 <html>
 <p>
-The button sequence to reset the tracker is quite different between Asset Tracker MCU Firmware 2.3 and the versions below. The first step is to find out the installed MCU firmware version of the tracker from <a href="../../D-Reference/IdentifyInstalledFirmware/" style="color:teal">here</a>
+The button sequence to reset the tracker is quite different between Asset Tracker MCU Firmware 2.3 and the versions below. The first step is to find out the installed MCU firmware version of the tracker from <a href="../../D-Reference/IdentifyInstalledFirmware/" >here</a>
 </p>
 </html>
 

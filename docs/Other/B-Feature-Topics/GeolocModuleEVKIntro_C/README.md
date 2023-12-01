@@ -125,6 +125,6 @@ lora send aabbcc
 
 
 <figure>
-  <img src='./images/evk_block_diagram.png' style="align: center"/>
+  <img src='./images/evk_block_diagram.png'/>
 </figure>
 <center> EVK Block Diagram </center>

@@ -6,7 +6,7 @@
 
 <html>
 <p>
-<a href="https://actilitysa.sharepoint.com/:f:/t/aby/EhbJycLDkulLhGAhJpcOztcBa_glwi7WYyyPMz58f-PEUQ?e=YN9ptc" style="color:teal">Abeeway Device Manager </a> is a ThingPark Location application designed to help you manage your fleet of trackers efficiently. With Abeeway Device Manager, you can:
+<a href="https://actilitysa.sharepoint.com/:f:/t/aby/EhbJycLDkulLhGAhJpcOztcBa_glwi7WYyyPMz58f-PEUQ?e=YN9ptc">Abeeway Device Manager </a> is a ThingPark Location application designed to help you manage your fleet of trackers efficiently. With Abeeway Device Manager, you can:
 </p>
 </html>
 

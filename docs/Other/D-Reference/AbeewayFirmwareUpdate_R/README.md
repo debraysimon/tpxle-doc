@@ -23,19 +23,19 @@ This section describes how to carry out the firmware update using Abeeway update
 <html>
 <ol>
     <li>
-        Install the required software from <a href="https://github.com/Abeeway/Abeeway-updater" style="color:teal">here</a>
+        Install the required software from <a href="https://github.com/Abeeway/Abeeway-updater" >here</a>
     </li>
     <li>
-        Identify your tracker model from <a href="../../D-Reference/IdentifyTrackerModel/" style="color:teal">here</a>
+        Identify your tracker model from <a href="../../D-Reference/IdentifyTrackerModel/" >here</a>
     </li>
     <li>
-        Download the MCU/BLE Firmware binaries and config file from <a href="https://actilitysa.sharepoint.com/:f:/t/aby/EgDe93KPylRIhhdRE4tdGXkBWYtF9kchJAAZqq_FS14aRQ?e=xjaE7a" style="color:teal">here</a>
+        Download the MCU/BLE Firmware binaries and config file from <a href="https://actilitysa.sharepoint.com/:f:/t/aby/EgDe93KPylRIhhdRE4tdGXkBWYtF9kchJAAZqq_FS14aRQ?e=xjaE7a" >here</a>
     </li>
     <li>
-        Update the firmware using <a href="https://github.com/Abeeway/Abeeway-updater" style="color:teal">Abeeway Updater</a>
+        Update the firmware using <a href="https://github.com/Abeeway/Abeeway-updater" >Abeeway Updater</a>
     </li>
     <li>
-        Check the firmware configuration on CLI using serial console application application application, like  <a href="https://ttssh2.osdn.jp/index.html.en" style="color:teal">Tera term</a>. You will need to enter <b>config show</b> to check firmware configuration on CLI. Please visit <a href="../../D-Reference/UsingCLI_R/" style="color:teal">here</a> on how to interact with CLI over USB port. 
+        Check the firmware configuration on CLI using serial console application application application, like  <a href="https://ttssh2.osdn.jp/index.html.en" >Tera term</a>. You will need to enter <b>config show</b> to check firmware configuration on CLI. Please visit <a href="../../D-Reference/UsingCLI_R/" >here</a> on how to interact with CLI over USB port. 
     </li>
 </ol>
 </html>

@@ -10,7 +10,7 @@ Abeeway power consumption tool can be used in one of the following ways:
 
 <html>
 <p>
-<a href="../../B-Feature-Topics/AbeewayDeviceManager_C/" style="color:teal">Abeeway device manager</a> (tools tab) integrates the power consumption tool of Abeeway trackers. It can be easily used to compute the average battery lifetime of the tracker
+<a href="../../B-Feature-Topics/AbeewayDeviceManager_C/" >Abeeway device manager</a> (tools tab) integrates the power consumption tool of Abeeway trackers. It can be easily used to compute the average battery lifetime of the tracker
 </p>
 </html>
 
