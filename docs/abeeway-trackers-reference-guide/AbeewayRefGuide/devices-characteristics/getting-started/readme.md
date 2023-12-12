@@ -13,7 +13,7 @@ The application firmware will start as soon as LoRaWAN™ join is successfully d
 
 The provided trackers are in OTA configuration only. It can't be
 changed by configuration. If you need trackers working in ABP please
-refer to your local distributor or [Abeeway support](../../../../troubleshooting-support/FAQ_R/) if you purchased
+refer to your local distributor or [Abeeway support](../../../../troubleshooting-support/faq.md) if you purchased
 the trackers from Actility/Abeeway.
 :::
 
@@ -29,7 +29,7 @@ The following regions can be supported by Abeeway trackers
 -   AU915
 
 For more details about LoRaWAN transmission strategies and how to adapt them, refer to the
-application note [AN-002_LoRa_Transmission_strategy](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes)
+application note [AN-002_LoRa_Transmission_strategy](../../../../documentation-library/abeeway-trackers-documentation.md#application-notes)
 
 :::tip Note
 

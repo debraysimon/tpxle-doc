@@ -84,7 +84,7 @@ The BLE connection on the tracker is considered lost if no messages are received
 -   A LoRaWAN™ Downlink (Refer to the sections [BLE parameters](../../downlink-messages/parameters-configuration/) and [Reset the device](../../downlink-messages/debug-commands/readme.md) for more details)
 -   A specific BLE command
 -   A CLI command (Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details)
--   A specific button sequence (see [Micro Tracker Commands](../../../../trackers-overview/MicroTracker_C/MicroTrackerCommands_R/) for more details):
+-   A specific button sequence (see [Micro Tracker Commands](../../../../trackers-overview/micro-tracker/MicroTrackerCommands_R/) for more details):
 	-   Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started.
 	-   Once inside the special sequence, do the following: 1 click, 1 click or more, 1x press (between 1 and 4 sec)
 

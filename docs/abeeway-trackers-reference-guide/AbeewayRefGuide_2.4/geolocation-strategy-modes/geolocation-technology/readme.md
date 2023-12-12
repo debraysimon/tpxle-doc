@@ -100,7 +100,7 @@ The figure below details the functioning of the LPGPS
 ![](images/image10.png)
 
 :::tip Note
-Refer to the dedicated application note [AN-016_GPS_LPGPS](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more details.
+Refer to the dedicated application note [AN-016_GPS_LPGPS](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
 :::
 
 ## WiFi
@@ -158,7 +158,7 @@ In the table below you can see the discarded BSSID:
 -   *position_ble_filter_report_type*:Type of data to be reported in the payloads.
 
 :::tip Note
-- Refer to the dedicated application note [AN-006_Position_BLE_filtering](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more details.
+- Refer to the dedicated application note [AN-006_Position_BLE_filtering](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
 - We highly recommend to always use filtering to avoid detection of beacons by the tracker which are not part of IoT deployment
 :::
 

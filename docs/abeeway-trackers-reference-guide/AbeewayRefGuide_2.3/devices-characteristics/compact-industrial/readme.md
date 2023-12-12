@@ -32,8 +32,8 @@ It can be fixed with a magnet, screws, or a double-sided tape. The mounting area
 
 :::tip Note
 - The Industrial tracker by default does not have reed switch
-- The latest compact trackers from the factory are activated by default in the join state. They need not be activated. However, if you do the above magnet sequence, it will restart the join procedure. You can also request [Abeeway support](../../../../troubleshooting-support/FAQ_R/) to find out if the tracker is activated or not before being shipped to the customer.
-- For more details on compact tracker activation with a video, see [here](../../../../trackers-overview/CompactTracker_C/)
+- The latest compact trackers from the factory are activated by default in the join state. They need not be activated. However, if you do the above magnet sequence, it will restart the join procedure. You can also request [Abeeway support](../../../../troubleshooting-support/faq.md) to find out if the tracker is activated or not before being shipped to the customer.
+- For more details on compact tracker activation with a video, see [here](../../../../trackers-overview/compact-tracker/)
 - The tracker should not be submerged in water or left in the presence of high-pressure water jets for prolonged duration as the water will get inside the casing eventually and damage the tracker. Incorrect placement of the tracker will void the guarantee.
 - The close environment and orientation of the tracker can influence the radio performance. For optimum results keep the zone around the antenna area clear from any conducting material, magnetic fields or human skin.
 :::

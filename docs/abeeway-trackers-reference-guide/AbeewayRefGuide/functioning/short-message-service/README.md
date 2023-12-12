@@ -59,7 +59,7 @@ The two message types differ in the network processing:
 In order to simplify the readability of the CLI, log messages should be suppressed by entering the command
 ***system log off***.
 The tracker should be let in standby mode to minimize the power consumption.
-The configuration parameter ***transmit_strat*** and ***transmit_strat_custom*** should be correctly tuned regarding the LoRaWAN region. Please refer to [AN-002_LoRa_Transmission_strategy](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) on how to configure LoRaWAN transmit strategy.
+The configuration parameter ***transmit_strat*** and ***transmit_strat_custom*** should be correctly tuned regarding the LoRaWAN region. Please refer to [AN-002_LoRa_Transmission_strategy](/documentation-library/abeeway-trackers-documentation.md#application-notes) on how to configure LoRaWAN transmit strategy.
 
 Please note that the maximum message size strongly depends on the LoRa DataRate it is sent.
 

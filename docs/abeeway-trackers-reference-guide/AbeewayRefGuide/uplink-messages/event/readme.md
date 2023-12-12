@@ -121,7 +121,7 @@ measurement
 :::tip Notes
 1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](../../downlink-messages/two-complement-encoding/readme.md) for information for the encoding
 2.  G is the terrestrial gravity, mG means milli G.
-3.  For more details refer to the application note [AN_010_Angle Detection](../../../../documentation-library/AbeewayTrackers_R.md#application-notes).  
+3.  For more details refer to the application note [AN_010_Angle Detection](../../../../documentation-library/abeeway-trackers-documentation#application-notes).  
 :::
 
 ### BLE geozoning message:
@@ -145,7 +145,7 @@ measurement
 **Beacon Id:** beacon identifier of the detected beacon
 
 :::tip Note  
-Please refer to the dedicated application note [AN-011_BLE geozoning](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.  
+Please refer to the dedicated application note [AN-011_BLE geozoning](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details.  
 :::
 
 ## BLE Connection messages:

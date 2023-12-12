@@ -39,7 +39,7 @@
 -   **LoRa downlink<sup>(2)</sup>:** with a duration of (0 - 0xFF010B0000) seconds
 
 :::tip Notes
-(1)  Refer to the application note [AN-013_CLI_description](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more details.
+(1)  Refer to the application note [AN-013_CLI_description](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
 
 (2)  Refer to the section [BLE scan and communication parameters](../../Parameters-default-configuration/firmware-parameters.md#ble-communication-parameters) and [Start and Stop BLE Advertisement](../../downlink-messages/debug-commands/#starting-and-stopping-ble-advertisement) for more details.
 
@@ -84,8 +84,8 @@ The BLE connection on the tracker is considered lost if no messages are received
 
 -   A LoRaWAN™ Downlink (Refer to the sections [BLE communication parameters](../../Parameters-default-configuration/firmware-parameters.html#ble-scan-and-communication-parameters) and [Reset the device](../../downlink-messages/debug-commands/readme.md) for more details)
 -   A specific BLE command
--   A CLI command (Refer to the application note [AN-013_CLI_description](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more details)
--   A specific button sequence (see [Micro Tracker Commands](../../../../trackers-overview/MicroTracker_C/MicroTrackerCommands_R/) for more details):
+-   A CLI command (Refer to the application note [AN-013_CLI_description](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details)
+-   A specific button sequence (see [Micro Tracker Commands](../../../../trackers-overview/micro-tracker/MicroTrackerCommands_R/) for more details):
 	-   Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started.
 	-   Once inside the special sequence, do the following: 1 click, 1 click, 1x press (between 1 and 4 sec)
 

@@ -67,7 +67,7 @@ A beep is played while the tracker is in special sequence mode. The LED is also 
 
 :::tip Notes
 
-<sup>(1)</sup> For more details, please refer to the application note [AN-010_Angle Detection](../../../../documentation-library/AbeewayTrackers_R.md#application-notes).
+<sup>(1)</sup> For more details, please refer to the application note [AN-010_Angle Detection](../../../../documentation-library/abeeway-trackers-documentation#application-notes).
 
 <sup>(2)</sup> **Click**: Press the button for less than 1 second.
 
@@ -99,9 +99,9 @@ LED blinking patterns
 
 <sup>(1)</sup> If configured with bit 7 of [config_flags](../../Parameters-default-configuration/firmware-parameters.html#miscellaneous-parameters) parameter.
 
-<sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more details. **Only Applicable to MCU FW 2.3 and below**.
+<sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details. **Only Applicable to MCU FW 2.3 and below**.
 
-<sup>(3)</sup>  Only if bootloader is entered using the associated CLI command (Refer to the application note [AN-013_CLI_description](../../../../documentation-library/AbeewayTrackers_R.md#application-notes))
+<sup>(3)</sup>  Only if bootloader is entered using the associated CLI command (Refer to the application note [AN-013_CLI_description](../../../../documentation-library/abeeway-trackers-documentation#application-notes))
 
 <sup>(4)</sup> In some trackers you can have blue + red colors instead of pink color.
 :::

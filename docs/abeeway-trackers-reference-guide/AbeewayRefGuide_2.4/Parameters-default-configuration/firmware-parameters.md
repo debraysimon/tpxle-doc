@@ -275,7 +275,7 @@ To modify the periodic position period to 12 hours, the command 0x0B01030000A8C0
 | collection_ble_filter_sec_mask  | 0x27 | none | 0x0 –0xFFFFFFFF | BLE secondary mask                                                        |
 
 :::tip Note  
-Refer to the application note [AN-003_Scan Collection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) or [Scan Collection training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) for more details about these parameters.  
+Refer to the application note [AN-003_Scan Collection](/documentation-library/abeeway-trackers-documentation.md#application-notes) or [Scan Collection training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) for more details about these parameters.  
 :::
 
 
@@ -305,7 +305,7 @@ Refer to the application note [AN-003_Scan Collection](/D-Reference/DocLibrary_R
 
 :::tip Note  
 - (1) If a value is set out of the range, configuration 4 is used .
-- Refer to the application note [AN-016_GPS_LPGPS](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details about these parameters.  
+- Refer to the application note [AN-016_GPS_LPGPS](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details about these parameters.  
 :::
 
 **Example**:
@@ -349,7 +349,7 @@ To modify the _gps_convergence_ time to 5 minutes, the command 0x0B040C0000012C 
 
 - If the selected data rate (DR) is not valid due to the payload length, the payload is sent using DR+1
 
-<sup>(3)</sup> Refer to the application note [AN-002_LoRa_Transmission_strategy](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.
+<sup>(3)</sup> Refer to the application note [AN-002_LoRa_Transmission_strategy](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details.
 
 <sup>(4)</sup> If no data rate is selected, the default will be the minimum available for the current band.
 
@@ -422,7 +422,7 @@ The value in the table above is 0001 1000 0000 0110 0000 0010 =0x180602
 
 (1) This parameter has no effect with long ID BLE payloads: only one beacon is sent.
 
-(2) Depends on the value of _position_ble_filter_type_ parameter. Refer to the dedicated application note [AN-006_Position_BLE_filtering](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.
+(2) Depends on the value of _position_ble_filter_type_ parameter. Refer to the dedicated application note [AN-006_Position_BLE_filtering](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details.
 
 (3) Refer to the section [BLE communication interface](../ble-communication-interface/) for more details.
 
@@ -433,8 +433,8 @@ The value in the table above is 0001 1000 0000 0110 0000 0010 =0x180602
 (6) The CLI traces will be sent over BLE interface instead over USB interface when _ble_cli_enable_ parameter is set to true.
 
 (7) The *ble_rssi_filter* signal level applies only to the BLE-LPGPS and BLE-GPS [geolocation modes](../geolocation-strategy-modes/main-side-operations/), as the BLE RSSI threshold is used to switch to LPGPS/GPS. The beacon scan algorithm ensures that regardless of the number of beacons around, only the strongest ones will be reported.
-   - The number of reported beacons is defined by *ble_beacon_cnt* when using BLE geolocation feature (see [AN-006_Position_BLE_filtering](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes), [BLE Position Filtering](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) )
-   - The number of reported beacons is defined by *collection_nb_entry* when using Scan collection feature (see [AN-003_ScanCollection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes), [Scan Collection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) )
+   - The number of reported beacons is defined by *ble_beacon_cnt* when using BLE geolocation feature (see [AN-006_Position_BLE_filtering](/documentation-library/abeeway-trackers-documentation.md#application-notes), [BLE Position Filtering](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) )
+   - The number of reported beacons is defined by *collection_nb_entry* when using Scan collection feature (see [AN-003_ScanCollection](/documentation-library/abeeway-trackers-documentation.md#application-notes), [Scan Collection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) )
 :::
 
 **Example**:
@@ -494,7 +494,7 @@ Description:
 \- Tracker bonded: BLE bond success melody.  
 \- Tracker not bonded: BLE bond on going melody.
 
-(6) Refer to the application note [AN-002_LoRa_Transmission_strategy](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) to know how to set DR working with long payloads.
+(6) Refer to the application note [AN-002_LoRa_Transmission_strategy](/documentation-library/abeeway-trackers-documentation.md#application-notes) to know how to set DR working with long payloads.
 
 (7) This bit is automatically set for compact and industrial tracker and can't be disabled.
 
@@ -582,7 +582,7 @@ Description:
 
 The _motion_sensitivity_ parameter is used to set the minimum acceleration to be measured to validate a motion of the tracker. The _shock_detection_ parameter is used to set the shock level to trigger a shock detection message.
 :::tip Warning
-The functioning of these 2 parameters and accelerometer driver has been significantly modified in the applicative FW 2.4 and is not backward compatible with the earlier MCU Firmware versions. Please refer to application note, [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details.
+The functioning of these 2 parameters and accelerometer driver has been significantly modified in the applicative FW 2.4 and is not backward compatible with the earlier MCU Firmware versions. Please refer to application note, [AN-018_Motion_and_shock_detection](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details.
 :::
 
 | Parameter              | ID   | Unit | Range      | Description |
@@ -617,7 +617,7 @@ The functioning of these 2 parameters and accelerometer driver has been signific
 
 (2) The accelerometer chip details can be easily found by connecting the tracker with USB cable on [CLI terminal](/D-Reference/UsingCLI_R/) and entering **system accelero show**.
 
-(3) The range of *shock_detection* parameter depends on the accelerometer inside the tracker. The range is [0,111] for trackers using MMA8256FC and its [0,255] for trackers using LIS2DW. Please refer to the [AN-018_Motion_and_shock_detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) to find out the accelerometer inside your tracker.
+(3) The range of *shock_detection* parameter depends on the accelerometer inside the tracker. The range is [0,111] for trackers using MMA8256FC and its [0,255] for trackers using LIS2DW. Please refer to the [AN-018_Motion_and_shock_detection](/documentation-library/abeeway-trackers-documentation.md#application-notes) to find out the accelerometer inside your tracker.
 :::
 
 ## Temperature monitoring parameters
@@ -679,7 +679,7 @@ These parameters are used to configure the angle detection feature.
 | angle_deviation_max_interval | 0x64 | seconds | 0 – 86400             | No event message is sent after this duration from first event message is elapsed. Applicable only with angle deviation methods.                                                                                    |
 
 :::tip Notes  
-(1) Depending on the setting of _angle_report_mode_ parameter. Refer to the application note [AN-010_Angle_Detection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details about these parameters.
+(1) Depending on the setting of _angle_report_mode_ parameter. Refer to the application note [AN-010_Angle_Detection](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details about these parameters.
 
 (2) If selected _button mapping_ parameter should be set to have a button action with angle reference acquisition activated  
 :::
@@ -693,7 +693,7 @@ These parameters are used to configure the angle detection feature.
 | geofencing_scan_duration  | 0x69 | milli second | 370 – 3000   | BLE geozoning scan duration expressed in milliseconds                                                                            |
 
 :::tip Note  
-Refer to the application note [AN-011_BLE_geozoning](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details about these parameters.  
+Refer to the application note [AN-011_BLE_geozoning](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details about these parameters.  
 :::
 
 ## BLE beaconing parameters
@@ -727,14 +727,14 @@ Refer to the application note [AN-011_BLE_geozoning](/D-Reference/DocLibrary_R/A
 | beaconing_id_4            | 0x74 | none        | 0 – 0xFFFFFFFF | Beacon ID advertised in the BLE Beacon advertisement payload, part 4                                                                                     |
 
 :::tip Note  
-Refer to the application note [AN-012_Quuppa_beaconing](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details about these parameters.  
+Refer to the application note [AN-012_Quuppa_beaconing](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details about these parameters.  
 :::
 
 ## Proximity feature parameters
 
 :::tip Warning
 - **The proximity feature is removed from firmware starting MCU/Application firmware 2.4+. If you wish to use Proximity feature, please refer to [MCU/Application firmware 2.3](/AbeewayRefGuide_2.3/introduction/) or below**.
-- Refer to the application note [AN-007_proximity feature](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more details about these parameters.
+- Refer to the application note [AN-007_proximity feature](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details about these parameters.
 :::
 
 These parameters are used to configure the proximity feature.

@@ -35,7 +35,7 @@ When long payloads are sent and transmit strategy is not well chosen, too long p
 Length Error counter: Number of payloads discarded due to uplink length error
 
 :::tip Note  
-The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN MAC, and won't be sent. Refer to the application note [AN-002_LoRa_Transmission_strategy](../../../D-Reference/DocLibrary_R/AbeewayTrackers_R.md#application-notes) for more data.  
+The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN MAC, and won't be sent. Refer to the application note [AN-002_LoRa_Transmission_strategy](../../../documentation-library/abeeway-trackers-documentation.md#application-notes) for more data.  
 :::
 
 ## Generic error
