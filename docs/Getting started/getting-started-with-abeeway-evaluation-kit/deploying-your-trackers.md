@@ -1,4 +1,3 @@
-
 # Deploying your trackers
 
 ## Turning on your trackers

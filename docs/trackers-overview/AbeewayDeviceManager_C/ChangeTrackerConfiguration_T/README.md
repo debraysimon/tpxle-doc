@@ -25,7 +25,7 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
 :::warning Important
  In this tab, you can also check the **MCU Firmware** and **BLE Firmware** versions of the tracker.
 :::
-<img src="./images/ADAConfigTabIndusTracker.png" border="1" />
+![img](./images/ADAConfigTabIndusTracker.png)
 
 4. In the **Template** list, select the predefined profile you want to apply to your tracker.
     a. **DEFAULT** : This profile allows to get the position of the tracker in the easiest way possible. In this profile, the tracker reports GPS position every 2 minutes when moving, while it also reports position based on WiFi/GPS every hour. Here are the key parameters of the profile:<br/>

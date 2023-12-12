@@ -1,7 +1,7 @@
 # Downlink messages
 
  These messages are sent from the server to the tracker through the
- LoRaWAN&trade; network. They are used to either configure or manage the
+ LoRaWAN™ network. They are used to either configure or manage the
  tracker. Each message contains a header including:
 -   A message type
 -   An acknowledgement token
@@ -35,5 +35,5 @@
 
 :::tip Notes
 1.  Any unexpected message (unknown message type, bad length, ...) is discarded. However, the ack token is updated even if the message is discarded (if the payload is at least 2 bytes long).
-2.  The **LoRaWAN&trade;** port to be used for downlink is **2**.
+2.  The **LoRaWAN™** port to be used for downlink is **2**.
 :::

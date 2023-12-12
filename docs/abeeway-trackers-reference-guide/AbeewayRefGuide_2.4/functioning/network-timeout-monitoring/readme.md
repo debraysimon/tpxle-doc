@@ -2,10 +2,10 @@
 
  This feature is supported by all Abeeway trackers.
 
- This feature monitors the LoRaWAN&trade; network and resets the device in
+ This feature monitors the LoRaWAN™ network and resets the device in
  case of trouble. The monitoring consists of two periods:
 
--   *network_timeout_check*: once this duration elapses the tracker prepends a Link Check Request in all LoRaWAN&trade; uplinks (to force the network to answer). The associated timer is  restarted each time a LoRaWAN&trade; downlink is received.
+-   *network_timeout_check*: once this duration elapses the tracker prepends a Link Check Request in all LoRaWAN™ uplinks (to force the network to answer). The associated timer is  restarted each time a LoRaWAN™ downlink is received.
 -   *network_timeout_reset*: this duration covers the link check request period. Once elapsed, the tracker resets.
 
 **Example**:

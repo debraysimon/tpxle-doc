@@ -2,13 +2,13 @@
 The purpose of ThingPark Location is to allow third-party IoT applications to unlock the value of LPWAN-enabled geolocation delivered by Abeeway low-power multitechnology trackers.<br/>
 Depending on your requirements, two options are available to interface your application with Abeeway trackers:
 
-[comment]: <> (<img src="./images/Aoption.png" />)
+[comment]: &lt;&gt; (![img](./images/Aoption.png))
 
 - ![img](images/Aoption.png)Through **ThingPark Location API**
 
 - ![img](images/Boption.png)Interfacing directly with the Network Server API and using our packaged **Abeeway driver**
 
-<img src="images/LP-GPS-ABEEWAY_08options.png" border="0" />
+![img](images/LP-GPS-ABEEWAY_08options.png)
 Using  is the best option as you will benefit from:
 
 * **An optimal position** : We combine the various positioning technology available (GPS, LP-GPS, Wi-Fi, BLE) with our post processing algorithm to deliver the most accurate and reliable position.

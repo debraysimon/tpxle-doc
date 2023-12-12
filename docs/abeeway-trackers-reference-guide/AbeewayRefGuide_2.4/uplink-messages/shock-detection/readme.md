@@ -4,7 +4,7 @@
 | -------------------------- | ------ | ---------------- | ---------------------------- | ---------------------------- | ---------------------------- |-----------|
 | Byte 0-4                   | Byte 5 | Byte 6           | Byte 7-8                     | Byte 9-10                    | Byte 11-12                   |Byte 13-16 |
 | Header with **Type**\=0x07 | 0x03   | **Nb of shocks** | **Accelerometer shock data** | **Accelerometer shock data** | **Accelerometer shock data** |**Accelerometer shock data**|
-|                            |        |                  | **X Axis**                   | **Y Axis**                   | **Z Axis**                   |**GADD index**|
+| &nbsp;                          | &nbsp;      | &nbsp;                | **X Axis**                   | **Y Axis**                   | **Z Axis**                   |**GADD index**|
 
 **Nb of shocks**: Number of shocks having an accelerometer value above  
 the configured thresholds.

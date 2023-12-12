@@ -8,9 +8,10 @@ To do so, you need:
 1. If you do not have a ThingPark account, create a free account on [https://community.thingpark.org/](https://community.thingpark.org/). If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs).<br/>
 
 2. Generate the token on [DX Admin API](https://dx-api.thingpark.io/getstarted/#/) 
-<img src="./images/Integration3PNS-TTN-Norbertv2/Step2GetTheTokenNew.png" border="0" />
+
+[//]: # (![img]&#40;./images/Integration3PNS-TTN-Norbertv2/Step2GetTheTokenNew.png&#41;)
 
 3. Copy the token below it as you will use it for configuring the Network Interface Converter in next step.
 
-<img src="images/Step2CopyToken.png" border="0" />
+![img](images/Step2CopyToken.png)
 

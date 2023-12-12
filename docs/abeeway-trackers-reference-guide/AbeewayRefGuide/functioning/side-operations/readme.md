@@ -60,7 +60,7 @@ The associated LoRaWAN™ uplink message will contain the history of the activit
 
 ## Scan collection
 
-A scan collection is a WIFI or a BLE extra scan used to sense the environment around the tracker, which is done after the usual geolocation and reported via LoRaWAN&trade; just after the position. This feature is used to track equipment and tools for inventory purposes. For more information on scan collection, please see [Abeeway firmware: scan collection training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#abeeway-firmware-trainings) and [AN-003_ScanCollection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes).
+A scan collection is a WIFI or a BLE extra scan used to sense the environment around the tracker, which is done after the usual geolocation and reported via LoRaWAN™ just after the position. This feature is used to track equipment and tools for inventory purposes. For more information on scan collection, please see [Abeeway firmware: scan collection training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#abeeway-firmware-trainings) and [AN-003_ScanCollection](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes).
 
 ## Angle detection
 

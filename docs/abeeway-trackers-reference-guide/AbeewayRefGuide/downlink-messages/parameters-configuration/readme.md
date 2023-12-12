@@ -8,7 +8,7 @@ Any parameter can be remotely modified with a downlink LoRaWAN message. Such mes
 
 It is possible to modify up to 5 parameters in the same message by using the following format:
 
-|        |         | Parameter 1        | Parameter 1               | Parameter 2        | Parameter 2               |
+| &nbsp;      | &nbsp;       | Parameter 1        | Parameter 1               | Parameter 2        | Parameter 2               |
 | ------ | ------- | ------------------ | ------------------------- | ------------------ | ------------------------- |
 | Byte 0 | Byte 1  | Byte 2             | Byte 3-6                  | Byte 7             | Byte 8-11                 |
 | 0x0B   | **ACK** | **Parameter ID 1** | **New value 1** \[31-00\] | **Parameter ID 1** | **New value 1** \[31-00\] |

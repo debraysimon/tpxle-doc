@@ -1,4 +1,3 @@
-
 # Reset the tracker and re-join the LoRaWAN network
 Your tracker is a LoRaWAN® OTAA device that needs to do a join request to attach the LoRaWAN® network and get a join accept from it.<br/>
 

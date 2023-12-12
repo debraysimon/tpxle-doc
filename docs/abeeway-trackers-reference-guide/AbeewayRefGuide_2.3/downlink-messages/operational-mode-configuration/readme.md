@@ -1,6 +1,6 @@
 # Operational mode configuration
 
-The operating mode can be remotely configured with a downlink LoRaWAN&trade; message built as follow:
+The operating mode can be remotely configured with a downlink LoRaWAN™ message built as follow:
 
 |  Byte 0 |  Byte 1  |  Byte 2   |
 |---------|---------|------------|

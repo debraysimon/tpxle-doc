@@ -253,7 +253,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 :::tip Notes
 
-<sup>(1)</sup> Refer to the section [LoRaWAN&trade; uplink transmission](../../uplink-messages/lorawan-ul-transmission/readme.md) for more details.
+<sup>(1)</sup> Refer to the section [LoRaWAN™ uplink transmission](../../uplink-messages/lorawan-ul-transmission/readme.md) for more details.
 
 <sup>(2)</sup> For trackers configured in US region:<br/>
     -   DR5 is not used, and it is replaced by DR4.<br/>
@@ -386,7 +386,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 <sup>(2)</sup>  If the bit is set, the advertising is activated when the tracker is turned on, with a debug downlink or in case of Compact Tracker when the special Reed switch sequence is detected.
 
-<sup>(3)</sup>  Force a new join to the LoRaWAN&trade; network when the tracker is turned on after it was in OFF mode due to a downlink or a user action.
+<sup>(3)</sup>  Force a new join to the LoRaWAN™ network when the tracker is turned on after it was in OFF mode due to a downlink or a user action.
 
 <sup>(4)</sup>  It is only useful when the tracker is used BLE bonded with a mobile  or a tablet
 
@@ -400,7 +400,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 
 <sup>(8)</sup>  The tracker switches to standby mode if the user sends downlink to change to OFF mode, or if a very long button press is done.
 
-<sup>(9)</sup>  If the bit 17 is set to 1, and t*ransmit_strat* =1,2,4 or 5 then the tracker adapts the LoRaWAN&trade; data rate for long payloads (so it is possible that the transmit strategy is not respected)
+<sup>(9)</sup>  If the bit 17 is set to 1, and t*ransmit_strat* =1,2,4 or 5 then the tracker adapts the LoRaWAN™ data rate for long payloads (so it is possible that the transmit strategy is not respected)
 
 <sup>(10)</sup> If bit 17 is set to 0, then the tracker does not adapt the LoRaWAN data rate for long payloads. In this case if the selected data rate does not support the payload size, then it is discarded
 

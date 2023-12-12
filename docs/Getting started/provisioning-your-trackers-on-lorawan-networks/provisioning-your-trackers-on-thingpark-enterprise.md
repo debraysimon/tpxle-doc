@@ -4,12 +4,12 @@ This task consists of configuring your trackers on ThingPark Enterprise to forwa
 You need to create a ThingPark Location application and associate it with your Abeeway devices.
 
 1. Log in to ThingPark Community platform using [https://community.thingpark.org/](https://community.thingpark.org/) and click **Sign up** to create a free account. Then use this example URL to log in to your ThingPark Enterprise account: [https://community.thingpark.io/tpe/#/dashboard](https://community.thingpark.io/tpe/#/dashboard)
-2. In ThingPark Enterprise, select **Applications** > **Create**, then click **Generic Applications**.
-<img src="./images/TPESelecGenericApp.png" border="1" />
+2. In ThingPark Enterprise, select **Applications** &gt; **Create**, then click **Generic Applications**.
+![img](./images/TPESelecGenericApp.png)
 3. In **Set Your Application**, enter or select the following required information:
-<img src="./images/TPESetApp.png" border="1" />
+![img](./images/TPESetApp.png)
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
 | **Name** |  ThingPark Location | 
 | **URL** | [https://abeeway-eu-eco.thingpark.com:50540](https://abeeway-eu-eco.thingpark.com:50540) | 
@@ -29,9 +29,9 @@ At the same time, you will associate it with the ThingPark Location application 
  Get the DevEUI, AppEUI, and AppKey of the tracker provided in your delivery note.
 :::
 
-1. In ThingPark Enterprise, select **Devices** > **Create**, then click **Abeeway**.<br/><img src="./images/TPECreateDevice.png" border="1" />
+1. In ThingPark Enterprise, select **Devices** &gt; **Create**, then click **Abeeway**.<br/>![img](./images/TPECreateDevice.png)
 2. In **Enter Your Device Information**, apply the configuration corresponding to your tracker as follows:
-<img src="./images/TPECreateDevice_2.png" border="1" />
+![img](./images/TPECreateDevice_2.png)
 
 |  | Information | 
 | - | ----------- | 

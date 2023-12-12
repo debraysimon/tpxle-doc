@@ -12,7 +12,7 @@
 
  When the battery level goes to 1%, the device sends a shutdown message
  with the reason **low battery** then moves to the **OFF** mode (no
- more LoRaWAN&trade; payloads are sent after).
+ more LoRaWAN™ payloads are sent after).
  The tracker remains in this state until the battery is recharged and
  restarted with a button press (press duration configured in
  the parameter *button_mapping*).

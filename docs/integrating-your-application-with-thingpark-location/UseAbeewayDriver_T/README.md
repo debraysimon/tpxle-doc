@@ -1,4 +1,3 @@
-
 # Encoding/Decoding LoRaWAN payloads
 
 There are multiple ways to encode/decode LoRaWAN payloads. 
@@ -9,20 +8,20 @@ Both the methods are described below.
 
 ## Using Abeeway Device Manager
 The easiest way to encode or decode Abeeway tracker payloads is to use [Abeeway Device Manager](/B-Feature-Topics/AbeewayDeviceManager_C/). You can do that even if you do not have trackers linked to ThingPark Location.
- 
+&nbsp;
 1. Create a free account on: [https://community.thingpark.org/](https://community.thingpark.org/)
-2. Log in to Abeeway Device Manager at the following URL: [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).
+2. Log in to Abeeway Device Manager at the following URL: [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). If using another platform, see&nbsp;[ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).
 3. You can then encode or decode Abeeway payloads from the device configuration page.
-<img src="./images/ADM_device_configuration_encode_decode_payloads.png" border="0" />
+![img](./images/ADM_device_configuration_encode_decode_payloads.png)
 
 ## Using Abeeway driver
 In this scenario, your application will directly interface with the LoRaWAN® network server to communicate with Abeeway trackers.
 Our Abeeway driver docker service will run directly within your application framework to help you decode/encode uplink/downlink messages from/to Abeeway trackers.
-<img src="./images/AbeewayDriver.png" border="0" />
+![img](./images/AbeewayDriver.png)
 
 ### Installing the Abeeway driver
 The Abeeway driver gives you access to the driver service and the relative API documentation.
-1. Install Docker on the customer’s server using the following URL:<br/>[https://hub.docker.com/search/?type=edition&offering=community](https://hub.docker.com/search/?type=edition&offering=community)<br/>
+1. Install Docker on the customer’s server using the following URL:<br/>[https://hub.docker.com/search/?type=edition&amp;offering=community](https://hub.docker.com/search/?type=edition&amp;offering=community)<br/>
 
 2. Download Docker image from the public Docker repository. You can do it by executing the following command:
 <code>docker pull actility/iot-flow-drivers</code>

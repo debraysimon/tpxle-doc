@@ -3,7 +3,7 @@
 ## Firmware Release notes
 Release notes for the Abeeway Firmware can be found [here](https://actilitysa.sharepoint.com/:f:/t/aby/ElJzs_L4X5lDviZbdDBi10wBd9F2VUP19HY52fMxh4Z35g?e=xoCpVN) 
 
-## ThingPark X Location Engine(TPX LE) & ThingPark X IoT Core Release notes
+## ThingPark X Location Engine(TPX LE) &amp; ThingPark X IoT Core Release notes
 
 | Platform | Release notes | 
 | - | -------- |

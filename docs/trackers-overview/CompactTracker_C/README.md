@@ -2,8 +2,8 @@
 The Abeeway compact tracker is a multi-mode tracker that uses 3 replaceable AA format batteries for long battery lifetime and easy replacement. It combines **GPS**, **Low Power-GPS (LP-GPS)** ([an ultra-low power assisted GPS patented by Abeeway](https://www.abeeway.com/technology/) that also optimizes Time-to-First Fix in difficult conditions), **Wi-Fi**, **LoRaWAN®** and **BLE** radios with embedded sensors to support accurate **outdoor** and **indoor** geolocation.
 This tracker is equipped with a rugged waterproof casing which is designed to withstand harsh surroundings enabling seamless asset tracking and management in any industrial environment – whether it is for heavy duty assets, inventory or livestock.
 
-<img src="images/CompactTrackerPlacement.jpg" border="0" />
-<img src="images/image_azure_certification.png" border="0" />
+![img](images/CompactTrackerPlacement.jpg)
+![img](images/image_azure_certification.png)
 
 ## Key product features
 The Abeeway compact tracker provides you with the flexibility you need to adapt your tracker's behavior to your use case, selecting the right operating mode and geolocation technology.

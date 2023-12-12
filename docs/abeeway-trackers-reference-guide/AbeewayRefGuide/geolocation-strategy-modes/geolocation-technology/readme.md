@@ -41,8 +41,8 @@ Find below the flowchart describing the working of the gps module:
 
 For power consumption purpose, a predictive algorithm has been put in place: The GPS is stopped as soon as possible if it has no chance to make a fix (e.g. indoor location without a clear sky view). The following parameters are used to customize this algorithm:
 
--   *gps_t0_timeout*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is static
--   *gps_t0_timeout_motion*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is moving  
+-   *gps_t0_timeout*: When expired at least 1 satellite with C/N\&gt;15dB must be detected to continue the GPS acquisition when the tracker is static
+-   *gps_t0_timeout_motion*: When expired at least 1 satellite with C/N\&gt;15dB must be detected to continue the GPS acquisition when the tracker is moving  
 -   *gps_fix_timeout*: when expired a GPS fix must be obtained detected to pursue the processing
 -   *gps_timeout:* when expired the GPS acquisition is stopped
 
@@ -55,7 +55,7 @@ To complete a position, the GPS module expects one of the following conditions t
 
 ![](images/image7.png)
 
-Once completed the position is reported via LoRaWAN&trade; and the GPS component switches to the standby state.
+Once completed the position is reported via LoRaWAN™ and the GPS component switches to the standby state.
 
 Once the *gps_standby_timeout* delay expires, the GPS component is powered off. This leads to a loss of all data and ephemeris.
 
@@ -76,8 +76,8 @@ With this technology, the device sends the data given by the GPS module before t
 
 In order to reduce power consumption on the tracker, a predictive algorithm has been put in place: The GPS is stopped as soon as possible if it has no chance to make a fix or to acquire enough data for LPGPS calculation (e.g. indoor location without a clear sky view).
 The following parameters are used to customize this algorithm:
--   *gps_t0_timeout*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is static
--   *gps_t0_timeout_motion*: When expired at least 1 satellite with C/N\>15dB must be detected to continue the GPS acquisition when the tracker is moving
+-   *gps_t0_timeout*: When expired at least 1 satellite with C/N\&gt;15dB must be detected to continue the GPS acquisition when the tracker is static
+-   *gps_t0_timeout_motion*: When expired at least 1 satellite with C/N\&gt;15dB must be detected to continue the GPS acquisition when the tracker is moving
 -   *gps_fix_timeout*: when expired if there is no GPS fix, the tracker switches back to LPGPS acquisition
 -   *agps_timeout:* when expired the LPGPS or GPS acquisition is stopped
 
@@ -106,7 +106,7 @@ Refer to the dedicated application note [AN-016_GPS_LPGPS](../../../../documenta
 ## WiFi
 
 Since a WIFI scan is always done within three seconds, there is no timeout parameter.
-Once the scan is done, the BSSIDs along with associated RSSI are sent via LoRaWAN&trade; the position calculation is done by the ThingPark X Location Engine in the geolocation backend.
+Once the scan is done, the BSSIDs along with associated RSSI are sent via LoRaWAN™ the position calculation is done by the ThingPark X Location Engine in the geolocation backend.
 
  The number of BSSID max that can be reported in a WIFI payload is:
 -   4 If the bit 12 of the *config_flags* parameter is reset
@@ -144,7 +144,7 @@ In the table below you can see the discarded BSSID:
 ## BLE beacon scan
 
  This technology scans the BLE beacons and reports them via
- LoRaWAN&trade;. The configuration is based on three parameters:
+ LoRaWAN™. The configuration is based on three parameters:
 -   *ble_beacon_timeout*: BLE scan duration.
 -   *ble_beacon_cnt*: Maximum number of beacons to be reported in the position message.
 -   *ble_rssi_filter*: BLE RSSI condition to trigger a geolocation switch. Applicable only with BLE-GPS and BLE-LPGPS geolocation mode. The switch to the GPS technology occurs if there is no beacon with a RSSI greater than the configured value.
@@ -176,14 +176,14 @@ In the table below you can see the discarded BSSID:
 
 **Configuration example**
 
-*ble_beacon_cnt* = 0x04: The maximum number of beacons sent in  LoRaWAN&trade; position messages is 4
+*ble_beacon_cnt* = 0x04: The maximum number of beacons sent in  LoRaWAN™ position messages is 4
 
 :::tip Notes
 1.  BLE Beacons must be at least compliant with:
     -   iBeacon (Apple)
     -   Eddystone (Google)
     -   Altbeacon
-2.  Once the scan is done, the BLE beacon data, along with associated RSSI are sent via LoRaWAN&trade; the position calculation is done by the ThingPark X Location Engine in the geolocation backend.
+2.  Once the scan is done, the BLE beacon data, along with associated RSSI are sent via LoRaWAN™ the position calculation is done by the ThingPark X Location Engine in the geolocation backend.
 :::
 
 ## Multi-technologies
@@ -197,7 +197,7 @@ These technologies use two different components in the same geolocation cycle:
 
 ## WIFI-GPS and WIFI-LPGPS
 
-A WIFI scan result is considered as successful if at least three BSSID are present in the scan. In this case a WIFI position message is sent via LoRaWAN&trade;. Otherwise, the tracker tries immediately the next geolocation technology (GPS or LPGPS), in the same geolocation cycle. 
+A WIFI scan result is considered as successful if at least three BSSID are present in the scan. In this case a WIFI position message is sent via LoRaWAN™. Otherwise, the tracker tries immediately the next geolocation technology (GPS or LPGPS), in the same geolocation cycle. 
 
 The picture below shows the timing diagram.
 
@@ -211,7 +211,7 @@ If geoloc_timeout + WIFI_time (5 seconds) + switching techno time (3 seconds) is
 
 ## BLE- GPS and BLE-LPGPS
 
-A BLE scan result is considered successful if at least one beacon is detected during the scan, with a measured RSSI value greater than *ble_rssi_filter* value. In this case BLE position message is sent via LoRaWAN&trade;. Otherwise, the tracker tries immediately the next geolocation technology (GPS or LPGPS), in the same geolocation cycle.
+A BLE scan result is considered successful if at least one beacon is detected during the scan, with a measured RSSI value greater than *ble_rssi_filter* value. In this case BLE position message is sent via LoRaWAN™. Otherwise, the tracker tries immediately the next geolocation technology (GPS or LPGPS), in the same geolocation cycle.
 
 ## Multi technology switching state diagrams
 

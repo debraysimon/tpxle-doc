@@ -1,15 +1,15 @@
 # Startup process
 
  The startup process of Abeeway devices has been significantly modified since MCU firmware version 2.0. A process called shipping has been introduced to allow the shipping of the trackers to the final customer. This process puts the tracker in a deep low power state.
- Once the tracker arrives on the final customer site, it leaves the shipping state and starts the LoRaWAN&trade; join process. The shipping process can be disabled during the manufacturing.
+ Once the tracker arrives on the final customer site, it leaves the shipping state and starts the LoRaWAN™ join process. The shipping process can be disabled during the manufacturing.
 
  This process, including the shipping, is described as follows:
 
 1.  The device is in the shipping state and waits for a long button press or activation of a [reed switch using magnet](../../devices-characteristics/compact-industrial/readme.md)<sup>(3)(4)</sup>.
-2.  Then LoRaWAN&trade; join attempts are done:
-    -   If the LoRaWAN&trade; join succeeds, the application starts (go to step 3)
-    -   If the LoRaWAN&trade; join fails, the number of attempts is checked against a fixed limit<sup>(1)</sup>
-        -   If the limit is not reached, a new LoRaWAN&trade; join attempt is done, otherwise, the tracker goes back to shipping state (back to step 1)
+2.  Then LoRaWAN™ join attempts are done:
+    -   If the LoRaWAN™ join succeeds, the application starts (go to step 3)
+    -   If the LoRaWAN™ join fails, the number of attempts is checked against a fixed limit<sup>(1)</sup>
+        -   If the limit is not reached, a new LoRaWAN™ join attempt is done, otherwise, the tracker goes back to shipping state (back to step 1)
         -   There is a random delay between different join attempts which range from 15 minutes to 1 hour. 
 3. The device starts<sup>(2)</sup>
 

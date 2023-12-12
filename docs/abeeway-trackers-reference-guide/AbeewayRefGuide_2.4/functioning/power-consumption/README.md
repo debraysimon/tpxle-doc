@@ -52,7 +52,7 @@ via the CLI or via LoRa Downlink.
 ## Reporting of remaining battery % in LoRaWAN uplinks
 The tracker reports the remaining battery level (%) in [LoRaWAN common message header](../../uplink-messages/common-message-header/) (Supported since MCU Firmware V2.0). If your tracker is already integrated with [ThingPark X Location Engine](/B-Feature-Topics/IntegrateAppwithTPLocation_C/), then you can see the remaining battery level(%) in [Abeeway device manager](/B-Feature-Topics/AbeewayDeviceManager_C/)  as shown in the screenshot below.
 
-<img src="images/batteryPercentage.png" width="1500" border="1" />
+![img](images/batteryPercentage.png)
 
 Alternatively, you can use [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-driver) to decode LoRaWAN uplinks to retrieve the battery percentage.
 
@@ -162,7 +162,7 @@ You can connect the tracker to computer with the data USB cable and then use ter
 2. Reset the **consumption** parameter by entering the command: **config set 0xF7 0**.
 3. Read all the parameters: **config show**. You should verify the new parameter value of **consumption** was reset to 0 (see screenshot below).
 
-<img src="images/consumptionVerify.png" width="800" border="1" />
+![img](images/consumptionVerify.png)
 
 4. Save the new configuration in flash: **config save**.
 

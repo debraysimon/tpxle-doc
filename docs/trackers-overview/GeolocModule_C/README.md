@@ -1,8 +1,8 @@
 # Type 1WL Geolocation module Overview
 The **Abeeway-Murata Geolocation Module** is a **multi-technology fused location LPWAN module** designed as the ideal platform to **develop a wide range of IoT tracking solutions, minimizing the Total Cost of Ownership (TCO) of IoT geolocation use cases**. It allows your engineering to focus on the use case, to **optimize time-to-market and cost** by using less complex PCBs (all high-density devices being encapsulated), to reduce certification risk and budget, as well as testing time and cost for mass production. This LoRaWAN® fused location module is a **cost effective, ultra-low power and small foot print SiP (System in Package)** integrating the high performance STM32WB micro-controller (MCU) with integrated Bluetooth 5.x Low Energy transceiver, the latest LoRaWAN® radio transceiver from Semtech, and an optimized arrangement of multi-technology RF engines for indoor and outdoor positioning.
 
-The module contains 3 main chips: a **high end MCU STM32WB** associated with **BLE radio**, a  high-performance multi-constellation **GNSS receiver** (GPS, GLONASS, Beidou, and Galileo) and the **LR1110 Semtech transceiver** to provide LoRa & FSK sub-GHz radio, low power WIFI and GNSS RX. 
-<img src="./images/geoloc_module_block_diagram.png" border="0" width="900" />
+The module contains 3 main chips: a **high end MCU STM32WB** associated with **BLE radio**, a  high-performance multi-constellation **GNSS receiver** (GPS, GLONASS, Beidou, and Galileo) and the **LR1110 Semtech transceiver** to provide LoRa &amp; FSK sub-GHz radio, low power WIFI and GNSS RX. 
+![img](./images/geoloc_module_block_diagram.png)
 
 ## Key product features
 The module contains a high-performance multi-constellation GNSS receiver (GPS, GLONASS, Beidou, and Galileo) and supports a patented ultra Low-Power GPS (LP GPS) mode which can provide a network
@@ -43,11 +43,11 @@ for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem fo
 
 ### I/Os:
 * Digital: USB 2.0, UART Host, SPI, I2C, serial wire debug bus
-* 10xGPIOs, 1xAIO, Application cross trigger inputs & outputs
+* 10xGPIOs, 1xAIO, Application cross trigger inputs &amp; outputs
 
 ### Additional features:
 * Low-Power 32KHz clock, independent TCXOs for MCU and LR1110
-* Power supply & battery monitoring with energy usage monitor
+* Power supply &amp; battery monitoring with energy usage monitor
 * Device management: RTC, BOR, timeouts, on chip temperature sensor
 * Communication with the Android/iOS over Bluetooth interface
 * BLE scan function for inventory of tools and accessories

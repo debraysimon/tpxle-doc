@@ -70,12 +70,12 @@ The sending of **Geolocation start**, **Motion start**, **and Motion end** event
 
 |                      |temperature_high 0x1D|temperature_low 0x1E|Message|
 |----------------------|-----------------|-------------------------|-------------------|
-|**Temperature > temperature_high**    |Configured<sup>(1)</sup> |NA<sup>(3)</sup>|High temperature event (byte 6=0x01)|
-|**After a high temperature event:(Temperature < temperature_high-5°C)** |Configured<sup>(1)</sup>| NA<sup>(3)</sup> |Normal temperature event (byte 6=0x00)|
-|**Temperature > temperature_high**|Not configured<sup>(2)</sup>|NA<sup>(3)</sup>|No event message|
-|**Temperature < temperature_low** |NA<sup>(3)</sup>|Configured<sup>(1)</sup>| Low temperature event (byte 6=0x00)|
-|**After a low temperature event: Temperature > temperature_low+5°C**|NA<sup>(3)</sup>|Configured<sup>(1)</sup>|Normal temperature event (byte 6=0x00)|
-|**Temperature < temperature_low** |NA<sup>(3)</sup>|Configured<sup>(1)</sup>|No event message|       
+|**Temperature &gt; temperature_high**    |Configured<sup>(1)</sup> |NA<sup>(3)</sup>|High temperature event (byte 6=0x01)|
+|**After a high temperature event:(Temperature &lt; temperature_high-5°C)** |Configured<sup>(1)</sup>| NA<sup>(3)</sup> |Normal temperature event (byte 6=0x00)|
+|**Temperature &gt; temperature_high**|Not configured<sup>(2)</sup>|NA<sup>(3)</sup>|No event message|
+|**Temperature &lt; temperature_low** |NA<sup>(3)</sup>|Configured<sup>(1)</sup>| Low temperature event (byte 6=0x00)|
+|**After a low temperature event: Temperature &gt; temperature_low+5°C**|NA<sup>(3)</sup>|Configured<sup>(1)</sup>|Normal temperature event (byte 6=0x00)|
+|**Temperature &lt; temperature_low** |NA<sup>(3)</sup>|Configured<sup>(1)</sup>|No event message|       
 
 Refer to [Temperature monitoring](../temperature-monitoring/readme.md) for more details.
 

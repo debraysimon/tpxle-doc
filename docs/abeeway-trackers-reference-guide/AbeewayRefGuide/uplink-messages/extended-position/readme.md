@@ -49,15 +49,15 @@
 
  **Latitude**: Latitude of the position (expressed in degree) calculated as follow:
 
- Latitude = Latitude \<\< 8
+ Latitude = Latitude \&lt;\&lt; 8
 
- If Latitude \> 0x7FFFFFFF then Latitude = Latitude - 0x100000000
+ If Latitude \&gt; 0x7FFFFFFF then Latitude = Latitude - 0x100000000
 
  Latitude = Latitude / 10<sup>7</sup>
 
  **Longitude**: Longitude of the position (expressed in degree) calculated as follow: 
 
- Longitude = Longitude \<\< 8
+ Longitude = Longitude \&lt;\&lt; 8
 
  If Longitude \ 0x7FFFFFFF then Longitude = Longitude - 0x100000000
 
@@ -76,11 +76,11 @@
 | Coded value | EHPE in meters        |
 |-------------|-----------------------|
 | 0-250       | `0-250 in meter`      |
-| 251         | `250 < EHPE <= 500`   |
-| 252         | `500 < EHPE <= 1000`  |
-| 253         | `1000 < EHPE <= 2000` |
-| 254         | `2000 < EHPE <= 4000` |
-| 255         | `EHPE >4 000`         |
+| 251         | `250 &lt; EHPE &lt;= 500`   |
+| 252         | `500 &lt; EHPE &lt;= 1000`  |
+| 253         | `1000 &lt; EHPE &lt;= 2000` |
+| 254         | `2000 &lt; EHPE &lt;= 4000` |
+| 255         | `EHPE &gt;4 000`         |
 
  **COG**: (Course Over Ground) The direction the tracker is moving over the ground expressed in 1/100 degrees
 
@@ -103,10 +103,10 @@
 -   1: Timeout caused by the parameter *gps_t0_timeout*
 -   2: Timeout caused by the parameter *gps_fix_timeout*
 
- **C/N 0**: Carrier over noise (dBm) for the first satellite seen.<br />
- **C/N 1**: Carrier over noise (dBm) for the second satellite seen.<br />
- **C/N 2**: Carrier over noise (dBm) for the third satellite seen.<br />
- **C/N 3**: Carrier over noise (dBm) for the fourth satellite seen.<br />
+ **C/N 0**: Carrier over noise (dBm) for the first satellite seen.<br/>
+ **C/N 1**: Carrier over noise (dBm) for the second satellite seen.<br/>
+ **C/N 2**: Carrier over noise (dBm) for the third satellite seen.<br/>
+ **C/N 3**: Carrier over noise (dBm) for the fourth satellite seen.<br/>
 
 :::tip Notes
 1.  The satellites are ordered based on their **C/N**. The best is sent in **C/N 0**.
@@ -181,7 +181,7 @@
 1.  The payload contains the listened WIFI stations (up to 12 if bit 12 of *config_flags* parameter is set, up to 4 if it is reset).
 2.  If less than 4 stations are listened to, the payload will be reduced.
 3.  BSSID address is provided in big endian format. So, byte 6 of the payload contains the MSB of the BSSID0, while byte 11 contains its LSB.
-4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN&trade; MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more details.
+4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN™ MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more details.
 :::
 
 ## Extended BLE beacon scan payload (MAC address)

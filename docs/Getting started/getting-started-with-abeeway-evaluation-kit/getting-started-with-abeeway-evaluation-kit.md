@@ -15,7 +15,7 @@ After completing these steps, you will be able to:
 ## Prerequisites
 To complete this getting started guide, you need:
 * The Abeeway trackers delivered with your Abeeway evaluation kit<br/>
-* The associated delivery note, that will provide you with the useful IDs of your trackers: DevEUI, JoinEUI/AppEUI & AppKey.
+* The associated delivery note, that will provide you with the useful IDs of your trackers: DevEUI, JoinEUI/AppEUI &amp; AppKey.
 * A LoRaWAN® infrastructure, either private or public:
     * If you bought a kit including public connectivity, you do not have to do anything!<br/>
     * If you bought a kit including a LoRaWAN® gateway, please follow the instructions in the next sections. 

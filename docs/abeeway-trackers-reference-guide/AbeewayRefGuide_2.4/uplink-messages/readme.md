@@ -6,7 +6,7 @@
 -   A common header
 -   A specific data part
 
- The LoraWAN&trade; port used for the uplinks is the 18.
+ The LoraWAN™ port used for the uplinks is the 18.
 
  The tracker supports different types of uplink messages, which are described in the following sections:
 
@@ -27,6 +27,6 @@
 |**Debug**             |  **0x0F**    |Internal use only|
 
 :::tip Notes
-<sup>(1)</sup> Activity status message, configuration message and shock detection message share the same identifier. They are differentiated by the value of byte 5 of the payload. <br />
+<sup>(1)</sup> Activity status message, configuration message and shock detection message share the same identifier. They are differentiated by the value of byte 5 of the payload. <br/>
 <sup>(2)</sup> Configurable via the *config_flags* parameter
 :::

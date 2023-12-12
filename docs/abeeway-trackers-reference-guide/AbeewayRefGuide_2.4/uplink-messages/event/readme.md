@@ -90,14 +90,14 @@ value=0x09
 | Bit     | Type                          | Explanation                                                       |
 | ------- | ----------------------------- | ----------------------------------------------------------------- |
 | Bit 7-5 | **Transition between states** | 0: learning to normal                                             |
-|         |                               | 1: normal to learning                                             |
-|         |                               | 2: normal to critical                                             |
-|         |                               | 3: critical to normal                                             |
-|         |                               | 4: critical to learning                                           |
+| &nbsp;       | &nbsp;                             | 1: normal to learning                                             |
+| &nbsp;       | &nbsp;                             | 2: normal to critical                                             |
+| &nbsp;       | &nbsp;                             | 3: critical to normal                                             |
+| &nbsp;       | &nbsp;                             | 4: critical to learning                                           |
 | Bit 4-3 | **Trigger type**              | 0: Critical angle reporting                                       |
-|         |                               | 1: Angle deviation reporting                                      |
-|         |                               | 2: Shock trigger                                                  |
-|         |                               | 3: RFU                                                            |
+| &nbsp;       | &nbsp;                             | 1: Angle deviation reporting                                      |
+| &nbsp;       | &nbsp;                             | 2: Shock trigger                                                  |
+| &nbsp;       | &nbsp;                             | 3: RFU                                                            |
 | Bit 2-0 | **Repetition Counter**        | Range \[0..7\]. A new transition report cycle resets this counter |
 
 **Age**: Age of the measure, expressed in seconds. The value is in big  
@@ -134,13 +134,13 @@ measurement
 
 #### Status
 
-| Bit     | Type                  |             |
+| Bit     | Type                  | &nbsp;           |
 | ------- | --------------------- | ----------- |
 | Bit 7-4 | **Beacon type**       | 0: short Id |
 | Bit 3-0 | **Notification type** | 0: Safe     |
-|         |                       | 1: Entry    |
-|         |                       | 2: Exit     |
-|         |                       | 3: Hazard   |
+| &nbsp;       | &nbsp;                     | 1: Entry    |
+| &nbsp;       | &nbsp;                     | 2: Exit     |
+| &nbsp;       | &nbsp;                     | 3: Hazard   |
 
 **Beacon Id:** beacon identifier of the detected beacon
 

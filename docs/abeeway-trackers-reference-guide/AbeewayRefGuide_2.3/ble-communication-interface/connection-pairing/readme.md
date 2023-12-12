@@ -62,7 +62,7 @@ Security keys are stored in both the tracker and Central device if the bonding p
 As soon as the BLE secure connection is established (with the bond information), the tracker enters a special mode where the following applies:
 -   Accelerometer and battery monitoring tasks are maintained.
 -   An event uplink is sent, refer to the section [BLE communication events](../../functioning/event-messages/readme.md).
--   All LoRaWAN&trade; communications are stopped (except shutdown message in case the tracker is turned off).
+-   All LoRaWAN™ communications are stopped (except shutdown message in case the tracker is turned off).
 -   No geolocation is performed.
 
 :::tip Notes
@@ -81,7 +81,7 @@ The BLE connection on the tracker is considered lost if no messages are received
 
  The bond information can be cleared by:
 
--   A LoRaWAN&trade; Downlink (Refer to the sections [BLE parameters](../../downlink-messages/parameters-configuration/) and [Reset the device](../../downlink-messages/debug-commands/readme.md) for more details)
+-   A LoRaWAN™ Downlink (Refer to the sections [BLE parameters](../../downlink-messages/parameters-configuration/) and [Reset the device](../../downlink-messages/debug-commands/readme.md) for more details)
 -   A specific BLE command
 -   A CLI command (Refer to the application note [AN-013_CLI_description](https://actilitysa.sharepoint.com/:f:/t/aby/Evqx0qp6AQ1OqrI7-2DoIxsB1wKjLBjykfPh2p7Lo8mP7g?e=VrNdaS) for more details)
 -   A specific button sequence (see [Micro Tracker Commands](../../../../trackers-overview/MicroTracker_C/MicroTrackerCommands_R/) for more details):

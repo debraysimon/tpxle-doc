@@ -40,17 +40,17 @@
 
 **Latitude**: Latitude of the position (expressed in degrees) is calculated as follows: 
 
-Latitude = Latitude \<\< 8
+Latitude = Latitude \&lt;\&lt; 8
 
-If Latitude \> 0x7FFFFFFF then Latitude = Latitude - 0x100000000
+If Latitude \&gt; 0x7FFFFFFF then Latitude = Latitude - 0x100000000
 
 Latitude = Latitude / 10<sup>7</sup>
 
 **Longitude**: Longitude of the position (expressed in degrees) is calculated as follow: 
 
-Longitude = Longitude \<\< 8
+Longitude = Longitude \&lt;\&lt; 8
 
-If Longitude \> 0x7FFFFFFF then Longitude = Longitude - 0x100000000
+If Longitude \&gt; 0x7FFFFFFF then Longitude = Longitude - 0x100000000
 
 Longitude = Longitude / 10<sup>7</sup>
 
@@ -149,7 +149,7 @@ Longitude = Longitude / 10<sup>7</sup>
 1.  The payload contains the listened WIFI stations (up to 12 if bit 12 of *config_flags* parameter is set, up to 4 if it is reset).
 2.  If less than 4 stations are listened, the payload will be reduced.
 3.  BSSID address is provided in big endian format. So, the byte 6 of the payload contains the MSB of the BSSID0, while the byte 11 contains its LSB.
-4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN&trade; MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more data.
+4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN™ MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](../../../../documentation-library/AbeewayTrackers_R.md#application-notes) for more data.
 :::
 
 ## BLE beacon scan payload (MAC address)

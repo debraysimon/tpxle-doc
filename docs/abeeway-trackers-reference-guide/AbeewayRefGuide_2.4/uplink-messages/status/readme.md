@@ -13,7 +13,7 @@ The Status message provides various information on the tracker, mainly about pow
 
 ## Power Status message
 
- Common header with **Type**=0x04 and **Opt**=0x0.<br />
+ Common header with **Type**=0x04 and **Opt**=0x0.<br/>
  **This message is no longer used since the battery percentage is given in all uplinks for all trackers.**
 
 ## Health Status message

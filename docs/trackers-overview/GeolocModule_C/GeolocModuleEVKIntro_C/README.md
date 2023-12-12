@@ -15,7 +15,7 @@ The EVK is the evaluation kit for the ultra-low power geolocation module co-deve
 The easiest way to get started with the discovery kit is to flash the pre-compiled demo application on the module. Here are the key steps:
 1.	Place the jumpers correctly as shown in the diagram below
 
-<img src="images/jumpers.png" border="0" width="900" />
+![img](images/jumpers.png)
 
 2.	Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
 3.	Download the pre-compiled binary from [GitHub](https://github.com/Abeeway/abeeway-geolocation-module/tree/master/apps/abeeway/app-abw-demo/Release)
@@ -46,7 +46,7 @@ git clone https://github.com/Abeeway/abeeway-geolocation-module
 
 3. Import the project into STM32CubeIDE
 
-- Select the **File > Import > Existing Project** Into Workspace menu item
+- Select the **File &gt; Import &gt; Existing Project** Into Workspace menu item
 - Select the folder of the cloned **abeeway-geolocation-module** repo
 
 
@@ -55,7 +55,7 @@ git clone https://github.com/Abeeway/abeeway-geolocation-module
 1. Compile the code by clicking on the 'Hammer' icon on the top of the STM32CubeIDE screen
 2. Connect the Evaluation Board to your computer with an USB cable through USB_3 port.
 3. Download the compiled firmware to the Abeeway Geolocation Module through the built-in ST-Link debugger
-- Select the **Run > Run** menu item in STM32CubeIDE
+- Select the **Run &gt; Run** menu item in STM32CubeIDE
 4. Check that after the download was done, the device restarted and LED_3 is Blinking
 
 #### Configure the Module for LoRaWAN connectivity
@@ -125,6 +125,6 @@ lora send aabbcc
 
 
 <figure>
-  <img src='images/evk_block_diagram.png'/>
+  ![img](images/evk_block_diagram.png)
 </figure>
 <center> EVK Block Diagram </center>

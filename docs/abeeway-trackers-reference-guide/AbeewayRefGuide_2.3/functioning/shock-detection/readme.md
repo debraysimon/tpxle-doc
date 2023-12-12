@@ -30,7 +30,7 @@ The sensitivity configured via the *shock_detection* parameter must be lower tha
 
 ## Shock detection message
 
-Upon the detection of a shock event, the tracker triggers a LoRaWAN&trade; message as follows: 
+Upon the detection of a shock event, the tracker triggers a LoRaWAN™ message as follows: 
 The first message is sent immediately with the actual acceleration values.
 
 The next ones are delayed by two minutes. In this case the reported value will be the highest shock that occurred during this fixed period. If no shock is detected during the two minutes period, no more payload is sent.

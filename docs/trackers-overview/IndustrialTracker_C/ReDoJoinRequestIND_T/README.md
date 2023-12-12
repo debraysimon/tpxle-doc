@@ -1,4 +1,3 @@
-
 # Reset the tracker and re-join the LoRaWAN network
 
 Your tracker is a LoRaWAN® OTAA device that needs to do a join request to attach the LoRaWAN® network and get a join accept from it.<br/>
@@ -25,7 +24,7 @@ The tracker can be reset to its factory default configuration using Abeeway upda
 
 [Abeeway Updater](../../D-Reference/AbeewayFirmwareUpdate_R/) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
 
-<img src="../../C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png" width="700" border="0" />
+[//]: # (![img]&#40;../../C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png&#41;)
 
 ## Resetting the tracker over CLI with tracker connected to USB port
 The tracker can be reset over Command Line Interface (CLI) with the tracker connected to USB port.

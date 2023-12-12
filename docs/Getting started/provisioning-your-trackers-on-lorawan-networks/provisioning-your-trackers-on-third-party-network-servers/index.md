@@ -22,7 +22,7 @@ The setup environment requires the following components:
 * **Application servers** : The application servers will visualize the location data reported by the trackers. In our demo environment, we will use Abeeway Device Manager.
 
 These components are presented below with a color code showing their origin and availability. Components from Actility/Abeeway are represented in blue, components that we plan to develop ourselves are in orange, components from third-parties are in white.
-<img src="./images/3rdpartyNScomponents_747x1017.jpg" border="0" />
+[//]: # (![img]&#40;./images/3rdpartyNScomponents_747x1017.jpg&#41;)
 ## References
 [https://github.com/Actility/thingpark-integrations](https://github.com/Actility/thingpark-integrations)
 

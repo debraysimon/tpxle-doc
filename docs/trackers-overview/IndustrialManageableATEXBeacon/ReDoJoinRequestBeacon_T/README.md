@@ -1,4 +1,3 @@
-
 # Reset the beacon and re-join the LoRaWAN network
 
 Your beacon is a LoRaWAN® OTAA device that needs to do a join request to attach the LoRaWAN® network and get a join accept from it.
@@ -11,7 +10,7 @@ The beacon is equipped with a magnet-activated reed switch (see figure below on 
 
 However, it requires that the value of **firmware parameter reed_switch_configuration=1**, before the sequence below is carried out to reset the beacon. For more information, please refer to [Abeeway trackers Reference Guide](/AbeewayRefGuide/functioning/user-interfaces/#reed-switch-interface), Section: Reed Switch Interface.
 
-<img src="../../CompactTracker_C/images/CompactTrackerPlacement.jpg" border="0" />
+![img](../../CompactTracker_C/images/CompactTrackerPlacement.jpg)
 
 #### Key precautions for activation of the beacon with a magnet
 * Do not attempt to activate the beacon when in proximity of strong magnetic fields (ie, magnetic mounts)
@@ -21,7 +20,7 @@ However, it requires that the value of **firmware parameter reed_switch_configur
 #### Magnet sequence to activate the beacon
 :::warning WARNING
 * The sequence below can be carried out multiple times without any interruption. However, each time the sequence is successful, the device will undergo a reset.
-* You can check whether the sequence is successful by scanning the device with any Bluetooth scanning application, such as [Bluetooth Scanner](https://play.google.com/store/apps/details?id=com.pzolee.bluetoothscanner&hl=fr&gl=US) or Abeeway tracking app. The beacon will advertise itself as ABWXXXXXXX (Where XXXXXXXXX are the last 9 digits of LoRaWAN DevEUI). The Bluetooth advertisement of the device is about 10 minutes (default configuration) if the beacon is not Bluetooth bonded.
+* You can check whether the sequence is successful by scanning the device with any Bluetooth scanning application, such as [Bluetooth Scanner](https://play.google.com/store/apps/details?id=com.pzolee.bluetoothscanner&amp;hl=fr&amp;gl=US) or Abeeway tracking app. The beacon will advertise itself as ABWXXXXXXX (Where XXXXXXXXX are the last 9 digits of LoRaWAN DevEUI). The Bluetooth advertisement of the device is about 10 minutes (default configuration) if the beacon is not Bluetooth bonded.
 :::
 
 For MCU FW 2.2 and above, you need to carry out the following sequence with the magnet next to the reed switch:

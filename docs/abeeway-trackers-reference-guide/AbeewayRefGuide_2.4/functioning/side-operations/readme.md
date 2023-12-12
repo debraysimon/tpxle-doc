@@ -60,7 +60,7 @@ The associated LoRaWAN™ uplink message will contain the history of the activit
 
 ## Scan collection
 
-A scan collection is a WIFI or a BLE extra scan used to sense the environment around the tracker, which is done after the usual geolocation and reported via LoRaWAN&trade; just after the position.
+A scan collection is a WIFI or a BLE extra scan used to sense the environment around the tracker, which is done after the usual geolocation and reported via LoRaWAN™ just after the position.
 
 ## Angle detection
 

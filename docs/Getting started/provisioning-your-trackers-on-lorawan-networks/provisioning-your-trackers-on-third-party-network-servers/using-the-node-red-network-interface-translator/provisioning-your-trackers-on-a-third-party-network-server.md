@@ -5,11 +5,11 @@ Using your network server interface, you need to create an application and add t
 Our example is specific to TTN network server. Adapt it if using another network server.
 
 1. Login in to your TTN console, and click **Add Application**.
-<img src="./images/NewApplication_TTN_LoRAWAN.png" border="0" />
+![img](./images/NewApplication_TTN_LoRAWAN.png)
 
 2. In the **Integrations** tab, use the following information to add the integration:
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
 | **Access Key** |  Select the Access Key used to send downlinks. | 
 | **URL** |  Enter the URL of the Network Interface Converter application server that you have deployed in earlier step. | 
@@ -25,9 +25,9 @@ Adapt the procedure if using another network server.
 :::
 
 1. In TTN, go to the **Overview** page of the Application and click **register device**.
-<img src="./images/open_register_device_menu.png" border="0" />
+![img](./images/open_register_device_menu.png)
 2. In the **REGISTER DEVICE** page that opens, apply the configuration corresponding to your tracker.
-<img src="./images/register_ttn_device.png" border="0" />
+![img](./images/register_ttn_device.png)
 
 |  | Information | 
 | - | ----------- | 
@@ -37,4 +37,4 @@ Adapt the procedure if using another network server.
 | **AppEUI** |  Global application identifier that uniquely identifies the application provider of the tracker. Provided within the tracker delivery note, it is composed of 16 hexadecimal digits (0 to 9, and A to F). | 
 
 3. Click **Register**.<br/>
--> You are redirected to the newly registered device page.
+-&gt; You are redirected to the newly registered device page.

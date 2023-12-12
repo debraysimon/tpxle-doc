@@ -19,7 +19,7 @@ This section describes how to carry out the firmware update using Abeeway update
 ## Prerequisites
 
 1. Install the Abeeway tracking app:
-- Android: [here](https://play.google.com/store/apps/details?id=com.abeeway.mobile&hl=en_US&gl=US)
+- Android: [here](https://play.google.com/store/apps/details?id=com.abeeway.mobile&amp;hl=en_US&amp;gl=US)
 - iOS: [here](https://apps.apple.com/us/app/abeeway-wifi-gps-tracking/id1572268239)
 
 2. Abeeway tracking app only supports the following tracker models. The tracker models can be identified from [here](/D-Reference/IdentifyTrackerModel).
@@ -39,7 +39,7 @@ Please do not use the mobile app if the installed firmware on the tracker or the
 ## Firmware Update of the trackers inside the Mobile app end user account
 If the tracker is already added to the mobile app end user account, then the firmware update can be easily carried out by going to the tracker advanced settings UI once the tracker is Bluetooth connected to the mobile app.
 
-<img src="images/AppFwUpdateEndUser.png" border="1" />
+![img](images/AppFwUpdateEndUser.png)
 
 :::warning WARNING
 - If you wish to upgrade the firmware with custom firmware binary and config file, please REPORT A PROBLEM from the app HELP menu asking to upgrade your account to the admin profile. The admin profile is reserved to operations team, distributors and advanced users.
@@ -54,7 +54,7 @@ This option is meant for Abeeway operations team, distributors and integrators w
 
  **Remove the Bluetooth bond on the phone**: You can search for Abeeway trackers in your phone’s Bluetooth settings and you should not see Abeeway device matching your DEVEUI in your phone’s Bluetooth settings. If the Abeeway device is present, then you can click “FORGET” to remove the Bluetooth bond on the phone for this device. The name of Abeeway trackers in phone's bluetooth settings is ABW followed by 9 last digits of DEVEUI. In the example below, the DEVEUI of Abeeway tracker is 20635F017100000B.
  
- <img src="images/forgetBluetoothbond.png" border="1" />
+ ![img](images/forgetBluetoothbond.png)
 
 3. **Prepare the trackers**:
 
@@ -66,13 +66,13 @@ This option is meant for Abeeway operations team, distributors and integrators w
    * **[Using CLI with the tracker connected over USB port](/D-Reference/UsingCLI_R/)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to clear the BLE bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../../../documentation-library/AbeewayTrackers_R.md#application-notes). (This is applicable to ALL the trackers)
  
 4. Goto Add a tracker UI to search for the tracker
- <img src="../../D-Reference/FirmwareUpdateMobileApp_R/images/addtracker.png" border="1" />
+[//]: # ( ![img]&#40;../../D-Reference/FirmwareUpdateMobileApp_R/images/addtracker.png&#41;)
 
 5. Select the **FIRMWARE UPDATE ONLY** option from the UI and select your tracker
- <img src="../../D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOnly.png" width="320px" border="1" />
+[//]: # ( ![img]&#40;../../D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOnly.png&#41;)
 
 6. After clicking **FIRMWARE UPDATE ONLY** option on the UI, you will see the menu to select the firmware files from your phone or the ones from ThingPark X Location Engine
- <img src="../../D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOptions.png" border="1" />
+[//]: # ( ![img]&#40;../../D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOptions.png&#41;)
 
 
 :::warning Note

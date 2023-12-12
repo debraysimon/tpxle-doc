@@ -4,7 +4,7 @@ The Abeeway Combo Compact Tracker is a highly versatile
 multi-mode Cellular (LTE-M, NB-IoT) and LoRaWAN tracker
 with embedded sensors combining accelerometer, multi-constellation GNSS, [Low-power GPS](https://www.abeeway.com/technology/), Wi-Fi Sniffer, BLE and
 LoRa® TDoA geolocation technologies, supporting accurate
-indoor & outdoor geolocation.
+indoor &amp; outdoor geolocation.
 
 The tracker has a robust form factor (IK08, IP68),
 designed to resist harsh surroundings enabling you to
@@ -25,7 +25,7 @@ of its long battery autonomy.
 The Abeeway compact tracker is a multi-mode tracker that uses 3 replaceable AA format batteries for long battery lifetime and easy replacement. It combines **GPS**, **Low Power-GPS (LP-GPS)** ([an ultra-low power assisted GPS patented by Abeeway](https://www.abeeway.com/technology/) that also optimizes Time-to-First Fix in difficult conditions), **Wi-Fi**, **LoRaWAN®** and **BLE** radios with embedded sensors to support accurate **outdoor** and **indoor** geolocation.
 This tracker is equipped with a rugged waterproof casing which is designed to withstand harsh surroundings enabling seamless asset tracking and management in any industrial environment – whether it is for heavy duty assets, inventory or livestock.
 
-<img src="images/CompactTrackerPlacement2.png" border="0" />
+![img](images/CompactTrackerPlacement2.png)
 
 ## Key product features
 

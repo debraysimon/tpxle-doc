@@ -1,4 +1,4 @@
-# Identifying the tracker model & firmware
+# Identifying the tracker model &amp; firmware
 
 It is important to identify the tracker model when updating the firmware or knowing the features of the tracker. The tracker model can be easily identified by the first 10 digits of DevEUI. 
 
@@ -33,7 +33,7 @@ The table below lists Tracker model and Firmware compatibility.
 | Industrial Tracker V2 | 2.5.0 | 3.3.4 |
 | Industrial Tracker V1 | 2.5.0 | NA |
 
-## MCU & BLE Firmware Compatibility
+## MCU &amp; BLE Firmware Compatibility
 
 It is important to ensure the BLE Firmware and MCU Firmware are compatible with each other to avoid any issues. The following table below describes the compatible MCU and BLE Firmware that we have validated. 
 

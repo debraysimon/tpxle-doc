@@ -4,7 +4,7 @@ Some parameters are encoded with the following algorithm:
 
 ```
 static float \_step_size (float **lo**, float **hi**, unsigned **nbits**, unsigned **nresv**)
-{ return 1.0/((((1 \<\< **nbits**) -1) -**nresv**)/(**hi** -**lo**));}
+{ return 1.0/((((1 \&lt;\&lt; **nbits**) -1) -**nresv**)/(**hi** -**lo**));}
 ```
 ```
 float mt_value_decode(uint32_t value, float **lo**, float **hi**, unsigned **nbits**, unsigned **nresv**)
@@ -19,6 +19,6 @@ float mt_value_decode(uint32_t value, float **lo**, float **hi**, unsigned **nbi
 
 :::tip Notes
 
-1. Values calculated using this formula provide a truncated value rounding within a range of step_size. Decoded value \< Real value \< decoded value + step_size.
-2. **if real value \< step size, then a value of 0 is decoded**.
+1. Values calculated using this formula provide a truncated value rounding within a range of step_size. Decoded value \&lt; Real value \&lt; decoded value + step_size.
+2. **if real value \&lt; step size, then a value of 0 is decoded**.
 :::

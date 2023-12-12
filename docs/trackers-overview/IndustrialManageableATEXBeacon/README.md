@@ -13,8 +13,8 @@ including both Gas and Dust risks. Support for the Bluetooth®
 5.0 standard makes the beacons compatible with all popular
 smartphones and tablets.
 
-<img src="images/CompactTrackerPlacement.jpg" border="0" />
-<img src="images/image_azure_certification.png" border="0" />
+![img](images/CompactTrackerPlacement.jpg)
+![img](images/image_azure_certification.png)
 
 ## Applications
 - Scalable Real-time Location Tracking (RTLS). Long battery life and centralized status monitoring of

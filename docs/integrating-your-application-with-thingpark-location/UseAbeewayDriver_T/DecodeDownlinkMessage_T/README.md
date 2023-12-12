@@ -1,4 +1,3 @@
-
 # Decoding a downlink message
 The input of the driver is a LoRaWAN® downlink payload sent to an Abeeway tracker using a firmware Asset Tracker version 1.9 and above.
 The output of the driver is a string in the well-known JSON format.

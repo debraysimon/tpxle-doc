@@ -14,7 +14,8 @@ Abeeway power consumption tool can be used in one of the following ways:
 </p>
 </html>
 
-<img src="images/ADAPowerConsumption.png" border="0" />
+
+![img](images/ADAPowerConsumption.png)
 
 ## Directly on a web browser
 

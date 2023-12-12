@@ -5,7 +5,7 @@
 
 To get optimum radio performance and accuracy of your compact tracker, apply these rules when using it:
 * Always lay the compact tracker flat as shown below (**The top of the tracker is marked with TOP engraved in the casing**):
-<img src="./images/CompactTrackerPlacement.jpg" border="0" />
+![img](./images/CompactTrackerPlacement.jpg)
 
 * You can fix your compact tracker on an asset with a magnet, screws or a double-sided tape.
 * Avoid contact of fewer than five centimeters with skin, magnetic and metallic objects.

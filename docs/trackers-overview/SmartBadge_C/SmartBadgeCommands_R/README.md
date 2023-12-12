@@ -230,8 +230,7 @@ This table gives you quick access to the tracker commands. For more information 
                     </li>
                 </ul>
             <p>
-                        <iframe class="youtube-player_0" src="https://www.youtube.com/embed/1EkGi3Zw9Jo?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" frameborder="0"
-                                allowfullscreen="1" width="300px" height="150px"></iframe>
+                        <iframe class="youtube-player_0" src="https://www.youtube.com/embed/1EkGi3Zw9Jo?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" frameborder="0" allowfullscreen="1" width="300px" height="150px"></iframe>
             </p>
             <div class="custom-block tip">
                 <p class="custom-block-title">Note</p>

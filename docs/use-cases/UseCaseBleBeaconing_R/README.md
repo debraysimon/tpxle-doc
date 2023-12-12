@@ -24,7 +24,7 @@ We highly recommend to update the tracker to the latest [MCU and BLE Firmware ve
 
 The next step is to configure the tracker with the right parameters using Abeeway Device Manager (ADM). 
 
-<img src="images/ADAConfiguration_3.png" width="800" border="1" />
+![img](images/ADAConfiguration_3.png)
 
 Here are the steps:
 
@@ -48,7 +48,7 @@ Even if you plan to use your own location solver, we recommend to use ThingPark 
 ## Beacon Configuration considerations
 
 :::warning Warning
-**Please review the section: Beacon settings & Calibration in [BLE Position Filtering training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) to ensure the trackers and beacons are correctly configured. Faulty beacon or tracker configuration will result in incorrect location resolution from Thingpark location or with third party solver.**
+**Please review the section: Beacon settings &amp; Calibration in [BLE Position Filtering training](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-firmware-trainings) to ensure the trackers and beacons are correctly configured. Faulty beacon or tracker configuration will result in incorrect location resolution from Thingpark location or with third party solver.**
 :::
 
 ### Beacon Advertising interval
@@ -60,7 +60,7 @@ The beacon advertising interval has direct impact on:
 
 In order to ensure that the beacon is correctly detected by the tracker when the tracker is sniffing the beacon, you must ensure<br/> the following condition:
 
-`*Beacon_advertising_interval << ble_beacon_timeout*`<br/>
+`*Beacon_advertising_interval &lt;&lt; ble_beacon_timeout*`<br/>
 In general, you can set *beacon_advertising_interval = ble_beacon_timeout/10*
 
 We highly recommend to use the same Advertising Interval value on all the beacons.

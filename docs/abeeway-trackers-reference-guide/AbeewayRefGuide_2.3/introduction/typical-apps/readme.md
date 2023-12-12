@@ -2,7 +2,7 @@
 
 ## Micro tracker
 
--   Workforce optimization and safety: lone workers monitoring, tracking, SOS panic button alerts on construction sites, mines, oil & gas platforms, factories, and other industrial indoor and outdoor facilities.
+-   Workforce optimization and safety: lone workers monitoring, tracking, SOS panic button alerts on construction sites, mines, oil &amp; gas platforms, factories, and other industrial indoor and outdoor facilities.
 -   Tracking and monitoring of assets, vehicles, machines, and equipment
 -   Antitheft applications, notification, and location trigger when device is moving, at fixed frequency updates or on demand.
 -   Personal tracking with help button: employees, elderly, children

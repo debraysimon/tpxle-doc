@@ -1,8 +1,8 @@
-# LoRaWAN&trade; uplink transmission
+# LoRaWAN™ uplink transmission
 
 ## Basic Transmission strategy
 
-The tracker follows the LoRaWAN&trade; requirements regarding the transmission (like duty cycle). Each transmission is managed according to the *transmit_strat* parameter:
+The tracker follows the LoRaWAN™ requirements regarding the transmission (like duty cycle). Each transmission is managed according to the *transmit_strat* parameter:
 
 |Strategy |ID |Device is static|Device is moving<sup>(2)</sup> |
 |-------------|-------|-----------------|---------------------|
@@ -15,7 +15,7 @@ The tracker follows the LoRaWAN&trade; requirements regarding the transmission (
 
 :::tip Notes
 
-<sup>(1)</sup>  Number of retransmission and data rate managed by the network (with the same sequence number).<br />
+<sup>(1)</sup>  Number of retransmission and data rate managed by the network (with the same sequence number).<br/>
 <sup>(2)</sup> Tracker is considered in motion until the *motion_duration* timer expires.
 :::
 
@@ -41,8 +41,8 @@ Refer to the dedicated application note [AN-002_LoRa_Transmission](../../../../d
 
 ## Confirmed uplink
 
-The device can be configured to request LoRaWAN&trade; confirmations for uplink messages. The parameter *confirmed_ul_bitmap* is used to select the message types requiring a confirmation. Only message types in the range 0x00 to 0x0F can be selected.
+The device can be configured to request LoRaWAN™ confirmations for uplink messages. The parameter *confirmed_ul_bitmap* is used to select the message types requiring a confirmation. Only message types in the range 0x00 to 0x0F can be selected.
 
 **Example**: To enable confirmed uplink of message types 0x0 and 0x3, we need to set bit 0 and bit 3 to true. This results in *confirmed_ul_bitmap* = 2^0 + 2^3 = 000001001 = 9.
 
-The parameter *confirmed_ul_retry* gives the number of retransmissions that the tracker should do in the case where the LoRaWAN&trade; confirmation is not received. A value 0 means that the tracker will request the LoRaWAN&trade; confirmation of the uplink message (enabled in *confirmed_ul_bitmap* ) but will not retry in case of a failure.
+The parameter *confirmed_ul_retry* gives the number of retransmissions that the tracker should do in the case where the LoRaWAN™ confirmation is not received. A value 0 means that the tracker will request the LoRaWAN™ confirmation of the uplink message (enabled in *confirmed_ul_bitmap* ) but will not retry in case of a failure.

@@ -1,4 +1,3 @@
-
 # Provisioning your trackers on ThingPark Wireless
 This task consists of configuring your trackers on ThingPark Wireless Device Manager to forward all packets to and from the application server provided by Actility on its platform.
 ## Creating an AS routing profile
@@ -6,32 +5,32 @@ You need to create an AS routing profile and add the ready-to-use Actility's app
 :::warning Before you begin
  In your delivery note, get your credentials to access a ThingPark Wireless platform and the name of the ThingPark Location application server.
 :::
- 
+&nbsp;
 1. Log in to ThingPark Wireless Device Manager using for example the IoT platform: [https://iot.thingpark.com/portal/web/](https://iot.thingpark.com/portal/web/)<br/>
    If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>
 
 2. If ThingPark User Portal opens, click the white arrow to access Device Manager.
-<img src="./images/DeviceManagerArrow_177x177.png" border="0" />
+![img](./images/DeviceManagerArrow_177x177.png)
 3. In the navigation panel, click **AS routing profiles**.
 4. In the **AS routing profiles** panel that opens, click **Create** in the **Add AS routing profiles** frame.
-<img src="./images/NewASRP_DB_680x60.png" border="0" />
+![img](./images/NewASRP_DB_680x60.png)
 5. In the **New AS routing profile** dialog box that opens, enter or select the following information:
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
 | **Name** |  A name for the AS routing profile | 
 | **Type** |  **LoRaWAN** | 
-<img src="images/NewASRP_LoRAWAN_687x193.png" border="0" />
+![img](images/NewASRP_LoRAWAN_687x193.png)
 
 6. Click **Create**.
 
 The AS routing profile opens in edit mode.
 
 7. In the **Destinations** frame of the **AS routing profiles** panel, click **Add**.
-<img src="./images/ASRP_DestinationFrame_675x187.png" border="0" />
+![img](./images/ASRP_DestinationFrame_675x187.png)
 8. In the **Add destination** dialog box, select the following information:
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
 | **Type** |  **Supplier application server** | 
 | **Supplier** |  **Actility** | 
@@ -55,15 +54,15 @@ At the same time, you will associate it with the AS routing profile you have cre
 1. In the navigation panel of Device Manager, click **Devices** to open the **Devices** panel.<br/>
 
 2. In the **Add devices** area, click **Create**.
-<img src="./images/CreateDevice2_653x52.png" border="0" />
+![img](./images/CreateDevice2_653x52.png)
 The **New device dialog** box appears with LoRaWAN® OTAA configuration.
-<img src="./images/NewDeviceDB_652x972.png" border="0" />
+![img](./images/NewDeviceDB_652x972.png)
 
 3. In the **Administrative data** frame, enter the following information:
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
-| **Device name** |  A name that helps you identify easily the tracker on your IoT network. For example, MicroTraker_108D, 108D being the last digits of the DevEUI on the sticker of the tracker | 
+| **Device name** |  A name that helps you identify easily the tracker on your IoT network.&nbsp;For example, MicroTraker_108D, 108D being the last digits of the DevEUI on the sticker of the tracker | 
 | **Administrative info** |  Any useful information related to the tracker | 
 :::warning Tips
  * A tooltip appears when pausing your mouse over a field.
@@ -72,7 +71,7 @@ The **New device dialog** box appears with LoRaWAN® OTAA configuration.
 
 4. In the **Device identification** frame, apply the configuration corresponding to your tracker as follows:
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
 | **Manufacturer** |  **Abeeway** | 
 | **Model** |  Model of the tracker. It indicates the supported ISM bands | 
@@ -82,13 +81,13 @@ The **New device dialog** box appears with LoRaWAN® OTAA configuration.
 | **AppKey** |  The Application Key is an AES-128 key assigned by the application owner to the tracker to encrypt the join communication. It is provided within the tracker delivery note | 
 5. In the **Network parameter** frame, select the following information:
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
 | **Connectivity plan** |  **Click and Go Connectivity Plan** | 
 | **DevAddr** |  **Allocated by the network server** must be selected. | 
 6. In the **Application layer handling** frame, select the following information:
 
-|   | Information | 
+| &nbsp; | Information | 
 | - | ----------- | 
 | **AS routing profile** |  To associate your tracker with ThingPark X Location Engine, select the routing profile you have created. It will route the tracker packets towards the Actility's application server. | 
 | **DevAddr** |  **Allocated by the network server** must be selected. | 

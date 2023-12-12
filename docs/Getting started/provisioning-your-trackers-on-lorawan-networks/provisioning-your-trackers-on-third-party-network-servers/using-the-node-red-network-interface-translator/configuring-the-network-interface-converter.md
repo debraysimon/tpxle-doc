@@ -6,13 +6,13 @@ We use the source code of TTN integration as an example. You can find the source
 :::
 
 
-1. Open the Node-RED flow manager application.<br/><img src="./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network.png" border="0" /><br/>
+1. Open the Node-RED flow manager application.<br/>![img](./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network.png)<br/>
 
 2. Click the menu icon on the top-right (with three horizontal bars) and select **Import**.
-    <img src="./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_1.png" border="0" />
+    ![img](./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_1.png)
    
 3. In the **Clipboard** area in the middle, paste the source code of the network server you want to integrate and click **Import**.
-    <img src="./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_2.png" border="0" />
+    ![img](./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_2.png)
 
 4. In the diagram that displays:
 
@@ -28,13 +28,13 @@ We use the source code of TTN integration as an example. You can find the source
 
 
             * Click **Done** to update these settings.
-        <img src="./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_3.png" border="0" />
+        ![img](./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_3.png)
 
 5. Copy the Access Key in TTN Console. The Access Key will be needed in the next step for ThingPark X Location Engine to be able to send downlinks.
-    <img src="./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_4.png" border="0" />
+    ![img](./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_4.png)
 
 6. If you use the TTN network server, double-click the **TTN DL Interface** node and edit the code that displays so that the `msg.key =”...”` is defining the TTN access key. Then click **Done**.  
-   <img src="./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_5.png" border="0" />
+   ![img](./images/Integration3PNS-TTN-Norbertv2/Step 3 Configure the Network_5.png)
 
 7. Click **Deploy** on top of the screen.<br/>
  If you are requested to log in, click the user icon on the top right of the screen and enter your Node-RED credentials you have created earlier.

@@ -2,11 +2,11 @@
 
 ## Compact Tracker
 
-<img src="images/image2_new.png" width="1000"/>
+![img](images/image2_new.png)
 
 ## Industrial Tracker
 
-<img src="images/image3_new.png" width="1000"/>
+![img](images/image3_new.png)
 
 ## Getting started
 
@@ -18,7 +18,7 @@
 
  The magnet should be of sufficient strength and should be placed near the location where the arrow above points "*Reed switch*". Example magnet can be purchased from
  [here.](https://market.thingpark.com/abeeway-compact-tracker-magnets-reed-switch.html)
- The tracker will then start the **join** procedure which can be seen in LoRaWAN&trade; Network Server logs.
+ The tracker will then start the **join** procedure which can be seen in LoRaWAN™ Network Server logs.
 
  The industrial tracker is sent directly in the **join** state.
 

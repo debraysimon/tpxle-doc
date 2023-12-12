@@ -30,7 +30,7 @@ When you use the tracker for the first time, it may have been stored for several
 Therefore **the first scan and refresh of Almanac must be made in open sky conditions, and can last over 15mns**. 
 
 You can use pre-configured template: **"First use: Almanac refresh"** to retrieve the Almanac if using the tracker for the first time. The template can be applied from [Abeeway Device Manager (Device Configuration tab)](/B-Feature-Topics/AbeewayDeviceManager_C/).
-<img src="./images/PrepareTrackersFirstUse.png" width="800" border="1" />
+![img](./images/PrepareTrackersFirstUse.png)
 
 The template **"First use: Almanac refresh"** has the following parameters and can also be applied by sending downlinks to the Abeeway tracker on LoRaWAN port=2. The downlink payloads can be generated using [Abeeway Device Manager (Device Configuration tab)](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-device-manager) or using [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-driver). 
 
@@ -76,8 +76,8 @@ In the example above, the trace indicates that the tracker sees two GPS satellit
 - Sat 1 has svid 25 and carrier to noise (C/N) ratio with a value 28dBm-Hz.<br/>
 - Sat 2 has svid 17 and a C/N ratio of 22dBm-Hz.<br/>
 
-Uploading Almanac and Ephemeris information requires a very good C/N > 27 dbm-Hz.
-LP-GPS location (server assisted) works with a C/N as low as 15 dbm-Hz. Local GNSS location will also work with C/N > 15dbm but ONLY if the Almanac information and Ephemeris information for the visible satellites are available in memory and still valid: the Ephemeris information must have been updated at a maximum 30mn earlier, while the Almanac information can last about 3 months. For this reason LP-GPS is more robust than local GNSS location.
+Uploading Almanac and Ephemeris information requires a very good C/N &gt; 27 dbm-Hz.
+LP-GPS location (server assisted) works with a C/N as low as 15 dbm-Hz. Local GNSS location will also work with C/N &gt; 15dbm but ONLY if the Almanac information and Ephemeris information for the visible satellites are available in memory and still valid: the Ephemeris information must have been updated at a maximum 30mn earlier, while the Almanac information can last about 3 months. For this reason LP-GPS is more robust than local GNSS location.
 
 :::warning Warning
 - If you do not see GNSS satellites in your traces after about 5mn, it means you are in poor GNSS coverage and need to find another location to make the test.
@@ -85,7 +85,7 @@ LP-GPS location (server assisted) works with a C/N as low as 15 dbm-Hz. Local GN
 
 
 2. Ensure that the tracker logs are captured in a trace file with the absolute timestamp of your PC or UTC. This is required to correlate the traces from the tracker to those of LoRaWAN uplinks. The timestamps from Tera term can be enabled as shown in the image below.
-<img src="./images/TeraTermTimestampLogs.png" width="800" border="1" />
+![img](./images/TeraTermTimestampLogs.png)
 
 3.  You can run the following command on CLI at the end of your test to get the Almanac information from the tracker.
 
@@ -96,7 +96,7 @@ gnss read beidou
 The tracker will respond with a trace like the one below.
 
 ```
-user> gnss show gps
+user&gt; gnss show gps
 GPS almanac validity. Last read: 00:01:04 (00:00:17 before now)
  Satellite      Week           Acquisition
  0              0              ---
@@ -151,7 +151,7 @@ Once the tracker starts to send uplinks with Bluetooth beacon IDs, you can see t
 ## Configure ThingPark Location to send uplinks to external application server
 [ThingPark Location Connector module](https://dx-api.thingpark.io/location-connector/latest/doc/index.html) can be used to send the locations to the external application server.
 
-<img src="images/TPXLEpushConnector.png" width="800" border="1" />
+![img](images/TPXLEpushConnector.png)
 
 The position from the GPS solver is inside the JSON object [ResolvedPosition](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#resolvedposition). You can find the example JSON object that is sent when ThingPark Location resolves GPS position [here](/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-gps.md).
 
@@ -178,7 +178,7 @@ The position from the GPS solver is inside the JSON object [ResolvedPosition](ht
 
 [ThingPark Location Alarm Config module](https://dx-api.thingpark.io/location-alarm-config/latest/swagger-ui/index.html?shortUrl=tpdx-location-alarm-config-api-contract.json) can be used to setup the Geofence for the tracker. Once the tracker enters/leaves or leaves the geofence, ThingPark Location will send [alarm object](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#alert) to the external application server configured in the [connector module](https://dx-api.thingpark.io/location-connector/latest/doc/index.html)
 
-<img src="images/SetUpGeofencing.png" width="800" border="1" />
+![img](images/SetUpGeofencing.png)
 
 The following is an example [GeofenceAlarm](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#geofencealarm) JSON object that is sent by ThingPark Location to the application server when the tracker enters the geofence configured by the user.
 

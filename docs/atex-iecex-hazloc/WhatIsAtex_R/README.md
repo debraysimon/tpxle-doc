@@ -1,6 +1,6 @@
 # What is ATEX/IECEx/HAZLOC
 
-ATEX, IECEx, and HAZLOC are globally recognized certifications that ensure the safe operation of equipment in hazardous environments. These certifications are particularly vital for industries dealing with flammable materials, such as the cosmetic, pharmaceutical, oil & gas, chemical, and military sectors.
+ATEX, IECEx, and HAZLOC are globally recognized certifications that ensure the safe operation of equipment in hazardous environments. These certifications are particularly vital for industries dealing with flammable materials, such as the cosmetic, pharmaceutical, oil &amp; gas, chemical, and military sectors.
 
 ![](images/atex_industries.png)
 

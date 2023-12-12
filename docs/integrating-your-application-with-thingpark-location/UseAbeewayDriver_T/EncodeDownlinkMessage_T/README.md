@@ -1,4 +1,3 @@
-
 # Encoding a downlink message
 The encoder takes the JSON format string and converts it into the downlink hexadecimal payload.
 Each downlink message must contain the following fields:

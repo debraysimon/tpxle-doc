@@ -16,7 +16,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
 :::tip Note
  You can select up to ten trackers to be shown and analyzed at the same time.
 :::
-<img src="./images/ADASelectTracker.png" border="1" />
+![img](./images/ADASelectTracker.png)
 
 3. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
     * **MCU Firmware** : It gives the tracker MCU firmware version. Please refer to the [Abeeway trackers reference guide](/AbeewayRefGuide/introduction/) matching the MCU Firmware version to know the supported features.
@@ -24,7 +24,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
     * **Last Mode** : Current mode of the tracker
     * **Battery** : Percentage of remaining battery
     
-    <img src="images/ADADevicesTab.png" border="1" />
+    ![img](images/ADADevicesTab.png)
 
 4. Click the **Map** tab to see the reported locations of your tracker.
    
@@ -36,7 +36,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
       
     * Use the **slider** slowly to monitor a period of time where you want to display locations on the map accordingly.
     
-    <img src="images/ADAMapTab.png" border="0" />
+    ![img](images/ADAMapTab.png)
    
 5. Click the **Performance monitor** tab to display statistics about your tracker.
    
@@ -52,6 +52,6 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
     For a given tracker, all the sliders are synchronized between each other.
     :::
    
-    <img src="images/ADAPerfTab_1078x475.png" border="0" />
+    ![img](images/ADAPerfTab_1078x475.png)
    
 6. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/B-Feature-Topics/AbeewayDeviceManager_C/).

@@ -1,4 +1,3 @@
-
 # Location templates
 Abeeway Device Manager uses the following predefined location templates that you can apply to trackers to configure quickly their location profile. For more information, see [Changing the tracker configuration](/C-Procedure-Topics/ChangeTrackerConfiguration_T/).
 
