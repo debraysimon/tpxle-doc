@@ -12,7 +12,7 @@
 :::tip Note
 
  <sup>(1)</sup> Can be forbidden using *config_flags* parameter bit 1 and bit 15
- (Refer to the section [Miscellaneous parameters](../../downlink-messages/parameters-configuration/#miscellaneous-parameters) for more details)
+ (Refer to the section [Miscellaneous parameters](../../downlink-messages/parameters-configuration/readme.md#miscellaneous-parameters) for more details)
  :::
 
 ## Overview
@@ -24,7 +24,7 @@
  The operational mode is configurable using the configuration
  parameters.
 
- For more details, please refer to [Parameters for operational modes](../../downlink-messages/parameters-configuration/#parameters-for-operational-modes)
+ For more details, please refer to [Parameters for operational modes](../../downlink-messages/parameters-configuration/readme.md#parameters-for-operational-modes)
 
  Alongside the main operating mode, the tracker can perform extra
  operations known as side operations. All the side operations can be

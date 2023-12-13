@@ -9,14 +9,14 @@ This feature needs to be enabled by setting bit 22 of [config_flags](../../Param
 - The scan collections must not be used. When using this feature, parameter [collection_scan_type (Parameter ID: 33)](../../Parameters-default-configuration/firmware-parameters.md#parameters-for-collections) must be set to 0.
 - The parameter [motion_nb_pos](../../Parameters-default-configuration/firmware-parameters.md#accelerometer-parameters) must be greater or equal to 1.
 - The number of reported beacons is defined by the parameter [collection_nb_entry (Parameter ID: 34)](../../Parameters-default-configuration/firmware-parameters.md#parameters-for-collections). 
-- This feature is not active when the tracker is doing [Position On Demand (POD)](../side-operations/#position-on-demand). 
+- This feature is not active when the tracker is doing [Position On Demand (POD)](../side-operations/readme.md#position-on-demand). 
 :::
 
 # LoRaWAN uplinks
 
 When the feature is active, the tracker will report the following uplinks at the **motion end** event:
-- [Extended GPS position](../../uplink-messages/extended-position/#extended-gps-fix-payload) to report the last GPS position, if [config_flags (bit 18)](../../Parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) = true 
-- [GPS position](../../uplink-messages/position/#gps-fix-payload) to report the last GPS position, if [config_flags (bit 18)](../../Parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) = false 
+- [Extended GPS position](../../uplink-messages/extended-position/readme.md#extended-gps-fix-payload) to report the last GPS position, if [config_flags (bit 18)](../../Parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) = true 
+- [GPS position](../../uplink-messages/position/readme.md#gps-fix-payload) to report the last GPS position, if [config_flags (bit 18)](../../Parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) = false 
 - [Collection Wi-Fi](../../uplink-messages/collection-scan) scan payload is sent to report the Wi-Fi BSSIDs.
 
 

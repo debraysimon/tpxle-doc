@@ -54,7 +54,7 @@ The tracker reports the remaining battery level (%) in [LoRaWAN common message h
 
 ![img](images/batteryPercentage.png)
 
-Alternatively, you can use [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-driver) to decode LoRaWAN uplinks to retrieve the battery percentage.
+Alternatively, you can use [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/readme.md#using-abeeway-driver) to decode LoRaWAN uplinks to retrieve the battery percentage.
 
 ## Steps to do when replacing batteries for Compact Tracker/Industrial Tracker
 When replacing batteries in the tracker, you need to reset the **consumption** of the tracker as follows. There are following ways to do it.
@@ -156,7 +156,7 @@ The response is below where 0b0af700000000 should be sent on LoRaWAN downlink to
 ```
 
 #### Method 3: Using CLI
-You can connect the tracker to computer with the data USB cable and then use tera term or similar serial application to interact with the tracker. For more details on CLI, visit [here](/D-Reference/UsingCLI_R/). Here are the steps once the tracker is connected to PC:
+You can connect the tracker to computer with the data USB cable and then use tera term or similar serial application to interact with the tracker. For more details on CLI, visit [here](/troubleshooting-support/using-cli.md/). Here are the steps once the tracker is connected to PC:
 
 1. Once the tracker prompts login, enter password 123.
 2. Reset the **consumption** parameter by entering the command: **config set 0xF7 0**.
@@ -188,7 +188,7 @@ The API documentation of backend commands is [here](https://dx-api.thingpark.io/
 ------------------------------ Snippet End ------------------------------
 ```
 ## Health status 
-The application can request [Health Status Reports](../../uplink-messages/status/#health-status-message) by sending [status request](../../downlink-messages/status-request/) downlink to the tracker. It can be used to troubleshoot the power consumption of the tracker and its breakdown.
+The application can request [Health Status Reports](../../uplink-messages/status/readme.md#health-status-message) by sending [status request](../../downlink-messages/status-request/) downlink to the tracker. It can be used to troubleshoot the power consumption of the tracker and its breakdown.
 
 ## Known Issues
 
@@ -202,7 +202,7 @@ For MCU/Application **Firmware versions 2.3 and below**, the **consumption** par
 1. Step 1: Take the remaining battery % from the **last uplink before the reset was done**. Lets call this parameter as **remaining_battery_percentage**.
 2. Step 2: Compute the new value of **consumption** as follows:<br/>
    consumption = battery_capacity - (remaining_battery_percentage /100)*battery_capacity
-3. Step 3: You can then use any of the [methods outlined above](/AbeewayRefGuide/functioning/power-consumption/#steps-to-do-when-replacing-batteries-for-compact-tracker-industrial-tracker) to reset the **consumption** in the tracker. 
+3. Step 3: You can then use any of the [methods outlined above](/AbeewayRefGuide/functioning/power-consumption/readme.md#steps-to-do-when-replacing-batteries-for-compact-tracker-industrial-tracker) to reset the **consumption** in the tracker. 
 
 :::tip Note
 The **battery_capacity** is the following depending on the tracker model:

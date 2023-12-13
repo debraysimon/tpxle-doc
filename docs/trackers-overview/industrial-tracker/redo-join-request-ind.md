@@ -31,7 +31,7 @@ The tracker can be reset over Command Line Interface (CLI) with the tracker conn
 
 :::warning Important
 * This method requires opening of the casing to access the USB port.
-* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/UsingCLI_R)
+* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/using-cli.md)
 :::
 
 Here are the steps:

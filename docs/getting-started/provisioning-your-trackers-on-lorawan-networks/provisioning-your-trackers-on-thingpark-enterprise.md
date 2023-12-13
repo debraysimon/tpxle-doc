@@ -3,7 +3,7 @@ This task consists of configuring your trackers on ThingPark Enterprise to forwa
 ## Creating an application
 You need to create a ThingPark Location application and associate it with your Abeeway devices.
 
-1. Log in to ThingPark Community platform using [https://community.thingpark.org/](https://community.thingpark.org/) and click **Sign up** to create a free account. Then use this example URL to log in to your ThingPark Enterprise account: [https://community.thingpark.io/tpe/#/dashboard](https://community.thingpark.io/tpe/#/dashboard)
+1. Log in to ThingPark Community platform using [https://community.thingpark.org/](https://community.thingpark.org/) and click **Sign up** to create a free account. Then use this example URL to log in to your ThingPark Enterprise account: [https://community.thingpark.io/tpe/readme.md#/dashboard](https://community.thingpark.io/tpe/readme.md#/dashboard)
 2. In ThingPark Enterprise, select **Applications** &gt; **Create**, then click **Generic Applications**.
 ![img](./images/TPESelecGenericApp.png)
 3. In **Set Your Application**, enter or select the following required information:

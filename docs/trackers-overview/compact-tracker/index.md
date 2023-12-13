@@ -43,7 +43,7 @@ The example video below demonstrates the operation.
 
 :::warning WARNING
 * For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers-documentation#TrackersRefGuide).
+* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers).
 :::
 
 ### Geolocation technologies

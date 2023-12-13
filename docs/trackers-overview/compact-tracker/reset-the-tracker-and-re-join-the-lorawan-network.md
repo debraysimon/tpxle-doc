@@ -8,7 +8,7 @@ If necessary, you can force a new join request for a tracker that is already joi
 
 The compact tracker is equipped with a magnet-activated reed switch (see figure below on the placement of reed switch on the tracker) which requires the end user to place and remove a magnet (with a specific sequence), next to the Compact tracker arrow to exit the shipping mode and trigger the LoRaWAN Join procedure. Once, the tracker is has joined the LoRaWAN network, the same sequence can also be used to reset the tracker. 
 
-However, it requires that the value of **firmware parameter reed_switch_configuration=1**, before the sequence below is carried out to reset the tracker. For more information, please refer to [Abeeway trackers Reference Guide](/AbeewayRefGuide/functioning/user-interfaces/#reed-switch-interface), Section: Reed Switch Interface.
+However, it requires that the value of **firmware parameter reed_switch_configuration=1**, before the sequence below is carried out to reset the tracker. For more information, please refer to [Abeeway trackers Reference Guide](/AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface), Section: Reed Switch Interface.
 
 ![img](images/CompactTrackerPlacement.jpg)
 
@@ -59,7 +59,7 @@ The tracker can be reset over Command Line Interface (CLI) with the tracker conn
 
 :::warning Important
 * This method requires opening of the casing to access the USB port.
-* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/UsingCLI_R)
+* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/using-cli.md)
 :::
 
 Here are the steps:

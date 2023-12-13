@@ -434,7 +434,7 @@ Refer to the application note [AN-003_Scan Collection](https://actilitysa.sharep
 |pw_stat_period|0x02|second|0, 300 - 604800|No more used| 
 
 :::tip Notes
-<sup>12</sup>  Special sequence is described in [Reed switch interface](../../functioning/user-interfaces/#reed-switch-interface) section.
+<sup>12</sup>  Special sequence is described in [Reed switch interface](../../functioning/user-interfaces/readme.md#reed-switch-interface) section.
 
 <sup>13</sup>  If set to 0, the long press duration is 1 second, if set to a value above 8, the long press duration is 8 seconds
 :::

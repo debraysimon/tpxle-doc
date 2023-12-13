@@ -33,7 +33,7 @@ To complete this getting started guide, you need:
   - Compact tracker
   - Industrial tracker V2
 :::warning Notes
-- The tracker model can be found from [here](../../D-Reference/IdentifyTrackerModel/)
+- The tracker model can be found from [here](../troubleshooting-support/identify-tracker-model.md)
 :::
 
 * Minimum Firmware Version
@@ -41,7 +41,7 @@ To complete this getting started guide, you need:
   - BLE Firmware &gt;= 3.3.x 
 
 :::warning Notes
-- The firmware versions can be found from [here](../../D-Reference/IdentifyInstalledFirmware/)
+- The firmware versions can be found from [here](../troubleshooting-support/identify-installed-firmware.md)
 :::
 
   The mobile app version can be found on the home screen (See below) or from the Android/Apple app store where the mobile app was downloaded.
@@ -119,7 +119,7 @@ Abeeway tracker should be provisioned and functioning in the [LoRaWAN network se
 
 :::warning Notes
 * The instructions in this section are for trackers 
-provisioned in [ThingPark Community](http://community.thingpark.org/) platform and using **Abeeway - Community** as the distributor realm when creating the mobile app account.  For using other ThingPark platforms with the mobile app, please visit [AN-017_Mobile APP Getting Started Guide](../documentation-library/abeeway-trackers-documentation#application-notes)
+provisioned in [ThingPark Community](http://community.thingpark.org/) platform and using **Abeeway - Community** as the distributor realm when creating the mobile app account.  For using other ThingPark platforms with the mobile app, please visit [AN-017_Mobile APP Getting Started Guide](../documentation-library/abeeway-trackers#application-notes)
 * **When using the mobile app, it is important to not route the uplinks from the tracker towards other ThingPark Location application servers in the same platform.**
 :::
 
@@ -130,16 +130,16 @@ provisioned in [ThingPark Community](http://community.thingpark.org/) platform a
 ![img](../troubleshooting-support/firmware-update-overview/images/forgetBluetoothbond.png)
 
 * **Remove the Bluetooth bond on the tracker**: When you restart the tracker, you should hear the [Bluetooth advertisement melody](https://actilitysa.sharepoint.com/:u:/t/aby/EWdjoLPV12BGiHsZptjIOrABxRdVpqTLLJM72K795IUQsg?e=rngKdO) for 15 seconds and the tracker will continue to advertise for 10 minutes<sup>(1)</sup>. After 10 minutes, you must restart the tracker again for it to advertise if it’s not bonded. If you do not hear this melody, and you flashed the tracker correctly with the right firmware and config files, then you need to remove the Bluetooth bond on the tracker in either one of the following ways:
-   * **[With the button sequence](../trackers-overview/micro-tracker/MicroTrackerCommands_R)** (This is applicable only to Micro Tracker/Smart Badge): 
+   * **[With the button sequence](../trackers-overview/micro-tracker/index.md)** (This is applicable only to Micro Tracker/Smart Badge): 
       * **MCU FW 2.3.x and above:** Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started. Once inside the special sequence, do the following: 1 click, 1 click, 1x press (between 1 - 4 sec). If the sequence is successful, the tracker will play Bluetooth advertisement melody indicating the Bluetooth bond is removed for about 10 minutes (which is the default configuration).
    * **Sending the LoRaWAN downlink ff0202** on downlink port = 2 to the Abeeway tracker (This is applicable to ALL the trackers. It requires access to the LoRaWAN account where the tracker is provisioned.)
    * **Reed Switch Sequence<sup>(2)</sup>**. The special magnet sequence can be used to activate Bluetooth on the compact tracker if there is no Bluetooth bond on the tracker. 
-   * **[Using CLI with the tracker connected over USB port](/D-Reference/UsingCLI_R/)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to remove the Bluetooth bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../documentation-library/abeeway-trackers-documentation#application-notes). (This is applicable to ALL the trackers)
+   * **[Using CLI with the tracker connected over USB port](../troubleshooting-support/using-cli.md)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to remove the Bluetooth bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../documentation-library/abeeway-trackers#application-notes). (This is applicable to ALL the trackers)
 
 :::warning Note
-<sup>(1)</sup> The Bluetooth advertisement duration can be configured by modifying the value of firmware parameter, *ble_cnx_adv_duration* (Parameter ID:0x6F). Please visit [here](../../AbeewayRefGuide/downlink-messages/parameters-configuration/#ble-communication-parameters) for more details.
+<sup>(1)</sup> The Bluetooth advertisement duration can be configured by modifying the value of firmware parameter, *ble_cnx_adv_duration* (Parameter ID:0x6F). Please visit [here](../../AbeewayRefGuide/downlink-messages/parameters-configuration/readme.md#ble-communication-parameters) for more details.
 
-<sup>(2)</sup> The compact trackers are shipped with default value of *reed_switch_configuration=3*. For more information on reed switch sequence, visit [here](../../AbeewayRefGuide/functioning/user-interfaces/#reed-switch-interface). The video showing this procedure is [here](../../B-Feature-Topics/CompactTracker_C/)
+<sup>(2)</sup> The compact trackers are shipped with default value of *reed_switch_configuration=3*. For more information on reed switch sequence, visit [here](../../AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface). The video showing this procedure is [here](../../B-Feature-Topics/CompactTracker_C/)
 :::
 
 ## Creating an account in the mobile app
@@ -167,7 +167,7 @@ The screenshot below shows the app permissions for location in Android/iOS setti
 ## Adding the tracker to the mobile app account
 
 Once the account is successfully created in the earlier step, goto Add a tracker UI to search for the tracker. <br/>
-**The tracker must not be Bluetooth bonded to another phone and advertising itself in Bluetooth. Please visit the section [preparing the trackers](../../C-Procedure-Topics/GetStartedMobileApp_T/#prepare-the-trackers) for more instructions.**
+**The tracker must not be Bluetooth bonded to another phone and advertising itself in Bluetooth. Please visit the section [preparing the trackers](../../C-Procedure-Topics/GetStartedMobileApp_T/readme.md#prepare-the-trackers) for more instructions.**
 
 ![img](../troubleshooting-support/firmware-update-overview/images/addtracker.png)
 

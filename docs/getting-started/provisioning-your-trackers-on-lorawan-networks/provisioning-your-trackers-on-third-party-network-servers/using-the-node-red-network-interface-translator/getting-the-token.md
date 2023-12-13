@@ -7,7 +7,7 @@ To do so, you need:
 
 1. If you do not have a ThingPark account, create a free account on [https://community.thingpark.org/](https://community.thingpark.org/). If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs).<br/>
 
-2. Generate the token on [DX Admin API](https://dx-api.thingpark.io/getstarted/#/) 
+2. Generate the token on [DX Admin API](https://dx-api.thingpark.io/getstarted/readme.md#/) 
 
 [//]: # (![img]&#40;./images/Integration3PNS-TTN-Norbertv2/Step2GetTheTokenNew.png&#41;)
 

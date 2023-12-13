@@ -43,7 +43,7 @@
 
 (2)  Refer to the section [BLE scan and communication parameters](../../downlink-messages/parameters-configuration/) and [Start and Stop BLE Advertisement](../../downlink-messages/parameters-configuration/) for more details.
 
-(3)  Only for compact trackers, refer to [Reed switch interface](../../functioning/user-interfaces/#reed-switch-interface) for more details.
+(3)  Only for compact trackers, refer to [Reed switch interface](../../functioning/user-interfaces/readme.md#reed-switch-interface) for more details.
 :::
 
 ## Bonding procedure
@@ -69,7 +69,7 @@ As soon as the BLE secure connection is established (with the bond information),
 1.  Once connected, the tracker does not accept any other BLE connections.
 2.  If the tracker has the bond information, only the paired central device can connect to it.
 3.  When the tracker is bonded and securely connected to the central device, the geolocation is done by the central device.
-4.  If a bonded central device lost its security keys, it can establish the bond again with the tracker, if the bit 11 of the *config_flags* parameter is set to 0. See [Asymmetric BLE pairing](../../ble-communication-interface/connection-pairing/#asymmetric-ble-pairing) section below for more details
+4.  If a bonded central device lost its security keys, it can establish the bond again with the tracker, if the bit 11 of the *config_flags* parameter is set to 0. See [Asymmetric BLE pairing](../../ble-communication-interface/connection-pairing/readme.md#asymmetric-ble-pairing) section below for more details
 :::
 
 ### Disconnection with a bonded device

@@ -3,10 +3,10 @@
 ## Introduction
 The table below summarizes the ATEX/IECEx certifications of Abeeway trackers:
 
-| | Supported Tracker Models |
-| - | -------- |
-| **ATEX Zone 0-20** <br/>**IECEx Zone 0**| Compact tracker, Industrial Manageable ATEX Beacon |  
-| **ATEX Zone 2-22**|Micro Tracker V2, Smart Badge, Compact tracker, Industrial Manageable ATEX Beacon|
+|                                          | Supported Tracker Models                                                          |
+|------------------------------------------|-----------------------------------------------------------------------------------|
+| **ATEX Zone 0-20** <br/>**IECEx Zone 0** | Compact tracker, Industrial Manageable ATEX Beacon                                |  
+| **ATEX Zone 2-22**                       | Micro Tracker V2, Smart Badge, Compact tracker, Industrial Manageable ATEX Beacon |
 
 
 ## Smart Badge
@@ -23,9 +23,9 @@ The markings are explained in the following figures below :
 
 
 :::warning Note
-- The certification documents are available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
-- The data sheet is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#data-sheets).
-- The OOB document is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#out-of-box-user-guides).
+- The certification documents are available [here](../documentation-library/abeeway-trackers.md#certifications).
+- The data sheet is available [here](../documentation-library/abeeway-trackers.md#data-sheets).
+- The OOB document is available [here](../documentation-library/abeeway-trackers.md#out-of-box-user-guides).
 :::
 
 ## Micro Tracker V2
@@ -41,8 +41,8 @@ The markings are explained in the following figures below :
 ![img](images/ATEX_zone_II_D_SB_MTV2.png)
 
 :::warning Note
-- The certification documents are available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
-- The data sheet is available [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#data-sheets).
+- The certification documents are available [here](../documentation-library/abeeway-trackers.md#certifications).
+- The data sheet is available [here](../documentation-library/abeeway-trackers.md#data-sheets).
 :::
 
 ## Compact Tracker

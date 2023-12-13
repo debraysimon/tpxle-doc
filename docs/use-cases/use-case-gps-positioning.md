@@ -32,7 +32,7 @@ Therefore **the first scan and refresh of Almanac must be made in open sky condi
 You can use pre-configured template: **"First use: Almanac refresh"** to retrieve the Almanac if using the tracker for the first time. The template can be applied from [Abeeway Device Manager (Device Configuration tab)](/B-Feature-Topics/AbeewayDeviceManager_C/).
 ![img](images/PrepareTrackersFirstUse.png)
 
-The template **"First use: Almanac refresh"** has the following parameters and can also be applied by sending downlinks to the Abeeway tracker on LoRaWAN port=2. The downlink payloads can be generated using [Abeeway Device Manager (Device Configuration tab)](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-device-manager) or using [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/#using-abeeway-driver). 
+The template **"First use: Almanac refresh"** has the following parameters and can also be applied by sending downlinks to the Abeeway tracker on LoRaWAN port=2. The downlink payloads can be generated using [Abeeway Device Manager (Device Configuration tab)](/C-Procedure-Topics/UseAbeewayDriver_T/readme.md#using-abeeway-device-manager) or using [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/readme.md#using-abeeway-driver). 
 
 The template **"First use: Almanac refresh"** has the following parameters:
 | Parameter Name | Compact / Industrial Tracker | Micro Tracker/Smart Badge  | 
@@ -47,7 +47,7 @@ The template **"First use: Almanac refresh"** has the following parameters:
 - **Even if you are not using ThingPark Location with the tracker, you can still use Abeeway Device Manager to generate the downlink configuration payloads for a given configuration (which must be sent on LoRaWAN Fport=2 to the device using your preferred LoRaWAN network server)**. 
 - The tracker will acknowledge the configuration command with an uplink message.
 - If no ack is received, the downlink, or the ack, may have been lost: the configuration downlink command need to be sent again to the tracker.
-- The firmware parameters can also be set with the tracker connected to computer over USB port using CLI. For more information, see [here](/D-Reference/UsingCLI_R/).
+- The firmware parameters can also be set with the tracker connected to computer over USB port using CLI. For more information, see [here](/troubleshooting-support/using-cli.md/).
 :::
 
 Once you start getting regular GNSS positions, keep the tracker in open sky conditions for at least 15mns (in the best possible conditions, a full Almanac refresh takes 12.5min). You can check the Almanac information status for the GPS constellation using CLI command.
@@ -64,7 +64,7 @@ We recommend to use **Balanced Configuration** for the first usage of the tracke
 ## Troubleshooting the GNSS/LP-GPS positioning
 If you think the tracker is already configured correctly with the steps above but you do not find the location results satisfactory, you can perform the following steps for troubleshooting:
 
-1. Place the tracker in open sky conditions connected to a  **data USB cable (check that it is not a power-only cable)** to a computer using serial application like Tera Term. For more information on using Command Line Interface (CLI), see [here](/D-Reference/UsingCLI_R/).
+1. Place the tracker in open sky conditions connected to a  **data USB cable (check that it is not a power-only cable)** to a computer using serial application like Tera Term. For more information on using Command Line Interface (CLI), see [here](/troubleshooting-support/using-cli.md/).
 
 During the acquisition of GNSS, the tracker will print information on CLI traces as shown in the example below:
 

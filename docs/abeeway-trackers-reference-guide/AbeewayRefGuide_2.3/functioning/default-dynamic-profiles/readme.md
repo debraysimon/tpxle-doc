@@ -10,7 +10,7 @@ Currently, 3 profiles are defined:
 -   Intensive<sup>(3)</sup>
 
 If no profile is defined, Unknown (0) is used.
-Refer to the [Parameters for operational modes](../../downlink-messages/parameters-configuration/#parameters-for-operational-modes) topic for more details.
+Refer to the [Parameters for operational modes](../../downlink-messages/parameters-configuration/readme.md#parameters-for-operational-modes) topic for more details.
 
 Two parameters are defined to manage this feature:
 -   *default_profile* parameter (Parameter ID: 0x65): This parameter defines the initialization value of the profile and is used when the device is powered ON for the first time, or resets.

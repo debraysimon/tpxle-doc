@@ -129,7 +129,7 @@ The table below sum up all parameters and their identifiers (ID). The parameters
 |	**gps_ehpe_motion**                	|	121	|	(0x79)	|
 |	**gps_convergence_motion**           	|	122	|	(0x7A)	|
 |	**gps_t0_timeout_motion**	|	123	|	(0x7B)	|
-|	[_Special Parameters_](../uplink-messages/configuration/#special-parameters)	|		|		|
+|	[_Special Parameters_](../uplink-messages/configuration/readme.md#special-parameters)	|		|		|
 |	ble_cli_active                   	|	245	|	(0xF5)	|
 |	profile                          	|	246	|	(0xF6)	|
 |	consumption                      	|	247	|	(0xF7)	|
@@ -486,7 +486,7 @@ Description:
 
 (1) Before V1.7 MCU application firmware version, Wi-Fi position payloads were all encrypted, this parameter is for backward compatibility only and only non-cyphered payload should be use in new application.
 
-(2) If the bit is set, the Bluetooth advertising is activated when the tracker is turned on (Micro Tracker/Smart Badge), or in case of Compact Tracker when the special [Reed switch](../functioning/user-interfaces/#reed-switch-interface) sequence is detected.
+(2) If the bit is set, the Bluetooth advertising is activated when the tracker is turned on (Micro Tracker/Smart Badge), or in case of Compact Tracker when the special [Reed switch](../functioning/user-interfaces/readme.md#reed-switch-interface) sequence is detected.
 
 (3) Force a new join to the LoRaWAN™ network when the tracker is turned on after it was in OFF mode due to a downlink or a user action.
 
@@ -547,7 +547,7 @@ Description:
 
 :::tip Notes
   
-(12) Special sequence is described in [Reed switch interface](../functioning/user-interfaces/#reed-switch-interface) section.
+(12) Special sequence is described in [Reed switch interface](../functioning/user-interfaces/readme.md#reed-switch-interface) section.
 
 (13) If set to 0, the long press duration is 1 second, if set to a value above 8, the long press duration is 8 seconds.
 
@@ -625,7 +625,7 @@ The functioning of these 2 parameters and accelerometer driver has been signific
 :::tip Notes  
 (1) The driver of the old accelerometer chip (MMA8256FC) ignores the values of the octets 1 and 2. Only the octet 0 is relevant and the sensitivity is configured as described.  <br/>
 
-(2) The accelerometer chip details can be easily found by connecting the tracker with USB cable on [CLI terminal](/D-Reference/UsingCLI_R/) and entering **system accelero show**.
+(2) The accelerometer chip details can be easily found by connecting the tracker with USB cable on [CLI terminal](/troubleshooting-support/using-cli.md/) and entering **system accelero show**.
 
 (3) The range of *shock_detection* parameter depends on the accelerometer inside the tracker and also the MCU Firmware version. Please refer to the [AN-018_Motion_and_shock_detection](/documentation-library/abeeway-trackers-documentation.md#application-notes) to find out the accelerometer inside your tracker.
 :::

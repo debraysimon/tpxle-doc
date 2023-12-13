@@ -31,7 +31,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://dx-api.thingpark.io/getstarted/#/">
+                    <a href="https://dx-api.thingpark.io/getstarted/readme.md#/">
                         API Getting Started
                     </a>
                 </li>

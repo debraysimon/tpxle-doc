@@ -36,7 +36,7 @@ The data rate used when tracker transitions from motion to static (with ADR) and
 
 It is activated only if *transmit_strat* parameter is set to 0x05 (custom strategy). The strategy is then defined with *transmit_strat_custom* parameter.
 
-Refer to the dedicated application note [AN-002_LoRa_Transmission](../../../../documentation-library/abeeway-trackers-documentation#application-notes) strategy for more details.
+Refer to the dedicated application note [AN-002_LoRa_Transmission](../../../../documentation-library/abeeway-trackers#application-notes) strategy for more details.
 **This feature should be applied only after careful study of the application note and LoRaWAN MAC behavior to not negatively impact the proper functioning of the trackers.**
 
 ## Confirmed uplink

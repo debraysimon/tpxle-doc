@@ -145,7 +145,7 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	**gps_ehpe_motion**                  	|	121	|	(0x79)	|	40 seconds	|
 |	**gps_convergence_motion**           	|	122	|	(0x7A)	|	20 seconds	|
 |	**gps_t0_timeout_motion**	|	123	|	(0x7B)	|	30	seconds |
-|	[_Special Parameters_](../uplink-messages/configuration/#special-parameters)	|		|		|		|
+|	[_Special Parameters_](../uplink-messages/configuration/readme.md#special-parameters)	|		|		|		|
 |	ble_cli_active                   	|	245	|	(0xF5)	|	0 (Disabled)	|
 |	profile                          	|	246	|	(0xF6)	|	0 (None)	|
 |	consumption                      	|	247	|	(0xF7)	|	0 mAh	|
@@ -158,11 +158,11 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	firmware_version    (**Read only**)             	|	254	|	(0xFE)	|	132096	|
 
 :::tip Notes
-(1). Please visit [here](../functioning/user-interfaces/#button-management) for the definition of click, press, long press, etc.
+(1). Please visit [here](../functioning/user-interfaces/readme.md#button-management) for the definition of click, press, long press, etc.
 
 (2)  New parameters or if their default values changed have been marked bold.
 
-(3)  Default parameter values are subject to change. The tracker configuration can be obtained with a downlink or a [CLI command](/D-Reference/UsingCLI_R/#here-are-the-main-steps-to-use-cli) (**config show**). 
+(3)  Default parameter values are subject to change. The tracker configuration can be obtained with a downlink or a [CLI command](../../../troubleshooting-support/using-cli.md#here-are-the-main-steps-to-use-cli) (**config show**). 
 
 (4) Please use MCU FW 2.3 and below for proximity feature. Proximity feature is removed starting from AT 2.4.
 :::

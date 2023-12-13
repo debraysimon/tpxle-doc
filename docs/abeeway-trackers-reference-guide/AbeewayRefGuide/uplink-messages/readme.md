@@ -22,7 +22,7 @@
 | **BLE MAC address**               | **0x07** | Reports the BLE MAC address of the tracker                                                                                                                                                    |
 | **Shutdown**                      | **0x09** | Sent when the tracker is set off                                                                                                                                                              |
 | **Event<sup>(2)</sup>**           | **0x0A** | Sends event information about tracker                                                                                                                                                         |
-| **Collection scan**               | **0x0B** | WIFI or BLE collection scan data (detailed in the application note [AN-003_ScanCollection](../../../documentation-library/abeeway-trackers-documentation.md#application-notes))               |
+| **Collection scan**               | **0x0B** | WIFI or BLE collection scan data (detailed in the application note [AN-003_ScanCollection](../../../documentation-library/abeeway-trackers#application-notes))               |
 | **Extended Position**             | **0x0E** | GPS, low power GPS, WIFI or BLE position information                                                                                                                                          |
 | **Debug**                         | **0x0F** | Internal use only                                                                                                                                                                             |
 

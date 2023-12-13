@@ -182,4 +182,4 @@ Your tracker will start SOS mode and eventually beep at downlink. Do a triple cl
 [3]: https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api
 [4]: https://console.helium.com/welcome
 [5]: https://console.cloud.thethings.network/
-[6]: https://dx-api.thingpark.io/getstarted/#/
+[6]: https://dx-api.thingpark.io/getstarted/readme.md#/

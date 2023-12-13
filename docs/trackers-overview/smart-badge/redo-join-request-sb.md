@@ -87,7 +87,7 @@ This method can be used to reset the tracker to the factory default configuratio
 The tracker can be reset over Command Line Interface (CLI) with the tracker connected to USB port.
 
 :::warning Important
-* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/UsingCLI_R)
+* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/using-cli.md)
 :::
 
 Here are the steps:

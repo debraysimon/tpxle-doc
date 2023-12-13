@@ -1,5 +1,5 @@
 # Provisioning your trackers on a third-party network server
-This task consists of configuring your trackers in your third party network server to forward all packets to and from the Network Interface Converter that you have deployed in [Integrating a third-party network server](/B-Feature-Topics/Integrate3PNS_C/#integrating-a-third-party-network-server).
+This task consists of configuring your trackers in your third party network server to forward all packets to and from the Network Interface Converter that you have deployed in [Integrating a third-party network server](/B-Feature-Topics/Integrate3PNS_C/readme.md#integrating-a-third-party-network-server).
 ## Creating an application
 Using your network server interface, you need to create an application and add the Network Interface Converter application server you have created.<br/>
 Our example is specific to TTN network server. Adapt it if using another network server.

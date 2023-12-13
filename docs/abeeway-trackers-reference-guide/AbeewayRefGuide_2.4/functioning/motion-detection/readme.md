@@ -20,7 +20,7 @@ The tracker embeds a three axes accelerometer, which detects accelerations and t
 
  ## Motion Duty Cycle Percentage
  
- The tracker stores the % of time tracker had been moving since the last reset of the tracker or when then counter is reset using [Clear motion percentage downlink](../../downlink-messages/clear-motion-percentage/). Motion Duty Cycle percentage (MDP) is reported in [motion end uplinks](../../uplink-messages/event/#event-message).
+ The tracker stores the % of time tracker had been moving since the last reset of the tracker or when then counter is reset using [Clear motion percentage downlink](../../downlink-messages/clear-motion-percentage/). Motion Duty Cycle percentage (MDP) is reported in [motion end uplinks](../../uplink-messages/event/readme.md#event-message).
 
 ## Device orientation
 

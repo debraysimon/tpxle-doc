@@ -1,6 +1,6 @@
 # Short Message Service (SMS)
 
-This feature allows the tracker to send short messages over LoRaWAN. The message can be sent over [CLI](/D-Reference/UsingCLI_R/) with the tracker connected to computer using USB port or via bluetooth communication interface using smart phone.
+This feature allows the tracker to send short messages over LoRaWAN. The message can be sent over [CLI](/troubleshooting-support/using-cli.md/) with the tracker connected to computer using USB port or via bluetooth communication interface using smart phone.
 
 The main application of this feature is to be able to send short messages over LoRaWAN when traditional cellular network is not available.
 
@@ -34,7 +34,7 @@ The two message types differ in the network processing:
  - **normal**: means that a non network acknowledged message will be sent. The network will not acknowledge
    the message reception. In the case where the message is lost by the server, it is not retransmitted
    by the device.
- - **urgent**: means that a network acknowledged message will be sent. The network will acknowledge the message reception. In the case where the message is not received by the server, the acknowledge will not be sent. The device will repeat the message up to 4 times (see [here](../../uplink-messages/lorawan-ul-transmission/#confirmed-uplink)).
+ - **urgent**: means that a network acknowledged message will be sent. The network will acknowledge the message reception. In the case where the message is not received by the server, the acknowledge will not be sent. The device will repeat the message up to 4 times (see [here](../../uplink-messages/lorawan-ul-transmission/readme.md#confirmed-uplink)).
    
  
 ### Examples

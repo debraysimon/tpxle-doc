@@ -2,23 +2,23 @@
 
 ## Reference Guides and Tools
 
-| | Resource |
-| - | -------- |
-| **Asset tracker firmware Reference Guide**| [LATEST](/AbeewayRefGuide/introduction/) <br/> [OLDER VERSIONS](https://actilitysa.sharepoint.com/:f:/t/aby/Ep4-XPaCPlpDkUrSP2_Iao0BLcCjcPyL_wiSe1aak0MzOg?e=AhKbQW) |  
-| **Asset tracker firmware Release Notes**| [Abeeway tracker Firmware Release notes](../../D-Reference/ReleaseNotes/) |  
-| **Trackers power consumption estimation**| [Power Consumption Estimation](https://actilitysa.sharepoint.com/:f:/t/aby/Er1CBFg9-YxChO-cdxGs5DUBj2CDpFGEhoEQtFeuH9l_4w?e=xmiDVM) |
-| **LED patterns for micro tracker and smart badge** | [LED patterns](https://actilitysa.sharepoint.com/:b:/t/aby/Ee9KhtkknRFMiBipu_fWDdgBh5pr8AIyZNYXkTCe5fg18A?e=DtRe8I) | 
-| **Asset tracker driver**| [Asset Tracker Driver User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhpXO62fGtlEstRRCMq6UAgBRgT_0xLToEZd1k_NyGzCcA?e=HlmwTS) |
-| **Melodies for Abeeway Trackers** | [Abeeway trackers melody](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=dCGByt) |
+|                                                    | Resource                                                                                                                                                                                               |
+|----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Asset tracker firmware Reference Guide**         | [LATEST](../abeeway-trackers-reference-guide/AbeewayRefGuide/introduction) <br/> [OLDER VERSIONS](https://actilitysa.sharepoint.com/:f:/t/aby/Ep4-XPaCPlpDkUrSP2_Iao0BLcCjcPyL_wiSe1aak0MzOg?e=AhKbQW) |  
+| **Asset tracker firmware Release Notes**           | [Abeeway tracker Firmware Release notes](../troubleshooting-support/release-notes.md)                                                                                                                  |  
+| **Trackers power consumption estimation**          | [Power Consumption Estimation](https://actilitysa.sharepoint.com/:f:/t/aby/Er1CBFg9-YxChO-cdxGs5DUBj2CDpFGEhoEQtFeuH9l_4w?e=xmiDVM)                                                                    |
+| **LED patterns for micro tracker and smart badge** | [LED patterns](https://actilitysa.sharepoint.com/:b:/t/aby/Ee9KhtkknRFMiBipu_fWDdgBh5pr8AIyZNYXkTCe5fg18A?e=DtRe8I)                                                                                    | 
+| **Asset tracker driver**                           | [Asset Tracker Driver User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EhpXO62fGtlEstRRCMq6UAgBRgT_0xLToEZd1k_NyGzCcA?e=HlmwTS)                                                                 |
+| **Melodies for Abeeway Trackers**                  | [Abeeway trackers melody](https://actilitysa.sharepoint.com/:f:/t/aby/Er982mOeCYxLniE8OjVErKwBopXN9-mKCC7VPn5HsJkigA?e=dCGByt)                                                                         |
 
 ## Out of Box User Guides
 
-| | Resource | 
-| - | -------- |
-| **Micro tracker**| [Micro tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
-| **Smart badge** | [Smart Badge Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
-| **Industrial tracker**| [Industrial Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
-| **Compact tracker** | [Compact Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
+|                                            | Resource                                                                                                                                                      | 
+|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Micro tracker**                          | [Micro tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k)                    |
+| **Smart badge**                            | [Smart Badge Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k)                      |
+| **Industrial tracker**                     | [Industrial Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k)               |
+| **Compact tracker**                        | [Compact Tracker Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k)                  |
 | **Geolocation Module Discovery kit (EVK)** | [Geolocation Module Discovery kit Out of Box User Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EuMzuM_frNdHv_PEqLKPIxsBI83xXlrDeOgdLbe6XnaHoA?e=fnAY2k) |
 
 ## Certifications

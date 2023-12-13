@@ -10,7 +10,7 @@ This feature is supported by all Abeeway trackers.
 
 ## Overview
 
-The mechanical definition of a shock is a strong acceleration intensity during a short period. It can be seen as a pulse. Once a shock has been detected, a [shock detection event message](../../uplink-messages/shock-detection/#accelerometer-shock-data) is sent via LoRaWAN, which will contain a measurement for the intensity of the shock.
+The mechanical definition of a shock is a strong acceleration intensity during a short period. It can be seen as a pulse. Once a shock has been detected, a [shock detection event message](../../uplink-messages/shock-detection/readme.md#accelerometer-shock-data) is sent via LoRaWAN, which will contain a measurement for the intensity of the shock.
 Note
 •	The shock detection embeds a debounce timer (fixed value of 1 second) to avoid sending multiple LoRa event messages for the same shock.
 •	The shock detection requires the high sensitivity mode (Octet 0 of motion_sensitivity must be in the range [1..99]).
@@ -24,7 +24,7 @@ The configuration of the shock detection is based on a single parameter called *
 
 ## Shock detection message
 
-Upon the detection of a shock event, the tracker triggers a [shock detection LoRaWAN message](../../uplink-messages/shock-detection/#shock-detection-messages) as follows. 
+Upon the detection of a shock event, the tracker triggers a [shock detection LoRaWAN message](../../uplink-messages/shock-detection/readme.md#shock-detection-messages) as follows. 
 The first message is sent immediately with the actual acceleration values.
 
 The next ones are delayed by two minutes. In this case the reported value will be the highest shock that occurred during this fixed period. If no shock is detected during the two minutes period, no more payload is sent.

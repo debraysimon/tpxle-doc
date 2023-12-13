@@ -9,7 +9,7 @@ The complete documentation listed below can be a bit overwhelming. We recommend 
 4. You will need to tune the tracker's LoRaWAN transmit strategy to your specific use case and network. ADM provides default settings but if you want to optimize power consumption for a given private network you will need to make sure the the data-rates used are as high as possible. [AN-002_LoRa_Transmission_strategy](https://thingpark.page.link/ABWAppNotes) provides all the details.
 5. You will usually need to understand how to tune the embedded GNSS geolocation logic to optimize power consumption and tune it to your local GNSS reception conditions, or configure aggressive timeouts if you want the tracker to switch to WiFi or BLE geolocation as much as possible. [AN-016_GPS_LPGPS](https://thingpark.page.link/ABWAppNotes) provides the required reference.
 6. If you need to understand specific parameters when using the Abeeway Device Manager beyond the tooltip information, you can refer to the [Abeeway Trackers Reference Guide](/AbeewayRefGuide/introduction/). This document is not meant to be read end-to-end, but rather as a comprehensive reference for all commands and parameters.
-7. You can more information in [Abeeway Firmware trainings](../../D-Reference/TrackersDoc_R/#abeeway-firmware-trainings) and [ThingPark X Location Engine trainings](../../D-Reference/TrackersDoc_R/#thingpark-x-location-engine-trainings) below for more specific use cases.
+7. You can more information in [Abeeway Firmware trainings](../../D-Reference/TrackersDoc_R/readme.md#abeeway-firmware-trainings) and [ThingPark X Location Engine trainings](../../D-Reference/TrackersDoc_R/readme.md#thingpark-x-location-engine-trainings) below for more specific use cases.
 
 The rest of the documentation relates to specific use cases (e.g. BLE scanning, Covid proximity) or specific actions (Firmware update, debugging), and the titles are self-explanatory. You need to read them only if relevant to you.
 
@@ -29,7 +29,7 @@ A set of parameters that are optimized for first use acquisition of Almanac are 
 pseudo range
 ![](./images/PrepareTrackersFirstUse.png)
 
-You can also verify the current status of Almanac that is stored in the tracker by entering the following command **gnss show `<gps|beidou>`** on [CLI](/D-Reference/UsingCLI_R/) with the tracker connected to the computer using USB port or via [Abeeway mobile app](/C-Procedure-Topics/GetStartedMobileApp_T/) (over bluetooth). For more information refer to [AN_016_GPS_LPGPS_usage](/D-Reference/TrackersDoc_R/README.md#application-notes) and [here](/D-Reference/UseCaseGPSPositioning_R/#preparing-your-tracker-for-first-use-with-gnss).
+You can also verify the current status of Almanac that is stored in the tracker by entering the following command **gnss show `<gps|beidou>`** on [CLI](/troubleshooting-support/using-cli.md/) with the tracker connected to the computer using USB port or via [Abeeway mobile app](/C-Procedure-Topics/GetStartedMobileApp_T/) (over bluetooth). For more information refer to [AN_016_GPS_LPGPS_usage](/D-Reference/TrackersDoc_R/README.md#application-notes) and [here](/D-Reference/UseCaseGPSPositioning_R/readme.md#preparing-your-tracker-for-first-use-with-gnss).
 
 ## Abeeway trackers
 

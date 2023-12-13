@@ -58,7 +58,7 @@ The example video below demonstrates the operation.
 
 :::warning WARNING
 * For more information on the battery lifetime of the beacon, visit [here](../abeeway-device-manager/PowerConsumption_R)
-* For more information on beacon firmware documentation, visit [here](../../documentation-library/abeeway-trackers-documentation#TrackersRefGuide).
+* For more information on beacon firmware documentation, visit [here](../../documentation-library/abeeway-trackers).
 :::
 
 

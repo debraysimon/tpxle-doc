@@ -2,7 +2,7 @@
 
 It is the configuration of the trackers after a firmware update if the firmware update is done only with the firmware binary **without the configuration file**. The parameter values below are compiled in the firmware and used if the configuration file does not provide the parameter value.
 
-The output below can be easily contructed by doing **config show** once the firmware is flashed without the configuration file by connecting the tracker to [CLI terminal using USB cable](/D-Reference/UsingCLI_R/).
+The output below can be easily contructed by doing **config show** once the firmware is flashed without the configuration file by connecting the tracker to [CLI terminal using USB cable](/troubleshooting-support/using-cli.md/).
 
 								
 |	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (Hex)	|	Parameter Value (Decimal)	|
@@ -131,7 +131,7 @@ The output below can be easily contructed by doing **config show** once the firm
 |	**gps_ehpe_motion**                	|	121	|	(0x79) 	|	40	|
 |	**gps_convergence_motion**           	|	122	|	(0x7A) 	|	20	|
 |	**gps_t0_timeout_motion**         	|	123	|	(0x7B) 	|	30	|
-|	[_Special Parameters_](../uplink-messages/configuration/#special-parameters)	|		|		|		|
+|	[_Special Parameters_](../uplink-messages/configuration/readme.md#special-parameters)	|		|		|		|
 |	ble_cli_active                   	|	245	|	(0xF5) 	|	0	|
 |	profile                          	|	246	|	(0xF6) 	|	0	|
 |	consumption                      	|	247	|	(0xF7) 	|	0	|
@@ -149,7 +149,7 @@ The output below can be easily contructed by doing **config show** once the firm
 :::tip Notes
 (1) New parameters in this firmware or the parameter factory values modified from previous firmware version have their names bolded.
 
-(2) Please visit [here](../functioning/user-interfaces/#button-management) for the definition of click, press, long press, etc.
+(2) Please visit [here](../functioning/user-interfaces/readme.md#button-management) for the definition of click, press, long press, etc.
 
 (3) Please use MCU FW 2.3 and below for proximity feature. Proximity feature is removed starting from AT 2.4. 
 :::

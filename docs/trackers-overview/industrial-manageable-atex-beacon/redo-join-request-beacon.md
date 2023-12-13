@@ -8,7 +8,7 @@ If necessary, you can force a new join request for a beacon that is already join
 
 The beacon is equipped with a magnet-activated reed switch (see figure below on the placement of reed switch on the beacon) which requires the end user to place and remove a magnet (with a specific sequence), next to the arrow to exit the shipping mode and trigger the LoRaWAN Join procedure. Once, the beacon has joined the LoRaWAN network, the same sequence can also be used to reset the beacon. 
 
-However, it requires that the value of **firmware parameter reed_switch_configuration=1**, before the sequence below is carried out to reset the beacon. For more information, please refer to [Abeeway trackers Reference Guide](/AbeewayRefGuide/functioning/user-interfaces/#reed-switch-interface), Section: Reed Switch Interface.
+However, it requires that the value of **firmware parameter reed_switch_configuration=1**, before the sequence below is carried out to reset the beacon. For more information, please refer to [Abeeway trackers Reference Guide](/AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface), Section: Reed Switch Interface.
 
 ![img](../compact-tracker/images/CompactTrackerPlacement.jpg)
 
@@ -59,7 +59,7 @@ The beacon can be reset over Command Line Interface (CLI) with the beacon connec
 
 :::warning Important
 * This method requires opening of the casing to access the USB port.
-* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/UsingCLI_R)
+* The instructions below are for MCU FW 2.2 and above. For older firmware versions or to know more about CLI feature, please visit [CLI Usage](../../troubleshooting-support/using-cli.md)
 :::
 
 Here are the steps:

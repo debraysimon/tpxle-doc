@@ -8,17 +8,17 @@ You can choose between the following templates to easily get positions from the 
 * **Proximity alert**: Enables proximity detection and contact tracing when two trackers are brought close to each other.
 * **Scan collection**: Allows to scan once per hour up to 20 WiFi Aps or BLE beacons.
 
-For more information, see [Location templates](/D-Reference/LocationTemplates_R/).
+For more information, see [Location templates](../../trackers-overview/abeeway-device-manager/location-templates.md).
 :::warning Before you begin
  * We recommend you do a drive or walk test with your tracker to display and analyze a number of reported locations. You can also place the tracker in a moving asset you want to locate.
- * The tracker must be provisioned on a ThingPark platform. To create a free account, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).
+ * The tracker must be provisioned on a ThingPark platform. To create a free account, see [ThingPark platforms URLs](../../troubleshooting-support/thingpark-location-urls.md).
 :::
 
 1. Log in to Abeeway Device Manager using the URL that applies to your environment:
     * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api)
     * Abeeway Device Manager on IoT platform: [https://iot.thingpark.com/abeewayDeviceAnalyzer/?dxprofile=iot](https://iot.thingpark.com/portal/web/)
 
-If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>
+If using another platform, see [ThingPark platforms URLs](../../troubleshooting-support/thingpark-location-urls.md).<br/>
 
 2. In the **Select Devices** column of Abeeway Device Manager, select the tracker you want to change the configuration, and click **Select**.
 3. Click the **Device Configuration** tab, then select the tracker you want to change the device configuration. 
@@ -103,4 +103,4 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
     :::
 6. After a few minutes, refresh the Abeeway Device Manager's Configuration page in your browser for the profile change to take effect.
    
-7. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#abeeway-device-manager-application).
+7. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](../../documentation-library/abeeway-trackers.md#abeeway-device-manager-application).
