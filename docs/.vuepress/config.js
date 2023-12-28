@@ -265,6 +265,11 @@ module.exports = {
                         collapsable: true,
                       },
                       {
+                        title: 'LoRaWAN Relay',
+                        path: '/B-Feature-Topics/LoRaWANRelay_C/',
+                        collapsable: true,
+                      },
+                      {
                           title: 'Abeeway Device Manager',
                           path: '/B-Feature-Topics/AbeewayDeviceManager_C/',
                           collapsable: true,
