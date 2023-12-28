@@ -64,7 +64,7 @@ You can also verify the current status of Almanac that is stored in the tracker 
 | **Industrial tracker V1** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/Eqk_LfFUHJBDotzEK2gdX9IBNXcynn_DlKWKqmuCbOYtnw?e=aGg18b) |
 | **Industrial tracker V2** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/Ek4c_6w2bOBKuP1Bk2VDSjEB48s56zmOwVpzppyjDF1xSQ?e=wWTbuT) |
 | **Compact tracker** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EtWpMlYIt0lGk3o2Nx0hKyMBC52iKMXjW2bAuYoxUdvjYg?e=wgyH4y) |
-| **Industrial Manageable ATEX Beacon** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EohTrUr31FBLhAoHKED-F8sB0rICCeBtzEPaCV0qyz2mlA?e=afYhym) |
+| **Industrial Manageable Beacon** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EohTrUr31FBLhAoHKED-F8sB0rICCeBtzEPaCV0qyz2mlA?e=afYhym) |
 | **Docking station** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EnEQl3ZoI4ZArh073pciqXoBoO706gpO262rev0V38G-gw?e=TAemPx) |
 
 ## Abeeway Device Manager application

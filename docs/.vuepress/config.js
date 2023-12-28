@@ -220,7 +220,7 @@ module.exports = {
                           ],
                       },
                       {
-                        title: 'Industrial Manageable ATEX Beacon',
+                        title: 'Industrial Manageable Beacon',
                         path: '/B-Feature-Topics/IndustrialManageableATEXBeacon/',
                         collapsable: true,
                         sidebarDepth: 1,
