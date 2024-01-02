@@ -50,6 +50,7 @@
 | **Compact tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
 | **Combo LPWAN Compact tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/Eqqg-R42cJlCuUzx6CAW2OEB1UJWRy8wv6zg0Lcz9JkdEg?e=YliDhz) |
 | **Industrial Manageable beacon** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
+| **LoRaWAN Relay** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EgOtfCaHfZtMojilKyQ8GyEBgu_J4HkPJmMnQW1pdW3U4Q?e=gIMa4P) |
 | **Smart badge docking station** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EvDDLZ6OdzVGrv1O3J5P2aoBjlI_rQrBeaafiawmbFONgA?e=d1EOAw) |
 | **Geolocation module** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EgYK6e26eYdPkTnRaIdN15IBJ3W_Lvi4CEtB6_z6ZMRO8Q?e=73BkwT) |
 | **Third party accessories** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/ErQIOhsLoiVFrDW5dcCW2qcBfdsNMAAIdhlkw5Hww8v0Xw?e=fvzYse) |
