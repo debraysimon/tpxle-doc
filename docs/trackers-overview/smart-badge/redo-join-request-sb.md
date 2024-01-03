@@ -67,7 +67,7 @@ The sequence to follow is the same for the micro tracker and the smart badge:
 
 ## Resetting the tracker with LoRaWAN downlink
 
-The above button sequences only reset the tracker to the configuration that was saved in the tracker. For more information on resetting the device with downlink, visit [Abeeway trackers Reference Guide: Debug commands](/AbeewayRefGuide/downlink-messages/debug-commands/), Section: Resetting the device.
+The above button sequences only reset the tracker to the configuration that was saved in the tracker. For more information on resetting the device with downlink, visit [Abeeway trackers Reference Guide: Debug commands](../../abeeway-trackers-reference-guide/AbeewayRefGuide/downlink-messages/debug-commands/readme.md), Section: Resetting the device.
 
 If you wish to reset the tracker with LoRaWAN downlink, there are three options:
 
@@ -77,9 +77,9 @@ If you wish to reset the tracker with LoRaWAN downlink, there are three options:
 
 ## Resetting the tracker with Abeeway Updater
 
-This method can be used to reset the tracker to the factory default configuration. The factory default configuration can be found in the [Abeeway trackers Reference Guide](../../../documentation-library/abeeway-trackers-documentation#reference-guides-and-tools), Chapter: Factory default Configuration.
+This method can be used to reset the tracker to the factory default configuration. The factory default configuration can be found in the [Abeeway trackers Reference Guide](../../documentation-library/abeeway-trackers-documentation#reference-guides-and-tools), Chapter: Factory default Configuration.
 
-[Abeeway Updater](../../D-Reference/AbeewayFirmwareUpdate_R/) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
+[Abeeway Updater](/troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
 
 <img src="images/abw_updater_factory_reset.png" width="700" border="0" />
 

@@ -79,8 +79,8 @@ If the BLE geozoning feature is activated and the *collection_scan_type* paramet
 ## BLE Beaconing
 
 The purpose of this feature is to configure the tracker as a BLE beacon. The supported beaconing types are:
--   [QUUPPA](https://www.quuppa.com/) allowing an accurate indoor geolocation, please see the [AN-012_Quuppa_beaconing](../../../../documentation-library/abeeway-trackers#application-notes) for reference.
+-   [QUUPPA](https://www.quuppa.com/) allowing an accurate indoor geolocation, please see the [AN-012_Quuppa_beaconing](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for reference.
 -   Eddystone
 -   IBeacon
 -   altBeacon
-The beaconing behavior is activated and configured by means of the [BLE Beaconing configuration parameters](../../Parameters-default-configuration/firmware-parameters.md#ble-beaconing-parameters).
+The beaconing behavior is activated and configured by means of the [BLE Beaconing configuration parameters](../../parameters-default-configuration/firmware-parameters.md#ble-beaconing-parameters).

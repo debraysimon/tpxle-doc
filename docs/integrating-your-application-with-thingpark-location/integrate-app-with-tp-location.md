@@ -21,6 +21,6 @@ Using  is the best option as you will benefit from:
 * **Value-added geolocation services** : We offer features like geofencing, Differential Assisted-GPS (DA-GPS).
 However, using the  option can be suitable in some specific cases. For example, if your application is isolated and cannot be connected to our SaaS service.
 ## Starting to integrate your application
-* [Using ThingPark Location API](/B-Feature-Topics/UseTPLocationAPI_C/)<br/>
+* [Using ThingPark Location API](../integrating-your-application-with-thingpark-location/using-thingpark-location-api.md)<br/>
 
-* [Using Abeeway driver](/C-Procedure-Topics/UseAbeewayDriver_T/)
+* [Using Abeeway driver](../integrating-your-application-with-thingpark-location/encoding-decoding-lorawan-payloads/index.md)

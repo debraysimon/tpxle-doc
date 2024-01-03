@@ -18,4 +18,4 @@
 
  **Additional Data**: depends on the selected **type**
 
- For more details, please refer to the dedicated application note [AN-007_proximity_feature](../../../../documentation-library/abeeway-trackers#application-notes)
+ For more details, please refer to the dedicated application note [AN-007_proximity_feature](../../../../documentation-library/abeeway-trackers-documentation#application-notes)

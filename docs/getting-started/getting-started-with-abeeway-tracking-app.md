@@ -48,7 +48,7 @@ To complete this getting started guide, you need:
   ![img](./images/AppVersion.png)
 
 * Tracker Configuration. We recommend that before the tracker is added to the mobile app, It is flashed with the default configuration files and the latest firmware version.
-  - The update of the MCU Firmware can be carried out by the [Abeeway updater](../../D-Reference/AbeewayFirmwareUpdate_R/)
+  - The update of the MCU Firmware can be carried out by the [Abeeway updater](../troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md)
   - The MCU Firmware binary &amp; config files are available [here](https://actilitysa.sharepoint.com/:w:/t/aby/EcuMNrIEoB9HvcIkCTXu2TkBTQQ49cYaQA2y1Wa6TmFmNg?e=Z1nEYc)
 
 | Tracker Type | MCU Firmware Config file|
@@ -76,7 +76,7 @@ Please ask [Abeeway support](https://thingpark.page.link/AbeewaySupport) to enab
 
 ## ThingPark X Location Engine use cases
 ThingPark X location engine has two main use cases:
- - **B2B Use Case:** In this use case, the customer is using ThingPark X Location engine to manage a fleet of trackers. To be in this use case, the tracker uplinks are sent to [ThingPark Location Application server](../../D-Reference/ThingParkLocationURLs/) and visualize fleet of trackers in [Abeeway Device Manager](../../B-Feature-Topics/AbeewayDeviceManager_C/).
+ - **B2B Use Case:** In this use case, the customer is using ThingPark X Location engine to manage a fleet of trackers. To be in this use case, the tracker uplinks are sent to [ThingPark Location Application server](../troubleshooting-support/thingpark-location-urls.md) and visualize fleet of trackers in [Abeeway Device Manager](../trackers-overview/abeeway-device-manager/index.md).
  - **B2C Use Case:** In this use case, the customer is using Abeeway Mobile app and all the trackers within a specific “Distributor” when logging to the mobile app are in a specific realm/subscriber. To visualize the mobile app trackers in Abeeway Device Manager, it requires logging into ADM with subscriber credentials associated to the realm/Distributor where mobile app end user account exists. For example, to visualize all the trackers in “Abeeway – Community” distributor, it requires login to ADM as a subscriber that is associated with “Abeeway – Community” realm. **The subscriber accounts for Abeeway distributors in the mobile app are restricted to Abeeway Operations team.**
 
 :::warning Warning
@@ -107,7 +107,7 @@ Here are the general guidelines when selecting the mobile app distributor when c
 
 
 ## Provisioning the trackers
-Abeeway tracker should be provisioned and functioning in the [LoRaWAN network server](../../C-Procedure-Topics/ProvisionTrackerOverview_T/). You will also need an operational access to ThingPark Enterprise user portal: [ThingPark Community](https://community.thingpark.io/tpe/). The tracker uplinks must be routed to the following ThingPark Location Application server. In order to do this, new connection must be created in ThingPark Enterprise Community towards this application server.
+Abeeway tracker should be provisioned and functioning in the [LoRaWAN network server](../getting-started/provisioning-your-trackers-on-lorawan-networks/index.md). You will also need an operational access to ThingPark Enterprise user portal: [ThingPark Community](https://community.thingpark.io/tpe/). The tracker uplinks must be routed to the following ThingPark Location Application server. In order to do this, new connection must be created in ThingPark Enterprise Community towards this application server.
 
 | &nbsp; | Information | 
 | - | ----------- | 
@@ -119,7 +119,7 @@ Abeeway tracker should be provisioned and functioning in the [LoRaWAN network se
 
 :::warning Notes
 * The instructions in this section are for trackers 
-provisioned in [ThingPark Community](http://community.thingpark.org/) platform and using **Abeeway - Community** as the distributor realm when creating the mobile app account.  For using other ThingPark platforms with the mobile app, please visit [AN-017_Mobile APP Getting Started Guide](../documentation-library/abeeway-trackers#application-notes)
+provisioned in [ThingPark Community](http://community.thingpark.org/) platform and using **Abeeway - Community** as the distributor realm when creating the mobile app account.  For using other ThingPark platforms with the mobile app, please visit [AN-017_Mobile APP Getting Started Guide](../documentation-library/abeeway-trackers-documentation#application-notes)
 * **When using the mobile app, it is important to not route the uplinks from the tracker towards other ThingPark Location application servers in the same platform.**
 :::
 
@@ -134,12 +134,12 @@ provisioned in [ThingPark Community](http://community.thingpark.org/) platform a
       * **MCU FW 2.3.x and above:** Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started. Once inside the special sequence, do the following: 1 click, 1 click, 1x press (between 1 - 4 sec). If the sequence is successful, the tracker will play Bluetooth advertisement melody indicating the Bluetooth bond is removed for about 10 minutes (which is the default configuration).
    * **Sending the LoRaWAN downlink ff0202** on downlink port = 2 to the Abeeway tracker (This is applicable to ALL the trackers. It requires access to the LoRaWAN account where the tracker is provisioned.)
    * **Reed Switch Sequence<sup>(2)</sup>**. The special magnet sequence can be used to activate Bluetooth on the compact tracker if there is no Bluetooth bond on the tracker. 
-   * **[Using CLI with the tracker connected over USB port](../troubleshooting-support/using-cli.md)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to remove the Bluetooth bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../documentation-library/abeeway-trackers#application-notes). (This is applicable to ALL the trackers)
+   * **[Using CLI with the tracker connected over USB port](../troubleshooting-support/using-cli.md)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to remove the Bluetooth bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../documentation-library/abeeway-trackers-documentation#application-notes). (This is applicable to ALL the trackers)
 
 :::warning Note
-<sup>(1)</sup> The Bluetooth advertisement duration can be configured by modifying the value of firmware parameter, *ble_cnx_adv_duration* (Parameter ID:0x6F). Please visit [here](../../AbeewayRefGuide/downlink-messages/parameters-configuration/readme.md#ble-communication-parameters) for more details.
+<sup>(1)</sup> The Bluetooth advertisement duration can be configured by modifying the value of firmware parameter, *ble_cnx_adv_duration* (Parameter ID:0x6F). Please visit [here](../abeeway-trackers-reference-guide/AbeewayRefGuide/downlink-messages/parameters-configuration/readme.md#ble-communication-parameters) for more details.
 
-<sup>(2)</sup> The compact trackers are shipped with default value of *reed_switch_configuration=3*. For more information on reed switch sequence, visit [here](../../AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface). The video showing this procedure is [here](../../B-Feature-Topics/CompactTracker_C/)
+<sup>(2)</sup> The compact trackers are shipped with default value of *reed_switch_configuration=3*. For more information on reed switch sequence, visit [here](../abeeway-trackers-reference-guide/AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface). The video showing this procedure is [here](../trackers-overview/compact-tracker/index.md)
 :::
 
 ## Creating an account in the mobile app
@@ -167,7 +167,7 @@ The screenshot below shows the app permissions for location in Android/iOS setti
 ## Adding the tracker to the mobile app account
 
 Once the account is successfully created in the earlier step, goto Add a tracker UI to search for the tracker. <br/>
-**The tracker must not be Bluetooth bonded to another phone and advertising itself in Bluetooth. Please visit the section [preparing the trackers](../../C-Procedure-Topics/GetStartedMobileApp_T/readme.md#prepare-the-trackers) for more instructions.**
+**The tracker must not be Bluetooth bonded to another phone and advertising itself in Bluetooth. Please visit the section [preparing the trackers](#prepare-the-trackers) for more instructions.**
 
 ![img](../troubleshooting-support/firmware-update-overview/images/addtracker.png)
 
@@ -230,7 +230,7 @@ Developer mode of the mobile app allows for advanced tracker debugging or perfor
 ![img](images/developerMode.png)
 
 ## Using Abeeway device Manager (ADM)
-You can use mobile app credentials to login to [Abeeway device manager (ADM)](/B-Feature-Topics/AbeewayDeviceManager_C/) for troubleshooting purposes.
+You can use mobile app credentials to login to [Abeeway device manager (ADM)](//trackers-overview/abeeway-device-manager/index.md) for troubleshooting purposes.
 
 
 | Abeeway Mobile app (Distributor)| ADM URL|

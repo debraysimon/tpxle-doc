@@ -2,14 +2,14 @@
 You can track your assets locations on a map and assess your tracker performance.
 :::warning Before you begin
  * We recommend you do a drive or walk test with your tracker to display and analyze a number of reported locations. You can also place the tracker in a moving asset you want to locate.
- * The tracker must be provisioned on a ThingPark platform. To create a free account, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).
+ * The tracker must be provisioned on a ThingPark platform. To create a free account, see [ThingPark platforms URLs](/troubleshooting-support/thingpark-location-urls.md).
 :::
 
 1. Log in to Abeeway Device Manager using the URL that applies to your environment.For example:<br/>
     * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api)<br/>
 
     * Abeeway Device Manager on IoT platform: [https://iot.thingpark.com/abeewayDeviceAnalyzer/?dxprofile=iot](https://iot.thingpark.com/portal/web/)<br/>
-If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>
+If using another platform, see [ThingPark platforms URLs](/troubleshooting-support/thingpark-location-urls.md).<br/>
 
 2. In the **Select Devices** column of Abeeway Device Manager, select the tracker you want to see the location, and click **Select**.<br/>
 -&gt; The tracker appears in the **Selected Devices** column.
@@ -19,7 +19,7 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
 ![img](images/ADASelectTracker.png)
 
 3. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
-    * **MCU Firmware** : It gives the tracker MCU firmware version. Please refer to the [Abeeway trackers reference guide](/AbeewayRefGuide/introduction/) matching the MCU Firmware version to know the supported features.
+    * **MCU Firmware** : It gives the tracker MCU firmware version. Please refer to the [Abeeway trackers reference guide](/abeeway-trackers-reference-guide/AbeewayRefGuide/introduction/index.md) matching the MCU Firmware version to know the supported features.
     * **First Position** and **Last Position** of the tracker
     * **Last Mode** : Current mode of the tracker
     * **Battery** : Percentage of remaining battery
@@ -39,4 +39,4 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
     For a given tracker, all the sliders are synchronized between each other.
     :::
     ![img](images/ADAPerfTab.png)
-6. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/B-Feature-Topics/AbeewayDeviceManager_C/).
+6. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](//trackers-overview/abeeway-device-manager/index.md).

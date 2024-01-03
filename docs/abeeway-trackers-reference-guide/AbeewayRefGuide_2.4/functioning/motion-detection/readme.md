@@ -4,7 +4,7 @@
 
 :::tip Note
 - Please refer to [AN-018_Motion_and_shock_detection](/documentation-library/abeeway-trackers-documentation.md#application-notes) application note for more details.
-- Please visit [here](../../Parameters-default-configuration/firmware-parameters.md#accelerometer-parameters) for the motion detection parameters.
+- Please visit [here](../../parameters-default-configuration/firmware-parameters.md#accelerometer-parameters) for the motion detection parameters.
 :::
 
 
@@ -24,4 +24,4 @@ The tracker embeds a three axes accelerometer, which detects accelerations and t
 
 ## Device orientation
 
-The acceleration values from the three axes are available within the **motion end** event messages or by sending a specific downlink (Refer to [Request device configuration](../../downlink-messages/request-device-configuration/readme.md) for more details). This allows the application to determine the tracker orientation. Please refer to [AN-005_device_orientation](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#application-notes) for more details on computing device orientation from accelerometer data.
+The acceleration values from the three axes are available within the **motion end** event messages or by sending a specific downlink (Refer to [Request device configuration](../../downlink-messages/request-device-configuration/readme.md) for more details). This allows the application to determine the tracker orientation. Please refer to [AN-005_device_orientation](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details on computing device orientation from accelerometer data.

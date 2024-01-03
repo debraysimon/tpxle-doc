@@ -15,7 +15,7 @@ It is possible to modify up to 5 parameters in the same message by using the fol
 
 **ACK**: Acknowledge token. Refer to the section [Acknowledge token](../ack-token/readme.md) **Max value is 0x0F**.
 
-For details on available parameters, their identifiers and their values, please visit [here](../../Parameters-default-configuration/firmware-parameters/).
+For details on available parameters, their identifiers and their values, please visit [here](../../parameters-default-configuration/firmware-parameters.md).
 
 **Persistence**: This configuration is initially modified in the device RAM in order to minimize number of flash writes in case of multiple concatenated commands. After 5 seconds, the last RAM configuration (including any other changes from remote or CLI commands) is saved to flash and will be used if the device resets.
 

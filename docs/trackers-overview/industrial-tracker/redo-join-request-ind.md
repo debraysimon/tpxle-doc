@@ -6,7 +6,7 @@ If necessary, you can force a new join request for a tracker that is already joi
 
 ## Resetting the tracker with LoRaWAN downlink
 
-The above button sequences only reset the tracker to the configuration that was saved in the tracker. For more information on resetting the device with downlink, visit [Abeeway trackers Reference Guide: Debug commands](/AbeewayRefGuide/downlink-messages/debug-commands/), Section: Resetting the device.
+The above button sequences only reset the tracker to the configuration that was saved in the tracker. For more information on resetting the device with downlink, visit [Abeeway trackers Reference Guide: Debug commands](../../abeeway-trackers-reference-guide/AbeewayRefGuide/downlink-messages/debug-commands/readme.md), Section: Resetting the device.
 
 If you wish to reset the tracker with LoRaWAN downlink, there are three options:
 
@@ -20,9 +20,9 @@ If you wish to reset the tracker with LoRaWAN downlink, there are three options:
 * This method requires opening of the casing to access the USB port.
 :::
 
-The tracker can be reset to its factory default configuration using Abeeway updater. The factory default configuration can be found in the [Abeeway trackers Reference Guide](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools), Chapter: Factory default Configuration.
+The tracker can be reset to its factory default configuration using Abeeway updater. The factory default configuration can be found in the [Abeeway trackers Reference Guide](/documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools), Chapter: Factory default Configuration.
 
-[Abeeway Updater](../../D-Reference/AbeewayFirmwareUpdate_R/) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
+[Abeeway Updater](/troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
 
 [//]: # (![img]&#40;../../C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png&#41;)
 

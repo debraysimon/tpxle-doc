@@ -1,10 +1,10 @@
 # Short Message Service (SMS)
 
-This feature allows the tracker to send short messages over LoRaWAN. The message can be sent over [CLI](/troubleshooting-support/using-cli.md/) with the tracker connected to computer using USB port or via bluetooth communication interface using smart phone.
+This feature allows the tracker to send short messages over LoRaWAN. The message can be sent over [CLI](/troubleshooting-support/using-cli.md) with the tracker connected to computer using USB port or via bluetooth communication interface using smart phone.
 
 The main application of this feature is to be able to send short messages over LoRaWAN when traditional cellular network is not available.
 
-A position acquisition is performed each time a SMS is sent by the tracker. [Position message](../../uplink-messages/position/) is sent depending on the configuration of ***[geoloc_method](../../Parameters-default-configuration/firmware-parameters.html#parameters-for-side-operation-modes)*** parameter. The position message is characterized as an on demand position message in the [common message header](../../uplink-messages/common-message-header/).
+A position acquisition is performed each time a SMS is sent by the tracker. [Position message](../../uplink-messages/position/) is sent depending on the configuration of ***[geoloc_method](../../parameters-default-configuration/firmware-parameters.md#parameters-for-side-operation-modes)*** parameter. The position message is characterized as an on demand position message in the [common message header](../../uplink-messages/common-message-header/).
 
 :::tip Note
 LoRaWAN duty cycle is disabled when sending/receiving SMS.
@@ -59,7 +59,7 @@ The two message types differ in the network processing:
 In order to simplify the readability of the CLI, log messages should be suppressed by entering the command
 ***system log off***.
 The tracker should be let in standby mode to minimize the power consumption.
-The configuration parameter ***transmit_strat*** and ***transmit_strat_custom*** should be correctly tuned regarding the LoRaWAN region. Please refer to [AN-002_LoRa_Transmission_strategy](/documentation-library/abeeway-trackers-documentation.md#application-notes) on how to configure LoRaWAN transmit strategy.
+The configuration parameter ***transmit_strat*** and ***transmit_strat_custom*** should be correctly tuned regarding the LoRaWAN region. Please refer to [AN-002_LoRa_Transmission_strategy](../../../../documentation-library/abeeway-trackers-documentation.md#application-notes) on how to configure LoRaWAN transmit strategy.
 
 Please note that the maximum message size strongly depends on the LoRa DataRate it is sent.
 
@@ -84,7 +84,7 @@ Please note that the maximum message size strongly depends on the LoRa DataRate 
 
 
 ### LoRaWAN uplink payload
-The LoRaWAN uplink payload format is explained [here](../../uplink-messages/short-message-service/).
+The LoRaWAN uplink payload format is explained [here](../../uplink-messages/short-message-service/readme.md).
 
 ### LoRaWAN downlink payload
-The LoRaWAN downlink payload format is explained [here](../../downlink-messages/short-message-service/).
+The LoRaWAN downlink payload format is explained [here](../../downlink-messages/short-message-service/readme.md).

@@ -5,7 +5,7 @@ To do so, you need:
 
 * A token for ThingPark X Location Engine.
 
-1. If you do not have a ThingPark account, create a free account on [https://community.thingpark.org/](https://community.thingpark.org/). If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs).<br/>
+1. If you do not have a ThingPark account, create a free account on [https://community.thingpark.org/](https://community.thingpark.org/). If using another platform, see [ThingPark platforms URLs](../../../../troubleshooting-support/thingpark-location-urls.md).<br/>
 
 2. Generate the token on [DX Admin API](https://dx-api.thingpark.io/getstarted/readme.md#/) 
 

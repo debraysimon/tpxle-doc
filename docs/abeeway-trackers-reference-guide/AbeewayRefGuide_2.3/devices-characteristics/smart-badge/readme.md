@@ -6,7 +6,7 @@
 
  The smart badge is shipped to the customer in "shipping" state to preserve battery lifetime. It can be brought back into "JOIN" state with a long button press. The tracker will then start the JOIN procedure which can be seen in LoRaWAN Network Server logs.
 
- After the LoRaWAN join is successful, it starts in motion tracking mode in the default configuration. For more details on the default configuration of the smart badge tracker see [here](../../default-config-delivered-ms/).
+ After the LoRaWAN join is successful, it starts in motion tracking mode in the default configuration. For more details on the default configuration of the smart badge tracker see [here](../../../../abeeway-trackers-reference-guide/AbeewayRefGuide_2.3/default-config-delivered-ms/readme.md).
 
 Refer to the [Startup process](../../functioning/startup-process/) topic for more details on the startup behaviour of the tracker
 

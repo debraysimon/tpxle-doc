@@ -48,7 +48,7 @@
 
  Additionally, if in *config_flags* parameter the bit 13 Collection Long Report is set to 1 a long report is created, increasing the number of elements that can be reported (**DF**=0: up to 21 elements, **DF**=1: up to 12). This number can also be changed by the parameter collection_nb_entry.
 
- Refer to the application note [AN-003_Scan_Collection](../../../../documentation-library/abeeway-trackers#application-notes) for more details.
+ Refer to the application note [AN-003_Scan_Collection](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
 
 :::tip Note
 If the BLE geozoning feature is activated and the *collection_scan_type* parameter is set to BLE, then the BLE collection message is not sent after a position. Only the BLE geozoning collection message is sent.

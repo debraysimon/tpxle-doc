@@ -1,7 +1,7 @@
 # Power consumption
 
 
-The tracker maintains the [**consumption** (special Parameter ID: 0xF7)](../../Parameters-default-configuration/firmware-parameters.html#miscellaneous-parameters) parameter which keeps tracker of the current power consumption of the tracker in mAh.
+The tracker maintains the [**consumption** (special Parameter ID: 0xF7)](../../parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) parameter which keeps tracker of the current power consumption of the tracker in mAh.
 
 ## Tracker behaviour for current firmware version (AT 2.4+)
 
@@ -27,10 +27,10 @@ In earlier firmware versions, the total **consumption** was located
 in a non-init RAM storage. This area is preserved across tracker resets except in the following cases:
 
 - Brownout or battery replacement.
-- MCU Firmware upgrade is done via Bluetooth using [Abeeway Mobile app](/D-Reference/FirmwareUpdateOverview_R/). 
+- MCU Firmware upgrade is done via Bluetooth using [Abeeway Mobile app](/troubleshooting-support/firmware-update-overview/index.md). 
 - Running a MFG or ACTT application could also erase the no-init RAM area and thus erase the **consumption** parameter.
 
-However, it is preserved during the firmware upgrade via USB using [Abeeway Updater](/D-Reference/FirmwareUpdateOverview_R/).
+However, it is preserved during the firmware upgrade via USB using [Abeeway Updater](/troubleshooting-support/firmware-update-overview/index.md).
 
 ### Rechargeable trackers (Micro Tracker/Smart Badge)
 The **consumption** is not stored in flash but rather in no-init RAM.
@@ -50,11 +50,11 @@ via the CLI or via LoRa Downlink.
 
 
 ## Reporting of remaining battery % in LoRaWAN uplinks
-The tracker reports the remaining battery level (%) in [LoRaWAN common message header](../../uplink-messages/common-message-header/) (Supported since MCU Firmware V2.0). If your tracker is already integrated with [ThingPark X Location Engine](/B-Feature-Topics/IntegrateAppwithTPLocation_C/), then you can see the remaining battery level(%) in [Abeeway device manager](/B-Feature-Topics/AbeewayDeviceManager_C/)  as shown in the screenshot below.
+The tracker reports the remaining battery level (%) in [LoRaWAN common message header](../../uplink-messages/common-message-header/) (Supported since MCU Firmware V2.0). If your tracker is already integrated with [ThingPark X Location Engine](/integrating-your-application-with-thingpark-location/integrate-app-with-tp-location.md), then you can see the remaining battery level(%) in [Abeeway device manager](//trackers-overview/abeeway-device-manager/index.md)  as shown in the screenshot below.
 
 ![img](images/batteryPercentage.png)
 
-Alternatively, you can use [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/readme.md#using-abeeway-driver) to decode LoRaWAN uplinks to retrieve the battery percentage.
+Alternatively, you can use [Abeeway Driver](/integrating-your-application-with-thingpark-location/encoding-decoding-lorawan-payloads/index.md#using-abeeway-driver) to decode LoRaWAN uplinks to retrieve the battery percentage.
 
 ## Steps to do when replacing batteries for Compact Tracker/Industrial Tracker
 When replacing batteries in the tracker, you need to reset the **consumption** of the tracker as follows. There are following ways to do it.
@@ -62,7 +62,7 @@ When replacing batteries in the tracker, you need to reset the **consumption** o
 ### Reset the power consumption parameter in the tracker firmware
 
 #### Method 1: Using ThingPark Location APIs
-If you are using ThingPark Location APIs, you can use the APIs to reset the consumption of the tracker using Tracker Command API. The documentation URL for ThingPark Location on community Platform is [here](https://dx-api.thingpark.io/location-trackercommand/latest/doc/index.html#trackercommandtosendrequest). For other platforms, visit [here](/D-Reference/ThingParkLocationURLs/). Here is the example API call to reset the consumption of the tracker.
+If you are using ThingPark Location APIs, you can use the APIs to reset the consumption of the tracker using Tracker Command API. The documentation URL for ThingPark Location on community Platform is [here](https://dx-api.thingpark.io/location-trackercommand/latest/doc/index.html#trackercommandtosendrequest). For other platforms, visit [here](/troubleshooting-support/thingpark-location-urls.md). Here is the example API call to reset the consumption of the tracker.
 ```
 ------------------------------ Snippet begin ------------------------------
 {
@@ -93,7 +93,7 @@ The **deviceProfileId** parameter should always be "ABEEWAY/MICRO" irrespective 
 #### Method 2: Sending a downlink to the tracker
 You can also send a downlink (0b0af700000000) on LoRaWAN port=2 to the tracker from the LoRaWAN network server to reset the consumption of the tracker. This downlink resets the value **consumption** parameter to 0.
 
-The downlink can be constructed with [Abeeway driver](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#reference-guides-and-tools) with the following example:
+The downlink can be constructed with [Abeeway driver](/documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools) with the following example:
 
 ```
 ------------------------------ Snippet begin ------------------------------
@@ -156,7 +156,7 @@ The response is below where 0b0af700000000 should be sent on LoRaWAN downlink to
 ```
 
 #### Method 3: Using CLI
-You can connect the tracker to computer with the data USB cable and then use tera term or similar serial application to interact with the tracker. For more details on CLI, visit [here](/troubleshooting-support/using-cli.md/). Here are the steps once the tracker is connected to PC:
+You can connect the tracker to computer with the data USB cable and then use tera term or similar serial application to interact with the tracker. For more details on CLI, visit [here](/troubleshooting-support/using-cli.md). Here are the steps once the tracker is connected to PC:
 
 1. Once the tracker prompts login, enter password 123.
 2. Reset the **consumption** parameter by entering the command: **config set 0xF7 0**.
@@ -175,7 +175,7 @@ The **consumption** parameter in the tracker must be reset to 0 before resetting
 
 The application can then send the following [backend API command](https://dx-api.thingpark.io/location-trackercommand/latest/swagger-ui/index.html?shortUrl=tpdx-location-trackercommand-api-contract.json) to reset the state of the backend.
 
-The API documentation of backend commands is [here](https://dx-api.thingpark.io/location-trackercommand/latest/doc/index.html). The URLs above are for ThingPark Location for community platform. For other platforms, see [here](/D-Reference/ThingParkLocationURLs/).
+The API documentation of backend commands is [here](https://dx-api.thingpark.io/location-trackercommand/latest/doc/index.html). The URLs above are for ThingPark Location for community platform. For other platforms, see [here](/troubleshooting-support/thingpark-location-urls.md).
 
 ```
 ------------------------------ Snippet begin ------------------------------
@@ -202,7 +202,7 @@ For MCU/Application **Firmware versions 2.3 and below**, the **consumption** par
 1. Step 1: Take the remaining battery % from the **last uplink before the reset was done**. Lets call this parameter as **remaining_battery_percentage**.
 2. Step 2: Compute the new value of **consumption** as follows:<br/>
    consumption = battery_capacity - (remaining_battery_percentage /100)*battery_capacity
-3. Step 3: You can then use any of the [methods outlined above](/AbeewayRefGuide/functioning/power-consumption/readme.md#steps-to-do-when-replacing-batteries-for-compact-tracker-industrial-tracker) to reset the **consumption** in the tracker. 
+3. Step 3: You can then use any of the [methods outlined above](/abeeway-trackers-reference-guide/AbeewayRefGuide/functioning/power-consumption/readme.md#steps-to-do-when-replacing-batteries-for-compact-tracker-industrial-tracker) to reset the **consumption** in the tracker. 
 
 :::tip Note
 The **battery_capacity** is the following depending on the tracker model:

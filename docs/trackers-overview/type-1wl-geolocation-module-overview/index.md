@@ -60,4 +60,4 @@ for any LoRaWAN® application, and to drive an external LTE-M or NB-IoT modem fo
 * Radio: EC, FCC, IC, TELEC, ATEX
 
 ### Datasheet
-The datasheet of the module can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
+The datasheet of the module can be downloaded from [here](/documentation-library/abeeway-trackers-documentation.md#data-sheets).

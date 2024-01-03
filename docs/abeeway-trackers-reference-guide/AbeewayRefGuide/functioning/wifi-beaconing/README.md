@@ -18,6 +18,6 @@ Station plan active role in Active Scanning. On each of the channels. probe requ
 
 ![](images/wifi-passive-scan.png)
 
-This can be used by third party solvers that reside in Wi-Fi access points to localize the tracker indoors. In order to activate Wi-Fi active scan when the tracker is performing Wi-Fi geolocation, we need to  set bit 23 in [config_flags](../../Parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) to true. This feature is disabled by default.
+This can be used by third party solvers that reside in Wi-Fi access points to localize the tracker indoors. In order to activate Wi-Fi active scan when the tracker is performing Wi-Fi geolocation, we need to  set bit 23 in [config_flags](../../parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) to true. This feature is disabled by default.
 
 

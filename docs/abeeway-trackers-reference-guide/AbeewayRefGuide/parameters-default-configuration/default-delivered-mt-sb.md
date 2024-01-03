@@ -1,4 +1,4 @@
-# Default delivered compact and industrial tracker configuration
+# Default configuration delivered with micro tracker and smart badge
 
 This is the configuration that is applied on the trackers from the warehouse. The configuration files are [here](https://actilitysa.sharepoint.com/:f:/t/aby/EstKVz_aVwRKkhcNATWI3loBEIgAAIxE0j_Sx8oZ5oiAew?e=aD5MXW). 
 
@@ -6,17 +6,19 @@ This is the configuration that is applied on the trackers from the warehouse. Th
 
 ## Configuration Summary
 
-The tracker is in **standby operating mode**.
-The tracker's mode must be set in motion, for positions to be sent using **GPS** technology every **5 minutes** using [**dual random transmit** strategy](firmware-parameters.md#lora-parameters). The **heartbeat** is sent every **10 minutes**.
+ The tracker is in **motion tracking operating mode**.
+ It is possible to turn it off using the button press.
+ When the tracker is in motion, positions are sent using **GPS** technology every **5 minutes** using [**dual random transmit** strategy](../parameters-default-configuration/firmware-parameters.md#lora-parameters). The **heartbeat** is sent every **10 minutes**.
 
-Side operations setting:
--   **Periodic position** reporting is disabled
+ Side operations setting:
+-   **Periodic position** reporting is done using **GPS** technology every 4 hours
+-   **SOS** activated/deactivated using a **triple click** on the button
 -   If no DL is received for 7 days, the tracker resets automatically (the network has certainly being lost)
 -   Geozoning, Collection payload, Angle detection, and Bluetooth (BLE) beaconing are deactivated
 
 ## Configuration values
 Any parameter not listed here will take the values of the [Factory Defaut Configuration](factory-default.md).
-
+								
 |	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (Hex)	|	Parameter Value (Decimal)	|
 |	-------------------	|	-------------------	|	-------------------	|	-------------------	|
 |	ul_period                        	|	0	|	(0x00)	|	300	seconds |
@@ -29,14 +31,14 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	antenna                          	|	7	|	(0x07)	|	0	|
 |	motion_nb_pos                    	|	8	|	(0x08)	|	1	|
 |	gps_timeout                      	|	9	|	(0x09)	|	240	seconds|
-|	agps_timeout                     	|	10	|	(0x0A)	|	45 seconds	|
+|	agps_timeout                     	|	10	|	(0x0A)	|	55 seconds (Micro Tracker) ,<br/> 45 seconds (Smart Badge)	|
 |	gps_ehpe                         	|	11	|	(0x0B)	|	20 meters	|
 |	gps_convergence                  	|	12	|	(0x0C)	|	30 seconds	|
 |	config_flags                     	|	13	|	(0x0D)	|	213055 <br/> Bit0:	Frame pending mechanism: Activated (1) <br/> Bit1: Very long button press to switch to off mode: Activated (1) <br/> Bit2:	no more used (1) <br/>Bit3:	Send a configuration confirmation uplink message: Activated (1)<br/>Bit4:	WIFI payload without Cypher: Enabled (1) <br/>Bit5:	BLE advertising when the device is turned on: Enabled (1) <br/>Bit6:	Send a geoloc start event message when the geolocation starts. Disabled (0)<br/>Bit7: LED blinks when a GPS fix is received: Disabled (0)<br/>Bit8:	Motion start message: Disabled (0)<br/>Bit9:	Motion end message: Disabled (0)<br/>Bit10:	OTA join when leaving the mode OFF: Disabled (0)<br/>Bit11:	Asymmetric BLE pairing: Activated (0)<br/>Bit12:	Long WIFI payload: Disabled (0)	<br/> Bit13:	Collection Long Report: Disabled (0) <br/>Bit14:	Autostart of the tracker when leaving shipping mode: Activated (1)<br/>Bit15:	Forbid the mode OFF: Disabled (0) <br/>Bit16:	Melody played during SOS: Activated (1) <br/>Bit17:	Automatic data rate selection: Activated (1)	<br/>Bit18:	Extended position payload : Disabled (0) <br/>	bit19: Reserved, do not use <br/> bit 20: Enable the CLI over BLE: Disabled (0) <br/> bit 21: BLE passkey authentication enable. Deactivated (0)	|
 |	transmit_strat                   	|	14	|	(0x0E)	|	2 (Double transmit)	|
 |	ble_beacon_cnt                   	|	15	|	(0x0F)	|	4	|
 |	ble_beacon_timeout               	|	16	|	(0x10)	|	2 seconds	|
-|	**gps_standby_timeout**              	|	17	|	(0x11)	|	43200 seconds	|
+|	**gps_standby_timeout**              	|	17	|	(0x11)	|	0 seconds	|
 |	confirmed_ul_bitmap              	|	18	|	(0x12)	|	0 (None)	|
 |	confirmed_ul_retry               	|	19	|	(0x13)	|	3	|
 |	**motion_sensitivity**               	|	20	|	(0x14)	|	131073	|
@@ -62,40 +64,40 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	battery_capacity                 	|	40	|	(0x28)	|	-1 (Use provisioned value. This parameter should not be modified)	|
 |	reed_switch_configuration        	|	41	|	(0x29)	|	0	|
 |	gnss_constellation               	|	42	|	(0x2A)	|	Europe, India, America, Australia: 2 (GPS and Glonass), <br/> Asia: 6 (GPS and Beidou)	|
-|	prox_scan_pwr_min (**Reserved(3)**)                	|	43	|	(0x2B)	|	-90	|
-|	prox_distance_coef (**Reserved(3)**)               	|	44	|	(0x2C)	|	200	|
-|	prox_scan_frequency (**Reserved(3)**)              	|	45	|	(0x2D)	|	1800 |
-|	prox_backtrace_max_age (**Reserved(3)**)           	|	46	|	(0x2E)	|	256	|
-|	prox_distance_sliding_window  (**Reserved(3)**)    	|	47	|	(0x2F)	|	30	|
-|	prox_exposure_50	(**Reserved(3)**) |	48	|	(0x30)	|	200	|
-|	prox_exposure_100	(**Reserved(3)**) |	49	|	(0x31)	|	50	|
-|	prox_exposure_150	(**Reserved(3)**) |	50	|	(0x32)	|	22	|
-|	prox_exposure_200	(**Reserved(3)**) |	51	|	(0x33)	|	13	|
-|	prox_exposure_250	(**Reserved(3)**) |	52	|	(0x34)	|	0	|
-|	prox_exposure_300	(**Reserved(3)**) |	53	|	(0x35)	|	0	|
-|	prox_exposure_400	(**Reserved(3)**) |	54	|	(0x36)	|	0	|
-|	prox_alarm_dist_immediate (**Reserved(3)**)        	|	55	|	(0x37)	|	0.1 	|
-|	prox_alarm_exposure   (**Reserved(3)**)            	|	56	|	(0x38)	|	12000	|
-|	prox_warn_dist_immediate (**Reserved(3)**)         	|	57	|	(0x39)	|	1.0 	|
-|	prox_warn_exposure      (**Reserved(3)**)          	|	58	|	(0x3A)	|	6000	|
-|	prox_record_dist_immediate (**Reserved(3)**)       	|	59	|	(0x3B)	|	2 	|
-|	prox_record_exposure      (**Reserved(3)**)        	|	60	|	(0x3C)	|	3700	|
-|	prox_alarm_buz_duration   (**Reserved(3)**)        	|	61	|	(0x3D)	|	5 	|
-|	prox_warn_buz_duration  (**Reserved(3)**)          	|	62	|	(0x3E)	|	5 	|
-|	prox_contact_policy    (**Reserved(3)**)           	|	63	|	(0x3F)	|	0	|
-|	prox_scan_duration    (**Reserved(3)**)            	|	64	|	(0x40)	|	1 	|
-|	prox_scan_window      (**Reserved(3)**)            	|	65	|	(0x41)	|	120 	|
-|	prox_scan_interval    (**Reserved(3)**)            	|	66	|	(0x42)	|	125	|
-|	prox_alarm_remanence  (**Reserved(3)**)            	|	67	|	(0x43)	|	30	|
-|	prox_warn_remanence   (**Reserved(3)**)            	|	68	|	(0x44)	|	30	|
-|	prox_bcn_repeat    (**Reserved(3)**)               	|	69	|	(0x45)	|	100	|
-|	prox_bcn_tx_power   (**Reserved(3)**)              	|	70	|	(0x46)	|	-41	|
-|	prox_reminder_period (**Reserved(3)**)             	|	71	|	(0x47)	|	20	|
-|	prox_reminder_distance  (**Reserved(3)**)          	|	72	|	(0x48)	|	20	|
-|	prox_warn_disable_dist  (**Reserved(3)**)          	|	73	|	(0x49)	|	25	|
-|	prox_alarm_disable_dist  (**Reserved(3)**)         	|	74	|	(0x4A)	|	25	|
-|	prox_max_speed_filter   (**Reserved(3)**)          	|	75	|	(0x4B)	|	15	|
-|	prox_max_update   (**Reserved(3)**)                	|	76	|	(0x4C)	|	3600	|
+|	prox_scan_pwr_min (**Reserved(4)**)                	|	43	|	(0x2B)	|	-90	|
+|	prox_distance_coef (**Reserved(4)**)               	|	44	|	(0x2C)	|	200	|
+|	prox_scan_frequency (**Reserved(4)**)              	|	45	|	(0x2D)	|	1800 |
+|	prox_backtrace_max_age (**Reserved(4)**)           	|	46	|	(0x2E)	|	256	|
+|	prox_distance_sliding_window  (**Reserved(4)**)    	|	47	|	(0x2F)	|	30	|
+|	prox_exposure_50	(**Reserved(4)**) |	48	|	(0x30)	|	200	|
+|	prox_exposure_100	(**Reserved(4)**) |	49	|	(0x31)	|	50	|
+|	prox_exposure_150	(**Reserved(4)**) |	50	|	(0x32)	|	22	|
+|	prox_exposure_200	(**Reserved(4)**) |	51	|	(0x33)	|	13	|
+|	prox_exposure_250	(**Reserved(4)**) |	52	|	(0x34)	|	0	|
+|	prox_exposure_300	(**Reserved(4)**) |	53	|	(0x35)	|	0	|
+|	prox_exposure_400	(**Reserved(4)**) |	54	|	(0x36)	|	0	|
+|	prox_alarm_dist_immediate (**Reserved(4)**)        	|	55	|	(0x37)	|	0.1 	|
+|	prox_alarm_exposure   (**Reserved(4)**)            	|	56	|	(0x38)	|	12000	|
+|	prox_warn_dist_immediate (**Reserved(4)**)         	|	57	|	(0x39)	|	1.0 	|
+|	prox_warn_exposure      (**Reserved(4)**)          	|	58	|	(0x3A)	|	6000	|
+|	prox_record_dist_immediate (**Reserved(4)**)       	|	59	|	(0x3B)	|	2 	|
+|	prox_record_exposure      (**Reserved(4)**)        	|	60	|	(0x3C)	|	3700	|
+|	prox_alarm_buz_duration   (**Reserved(4)**)        	|	61	|	(0x3D)	|	5 	|
+|	prox_warn_buz_duration  (**Reserved(4)**)          	|	62	|	(0x3E)	|	5 	|
+|	prox_contact_policy    (**Reserved(4)**)           	|	63	|	(0x3F)	|	0	|
+|	prox_scan_duration    (**Reserved(4)**)            	|	64	|	(0x40)	|	1 	|
+|	prox_scan_window      (**Reserved(4)**)            	|	65	|	(0x41)	|	120 	|
+|	prox_scan_interval    (**Reserved(4)**)            	|	66	|	(0x42)	|	125	|
+|	prox_alarm_remanence  (**Reserved(4)**)            	|	67	|	(0x43)	|	30	|
+|	prox_warn_remanence   (**Reserved(4)**)            	|	68	|	(0x44)	|	30	|
+|	prox_bcn_repeat    (**Reserved(4)**)               	|	69	|	(0x45)	|	100	|
+|	prox_bcn_tx_power   (**Reserved(4)**)              	|	70	|	(0x46)	|	-41	|
+|	prox_reminder_period (**Reserved(4)**)             	|	71	|	(0x47)	|	20	|
+|	prox_reminder_distance  (**Reserved(4)**)          	|	72	|	(0x48)	|	20	|
+|	prox_warn_disable_dist  (**Reserved(4)**)          	|	73	|	(0x49)	|	25	|
+|	prox_alarm_disable_dist  (**Reserved(4)**)         	|	74	|	(0x4A)	|	25	|
+|	prox_max_speed_filter   (**Reserved(4)**)          	|	75	|	(0x4B)	|	15	|
+|	prox_max_update   (**Reserved(4)**)                	|	76	|	(0x4C)	|	3600	|
 |	position_ble_filter_type         	|	77	|	(0x4D)	|	0	|
 |	position_ble_filter_main_1  	|	78	|	(0x4E)	|	0	|
 |	position_ble_filter_main_2 	|	79	|	(0x4F)	|	0	|
@@ -122,7 +124,7 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	angle_deviation_max_interval     	|	100	|	(0x64)	|	0	|
 |	default_profile                  	|	101	|	(0x65)	|	0 (None)	|
 |	password                         	|	102	|	(0x66)	|	123	|
-|	**gps_t0_timeout**	|	103	|	(0x67)	|	15 seconds	|
+|	**gps_t0_timeout**	|	103	|	(0x67)	|	30 (Micro Tracker) <br/> 15 (Smart Badge)	|
 |	gps_fix_timeout                  	|	104	|	(0x68)	|	0 seconds	|
 |	geofencing_scan_duration         	|	105	|	(0x69)	|	370	msec |
 |	beaconing_type                   	|	106	|	(0x6A)	|	0 (Disabled)	|
@@ -148,7 +150,7 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	profile                          	|	246	|	(0xF6)	|	0 (None)	|
 |	consumption                      	|	247	|	(0xF7)	|	0 mAh	|
 |	ble_bond_info                    	|	248	|	(0xF8)	|	1	|
-|	mode                             	|	249	|	(0xF9)	|	0 (Standby)	|
+|	mode                             	|	249	|	(0xF9)	|	1 (Motion Tracking)	|
 |	acc_x_axis   (**Read only**)                    	|	250	|	(0xFA)	|	-215	|
 |	acc_y_axis    (**Read only**)                  	|	251	|	(0xFB)	|	-158	|
 |	acc_z_axis    (**Read only**)                   	|	252	|	(0xFC)	|	975	|
@@ -156,10 +158,11 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 |	firmware_version    (**Read only**)             	|	254	|	(0xFE)	|	132096	|
 
 :::tip Notes
-1.  New parameters or if their default values changed have been marked bold.
+(1). Please visit [here](../functioning/user-interfaces/readme.md#button-management) for the definition of click, press, long press, etc.
 
-2.  Default parameter values are subject to change. The tracker configuration can be obtained with a downlink or by entering a [CLI command](/troubleshooting-support/using-cli.md/readme.md#here-are-the-main-steps-to-use-cli) (**config show**) on the serial terminal connected to the tracker with USB cable.  
+(2)  New parameters or if their default values changed have been marked bold.
 
-3. Please use MCU FW 2.3 and below for proximity feature. Proximity feature is removed starting from AT 2.4.
+(3)  Default parameter values are subject to change. The tracker configuration can be obtained with a downlink or a [CLI command](../../../troubleshooting-support/using-cli.md#here-are-the-main-steps-to-use-cli) (**config show**). 
 
+(4) Please use MCU FW 2.3 and below for proximity feature. Proximity feature is removed starting from AT 2.4.
 :::

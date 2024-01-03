@@ -16,4 +16,4 @@ Example: to use APPEUI=0x20635F000300000F, you need to input the following eleme
 appeui_low = 0x0300000F
 appeui_high = 0x20635F00
 ```
-The config file can be flashed into the tracker using [Firmware Update](/D-Reference/FirmwareUpdateOverview_R/).
+The config file can be flashed into the tracker using [Firmware Update](/troubleshooting-support/firmware-update-overview/index.md).

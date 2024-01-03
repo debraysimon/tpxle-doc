@@ -16,8 +16,8 @@
 
 Abeeway Device Manager also offers you the quickest and simplest way to change your tracker parameters using a range of predefined templates tailored for specific uses, such as finding assets on demand, activity monitoring, proximity alert, etc.<br/>
 
-This allows you to easily get positions from the trackers most frequently use-cases as you will see in the following topics:
-* [Tracking your assets](/C-Procedure-Topics/TrackAssetsADM_T/)
-* [Changing the tracker configuration](/C-Procedure-Topics/ChangeTrackerConfiguration_T/)
-* [Location templates](/D-Reference/LocationTemplates_R/)
-* [Estimate battery lifetime](/D-Reference/PowerConsumption_R/)
+This allows you to easily get positions from the trackers most frequently uintegrating-your-application-with-thingpark-location/using-thingpark-location-apise-cases as you will see in the following topics:
+* [Tracking your assets](tracking-your-assets.md)
+* [Changing the tracker configuration](change-tracker-configuration.md)
+* [Location templates](location-templates.md)
+* [Estimate battery lifetime](abeeway-power-consumption-tool.md)

@@ -2,7 +2,7 @@
 
 It is the configuration of the trackers after a firmware update if the firmware update is done only with the firmware binary **without the configuration file**. The parameter values below are compiled in the firmware and used if the configuration file does not provide the parameter value.
 
-The output below can be easily contructed by doing **config show** once the firmware is flashed without the configuration file by connecting the tracker to [CLI terminal using USB cable](/troubleshooting-support/using-cli.md/).
+The output below can be easily contructed by doing **config show** once the firmware is flashed without the configuration file by connecting the tracker to [CLI terminal using USB cable](/troubleshooting-support/using-cli.md).
 
 								
 |	Parameter Name	|	Parameter ID (Decimal)	|	Parameter ID (Hex)	|	Parameter Value (Decimal)	|

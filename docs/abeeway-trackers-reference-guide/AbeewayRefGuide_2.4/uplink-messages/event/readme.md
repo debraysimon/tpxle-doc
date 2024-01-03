@@ -121,7 +121,7 @@ measurement
 :::tip Notes
 1.  Signed 16 bit value on each axis, refer to the section [Two's complement Encoding](../../downlink-messages/two-complement-encoding/readme.md) for information for the encoding
 2.  G is the terrestrial gravity, mG means milli G.
-3.  For more details refer to the application note [AN_010_Angle Detection](../../../../documentation-library/abeeway-trackers#application-notes).  
+3.  For more details refer to the application note [AN_010_Angle Detection](../../../../documentation-library/abeeway-trackers-documentation#application-notes).  
 :::
 
 ### BLE geozoning message:
@@ -150,7 +150,7 @@ Please refer to the dedicated application note [AN-011_BLE geozoning](/documenta
 
 ## BLE Connection messages:
 
-These messages are sent when the tracker is interacting over Bluetooth with the [Abeeway tracking app](/C-Procedure-Topics/GetStartedMobileApp_T/) installed on the smart phone.
+These messages are sent when the tracker is interacting over Bluetooth with the [Abeeway tracking app](../../../../getting-started/getting-started-with-abeeway-tracking-app.md) installed on the smart phone.
 
 |  BLE Connection status                |  Message      |
 |-------------------------------------------|-----------------------|

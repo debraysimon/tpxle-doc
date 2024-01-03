@@ -41,7 +41,7 @@ You must change the mode of your industrial or compact tracker before and after 
     * Abeeway Device Manager on [ThingPark Community platform](https://community.thingpark.org/) : [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api)<br/>
 
     * Abeeway Device Manager on IoT platform: [https://iot.thingpark.com/abeewayDeviceAnalyzer/?dxprofile=iot](https://iot.thingpark.com/portal/web/)<br/>
-If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>
+If using another platform, see [ThingPark platforms URLs](/troubleshooting-support/thingpark-location-urls.md).<br/>
 
 2. In the **Select Devices** column of Abeeway Device Manager, select the tracker you want to change the mode, and click **Select**.
 :::tip Note
@@ -50,7 +50,7 @@ If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingPark
 <img src="./images/ADASelectTracker_1058x542.png" border="1" />
 
 3. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
-    * **MCU Firmware** :  It gives the tracker MCU firmware version. Please refer to the [Asset Tracker Firmware Reference Guide](/AbeewayRefGuide/introduction/) to know the supported features. **Please ensure to follow only the reference guide version matching the firmware version running on the tracker**.
+    * **MCU Firmware** :  It gives the tracker MCU firmware version. Please refer to the [Asset Tracker Firmware Reference Guide](/abeeway-trackers-reference-guide/AbeewayRefGuide/introduction/index.md) to know the supported features. **Please ensure to follow only the reference guide version matching the firmware version running on the tracker**.
     * **First Position** and **Last Position** : When in standby mode, the tracker sends LoRaWAN® heartbeat messages periodically which can be used to get battery information, mode, firmware version...
     * **Last Mode** : Current mode of the tracker.
     * **Battery** : Percentage of battery left.
@@ -130,6 +130,6 @@ To maximize responsiveness of the tracker, this LoRaWAN® uplink period is set t
 ### Adjusting tracker's configuration to your needs
 As mentioned previously, default tracker's configuration is made to optimize your experience while discovering our solution.<br/>
 Although you will enjoy this at the beginning, you might need to adapt trackers behavior to better suit your use case requirements, or optimize power consumption.<br/>
-Abeeway trackers support a wide variety of modes and configuration parameters to help you with that. Please refer to [Abeeway Device Manager User Guide](/B-Feature-Topics/AbeewayDeviceManager_C/) to learn how to change tracker configuration.
+Abeeway trackers support a wide variety of modes and configuration parameters to help you with that. Please refer to [Abeeway Device Manager User Guide](//trackers-overview/abeeway-device-manager/index.md) to learn how to change tracker configuration.
 
 

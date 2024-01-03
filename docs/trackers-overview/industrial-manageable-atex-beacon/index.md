@@ -45,7 +45,7 @@ The beacon is equipped with a magnet-activated reed switch (see figure above on 
 For MCU FW 2.2 and above, you need to carry out the following sequence with the magnet next to the reed switch:
 :::warning WARNING
 * The sequence below can be carried out multiple times without any interruption
-* The latest beacons from the factory are activated by default in the join state. They need not be activated. However, if you do the above magnet sequence, it will restart the join procedure. You can also request [Abeeway support](../../../D-Reference/FAQ_R/) if the beacon is activated or not before being shipped to the customer.
+* The latest beacons from the factory are activated by default in the join state. They need not be activated. However, if you do the above magnet sequence, it will restart the join procedure. You can also request [Abeeway support](../../troubleshooting-support/faq.md) if the beacon is activated or not before being shipped to the customer.
 * Once the beacon is activated with magnet, it will make LoRaWAN joins indefinately. There is delay between different join attempts which range from 15 minutes to 1 hour.
 :::
 
@@ -57,8 +57,8 @@ The example video below demonstrates the operation.
 <html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/2t8zI3cbfys?" height="150px" width="300px"/></html>
 
 :::warning WARNING
-* For more information on the battery lifetime of the beacon, visit [here](../abeeway-device-manager/PowerConsumption_R)
-* For more information on beacon firmware documentation, visit [here](../../documentation-library/abeeway-trackers).
+* For more information on the battery lifetime of the beacon, visit [here](../abeeway-device-manager/abeeway-power-consumption-tool.md)
+* For more information on beacon firmware documentation, visit [here](../../documentation-library/abeeway-trackers-documentation).
 :::
 
 
@@ -77,14 +77,14 @@ The example video below demonstrates the operation.
   - Ex ia IIIC T135°C Da
 
 :::warning WARNING
-*  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
+*  The latest information on certification can be found [here](/documentation-library/abeeway-trackers-documentation.md#certifications).
 * The beacon is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the beacon must not be placed upside down. 
 * **The warranty of the beacon is avoid if used incorrectly**.
 :::
 
 ### Datasheet
-The datasheet of the beacon can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
+The datasheet of the beacon can be downloaded from [here](/documentation-library/abeeway-trackers-documentation.md#data-sheets).
 
 
 ### Beacon configuration
-The beacon can be easily configured using Abeeway tracking app, using CLI over USB or using Abeeway device manager. You can find more information [here](/D-Reference/UseCaseBleBeaconing_R/).
+The beacon can be easily configured using Abeeway tracking app, using CLI over USB or using Abeeway device manager. You can find more information [here](../../use-cases/use-case-ble-beaconing.md).

@@ -55,10 +55,10 @@ It leverages the Wi-Fi access point scanning capabilities of the micro tracker.
   - II 3 D Ex ic IIIB T135°C Dc (-20°C ≤ Tamb ≤ +40°C)
 
 :::warning WARNING
- * The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
- * The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
- * For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers#reference-guides-and-tools).
+ * The datasheet of the tracker can be downloaded from [here](/documentation-library/abeeway-trackers-documentation.md#data-sheets).
+ * The latest information on certification can be found [here](/documentation-library/abeeway-trackers-documentation.md#certifications).
+ * For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/abeeway-power-consumption-tool.md)
+* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers-documentation#reference-guides-and-tools).
  * The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. 
  * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. 
  * **The warranty of the tracker is avoid if used incorrectly.**

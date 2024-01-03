@@ -9,7 +9,7 @@
 
  **Parameter ID list**: List of requested parameters identifiers.
 -   Each byte contains a single identifier.
--   Parameter IDs are the ones used to configure the device (Refer to the section [Firmware Parameters](../../Parameters-default-configuration/firmware-parameters.md)).
+-   Parameter IDs are the ones used to configure the device (Refer to the section [Firmware Parameters](../../parameters-default-configuration/firmware-parameters.md)).
 -   If the list is empty, all the parameters are requested.
 
 :::tip Notes

@@ -19,6 +19,6 @@ Abeeway power consumption tool can be used in one of the following ways:
 
 ## Directly on a web browser
 
-The power consumption tool can also be used directly on a web browser if you do not have access to Abeeway Device Manager. The link to the tool is available [here](../../other/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools)
+The power consumption tool can also be used directly on a web browser if you do not have access to Abeeway Device Manager. The link to the tool is available [here](../../documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools)
 
 

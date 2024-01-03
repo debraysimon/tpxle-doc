@@ -20,7 +20,7 @@ The compact tracker is equipped with a magnet-activated reed switch (see figure 
 For MCU FW 2.2 and above, you need to carry out the following sequence with the magnet next to the reed switch:
 :::warning WARNING
 * The sequence below can be carried out multiple times without any interruption
-* The latest compact trackers from the factory are activated by default in the join state. They need not be activated. However, if you do the above magnet sequence, it will restart the join procedure. You can also request [Abeeway support](../../../D-Reference/FAQ_R/) if the tracker is activated or not before being shipped to the customer.
+* The latest compact trackers from the factory are activated by default in the join state. They need not be activated. However, if you do the above magnet sequence, it will restart the join procedure. You can also request [Abeeway support](../../troubleshooting-support/faq.md) if the tracker is activated or not before being shipped to the customer.
 * Once the compact tracker is activated with magnet, it will make LoRaWAN joins indefinately. There is delay between different join attempts which range from 15 minutes to 1 hour.
 :::
 
@@ -42,8 +42,8 @@ The example video below demonstrates the operation.
 * **Standby** : The tracker sends periodically short LoRaWAN® messages, called heartbeat, at the configured interval. This provides periodic slots during which it is possible to send LoRaWAN commands to the tracker, such as configuration commands or on-demand positions (using the configuration set for "side operations").
 
 :::warning WARNING
-* For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers).
+* For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/abeeway-power-consumption-tool.md)
+* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers-documentation).
 :::
 
 ### Geolocation technologies
@@ -84,11 +84,11 @@ It leverages the Wi-Fi access point scanning capabilities of the compact tracker
   - Ex ia IIIC T135°C Da
 
 :::warning WARNING
-*  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
+*  The latest information on certification can be found [here](../../documentation-library/abeeway-trackers-documentation.md#certifications).
 * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down.
 * In excessilvely hot weather, we recommend to put the tracker in the shade to avoid overheating.
 * **The warranty of the tracker is avoid if used incorrectly**.
 :::
 
 ### Datasheet
-The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
+The datasheet of the tracker can be downloaded from [here](../../documentation-library/abeeway-trackers-documentation.md#data-sheets).

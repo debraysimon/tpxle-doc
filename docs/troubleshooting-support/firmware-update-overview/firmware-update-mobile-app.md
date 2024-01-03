@@ -6,11 +6,11 @@ This section describes how to carry out the firmware update using Abeeway update
 
 :::warning WARNING
 * Ensure the correct MCU and Firmware binaries from [here](https://actilitysa.sharepoint.com/:f:/t/aby/EgDe93KPylRIhhdRE4tdGXkBWYtF9kchJAAZqq_FS14aRQ?e=xjaE7a) are selected that match the tracker model. **Incorrect firmware might damage the tracker permanently and will void the warranty**.
-* Ensure that the MCU firmware config file has no invalid or non-existing parameters that are not present in the MCU/Application firmware. Please cross-check the config file parameters and their values are in the ranges present in [Abeeway Firmware Reference Guide](../../AbeewayRefGuide/introduction/). Any invalid or non-existing parameters in firmware config file that do not match the firmware binary will be rejected and the configuration will not be applied correctly. 
-* **The parameters in the firmware config file must be present in the [Abeeway Firmware Reference Guide](../../AbeewayRefGuide/introduction/) that corresponds to the MCU Firmware versionn you are trying to flash into the tracker**.
-* The config file should only have parameters that are changed from **factory default** to reduce the size of the config file. The factory default of all the firmware parameters can be found in [Abeeway Firmware Reference Guide](/AbeewayRefGuide/factory-default-config/)
-* The flash size of the firmware is very limited. Please avoid putting large number of parameters in the config file. The config file is appended to the firmware binary at the end of firmware update process. **If this appended file is bigger than the flash size, the tracker might be damaged permanently. We advise to not put more than 10 firmware parameters in the config file. The tracker warranty is void if used incorrectly**. For changing more than 10 parameters, please refer to [Abeeway Updater](https://github.com/Abeeway/Abeeway-updater) (see chapter: Updating ONLY the tracker configuration). Alternatively, you can also use [Abeeway Device Manager (device configuration tab)](../../../trackers-overview/abeeway-device-manager/ChangeTrackerConfiguration_T/) to send LoRaWAN downlinks.
-* Before carrying out the firmware update for large number of trackers in the field, please carry out the firmware update of few trackers and check the configuration using [Tera term](https://ttssh2.osdn.jp/index.html.en) or similar serial communication tool. You can check the configuration of the tracker by entering **config show** on the serial console. This will avoid potential mistake when carrying out firmware update for the large number of trackers. Please visit [here](../../troubleshooting-support/using-cli.md/) on how to interact with the CLI over USB port. 
+* Ensure that the MCU firmware config file has no invalid or non-existing parameters that are not present in the MCU/Application firmware. Please cross-check the config file parameters and their values are in the ranges present in [Abeeway Firmware Reference Guide](../../abeeway-trackers-reference-guide/AbeewayRefGuide/introduction/index.md). Any invalid or non-existing parameters in firmware config file that do not match the firmware binary will be rejected and the configuration will not be applied correctly. 
+* **The parameters in the firmware config file must be present in the [Abeeway Firmware Reference Guide](../../abeeway-trackers-reference-guide/AbeewayRefGuide/introduction/index.md) that corresponds to the MCU Firmware versionn you are trying to flash into the tracker**.
+* The config file should only have parameters that are changed from **factory default** to reduce the size of the config file. The factory default of all the firmware parameters can be found in [Abeeway Firmware Reference Guide](../../abeeway-trackers-reference-guide/AbeewayRefGuide/parameters-default-configuration/factory-default.md)
+* The flash size of the firmware is very limited. Please avoid putting large number of parameters in the config file. The config file is appended to the firmware binary at the end of firmware update process. **If this appended file is bigger than the flash size, the tracker might be damaged permanently. We advise to not put more than 10 firmware parameters in the config file. The tracker warranty is void if used incorrectly**. For changing more than 10 parameters, please refer to [Abeeway Updater](https://github.com/Abeeway/Abeeway-updater) (see chapter: Updating ONLY the tracker configuration). Alternatively, you can also use [Abeeway Device Manager (device configuration tab)](../../trackers-overview/abeeway-device-manager/change-tracker-configuration.md) to send LoRaWAN downlinks.
+* Before carrying out the firmware update for large number of trackers in the field, please carry out the firmware update of few trackers and check the configuration using [Tera term](https://ttssh2.osdn.jp/index.html.en) or similar serial communication tool. You can check the configuration of the tracker by entering **config show** on the serial console. This will avoid potential mistake when carrying out firmware update for the large number of trackers. Please visit [here](../../troubleshooting-support/using-cli.md) on how to interact with the CLI over USB port. 
 * There are no programs running on the mobile phone that are using Bluetooth extensively during the firmware update. Examples of such program are applications which stream music over Bluetooth
 * Please do not put the mobile app in background during the firmware update process
 * For more details on the Abeeway tracking app, please click [here](https://actilitysa.sharepoint.com/:f:/t/aby/Ep7oeKyEGeZIolF4avQrmf8BBsOOJoFQhjon7jacL4Koig?e=S1c1aa)
@@ -22,18 +22,18 @@ This section describes how to carry out the firmware update using Abeeway update
 - Android: [here](https://play.google.com/store/apps/details?id=com.abeeway.mobile&amp;hl=en_US&amp;gl=US)
 - iOS: [here](https://apps.apple.com/us/app/abeeway-wifi-gps-tracking/id1572268239)
 
-2. Abeeway tracking app only supports the following tracker models. The tracker models can be identified from [here](/D-Reference/IdentifyTrackerModel).
+2. Abeeway tracking app only supports the following tracker models. The tracker models can be identified from [here](../../troubleshooting-support/identify-tracker-model.md).
 -	Micro Tracker V3.x
 -	Smart Badge
 -	Industrial Tracker V2
 -	Compact Tracker
 
-3. Ensure the tracker MCU and BLE Firmware version is compatible. The firmware version on the tracker can be found from [here](/D-Reference/IdentifyInstalledFirmware)
+3. Ensure the tracker MCU and BLE Firmware version is compatible. The firmware version on the tracker can be found from [here](../../troubleshooting-support/identify-installed-firmware.md)
 - Minimum MCU Firmware: 2.3.0
 - Minimum BLE Firmware: 3.3.0
 
 :::warning Note
-Please do not use the mobile app if the installed firmware on the tracker or the target firmware to upgrade is older than above. If you intend to update trackers to older firmware versions or if the installed firmware on the tracker is older than the versions listed above, please use [Abeeway updater](../../D-Reference/AbeewayFirmwareUpdate_R/).
+Please do not use the mobile app if the installed firmware on the tracker or the target firmware to upgrade is older than above. If you intend to update trackers to older firmware versions or if the installed firmware on the tracker is older than the versions listed above, please use [Abeeway updater](../../troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md).
 :::
 
 ## Firmware Update of the trackers inside the Mobile app end user account
@@ -63,7 +63,7 @@ This option is meant for Abeeway operations team, distributors and integrators w
       * **MCU FW 2.3.x and above:** Hold the button for more than 14 sec to enter ESC sequence. The tracker will play melody indicating the fact that special sequence can be started. Once inside the special sequence, do the following: 1 click, 1 click, 1x press (between 1 - 4 sec). If the sequence is successful, the tracker will play Bluetooth advertisement melody indicating the Bluetooth bond is removed for about 10 minutes (which is the default configuration).
    * **Sending the LoRaWAN downlink ff0202** on downlink port = 2 to the Abeeway tracker (This is applicable to ALL the trackers. It requires access to the LoRaWAN account where the tracker is provisioned.)
    * **Reed Switch Sequence<sup>(2)</sup>**. The special magnet sequence can be used to activate Bluetooth on the compact tracker if there is no Bluetooth bond on the tracker. 
-   * **[Using CLI with the tracker connected over USB port](/troubleshooting-support/using-cli.md/)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to clear the BLE bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../../../documentation-library/abeeway-trackers-documentation#application-notes). (This is applicable to ALL the trackers)
+   * **[Using CLI with the tracker connected over USB port](../../troubleshooting-support/using-cli.md)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to clear the BLE bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../../documentation-library/abeeway-trackers-documentation#application-notes). (This is applicable to ALL the trackers)
  
 4. Goto Add a tracker UI to search for the tracker
 [//]: # ( ![img]&#40;../../D-Reference/FirmwareUpdateMobileApp_R/images/addtracker.png&#41;)
@@ -76,8 +76,8 @@ This option is meant for Abeeway operations team, distributors and integrators w
 
 
 :::warning Note
-<sup>(1)</sup> The Bluetooth advertisement duration can be configured by modifying the value of firmware parameter, *ble_cnx_adv_duration* (Parameter ID:0x6F). Please visit [here](../../AbeewayRefGuide/downlink-messages/parameters-configuration/readme.md#ble-communication-parameters) for more details.
+<sup>(1)</sup> The Bluetooth advertisement duration can be configured by modifying the value of firmware parameter, *ble_cnx_adv_duration* (Parameter ID:0x6F). Please visit [here](../../abeeway-trackers-reference-guide/AbeewayRefGuide/downlink-messages/parameters-configuration/readme.md#parameters-configuration) for more details.
 
-<sup>(2)</sup> The compact trackers are shipped with default value of *reed_switch_configuration=3*, which is required for the magnet to activate Bluetooth advertising if its not bonded to any other smart phone. For more information on reed switch sequence, visit [here](../../AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface). The video showing this procedure is [here](../../../trackers-overview/compact-tracker/)
+<sup>(2)</sup> The compact trackers are shipped with default value of *reed_switch_configuration=3*, which is required for the magnet to activate Bluetooth advertising if its not bonded to any other smart phone. For more information on reed switch sequence, visit [here](../../abeeway-trackers-reference-guide/AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface). The video showing this procedure is [here](../../trackers-overview/compact-tracker/index.md)
 :::
 

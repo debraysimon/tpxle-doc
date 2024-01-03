@@ -7,10 +7,10 @@ There are multiple ways to encode/decode LoRaWAN payloads.
 Both the methods are described below.
 
 ## Using Abeeway Device Manager
-The easiest way to encode or decode Abeeway tracker payloads is to use [Abeeway Device Manager](/B-Feature-Topics/AbeewayDeviceManager_C/). You can do that even if you do not have trackers linked to ThingPark Location.
+The easiest way to encode or decode Abeeway tracker payloads is to use [Abeeway Device Manager](../../trackers-overview/abeeway-device-manager/index.md). You can do that even if you do not have trackers linked to ThingPark Location.
 &nbsp;
 1. Create a free account on: [https://community.thingpark.org/](https://community.thingpark.org/)
-2. Log in to Abeeway Device Manager at the following URL: [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). If using another platform, see&nbsp;[ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).
+2. Log in to Abeeway Device Manager at the following URL: [here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). If using another platform, see&nbsp;[ThingPark platforms URLs](../../troubleshooting-support/thingpark-location-urls.md).
 3. You can then encode or decode Abeeway payloads from the device configuration page.
 ![img](./images/ADM_device_configuration_encode_decode_payloads.png)
 
@@ -33,18 +33,18 @@ The Abeeway driver gives you access to the driver service and the relative API d
 
 ### Using the Abeeway driver - Some examples
 You will use the following examples that you can apply to your application:
-* **Example 1** [Decoding an uplink message](/C-Procedure-Topics/DecodeUplinkMessage_T/).
+* **Example 1** [Decoding an uplink message](../../integrating-your-application-with-thingpark-location/encoding-decoding-lorawan-payloads/decoding-an-uplink-message.md).
 
-* **Example 2** [Encoding a downlink message](/C-Procedure-Topics/EncodeDownlinkMessage_T/).
+* **Example 2** [Encoding a downlink message](../../integrating-your-application-with-thingpark-location/encoding-decoding-lorawan-payloads/encoding-a-downlink-message.md).
 
-* **Example 3** [Decoding a downlink message](/C-Procedure-Topics/DecodeDownlinkMessage_T/).
+* **Example 3** [Decoding a downlink message](../../integrating-your-application-with-thingpark-location/encoding-decoding-lorawan-payloads/decoding-a-downlink-message.md).
 
 ### Abeeway driver documentation
 You can access the comprehensive documentation of Abeeway driver below.
 
-|  | Resource | 
-| - | -------- | 
-| **Driver** | [Asset Tracker Driver User Guide](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools) | 
+|            | Resource                                                                                                                    | 
+|------------|-----------------------------------------------------------------------------------------------------------------------------| 
+| **Driver** | [Asset Tracker Driver User Guide](../../documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools) | 
 
 :::warning WARNING
 We recommend to use Abeeway driver to decode the payloads and NOT by implementing your own decoder using the payload structure in Abeeway Trackers reference guide. The payload formats can change between firmware versions, but we do our best to keep the backward compatibility with Abeeway driver.

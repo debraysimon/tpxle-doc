@@ -15,7 +15,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
 
     * Abeeway Device Manager on IoT platform: [https://iot.thingpark.com/abeewayDeviceAnalyzer/?dxprofile=iot](https://iot.thingpark.com/portal/web/)<br/>
 
-    If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>
+    If using another platform, see [ThingPark platforms URLs](/troubleshooting-support/thingpark-location-urls.md).<br/>
 
 2. In the **Select Devices** column of Abeeway Device Manager, select the tracker you want to change the mode, and click **Select**.
     :::tip Note
@@ -24,7 +24,7 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
    ![img](./images/ADASelectTracker_1058x542.png)
 
 3. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
-    * **MCU Firmware** : It gives the tracker MCU firmware version. Please refer to the [Abeeway trackers reference guide](/AbeewayRefGuide/introduction/) matching the MCU Firmware version running on the tracker to know the supported features.
+    * **MCU Firmware** : It gives the tracker MCU firmware version. Please refer to the [Abeeway trackers reference guide](../../abeeway-trackers-reference-guide/AbeewayRefGuide/introduction/index.md) matching the MCU Firmware version running on the tracker to know the supported features.
     * **First Position** and **Last Position** of the tracker
     * **Last Mode** : Current mode of the tracker
     * **Battery** : Percentage of remaining battery
@@ -49,4 +49,4 @@ Abeeway Device Manager is a ThingPark Location application designed to help you 
     :::
     ![img](./images/ADAPerfTab_1078x475.png)
 
-7. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](/B-Feature-Topics/AbeewayDeviceManager_C/).
+7. For more information about how to use Abeeway Device Manager, see [Abeeway Device Manager User Guide](//trackers-overview/abeeway-device-manager/index.md).

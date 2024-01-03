@@ -181,7 +181,7 @@
 1.  The payload contains the listened WIFI stations (up to 12 if bit 12 of *config_flags* parameter is set, up to 4 if it is reset).
 2.  If less than 4 stations are listened to, the payload will be reduced.
 3.  BSSID address is provided in big endian format. So, byte 6 of the payload contains the MSB of the BSSID0, while byte 11 contains its LSB.
-4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN™ MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](../../../../documentation-library/abeeway-trackers#application-notes) for more details.
+4.  The data rate and the transmit strategy must be adapted to the payload size, or the payload will be rejected by the LoRaWAN™ MAC, and won't be sent. Refer to the application note [AN- 002_LoRa_Transmission_strategy](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
 :::
 
 ## Extended BLE beacon scan payload (MAC address)
@@ -199,7 +199,7 @@
 
 1.  The payload contains the listened BLE beacons (up to 4, it is configurable using *ble_beacon_cnt* parameter), during *ble_beacon_timeout* delay.
 2.  If less than 4 BLE beacons are listened, the payload will be reduced. 
-3.  Refer to the application not [AN-006_Position_BLE_filtering](../../../../documentation-library/abeeway-trackers#application-notes) for more details.
+3.  Refer to the application not [AN-006_Position_BLE_filtering](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
 :::
 
 ## Extended BLE beacon scan payload (short identifier)
@@ -224,7 +224,7 @@
 1.  The payload contains the listened BLE beacons (up to 4, it is configurable using *ble_beacon_cnt* parameter), during *ble_beacon_timeout* delay.
 2.  If less than 4 BLE beacons are listened to, the payload is reduced.
 3.  Short ID is not supported for Eddystone url beacons.
-4.  Refer to the application not [AN-006_Position_BLE_filtering](../../../../documentation-library/abeeway-trackers#application-notes) for more details.
+4.  Refer to the application not [AN-006_Position_BLE_filtering](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
 :::
 
 ## Extended BLE beacon scan payload (long ID)
@@ -245,7 +245,7 @@
 :::tip Notes
  1- The payload contains the long ID of only one beacon. 
  2- Long ID is not supported for Eddystone URL frame type.
- 3- Refer to the application note [AN-006_Position_BLE_filtering](../../../../documentation-library/abeeway-trackers#application-notes) for more details.
+ 3- Refer to the application note [AN-006_Position_BLE_filtering](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details.
  :::
 
 ## Extended BLE failure payload

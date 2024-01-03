@@ -19,7 +19,7 @@ Each downlink message must contain the following fields:
 * `REQUEST_TEMPERATURE_STATUS` : Request a temperature status
 
 
-* `AckToken` : Random integer ranging from 0 to 15 and used by the tracker to acknowledge the downlink message. For more information about setting and processing this field, see [Asset Tracker Driver User Guide](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools).
+* `AckToken` : Random integer ranging from 0 to 15 and used by the tracker to acknowledge the downlink message. For more information about setting and processing this field, see [Asset Tracker Driver User Guide](/documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools).
 
 :::tip Notes
 * Each field name must be coded as a string.<br/>

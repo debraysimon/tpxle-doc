@@ -23,9 +23,9 @@ The markings are explained in the following figures below :
 
 
 :::warning Note
-- The certification documents are available [here](../documentation-library/abeeway-trackers.md#certifications).
-- The data sheet is available [here](../documentation-library/abeeway-trackers.md#data-sheets).
-- The OOB document is available [here](../documentation-library/abeeway-trackers.md#out-of-box-user-guides).
+- The certification documents are available [here](../documentation-library/abeeway-trackers-documentation#certifications).
+- The data sheet is available [here](../documentation-library/abeeway-trackers-documentation#data-sheets).
+- The OOB document is available [here](../documentation-library/abeeway-trackers-documentation#out-of-box-user-guides).
 :::
 
 ## Micro Tracker V2
@@ -41,8 +41,8 @@ The markings are explained in the following figures below :
 ![img](images/ATEX_zone_II_D_SB_MTV2.png)
 
 :::warning Note
-- The certification documents are available [here](../documentation-library/abeeway-trackers.md#certifications).
-- The data sheet is available [here](../documentation-library/abeeway-trackers.md#data-sheets).
+- The certification documents are available [here](../documentation-library/abeeway-trackers-documentation#certifications).
+- The data sheet is available [here](../documentation-library/abeeway-trackers-documentation#data-sheets).
 :::
 
 ## Compact Tracker

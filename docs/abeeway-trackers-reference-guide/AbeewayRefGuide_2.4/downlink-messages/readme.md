@@ -28,7 +28,7 @@ the following table.
 | Debug command           | 0xFF | bootloader                                      |
 
 :::tip Table notes  
-(1) Please refer to the dedicated application note [AN-010_Angle_Detection](/documentation-library/abeeway-trackers-documentation.md#application-notes) for more details.  
+(1) Please refer to the dedicated application note [AN-010_Angle_Detection](../../../documentation-library/abeeway-trackers-documentation.md#application-notes) for more details.  
 :::
 
 :::tip Notes

@@ -5,8 +5,8 @@ sidebar_label: Provisioning your trackers on third-party network servers
 As a system integrator, a distributor, or a operation engineer, you can integrate ThingPark Location with non-Actility third-party network servers to test the unique features of Abeeway trackers.<br/>
 
 There are two ways to integrate with third-party network servers:
-1. Use pre-deployed [Actility Network Interface Translator](/B-Feature-Topics/Integrate3PNS_1_C/) (This only works with TTN/Helium Network Server)
-2. Deploy your own [Node-RED Network Interface Translator](/B-Feature-Topics/Integrate3PNS_2_C/) (This supports third party Network servers such as Helium, TTN, Loriot, Kerlink and many more)
+1. Use pre-deployed [Actility Network Interface Translator](thingpark-x-location-engine-network-interface-translator-setup-guide.md) (This only works with TTN/Helium Network Server)
+2. Deploy your own [Node-RED Network Interface Translator](../../../getting-started/provisioning-your-trackers-on-lorawan-networks/provisioning-your-trackers-on-third-party-network-servers/using-the-node-red-network-interface-translator/index.md) (This supports third party Network servers such as Helium, TTN, Loriot, Kerlink and many more)
 
 ## Setup environment
 The setup environment requires the following components:

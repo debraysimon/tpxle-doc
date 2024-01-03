@@ -8,7 +8,7 @@ This is the configuration that is applied on the trackers from the warehouse. Th
 
  The tracker is in **motion tracking operating mode**.
  It is possible to turn it off using the button press.
- When the tracker is in motion, positions are sent using **GPS** technology every **5 minutes** using [**dual random transmit** strategy](../Parameters-default-configuration/firmware-parameters.html#lora-parameters). The **heartbeat** is sent every **10 minutes**.
+ When the tracker is in motion, positions are sent using **GPS** technology every **5 minutes** using [**dual random transmit** strategy](firmware-parameters.md#lora-parameters). The **heartbeat** is sent every **10 minutes**.
 
  Side operations setting:
 -   **Periodic position** reporting is done using **GPS** technology every 4 hours
@@ -162,7 +162,7 @@ Any parameter not listed here will take the values of the [Factory Defaut Config
 
 (2)  New parameters or if their default values changed have been marked bold.
 
-(3)  Default parameter values are subject to change. The tracker configuration can be obtained with a downlink or a [CLI command](/troubleshooting-support/using-cli.md/readme.md#here-are-the-main-steps-to-use-cli) (**config show**). 
+(3)  Default parameter values are subject to change. The tracker configuration can be obtained with a downlink or a [CLI command](../../../troubleshooting-support/using-cli.md#here-are-the-main-steps-to-use-cli) (**config show**). 
 
 (4) Please use MCU FW 2.3 and below for proximity feature. Proximity feature is removed starting from AT 2.4.
 :::

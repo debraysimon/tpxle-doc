@@ -4,7 +4,7 @@ This feature is supported by all Abeeway trackers.
 
 :::tip Note
 - Please refer to [AN-018_Motion_and_shock_detection](/documentation-library/abeeway-trackers-documentation.md#application-notes) application note for more details.
-- Please visit [here](../../Parameters-default-configuration/firmware-parameters.md#accelerometer-parameters) for the motion detection parameters.
+- Please visit [here](../../parameters-default-configuration/firmware-parameters.md#accelerometer-parameters) for the motion detection parameters.
 :::
 
 

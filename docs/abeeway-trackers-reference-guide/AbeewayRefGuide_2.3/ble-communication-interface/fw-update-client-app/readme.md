@@ -7,5 +7,6 @@
 
 ## Abeeway Mobile Application
 
- For using Abeeway mobile app, you can following the [Getting started Guide](../../../C-Procedure-Topics/GetStartedMobileApp_T/) and also a dedicated application note, [AN-017_Mobile APP Getting Started Guide](../../../../documentation-library/abeeway-trackers#application-notes) is available. Abeeway Mobile app can be used to upgrade both MCU and BLE Firmware of the tracker.
+ For using Abeeway mobile app, you can following the [Getting started Guide](../../../../getting-started/getting-started-with-abeeway-tracking-app.md) and also a dedicated application note, [AN-017_Mobile APP Getting Started Guide](../../../../documentation-library/abeeway-trackers-documentation#application-notes) is available. Abeeway Mobile app can be used to upgrade both MCU and BLE Firmware of the tracker.
+ For using Abeeway mobile app, you can following the [Getting started Guide](../../../../getting-started/getting-started-with-abeeway-tracking-app.md) and also a dedicated application note, [AN-017_Mobile APP Getting Started Guide](../../../../documentation-library/abeeway-trackers-documentation#application-notes) is available. Abeeway Mobile app can be used to upgrade both MCU and BLE Firmware of the tracker.
 

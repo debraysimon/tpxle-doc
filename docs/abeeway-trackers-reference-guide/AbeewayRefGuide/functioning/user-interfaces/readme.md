@@ -26,7 +26,7 @@ The table below shows the default user interface components shipped with our tra
 |While the button is pressed when the device is ON   |                      |  LED is Blue while the button is pressed        |
 |Very Long Press or ESC Sequence<sup>(5)</sup> | Trigger the start of special sequence | LED is Blue and Red |
 
-**Configurable actions ([Factory Default Configuration](../../Parameters-default-configuration/factory-default.md)):**
+**Configurable actions ([Factory Default Configuration](../../parameters-default-configuration/factory-default.md)):**
 
 | Sequence | Action|User Interface Behavior  |
 |-------------------------------------|---------------------|----------------------|
@@ -67,7 +67,7 @@ A beep is played while the tracker is in special sequence mode. The LED is also 
 
 :::tip Notes
 
-<sup>(1)</sup> For more details, please refer to the application note [AN-010_Angle Detection](../../../../documentation-library/abeeway-trackers#application-notes).
+<sup>(1)</sup> For more details, please refer to the application note [AN-010_Angle Detection](../../../../documentation-library/abeeway-trackers-documentation#application-notes).
 
 <sup>(2)</sup> **Click**: Press the button for less than 1 second.
 
@@ -97,11 +97,11 @@ LED blinking patterns
 
 :::tip Notes
 
-<sup>(1)</sup> If configured with bit 7 of [config_flags](../../Parameters-default-configuration/firmware-parameters.html#miscellaneous-parameters) parameter.
+<sup>(1)</sup> If configured with bit 7 of [config_flags](../../parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) parameter.
 
-<sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](../../../../documentation-library/abeeway-trackers#application-notes) for more details. **Only Applicable to MCU FW 2.3 and below**.
+<sup>(2)</sup> Refer to the dedicated application note [AN-007_proximity feature](../../../../documentation-library/abeeway-trackers-documentation#application-notes) for more details. **Only Applicable to MCU FW 2.3 and below**.
 
-<sup>(3)</sup>  Only if bootloader is entered using the associated CLI command (Refer to the application note [AN-013_CLI_description](../../../../documentation-library/abeeway-trackers#application-notes))
+<sup>(3)</sup>  Only if bootloader is entered using the associated CLI command (Refer to the application note [AN-013_CLI_description](../../../../documentation-library/abeeway-trackers-documentation#application-notes))
 
 <sup>(4)</sup> In some trackers you can have blue + red colors instead of pink color.
 :::
@@ -137,7 +137,7 @@ The different melodies can be found [here](https://actilitysa.sharepoint.com/:f:
 
 ## Reed switch interface
 
-A reed switch is a physical switch operated by an applied magnetic field. The reed switch is only present inside the compact tracker. It is used when no button is mounted on the tracker. It can be configured with the [*reed_switch_configuration* parameter](../../Parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) <sup>(2)</sup>:
+A reed switch is a physical switch operated by an applied magnetic field. The reed switch is only present inside the compact tracker. It is used when no button is mounted on the tracker. It can be configured with the [*reed_switch_configuration* parameter](../../parameters-default-configuration/firmware-parameters.md#miscellaneous-parameters) <sup>(2)</sup>:
 
 -   **Act as a button**, the reed switch behaves as described in the Button management section above. A short magnetic field input is recognized as a short press, and a long input, as a long press.
 -   **Specific behavior**, the reed switch sequence<sup>(1)</sup> generates a device reset:

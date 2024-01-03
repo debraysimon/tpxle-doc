@@ -59,7 +59,7 @@
 
 ## ThingPark Market offers
 
-|  | Resource |
-| ------------ | -------- |
-| For a **private** connectivity network | [Low-Power Location for Private Network Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EkVaNRWQacRLkwOlneNsC3EBPahvZZCOdMRPiJYcH0F4KQ?e=M5NrCz). **This link is deprecated. Please click [here](../../../C-Procedure-Topics/GetStartedAEK_T/) if you bought the marketplace package recently.** |
-| For a **public** connectivity network | [Low-Power Location for Public Network Guide](https://actilitysa.sharepoint.com/:f:/t/aby/ErzF-smKHfhKjHbcyiIS7wwBNO3IdQTgCCnJgJTFR0Cj-Q?e=Qq6wCm). **This link is deprecated. Please click [here](../../../C-Procedure-Topics/GetStartedAEK_T/) if you bought the marketplace package recently.** |
+|                                        | Resource                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| For a **private** connectivity network | [Low-Power Location for Private Network Guide](https://actilitysa.sharepoint.com/:f:/t/aby/EkVaNRWQacRLkwOlneNsC3EBPahvZZCOdMRPiJYcH0F4KQ?e=M5NrCz). **This link is deprecated. Please click [here](../getting-started/getting-started-with-abeeway-evaluation-kit/getting-started-with-abeeway-evaluation-kit.md) if you bought the marketplace package recently.** |
+| For a **public** connectivity network  | [Low-Power Location for Public Network Guide](https://actilitysa.sharepoint.com/:f:/t/aby/ErzF-smKHfhKjHbcyiIS7wwBNO3IdQTgCCnJgJTFR0Cj-Q?e=Qq6wCm). **This link is deprecated. Please click [here](../getting-started/getting-started-with-abeeway-evaluation-kit/getting-started-with-abeeway-evaluation-kit.md) if you bought the marketplace package recently.**  |

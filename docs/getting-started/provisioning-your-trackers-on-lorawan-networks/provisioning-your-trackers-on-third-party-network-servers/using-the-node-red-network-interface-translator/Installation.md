@@ -1,8 +1,8 @@
 # Installing a Node-RED server
 There are two ways to deploy Node-RED applications:
-* If you want to install Node-RED locally, see [Installing Node-RED locally](/C-Procedure-Topics/InstallNodeRED_T/readme.md#Install).<br/>
+* If you want to install Node-RED locally, see [Installing Node-RED locally](#installing-node-red-locally).<br/>
 
-* If you prefer to use IBMCloud, see [Installing Node-RED on IBM Cloud](/C-Procedure-Topics/InstallNodeRED_T/readme.md#Installi).
+* If you prefer to use IBMCloud, see [Installing Node-RED on IBM Cloud](#installing-node-red-on-ibm-cloud).
 
 ## Installing Node-RED locally
 

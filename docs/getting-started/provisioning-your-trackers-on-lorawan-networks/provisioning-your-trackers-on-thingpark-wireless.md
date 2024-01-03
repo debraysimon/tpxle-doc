@@ -7,7 +7,7 @@ You need to create an AS routing profile and add the ready-to-use Actility's app
 :::
 &nbsp;
 1. Log in to ThingPark Wireless Device Manager using for example the IoT platform: [https://iot.thingpark.com/portal/web/](https://iot.thingpark.com/portal/web/)<br/>
-   If using another platform, see [ThingPark platforms URLs](/D-Reference/ThingParkLocationURLs/).<br/>
+   If using another platform, see [ThingPark platforms URLs](/troubleshooting-support/thingpark-location-urls.md).<br/>
 
 2. If ThingPark User Portal opens, click the white arrow to access Device Manager.
 ![img](./images/DeviceManagerArrow_177x177.png)

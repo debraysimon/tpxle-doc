@@ -29,7 +29,7 @@ The following regions can be supported by Abeeway trackers
 -   AU915
 
 For more details about LoRaWAN transmission strategies and how to adapt them, refer to the
-application note [AN-002_LoRa_Transmission_strategy](../../../../documentation-library/abeeway-trackers#application-notes)
+application note [AN-002_LoRa_Transmission_strategy](../../../../documentation-library/abeeway-trackers-documentation#application-notes)
 
 :::tip Note
 

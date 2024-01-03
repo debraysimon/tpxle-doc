@@ -8,8 +8,8 @@ If your tracker's button does not blink when pressed, either the tracker is swit
 
 :::warning WARNING
  * The micro tracker and smart badge must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. The warranty is void if the battery of the tracker has not been charged for a prolonged period.
-* The button sequences below are for **MCU/Application firmware 2.3+**. For more details on Micro Tracker button sequences for other firmware versions, click [here](../../D-Reference/MicroTrackerCommands_R/)
-* The button sequences below are for **MCU/Application firmware 2.3+**. For more details on Smart Badge button sequences for other firmware versions [here](../../D-Reference/SmartBadgeCommands_R/)
+* The button sequences below are for **MCU/Application firmware 2.3+**. For more details on Micro Tracker button sequences for other firmware versions, click [here](../../trackers-overview/micro-tracker/key-micro-tracker-commands.md)
+* The button sequences below are for **MCU/Application firmware 2.3+**. For more details on Smart Badge button sequences for other firmware versions [here](../../trackers-overview/smart-badge/smart-badge-commands.md)
 :::
 
 1. If necessary, plug in the USB charging cable.<br/>
@@ -27,7 +27,7 @@ If your tracker's button does not blink when pressed, either the tracker is swit
 Unlike the industrial tracker which is shipped from the warehouse in **JOIN** state, the compact tracker is sent in **shipping** state to avoid draining the battery.
 
 You must change the state of your compact tracker before and after using it.
-1. You will need to use to the magnet to activate the compact tracker. For more details on compact tracker activation, click [here](../../B-Feature-Topics/CompactTracker_C/)
+1. You will need to use to the magnet to activate the compact tracker. For more details on compact tracker activation, click [here](../../trackers-overview/compact-tracker/index.md)
 
 2. If the compact tracker does not **JOIN** the network, repeat the previous step again.
 
@@ -38,7 +38,7 @@ You must change the mode of your industrial or compact tracker before and after 
 * Before starting the tracking, the testing or the integration with the industrial or compact tracker, you must change the mode to **motion tracking**, and change it back to **standby mode** when finished.
  
 
-1. Log in to [Abeeway Device Manager](../../B-Feature-Topics/AbeewayDeviceManager_C/) on the community platform using this URL:[here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). The URLs for other ThingPark X Location Engine platforms are [here](../../D-Reference/ThingParkLocationURLs/)
+1. Log in to [Abeeway Device Manager](../..//trackers-overview/abeeway-device-manager/index.md) on the community platform using this URL:[here](https://community.thingpark.io/thingpark/abeewayDeviceAnalyzer/index.php?dxprofile=community-api). The URLs for other ThingPark X Location Engine platforms are [here](../../troubleshooting-support/thingpark-location-urls.md)
 
 2. In the **Select Devices** column, select the tracker you want to change the mode, and click **Select**.
 
@@ -50,7 +50,7 @@ You must change the mode of your industrial or compact tracker before and after 
 
 4. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
 
-    * **MCU Firmware**:  It gives the tracker MCU firmware version. Please refer to the [Asset Tracker Firmware Reference Guide](/AbeewayRefGuide/introduction/) to know the supported features. **Please ensure to follow only the reference guide version matching the firmware version running on the tracker**.
+    * **MCU Firmware**:  It gives the tracker MCU firmware version. Please refer to the [Asset Tracker Firmware Reference Guide](/abeeway-trackers-reference-guide/AbeewayRefGuide/introduction/index.md) to know the supported features. **Please ensure to follow only the reference guide version matching the firmware version running on the tracker**.
     * **First Position** and **Last Position** : When in standby mode, the tracker sends LoRaWAN® heartbeat messages periodically which can be used to get battery information, mode, firmware version, and so on.
     * **Last Mode** : Current mode of the tracker.
     * **Battery** : Percentage of battery left.
@@ -146,6 +146,6 @@ As mentioned previously, default tracker's configuration is made to optimize you
 
 Although you will enjoy this at the beginning, you might need to adapt trackers behavior to better suit your use case requirements, or optimize power consumption.
 
-Abeeway trackers support a wide variety of modes and configuration parameters to help you with that. Please refer to [Abeeway Device Manager User Guide](/B-Feature-Topics/AbeewayDeviceManager_C/) to learn how to change tracker configuration.
+Abeeway trackers support a wide variety of modes and configuration parameters to help you with that. Please refer to [Abeeway Device Manager User Guide](//trackers-overview/abeeway-device-manager/index.md) to learn how to change tracker configuration.
 
 

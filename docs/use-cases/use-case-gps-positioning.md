@@ -6,48 +6,48 @@ This section describes the step by step procedure to get a first GNSS fix on the
 Even if you plan to use your own location solver, we recommend to use ThingPark X Location Engine (TPX-LE) when preparing your tracker for first use for the following reasons:
 - **Support for Low-Power GPS (LP-GPS) feature which allows faster GNSS fix with much lower power consumption on the tracker.**
 - Support for averaging and filtering of positions in the backend to remove outliers.
-- Visualizations of positions in the map with various filtering options using [Abeeway Device Manager](/B-Feature-Topics/AbeewayDeviceManager_C/).
-- Easily change the tracker's configuration with pre-configured templates using [Abeeway Device Manager](/C-Procedure-Topics/ChangeTrackerConfiguration_T/).
+- Visualizations of positions in the map with various filtering options using [Abeeway Device Manager](../trackers-overview/abeeway-device-manager/index.md).
+- Easily change the tracker's configuration with pre-configured templates using [Abeeway Device Manager](../trackers-overview/abeeway-device-manager/change-tracker-configuration.md).
 :::
 
-We assume that the tracker is already connected to a LoRaWAN network (refer to the [out-of-box notice](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#out-of-box-user-guides) and [documentation related to Network servers](/C-Procedure-Topics/NetworkServerOverview/) if this is not the case).
+We assume that the tracker is already connected to a LoRaWAN network (refer to the [out-of-box notice](../documentation-library/abeeway-trackers-documentation.md#out-of-box-user-guides) and [documentation related to Network servers](../connecting-your-lorawan-network-server/provisioning-your-trackers-on-lorawan-network.md) if this is not the case).
 
 ## Tracker Placement
 It is important that the tracker is placed in open sky without any obstructions (for ex. human body, metallic objects, etc) blocking the GNSS antenna. The tracker placement instructions are as follows:
-1. [Micro Tracker](/B-Feature-Topics/MicroTrackerPlacement_C/)
-2. [Smart Badge](/B-Feature-Topics/SmartBadgePlacement_C/)
-3. [Industrial Tracker](/B-Feature-Topics/IndusTrackerPlacement_C/)
-4. [Compact Tracker](/B-Feature-Topics/CompactTrackerPlacement_C/)
-5. [Industrial Manageable ATEX Beacon](/B-Feature-Topics/IndustrialManageableATEXBeaconPlacement_C/)
+1. [Micro Tracker](../trackers-overview/micro-tracker/micro-tracker-best-placement.md)
+2. [Smart Badge](../trackers-overview/smart-badge/smart-badge-best-placement.md)
+3. [Industrial Tracker](../trackers-overview/industrial-tracker/index.md)
+4. [Compact Tracker](../trackers-overview/compact-tracker/compact-tracker-best-placement.md)
+5. [Industrial Manageable ATEX Beacon](../trackers-overview/industrial-manageable-atex-beacon/beacon-best-placement.md)
 
 ## Ensure the tracker is running the correct MCU/BLE Firmware version
 We recommend to run the [latest MCU and BLE firmware versions] as there have been numerous fixes to the GPS/LP-GPS feature. <br/>
-You can find the MCU and BLE Firmware versions currently installed on your tracker by following this [procedure](/D-Reference/IdentifyInstalledFirmware/).<br/>
-If the installed firmware is older than the firmware versions above, please upgrade the firmware by following [these instructions](/D-Reference/FirmwareUpdateOverview_R/).
+You can find the MCU and BLE Firmware versions currently installed on your tracker by following this [procedure](../troubleshooting-support/identify-installed-firmware.md).<br/>
+If the installed firmware is older than the firmware versions above, please upgrade the firmware by following [these instructions](../troubleshooting-support/firmware-update-overview/index.md).
 
 ## First satellite scan and refreshing the orbit information (Almanac)
 When you use the tracker for the first time, it may have been stored for several months and therefore it is likely that the satellite orbit information (Almanac) will be stale. In such condition detection of satellite signal is much longer as the GNSS chip does not know which satellites to scan first (which satellites are visible from the current location), cannot correct for Doppler frequency shift, etc. In addition, unlike the Pseudo-range information used to evaluate the distance between the satellite and the tracker which can be detected below thermal noise (negative C/N), receiving the Almanac updates requires very good reception conditions (positive C/N).
 Therefore **the first scan and refresh of Almanac must be made in open sky conditions, and can last over 15mns**. 
 
-You can use pre-configured template: **"First use: Almanac refresh"** to retrieve the Almanac if using the tracker for the first time. The template can be applied from [Abeeway Device Manager (Device Configuration tab)](/B-Feature-Topics/AbeewayDeviceManager_C/).
+You can use pre-configured template: **"First use: Almanac refresh"** to retrieve the Almanac if using the tracker for the first time. The template can be applied from [Abeeway Device Manager (Device Configuration tab)](../trackers-overview/abeeway-device-manager/index.md).
 ![img](images/PrepareTrackersFirstUse.png)
 
-The template **"First use: Almanac refresh"** has the following parameters and can also be applied by sending downlinks to the Abeeway tracker on LoRaWAN port=2. The downlink payloads can be generated using [Abeeway Device Manager (Device Configuration tab)](/C-Procedure-Topics/UseAbeewayDriver_T/readme.md#using-abeeway-device-manager) or using [Abeeway Driver](/C-Procedure-Topics/UseAbeewayDriver_T/readme.md#using-abeeway-driver). 
+The template **"First use: Almanac refresh"** has the following parameters and can also be applied by sending downlinks to the Abeeway tracker on LoRaWAN port=2. The downlink payloads can be generated using [Abeeway Device Manager (Device Configuration tab)](../integrating-your-application-with-thingpark-location/encoding-decoding-lorawan-payloads/index.md#using-abeeway-device-manager) or using [Abeeway Driver](../integrating-your-application-with-thingpark-location/encoding-decoding-lorawan-payloads/index.md#using-abeeway-driver). 
 
 The template **"First use: Almanac refresh"** has the following parameters:
 | Parameter Name | Compact / Industrial Tracker | Micro Tracker/Smart Badge  | 
 | - | ----------- | -------- |
-| [geoloc_sensor](/AbeewayRefGuide/Parameters-default-configuration/firmware-parameters.html#parameters-for-operational-modes) | 1 (GPS Only) | 1 (GPS Only) |
-| [mode](/AbeewayRefGuide/Parameters-default-configuration/firmware-parameters.html#parameters-for-operational-modes) | 2 (Permanent tracking) | 2 (Permanent tracking) |
-| [gps_standby_timeout (seconds)](/AbeewayRefGuide/Parameters-default-configuration/firmware-parameters.html#parameters-for-gps-and-low-power-gps-geolocation-modes) | 40000 | 0 |
-| [ul_period (seconds)](/AbeewayRefGuide/Parameters-default-configuration/firmware-parameters.html#parameters-for-operational-modes) | 120 | 120   |
+| [geoloc_sensor](../abeeway-trackers-reference-guide/AbeewayRefGuide/parameters-default-configuration/firmware-parameters.md#parameters-for-operational-modes) | 1 (GPS Only) | 1 (GPS Only) |
+| [mode](../abeeway-trackers-reference-guide/AbeewayRefGuide/parameters-default-configuration/firmware-parameters.md#parameters-for-operational-modes) | 2 (Permanent tracking) | 2 (Permanent tracking) |
+| [gps_standby_timeout (seconds)](../abeeway-trackers-reference-guide/AbeewayRefGuide/parameters-default-configuration/firmware-parameters.md#parameters-for-gps-and-low-power-gps-geolocation-modes) | 40000 | 0 |
+| [ul_period (seconds)](../abeeway-trackers-reference-guide/AbeewayRefGuide/parameters-default-configuration/firmware-parameters.md#parameters-for-operational-modes) | 120 | 120   |
 
 :::warning Note
 - The template **"First use: Almanac refresh"** is not power efficient, so it must be disabled as soon as the Almanac is acquired by the tracker.
 - **Even if you are not using ThingPark Location with the tracker, you can still use Abeeway Device Manager to generate the downlink configuration payloads for a given configuration (which must be sent on LoRaWAN Fport=2 to the device using your preferred LoRaWAN network server)**. 
 - The tracker will acknowledge the configuration command with an uplink message.
 - If no ack is received, the downlink, or the ack, may have been lost: the configuration downlink command need to be sent again to the tracker.
-- The firmware parameters can also be set with the tracker connected to computer over USB port using CLI. For more information, see [here](/troubleshooting-support/using-cli.md/).
+- The firmware parameters can also be set with the tracker connected to computer over USB port using CLI. For more information, see [here](../troubleshooting-support/using-cli.md).
 :::
 
 Once you start getting regular GNSS positions, keep the tracker in open sky conditions for at least 15mns (in the best possible conditions, a full Almanac refresh takes 12.5min). You can check the Almanac information status for the GPS constellation using CLI command.
@@ -57,14 +57,14 @@ gnss show gps
 ```
 
 ## Optimizing the GNSS/LP-GPS parameters
-The optimization of GPS/LP-GPS parameters can be done by following the [AN-016_GPS_LPGPS](/documentation-library/abeeway-trackers-documentation.md#application-notes) application note. Please refer to the section on **Tuning the GNSS algorithm** or **Tuning the LP-GPS algorithm** depending whether you are using GNSS only mode or LP-GPS mode of the tracker.
+The optimization of GPS/LP-GPS parameters can be done by following the [AN-016_GPS_LPGPS](../documentation-library/abeeway-trackers-documentation.md#application-notes) application note. Please refer to the section on **Tuning the GNSS algorithm** or **Tuning the LP-GPS algorithm** depending whether you are using GNSS only mode or LP-GPS mode of the tracker.
 
 We recommend to use **Balanced Configuration** for the first usage of the tracker as its a good compromise between power consumption, accuracy and time to get a GNSS fix.
 
 ## Troubleshooting the GNSS/LP-GPS positioning
 If you think the tracker is already configured correctly with the steps above but you do not find the location results satisfactory, you can perform the following steps for troubleshooting:
 
-1. Place the tracker in open sky conditions connected to a  **data USB cable (check that it is not a power-only cable)** to a computer using serial application like Tera Term. For more information on using Command Line Interface (CLI), see [here](/troubleshooting-support/using-cli.md/).
+1. Place the tracker in open sky conditions connected to a  **data USB cable (check that it is not a power-only cable)** to a computer using serial application like Tera Term. For more information on using Command Line Interface (CLI), see [here](../troubleshooting-support/using-cli.md).
 
 During the acquisition of GNSS, the tracker will print information on CLI traces as shown in the example below:
 
@@ -153,7 +153,7 @@ Once the tracker starts to send uplinks with Bluetooth beacon IDs, you can see t
 
 ![img](./images/TPXLEpushConnector.png)
 
-The position from the GPS solver is inside the JSON object [ResolvedPosition](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#resolvedposition). You can find the example JSON object that is sent when ThingPark Location resolves GPS position [here](/D-Reference/tpxle-sample-payloads-main_R/tpxle-output-position-gps.md).
+The position from the GPS solver is inside the JSON object [ResolvedPosition](https://dx-api.thingpark.io/location-connector/latest/doc/index.html#resolvedposition). You can find the example JSON object that is sent when ThingPark Location resolves GPS position [here](../tpxle-sample-payloads/tpxle-output-position-gps.md).
 
 
 ```

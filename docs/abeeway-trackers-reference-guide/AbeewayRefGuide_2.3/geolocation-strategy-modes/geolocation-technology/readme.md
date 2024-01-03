@@ -69,7 +69,7 @@ In the case where the *gps_timeout* value is greater than the *ul_period*, the u
 
 ## Low power GPS (LPGPS)
 
-With this technology, the device sends the data given by the GPS module before the expiration of *agps_timeout* and the positions calculation are done by [ThingPark X Location Engine](../../../../integrating-your-application-with-thingpark-location/IntegrateAppwithTPLocation_C/).
+With this technology, the device sends the data given by the GPS module before the expiration of *agps_timeout* and the positions calculation are done by [ThingPark X Location Engine](../../../../integrating-your-application-with-thingpark-location/integrate-app-with-tp-location.md).
 
 In order to reduce power consumption on the tracker, a predictive algorithm has been put in place: The GPS is stopped as soon as possible if it has no chance to make a fix or to acquire enough data for LPGPS calculation (e.g. indoor location without a clear sky view).
 The following parameters are used to customize this algorithm:

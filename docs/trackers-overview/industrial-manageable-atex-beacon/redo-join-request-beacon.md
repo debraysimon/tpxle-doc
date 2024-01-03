@@ -8,7 +8,7 @@ If necessary, you can force a new join request for a beacon that is already join
 
 The beacon is equipped with a magnet-activated reed switch (see figure below on the placement of reed switch on the beacon) which requires the end user to place and remove a magnet (with a specific sequence), next to the arrow to exit the shipping mode and trigger the LoRaWAN Join procedure. Once, the beacon has joined the LoRaWAN network, the same sequence can also be used to reset the beacon. 
 
-However, it requires that the value of **firmware parameter reed_switch_configuration=1**, before the sequence below is carried out to reset the beacon. For more information, please refer to [Abeeway trackers Reference Guide](/AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface), Section: Reed Switch Interface.
+However, it requires that the value of **firmware parameter reed_switch_configuration=1**, before the sequence below is carried out to reset the beacon. For more information, please refer to [Abeeway trackers Reference Guide](/abeeway-trackers-reference-guide/AbeewayRefGuide/functioning/user-interfaces/readme.md#reed-switch-interface), Section: Reed Switch Interface.
 
 ![img](../compact-tracker/images/CompactTrackerPlacement.jpg)
 
@@ -34,7 +34,7 @@ The example video below demonstrates the operation.
 
 ## Resetting the beacon with LoRaWAN downlink
 
-For more information on resetting the device with downlink, visit [Abeeway trackers Reference Guide: Debug commands](/AbeewayRefGuide/downlink-messages/debug-commands/), Section: Resetting the device.
+For more information on resetting the device with downlink, visit [Abeeway trackers Reference Guide: Debug commands](../../abeeway-trackers-reference-guide/AbeewayRefGuide/downlink-messages/debug-commands/readme.md), Section: Resetting the device.
 
 If you wish to reset the beacon with LoRaWAN downlink, there are three options:
 
@@ -48,9 +48,9 @@ If you wish to reset the beacon with LoRaWAN downlink, there are three options:
 * This method requires opening of the casing to access the USB port.
 :::
 
-The beacon can be reset to the factory default using Abeeeway updater. The factory default configuration can be found in the [Abeeway trackers Reference Guide](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools), Chapter: Factory default Configuration.
+The beacon can be reset to the factory default using Abeeeway updater. The factory default configuration can be found in the [Abeeway trackers Reference Guide](/documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools), Chapter: Factory default Configuration.
 
-[Abeeway Updater](../../D-Reference/AbeewayFirmwareUpdate_R/) can be used to reset the beacon to factory default if the MCU firmware update is carried out <b>without the config file</b>. The beacon is reset to factory default settings. 
+[Abeeway Updater](/troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md) can be used to reset the beacon to factory default if the MCU firmware update is carried out <b>without the config file</b>. The beacon is reset to factory default settings. 
 
 <img src="../../C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png" width="700" border="0" />
 

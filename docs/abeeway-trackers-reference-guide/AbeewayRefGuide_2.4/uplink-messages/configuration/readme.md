@@ -15,7 +15,7 @@ This message reports the parameter values configured in the trackers. If the com
 |  **Parameter ID**  |  **Parameter value**              |
 
 ## Parameter ID:
-For details on available parameters, their identifiers and their values, please visit [here](../../Parameters-default-configuration/firmware-parameters).
+For details on available parameters, their identifiers and their values, please visit [here](../../parameters-default-configuration/firmware-parameters).
 
 **Parameter value**: Unsigned 32 bits value in big endian format (MSB first).
 

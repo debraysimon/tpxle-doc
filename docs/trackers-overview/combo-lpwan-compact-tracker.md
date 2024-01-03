@@ -57,11 +57,11 @@ This tracker is equipped with a rugged waterproof casing which is designed to wi
 - Compatible with Quuppa Intelligent Location (requires Quuppa infrastructure) 
 
 :::warning WARNING
-*  The latest information on certification can be found [here](../../../tpxle-doc/docs/documentation-library/abeeway-trackers.md#certifications).
+*  The latest information on certification can be found [here](../documentation-library/abeeway-trackers-documentation.md#certifications).
 * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down.
 * In excessilvely hot weather, we recommend to put the tracker in the shade to avoid overheating.
 * **The warranty of the tracker is avoid if used incorrectly**.
 :::
 
 ### Datasheet
-The datasheet of the tracker can be downloaded from [here](../../../tpxle-doc/docs/documentation-library/abeeway-trackers.md#data-sheets).
+The datasheet of the tracker can be downloaded from [here](../documentation-library/abeeway-trackers-documentation#data-sheets).

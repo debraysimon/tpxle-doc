@@ -16,8 +16,8 @@ Abeeway industrial tracker provides you with the flexibility you need to adapt y
 * **Standby** : The tracker sends periodically short LoRaWAN® messages, called heartbeat, at the configured interval. The tracker positions can be obtained in this mode by using the side operations features. Once the tracker has joined the LoRaWAN® network, the tracker is set to standby mode to save battery. **We recommend to put the tracker in standby mode when not in testing to save the battery lifetime**.
 
 :::warning WARNING
-* For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../other/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools).
+* For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/abeeway-power-consumption-tool.md)
+* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools).
 * The Industrial tracker is activated by default to make LoRaWAN joins indefinately. There is delay between different join attempts which range from 15 minutes to 1 hour.
 :::
 
@@ -47,10 +47,10 @@ It leverages the Wi-Fi access point scanning capabilities of the industrial trac
 * Radio: EC, FCC, IC, TELEC
 
 :::warning WARNING
-* The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
+* The latest information on certification can be found [here](/documentation-library/abeeway-trackers-documentation.md#certifications).
 * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. To avoid water entering in the casing, the tracker must not be placed upside down. 
 * **The warranty of the tracker is avoid if used incorrectly**.
 :::
 
 ### Datasheet
-The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
+The datasheet of the tracker can be downloaded from [here](/documentation-library/abeeway-trackers-documentation.md#data-sheets).

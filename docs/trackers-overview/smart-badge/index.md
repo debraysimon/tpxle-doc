@@ -17,8 +17,8 @@ Abeeway smart badge provides you with the flexibility you need to adapt your tra
 * **OFF** : Tracker is switched off.
 
 :::warning WARNING
-* For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/PowerConsumption_R)
-* For more information on tracker documentation, visit [here](../../other/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#reference-guides-and-tools).
+* For more information on the battery lifetime of the tracker, visit [here](../abeeway-device-manager/abeeway-power-consumption-tool.md)
+* For more information on tracker documentation, visit [here](../../documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools).
 :::
 
 ### Geolocation technologies
@@ -54,11 +54,11 @@ It leverages Bluetooth scanning capabilities of the micro tracker to send BLE be
   - II 3 D Ex ic IIIB T135°C Dc (-20°C ≤ Tamb ≤ +40°C)
 
 :::warning WARNING
- *  The latest information on certification can be found [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.md#certifications).
+ *  The latest information on certification can be found [here](/documentation-library/abeeway-trackers-documentation.md#certifications).
  * The tracker must not be left with a low or completely discharged battery for more than a month. We recommend to periodically charge the tracker at least once a month. 
  * The tracker is resistant to water but must never be placed either fully/partially submerged in water or under the influence of high pressure water spray jets for significantly long periods of time. 
  **The warranty of the tracker is avoid if used incorrectly**.
 :::
 
 ### Datasheet
-The datasheet of the tracker can be downloaded from [here](/D-Reference/DocLibrary_R/AbeewayTrackers_R.html#data-sheets).
+The datasheet of the tracker can be downloaded from [here](/documentation-library/abeeway-trackers-documentation.md#data-sheets).
