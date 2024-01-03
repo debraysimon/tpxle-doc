@@ -36,7 +36,7 @@ The tracker example in figure below has **MCU Firmware Version: 2.1.8** and **BL
 
 In the example below, the MCU Firmware version is **2.3-197** and BLE Firmware version is **3.3.2**
 
-![img](../other/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_fw_abw_updater.png)
+![img](./images/retrieve_fw_abw_updater.png)
 
 
 ## Method 4 (CLI over USB):
@@ -62,11 +62,11 @@ The tracker can be connected to the USB port and a serial terminal tool like [Te
 
 4. The example request to enter on Tera term console is **system info** to retrieve the MCU Version information. In the example below, the MCU Firmware Version is **2.3-197**
 
-![img](../other/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_mcu_fw.png)
+![img](./images/retrieve_mcu_fw.png)
 
 5. The example request to enter on Tera term console is **ble info** to retrieve the BLE Version information. In the example below, the BLE Firmware Version is **3.3.2**
 
-![img](../other/C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_ble_fw.png)
+![img](./images/retrieve_ble_fw.png)
 
 ## Method 5 (Decoding LoRaWAN heartbeat uplinks)
 
