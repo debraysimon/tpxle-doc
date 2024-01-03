@@ -64,7 +64,7 @@ You can also verify the current status of Almanac that is stored in the tracker 
 | **Industrial tracker V1** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/Eqk_LfFUHJBDotzEK2gdX9IBNXcynn_DlKWKqmuCbOYtnw?e=aGg18b) |
 | **Industrial tracker V2** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/Ek4c_6w2bOBKuP1Bk2VDSjEB48s56zmOwVpzppyjDF1xSQ?e=wWTbuT) |
 | **Compact tracker** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EtWpMlYIt0lGk3o2Nx0hKyMBC52iKMXjW2bAuYoxUdvjYg?e=wgyH4y) |
-| **Industrial Manageable ATEX Beacon** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EohTrUr31FBLhAoHKED-F8sB0rICCeBtzEPaCV0qyz2mlA?e=afYhym) |
+| **Industrial Manageable Beacon** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EohTrUr31FBLhAoHKED-F8sB0rICCeBtzEPaCV0qyz2mlA?e=afYhym) |
 | **Docking station** | [Certification documents](https://actilitysa.sharepoint.com/:f:/t/aby/EnEQl3ZoI4ZArh073pciqXoBoO706gpO262rev0V38G-gw?e=TAemPx) |
 
 ## Abeeway Device Manager application
@@ -82,7 +82,8 @@ You can also verify the current status of Almanac that is stored in the tracker 
 | **Industrial tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/Evkh40X6gVlHqFouOdAl4uIBj139ph9fzji835sewtlFVg?e=SVf1m4) |
 | **Compact tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
 | **Combo LPWAN Compact tracker** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/Eqqg-R42cJlCuUzx6CAW2OEB1UJWRy8wv6zg0Lcz9JkdEg?e=YliDhz) |
-| **Industrial Manageable ATEX beacon** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
+| **Industrial Manageable beacon** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EodEe7JCZFhDgGR_IjtmoJUBB5sj9WhdgPThld6yYXWOwg?e=6e5giY) |
+| **LoRaWAN Relay** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EgOtfCaHfZtMojilKyQ8GyEBgu_J4HkPJmMnQW1pdW3U4Q?e=gIMa4P) |
 | **Smart badge docking station** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EvDDLZ6OdzVGrv1O3J5P2aoBjlI_rQrBeaafiawmbFONgA?e=d1EOAw) |
 | **Geolocation module** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/EgYK6e26eYdPkTnRaIdN15IBJ3W_Lvi4CEtB6_z6ZMRO8Q?e=73BkwT) |
 | **Third party accessories** | [Data sheet](https://actilitysa.sharepoint.com/:f:/t/aby/ErQIOhsLoiVFrDW5dcCW2qcBfdsNMAAIdhlkw5Hww8v0Xw?e=fvzYse) |

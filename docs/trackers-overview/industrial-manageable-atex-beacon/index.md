@@ -1,4 +1,4 @@
-# Industrial Manageable ATEX Beacon
+# Industrial Manageable Beacon
 
 The beacon is a rugged, manageable, long lifetime beacon with Bluetooth and
 LoRaWAN capabilities, designed for use in harsh and hazardous
