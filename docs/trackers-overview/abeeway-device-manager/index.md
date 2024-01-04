@@ -1,14 +1,14 @@
 # Abeeway Device Manager
 
-<html>
-<iframe width="700" height="500" src="https://www.youtube.com/embed/5t5JjUfOQXQ?list=PLrtUhsI_mcGR_RQHVd0vohNFut4GpcId9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</html>
 
-<html>
+<iframe width="700" height="500" src="https://www.youtube.com/embed/5t5JjUfOQXQ?list=PLrtUhsI_mcGR_RQHVd0vohNFut4GpcId9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+
+
 <p>
 <a href="https://actilitysa.sharepoint.com/:f:/t/aby/EhbJycLDkulLhGAhJpcOztcBa_glwi7WYyyPMz58f-PEUQ?e=YN9ptc">Abeeway Device Manager </a> is a ThingPark Location application designed to help you manage your fleet of trackers efficiently. With Abeeway Device Manager, you can:
 </p>
-</html>
+
 
 * **Track** your assets on a map, displaying its latest position or its position history
 * **Manage** your trackers configuration, using our predefined configuration templates or building your customized parameter set

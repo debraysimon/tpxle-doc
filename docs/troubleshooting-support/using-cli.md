@@ -43,4 +43,4 @@ Here is the list of most important commands and their purpose:
 
 ## Reporting CLI traces on our support portal
 It is important that the tracker logs are captured in a trace file with the absolute timestamp of your PC or UTC. This is required to correlate the traces from the tracker to those of LoRaWAN uplinks. The timestamps from Tera term can be enabled as shown in the image below.
-<img src="./images/TeraTermTimestampLogs.png" width="800" border="1" />
+![img](./images/TeraTermTimestampLogs.png)

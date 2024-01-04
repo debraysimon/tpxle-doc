@@ -15,7 +15,7 @@ The Abeeway LoRaWAN® Relay is entirely managed from the network using the stand
 - Boost signal from underground devices
 - Provide indoor coverage in hazardous areas
 
-<img src="./images/CompactTrackerPlacement2.png" border="0" />
+![img](./images/CompactTrackerPlacement2.png)
 
 ## Key product features
 

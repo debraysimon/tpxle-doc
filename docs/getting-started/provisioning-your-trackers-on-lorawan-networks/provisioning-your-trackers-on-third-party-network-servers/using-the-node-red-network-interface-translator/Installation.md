@@ -6,9 +6,8 @@ There are two ways to deploy Node-RED applications:
 
 ## Installing Node-RED locally
 
-<html>
+
 <a id="Install"></a>
-</html>
 
 You can install Node-RED locally on your computer. The following steps are presented to help you quickly run through the process.<br/>
 For more information, see the related topic in the official IBM documentation: [https://nodered.org/docs/getting-started/local](https://nodered.org/docs/getting-started/local)
@@ -31,9 +30,8 @@ For more information, see the related topic in the official IBM documentation: [
 
 ## Installing Node-RED on IBM Cloud
 
-<html>
+
 <a id="Installi"></a>
-</html>
 
 Alternatively to install Node-RED locally, you can install it on IBM Cloud. The following steps are presented to help you quickly run through the process.<br/>
 For more information, see the related topic in the official IBM documentation: [https://nodered.org/docs/getting-started/ibmcloud](https://nodered.org/docs/getting-started/ibmcloud)

@@ -15,9 +15,9 @@ Here are the high-level features of the mobile app:
 10.	Developer mode features
 
 
-<html>
-<iframe width="712" height="515" src="https://www.youtube.com/embed/clisVxqFx6A?list=PLrtUhsI_mcGTbbZGGSc8sKOFgBRpJkP5Z" title="Abeeway Mobile APP demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</html>
+
+<iframe width="712" height="515" src="https://www.youtube.com/embed/clisVxqFx6A?list=PLrtUhsI_mcGTbbZGGSc8sKOFgBRpJkP5Z" title="Abeeway Mobile APP demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
 
 ## Downloading the app
 

@@ -22,9 +22,9 @@ If you wish to reset the tracker with LoRaWAN downlink, there are three options:
 
 The tracker can be reset to its factory default configuration using Abeeway updater. The factory default configuration can be found in the [Abeeway trackers Reference Guide](/documentation-library/abeeway-trackers-documentation.md#reference-guides-and-tools), Chapter: Factory default Configuration.
 
-[Abeeway Updater](/troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
+[Abeeway Updater](../../troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
 
-[//]: # (![img]&#40;../../C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png&#41;)
+[//]: # (![img](../smart-badge/images/abw_updater_factory_reset.png))
 
 ## Resetting the tracker over CLI with tracker connected to USB port
 The tracker can be reset over Command Line Interface (CLI) with the tracker connected to USB port.

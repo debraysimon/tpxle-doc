@@ -5,11 +5,11 @@ If necessary, you can force a new join request for a tracker that is already joi
 
 ## Find out the MCU Firmware version of the tracker
 
-<html>
+
 <p>
-The button sequence to reset the tracker is quite different between Asset Tracker MCU Firmware 2.3 and the versions below. The first step is to find out the installed MCU firmware version of the tracker from <a href="../../troubleshooting-support/IdentifyInstalledFirmware" >here</a>
+The button sequence to reset the tracker is quite different between Asset Tracker MCU Firmware 2.3 and the versions below. The first step is to find out the installed MCU firmware version of the tracker from <a href="../../troubleshooting-support/IdentifyInstalledFirmware">here</a>
 </p>
-</html>
+
 
 
 ## Resetting the tracker with the button sequence for MCU Firmware 2.3 and above
@@ -26,7 +26,7 @@ The button sequence to reset the tracker is quite different between Asset Tracke
 
 :::
 
-<html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/xuSJ-1JDRdM?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" height="150px" width="300px"/></html>
+<iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/xuSJ-1JDRdM?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" height="150px" width="300px"/>
 
 The sequence to follow is the same for the micro tracker and the smart badge. 
 
@@ -38,15 +38,14 @@ Follow the sequence:
    5. If the sequence is successful, the tracker will play [firmware reset melody](https://actilitysa.sharepoint.com/:u:/t/aby/EcctTThi8DFEgFY2Cy5i3o4BfZj-rO_dAuT-w9IwqJ7X2Q?e=ef9qay)
    6. If the sequence was unsuccessful, wait for about 15 sec before retrying for the ESC sequence to abort (The tracker will play abort sequence melody).
 
-<img src="images/abw_updater_factory_reset.png" width="700" border="0" />
-
+![](./images/abw_updater_factory_reset.png)
 ## Resetting the tracker with the button sequence for MCU Firmware 2.2 and below
 :::warning Important
  * **Click:** Pressing the button **less than one second**.
  * **Long Press:** Pressing the button for **more than five seconds**.
 :::
 
-<html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/etZ0FA_ssso?" height="150px" width="300px"/></html>
+<iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/etZ0FA_ssso?" height="150px" width="300px"/>
 
 The sequence to follow is the same for the micro tracker and the smart badge:
 
@@ -81,8 +80,7 @@ This method can be used to reset the tracker to the factory default configuratio
 
 [Abeeway Updater](/troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md) can be used to reset the tracker to factory default if the MCU firmware update is carried out <b>without the config file</b>. The tracker is reset to factory default settings. 
 
-<img src="images/abw_updater_factory_reset.png" width="700" border="0" />
-
+![](./images/abw_updater_factory_reset.png)
 ## Resetting the tracker over CLI with tracker connected to USB port
 The tracker can be reset over Command Line Interface (CLI) with the tracker connected to USB port.
 

@@ -54,7 +54,7 @@ For MCU FW 2.2 and above, you need to carry out the following sequence with the 
 * A long activation of the reed switch (between 3 to 6 seconds)
 
 The example video below demonstrates the operation.
-<html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/2t8zI3cbfys?" height="150px" width="300px"/></html>
+<iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/2t8zI3cbfys?" height="150px" width="300px"/>
 
 :::warning WARNING
 * For more information on the battery lifetime of the beacon, visit [here](../abeeway-device-manager/abeeway-power-consumption-tool.md)

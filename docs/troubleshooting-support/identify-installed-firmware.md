@@ -12,11 +12,11 @@ If the tracker was purchased from Actility/Abeeway or [Marketplace](https://mark
 
 ## Method 2 (Abeeway Device Manager):
 
-<html>
+
 <p>
-If the tracker is connected to ThingPark X Location Engine and has already sent heartbeat uplink messages, then the <a href="//trackers-overview/abeeway-device-manager/index.md" >Abeeway device manager</a> already shows the MCU Firmware and BLE Firmware Version.
+If the tracker is connected to ThingPark X Location Engine and has already sent heartbeat uplink messages, then the <a href="//trackers-overview/abeeway-device-manager/index.md">Abeeway device manager</a> already shows the MCU Firmware and BLE Firmware Version.
 </p>
-</html>
+
 
 :::warning Important
 * This information is based on the last uplinks sent from the tracker.
@@ -52,7 +52,7 @@ The tracker can be connected to the USB port and a serial terminal tool like [Te
 
 2. Identify the correct serial port by running [Abeeway updater](../troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md). In the example below, the serial port is COM5
 
-[//]: # (![img]&#40;../../C-Procedure-Topics/FindFirmwareVersion_R/images/retrieve_fw_abw_updater.png&#41;)
+![img](./images/retrieve_fw_abw_updater.png)
 :::warning Important
  * Abeeway updater must be closed before interacting with the tracker using Tera term or any other application. The device cannot interact with two serial applications at the same time.
  * The serial port can also be identified in Windows device manager by plugging/unplugging the device from USB port. 

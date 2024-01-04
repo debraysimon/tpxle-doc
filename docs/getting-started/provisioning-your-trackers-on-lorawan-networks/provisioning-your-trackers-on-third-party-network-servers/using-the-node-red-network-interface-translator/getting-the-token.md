@@ -9,7 +9,7 @@ To do so, you need:
 
 2. Generate the token on [DX Admin API](https://dx-api.thingpark.io/getstarted/readme.md#/) 
 
-[//]: # (![img]&#40;./images/Integration3PNS-TTN-Norbertv2/Step2GetTheTokenNew.png&#41;)
+![img](./images/Step2GetTheTokenNew.png)
 
 3. Copy the token below it as you will use it for configuring the Network Interface Converter in next step.
 

@@ -188,8 +188,7 @@ This table gives you quick access to the tracker commands. For more information 
         <td>
             <strong>Triple-click</strong> the button (Duration between each click should be less than one second).
             <p>
-                        <iframe class="youtube-player_0" src="https://www.youtube.com/embed/ZbDvetCdOHU?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" frameborder="0"
-                                allowfullscreen="1" width="300px" height="150px"></iframe>
+                        <iframe class="youtube-player_0" src="https://www.youtube.com/embed/ZbDvetCdOHU?list=PLrtUhsI_mcGQ1B0AAgZ4Yvkad9AyoEPML" frameborder="0" allowfullscreen="1" width="300px" height="150px"></iframe>
             </p>
             <div class="custom-block tip">
                 <p class="custom-block-title">Note</p>

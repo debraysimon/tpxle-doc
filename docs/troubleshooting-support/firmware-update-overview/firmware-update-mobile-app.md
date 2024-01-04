@@ -66,13 +66,13 @@ This option is meant for Abeeway operations team, distributors and integrators w
    * **[Using CLI with the tracker connected over USB port](../../troubleshooting-support/using-cli.md)**. The tracker can be connected to USB port and then communicate it with serial tool like Tera term. Once connected to Tera term, enter the password **123** as this is the default password to interact with the tracker. Then type **ble clear** to clear the BLE bond on the tracker. For more information, please refer to [AN-013_CLI_Description](../../documentation-library/abeeway-trackers-documentation#application-notes). (This is applicable to ALL the trackers)
  
 4. Goto Add a tracker UI to search for the tracker
-[//]: # ( ![img]&#40;../../D-Reference/FirmwareUpdateMobileApp_R/images/addtracker.png&#41;)
+![img](./images/addtracker.png)
 
 5. Select the **FIRMWARE UPDATE ONLY** option from the UI and select your tracker
-[//]: # ( ![img]&#40;../../D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOnly.png&#41;)
+![img](./images/firmwareUpdateOnly.png))
 
 6. After clicking **FIRMWARE UPDATE ONLY** option on the UI, you will see the menu to select the firmware files from your phone or the ones from ThingPark X Location Engine
-[//]: # ( ![img]&#40;../../D-Reference/FirmwareUpdateMobileApp_R/images/firmwareUpdateOptions.png&#41;)
+![img](./images/firmwareUpdateOptions.png)
 
 
 :::warning Note

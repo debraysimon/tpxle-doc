@@ -46,7 +46,7 @@ You must change the mode of your industrial or compact tracker before and after 
  You can select up to ten trackers to be shown at the same time.
 :::
 
-<img src="images/ADASelectTracker.png" border="1" />
+![](./images/ADASelectTracker.png)
 
 4. In the **Device Analysis Dashboard** that opens, the tracker you have selected displays its status details and statistics. Click the arrow to expand the tracker information. The information relevant to notice is:
 
@@ -55,8 +55,7 @@ You must change the mode of your industrial or compact tracker before and after 
     * **Last Mode** : Current mode of the tracker.
     * **Battery** : Percentage of battery left.
       
-    <img src="images/ADADevicesTab.png" border="1" />
-      
+ ![](./images/ADADevicesTab.png)
 5. Click the **Device configuration** tab:
    
     * Select the tracker for which you want to change the profile.<br/>
@@ -69,7 +68,7 @@ You must change the mode of your industrial or compact tracker before and after 
     :::warning Important
     Do not proceed further until the new mode is displayed.
     :::
-    <img src="./images/ADAConfigTabIndusTracker.png" border="1" />
+      ![](./images/ADAConfigTabIndusTracker.png)
 
 ## Trackers best placement
 
@@ -85,7 +84,7 @@ To get optimum radio performance and accuracy of your micro tracker, apply these
 
 * Orient the LoRa/GPS antenna to the sky to be in reach of LoRaWAN® base stations and GPS satellites.
 
-    <img src="images/MicrotrackerPlacement_450x361.png" border="0" />
+![](./images/MicrotrackerPlacement_450x361.png)
   
 * Avoid contact of fewer than five centimeters with skin, magnetic and metallic objects.
 
@@ -93,7 +92,7 @@ To get optimum radio performance and accuracy of your micro tracker, apply these
 
 ### Smart badge best placement
 To get optimum radio performance and accuracy of your smart badge, apply these rules when using it:
-* Orient the LoRa/GPS antenna to the sky to be in reach of LoRaWAN® base stations and GPS satellites.<br/><img src="./images/smartBadgePlacement_521x330.png" border="0" /><br/>
+* Orient the LoRa/GPS antenna to the sky to be in reach of LoRaWAN® base stations and GPS satellites.<br/>![](./images/smartBadgePlacement_521x330.png)<br/>
 
 * Avoid contact of fewer than five centimeters with skin, magnetic and metallic objects.
 * Avoid strong radio interferences with a cellular phone, unless using BLE where a cellular phone must be in reach.
@@ -102,7 +101,7 @@ To get optimum radio performance and accuracy of your smart badge, apply these r
 
 To get optimum radio performance and accuracy of your compact tracker, apply these rules when using it:
 
-* Always lay the compact tracker flat as shown below:<br/><img src="./images/CompactTrackerPlacement_594x286.png" border="0" /><br/>
+* Always lay the compact tracker flat as shown below:<br/>![](./images/CompactTrackerPlacement_594x286.png)<br/>
 
 * You can fix your compact tracker on an asset with a magnet, screws or a double-sided tape.
 * Avoid contact of fewer than five centimeters with skin, magnetic and metallic objects.
@@ -112,7 +111,7 @@ To get optimum radio performance and accuracy of your compact tracker, apply the
 ### Industrial tracker best placement
 To get optimum radio performance and accuracy of your industrial tracker, apply these rules when using it:
 * Always lay the industrial tracker flat as shown below:<br/><br/>
-<img src="./images/IndusTracker.png" border="0" />
+  ![](./images/IndusTracker.png)
 * You can fix your industrial tracker on an asset with a magnet, screws or a double-sided tape.<br/>
 
 * Avoid contact of fewer than five centimeters with skin, magnetic and metallic objects.

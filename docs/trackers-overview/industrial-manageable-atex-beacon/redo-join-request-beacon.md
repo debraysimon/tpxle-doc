@@ -30,7 +30,7 @@ For MCU FW 2.2 and above, you need to carry out the following sequence with the 
 * A long activation of the reed switch (between 3 to 6 seconds)
 
 The example video below demonstrates the operation.
-<html><iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/2t8zI3cbfys?" height="150px" width="300px"/></html>
+<iframe type="text/html" frameborder="0" allowfullscreen="1" src="https://www.youtube.com/embed/2t8zI3cbfys?" height="150px" width="300px"/>
 
 ## Resetting the beacon with LoRaWAN downlink
 
@@ -52,8 +52,7 @@ The beacon can be reset to the factory default using Abeeeway updater. The facto
 
 [Abeeway Updater](/troubleshooting-support/firmware-update-overview/abeeway-firmware-update.md) can be used to reset the beacon to factory default if the MCU firmware update is carried out <b>without the config file</b>. The beacon is reset to factory default settings. 
 
-<img src="../../C-Procedure-Topics/ReDoJoinRequestSB_T/images/abw_updater_factory_reset.png" width="700" border="0" />
-
+![](../smart-badge/images/abw_updater_factory_reset.png)
 ## Resetting the beacon over CLI with beacon connected to USB port
 The beacon can be reset over Command Line Interface (CLI) with the beacon connected to computer using USB port.
 

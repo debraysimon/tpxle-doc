@@ -1,8 +1,8 @@
 # Firmware Update (Using Abeeway Updater)
 
-<html>
-<iframe height="500" width="700" src="https://www.youtube.com/embed/10dbVy_Whxo?list=PLrtUhsI_mcGQ9_jGd-ggC5U-YnEhcriqb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</html>
+
+<iframe height="500" width="700" src="https://www.youtube.com/embed/10dbVy_Whxo?list=PLrtUhsI_mcGQ9_jGd-ggC5U-YnEhcriqb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
 
 This section describes how to carry out the firmware update using Abeeway updater. There are two important firmware in the tracker that need frequent update (MCU Firmware and BLE Firmware). Here are the keys steps to carry out for the firmware update:
 
@@ -20,22 +20,22 @@ This section describes how to carry out the firmware update using Abeeway update
 * For any issues with USB port, please refer to [Abeeway Updater documentation, Chapter: troubleshooting USB port](https://github.com/Abeeway/Abeeway-updater)
 :::
 
-<html>
+
 <ol>
     <li>
-        Install the required software from <a href="https://github.com/Abeeway/Abeeway-updater" >here</a>
+        Install the required software from <a href="https://github.com/Abeeway/Abeeway-updater">here</a>
     </li>
     <li>
-        Identify your tracker model from <a href="../IdentifyTrackerModel" >here</a>
+        Identify your tracker model from <a href="../IdentifyTrackerModel">here</a>
     </li>
     <li>
-        Download the MCU/BLE Firmware binaries and config file from <a href="https://actilitysa.sharepoint.com/:f:/t/aby/EgDe93KPylRIhhdRE4tdGXkBWYtF9kchJAAZqq_FS14aRQ?e=xjaE7a" >here</a>
+        Download the MCU/BLE Firmware binaries and config file from <a href="https://actilitysa.sharepoint.com/:f:/t/aby/EgDe93KPylRIhhdRE4tdGXkBWYtF9kchJAAZqq_FS14aRQ?e=xjaE7a">here</a>
     </li>
     <li>
-        Update the firmware using <a href="https://github.com/Abeeway/Abeeway-updater" >Abeeway Updater</a>
+        Update the firmware using <a href="https://github.com/Abeeway/Abeeway-updater">Abeeway Updater</a>
     </li>
     <li>
-        Check the firmware configuration on CLI using serial console application application application, like  <a href="https://ttssh2.osdn.jp/index.html.en" >Tera term</a>. You will need to enter <b>config show</b> to check firmware configuration on CLI. Please visit <a href="../UsingCLI_R" >here</a> on how to interact with CLI over USB port. 
+        Check the firmware configuration on CLI using serial console application application application, like  <a href="https://ttssh2.osdn.jp/index.html.en">Tera term</a>. You will need to enter <b>config show</b> to check firmware configuration on CLI. Please visit <a href="../UsingCLI_R">here</a> on how to interact with CLI over USB port. 
     </li>
 </ol>
-</html>
+
